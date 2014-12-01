@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Table" id="3" x="8" y="74" width="1169" height="201" text="(w:100).Appointment,(w:160).IACUC Ref. No.,=(w:20).{tag},(w:80).Institution,(w:180).PI's Name,Protocol Title,(w:90). &#xA;Primary,[IACUC/2014/SHS/00186],,NHC,Chan Choon Lee,To evaluate the efficacy of antibiotics in ...,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Secondary,[IACUC/2014/SHS/00187],B,SKH,Martin Leah Anne,To evaluate the efficacy of antibiotics in ...,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Secondary,[IACUC/2014/SHS/00195],,SGH,Benjamin O'Brien,To evaluate the efficacy of antibiotics in ...,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Primary,[IACUC/2014/SHS/00196],,NHC,Wong Wei Lun Derek,To evaluate the efficacy of antibiotics in ...,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}" measuredWidth="1169" measuredHeight="201" rowHeight="28" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="8" y="8" measuredWidth="444" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="Ctrl_Appointed_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="3">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="111" y="106" width="151" height="105" measuredWidth="151" measuredHeight="105" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Label" id="6" x="8" y="44" text="New Application" measuredWidth="117" measuredHeight="26" foreground="#38761d">
+    <font size="14px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="8" y="296" text="Amendment &amp; Reports" measuredWidth="164" measuredHeight="26" foreground="#38761d">
+    <font size="14px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="8" x="8" y="324" width="1169" height="201" text="(w:100).Appointment,(w:160).IACUC Ref. No.,=(w:20).{tag},(w:140).Documents,(w:80).Institution,(w:180).PI's Name,Protocol Title,(w:90). &#xA;Primary,[IACUC/2014/SHS/00142],,Amendment,NHC,Chan Choon Lee,To evaluate the efficacy of antibiotics in ...,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Secondary,[IACUC/2014/SHS/00159],B,Amendment\, Report,SKH,Martin Leah Anne,To evaluate the efficacy of antibiotics in ...,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}" measuredWidth="1169" measuredHeight="201" rowHeight="28" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

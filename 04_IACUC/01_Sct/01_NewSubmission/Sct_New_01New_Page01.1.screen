@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="46" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_New_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="32" x="1343" y="154" measuredWidth="17" measuredHeight="527">
+    <widgets xsi:type="model:WidgetGroup" id="27" height="527" measuredWidth="17" measuredHeight="527">
+      <widgets xsi:type="model:VScrollbar" id="5" height="526" measuredWidth="17" measuredHeight="526"/>
+      <widgets xsi:type="model:Panel" id="6" width="17" height="527" measuredWidth="17" measuredHeight="527" alpha="64" border="none"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Table" id="3" x="162" y="193" width="1169" height="419" text="(w:40). ,(w:120).Submission Date,(w:160).IACUC Ref. No.,(w:20).{tag},(w:120).Review Status,(w:80).Institution,(w:180).PI's Name,Protocol Title,&#xA;,09-May-2014,IACUC/2014/SHS/00212,,Submitted,NHC,Chan Choon Lee,To evaluate the efficacy of antibiotics in ...,{assets/fa-ellipsis-h}&#xA;,22-May-2014,IACUC/2014/SHS/00213,,Submitted,NHC,Jayden Tay Jieren,To evaluate the efficacy of antibiotics in ...,{assets/fa-ellipsis-h}&#xA;,16-May-2014,IACUC/2014/SHS/00214,B,Submitted,SKH,Martin Leah Anne,To evaluate the efficacy of antibiotics in ...,{assets/fa-ellipsis-h}&#xA;,19-May-2014,IACUC/2014/SHS/00215,W,Submitted,SKH,Khoo Boo Jin,To evaluate the efficacy of antibiotics in ...,{assets/fa-ellipsis-h}&#xA;,21-May-2014,IACUC/2014/SHS/00216,,Submitted,SGH,Benjamin O'Brien,To evaluate the efficacy of antibiotics in ...,{assets/fa-ellipsis-h}" measuredWidth="1169" measuredHeight="419" rowHeight="28" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="1206" y="160" width="125" text="Total : 5" measuredWidth="125" measuredHeight="25" textAlignment="Right" foreground="#666666">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="162" y="160" width="448" text="Click on the calendar icon to schedule meeting for application or click" measuredWidth="448" measuredHeight="25" foreground="#666666">
+    <font size="14px" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="216" y="128" text="Pending Comm. Review" measuredWidth="223" measuredHeight="30" foreground="#0000ff" link="Sct_New_02PendingReview_Page01_Type1.screen">
+    <font size="18px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="34" x="162" y="128" text="New" measuredWidth="44" measuredHeight="30" foreground="#990000">
+    <font size="18px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="35" x="450" y="128" text="Reviewed" measuredWidth="94" measuredHeight="30" foreground="#0000ff" link="Sct_New_03Review_Page01.1.screen">
+    <font size="18px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="36" x="171" y="224" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_01New_Page01.2_Schedule.screen"/>
+  <widgets xsi:type="model:Icon" id="37" x="171" y="251" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_01New_Page01.2_Schedule.screen"/>
+  <widgets xsi:type="model:Icon" id="38" x="171" y="279" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_01New_Page01.2_Schedule.screen"/>
+  <widgets xsi:type="model:Icon" id="39" x="171" y="307" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_01New_Page01.2_Schedule.screen"/>
+  <widgets xsi:type="model:Icon" id="40" x="171" y="335" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_01New_Page01.2_Schedule.screen"/>
+  <widgets xsi:type="model:Link" id="43" x="613" y="160" text="here" measuredWidth="32" measuredHeight="25" link="Sct_New_01New_Page01.3_BatchSchedule.screen">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="646" y="160" width="237" text="to schedule multiple applications." measuredWidth="237" measuredHeight="25" foreground="#666666">
+    <font size="14px" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="45" x="162" y="616" measuredWidth="24" measuredHeight="24" icon="tag (medium)"/>
+  <hRuler>
+    <guides position="1330"/>
+  </hRuler>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

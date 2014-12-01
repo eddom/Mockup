@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_New_02PendingReview_Page01_Type1.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="100"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="501" y="54" width="380" height="184" measuredWidth="380" measuredHeight="184" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="511" y="97" width="360" measuredWidth="360" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="563" y="59" text="Exclude from Meeting" measuredWidth="256" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="6" x="511" y="183" width="360" measuredWidth="360" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="585" y="198" measuredWidth="102" measuredHeight="26" link="Sct_New_02PendingReview_Page01_Type1.screen">
+    <widgets xsi:type="model:Panel" id="8" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="9" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="10" x="6" y="2" width="90" text="Yes" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="695" y="198" measuredWidth="102" measuredHeight="26" link="Sct_New_02PendingReview_Page01_Type1.screen">
+    <widgets xsi:type="model:Panel" id="12" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="13" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="14" x="6" y="2" width="90" text="No" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="519" y="133" text="Exclude selected protocol from meeting?" measuredWidth="270" measuredHeight="25">
+    <font size="14px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

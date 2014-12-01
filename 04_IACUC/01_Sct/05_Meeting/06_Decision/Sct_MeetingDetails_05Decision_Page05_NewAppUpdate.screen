@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_05Decision_Page04_NewApp.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="79" x="398" y="59" width="585" height="406" locked="true" measuredWidth="585" measuredHeight="406" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="80" x="412" y="107" width="559" measuredWidth="559" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="81" x="412" y="409" width="559" measuredWidth="559" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="82" x="639" y="424" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_05Decision_Page04_NewApp.screen">
+    <widgets xsi:type="model:Panel" id="83" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="84" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="85" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="86" x="484" y="69" text="Update Committee Review Decision" measuredWidth="412" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="87" x="415" y="116" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:Label" id="88" x="464" y="117" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="89" x="735" y="119" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
+    <font size="14px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="90" x="452" y="117" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:Label" id="91" x="421" y="172" text="Current Review Status" measuredWidth="152" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="92" x="580" y="172" text=": Pending Committee Review" measuredWidth="194" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="93" x="421" y="222" text="Review Decision" measuredWidth="124" measuredHeight="26" foreground="#38761d">
+    <font size="14px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="95" x="441" y="257" text="Review By PR &amp; SR" measuredWidth="160" measuredHeight="26">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="96" x="441" y="287" text="Approve" measuredWidth="80" measuredHeight="26" selected="true">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="97" x="441" y="372" text="Circulate to Committee For Approval" measuredWidth="276" measuredHeight="26" link="Sct_MeetingDetails_05Decision_Page06_NewAppUpdate.screen">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="98" x="570" y="313" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="99" x="460" y="312" text="Approval Date" measuredWidth="96" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="102" x="460" y="342" text="Validity Date" measuredWidth="84" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="103" x="560" y="312" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="104" x="560" y="342" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="105" x="570" y="343" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="106" x="697" y="342" text="To" measuredWidth="20" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="107" x="730" y="343" width="115" text="01-Jun-2016" measuredWidth="115" measuredHeight="23"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

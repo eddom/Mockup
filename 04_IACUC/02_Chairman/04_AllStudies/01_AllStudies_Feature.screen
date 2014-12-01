@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="5" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Ch_00_IACUCFrame.screen#/"/>
+    <overrides>
+      <widgets ref="1/24">
+        <attributes key="background" value="#660000"/>
+      </widgets>
+      <widgets ref="1/23" noLink="true"/>
+      <widgets ref="1/27" noLink="true"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="3" x="248" y="136" width="1105" height="527" text="This screen should provide functionality to access to all IACUC studies by IACUC members (e.g. Secretariat, Chairman). There would be filters to locate the study quickly:&#xD;&#xA;- Institution&#xD;&#xA;- Holding Facility&#xD;&#xA;- Study validity date&#xD;&#xA;" measuredWidth="1105" measuredHeight="527">
+    <font size="24px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="163" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="RV_RW_New_05_AppForm.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="118" x="309" y="54" width="764" height="603" measuredWidth="764" measuredHeight="603" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="119" x="319" y="97" width="744" measuredWidth="744" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="120" x="319" y="606" width="744" measuredWidth="744" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="121" x="640" y="621" measuredWidth="102" measuredHeight="26" link="RV_RW_New_05_AppForm.screen">
+    <widgets xsi:type="model:Panel" id="122" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="123" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="124" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="164" x="319" y="106" width="744" height="490" text="Pending Comments,Comments Sent" locked="true" measuredWidth="744" measuredHeight="490" selection="0">
+    <items x="10" y="0" width="131" height="27" text="Pending Comments"/>
+    <items x="141" y="0" width="110" height="27" text="Comments Sent"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="165" x="462" y="108" width="110" height="25" measuredWidth="110" measuredHeight="25" background="#cfe2f3" alpha="64" border="none" link="RV_RW_New_03_Comments_Page04_All.screen"/>
+  <widgets xsi:type="model:TextArea" id="25" x="333" y="210" width="714" height="367" text="According to Section E, 'Ten pigs will be used to establish the optimized parameters to remove kidney tissue efficiently. Ten pigs will be used to approve haemostasis effects'.&#xD;&#xA;&#xD;&#xA;Should the PI provide more details in Section G for the above procedures?  Could Dr. Fred Chua and/or the other vets to comment." measuredWidth="714" measuredHeight="367" verticalScrollbar="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="150" x="333" y="181" width="714" text="Section G: Description of Experimental Design &amp; Animal Procedures" measuredWidth="714" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="166" x="572" y="141" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)" link="RV_RW_New_03_Comments_Page01.screen"/>
+  <widgets xsi:type="model:Label" id="167" x="333" y="144" text="My Comments" measuredWidth="100" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="RV_RW_New_03_Comments_Page01.screen">
+    <font size="14px" bold="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="168" x="429" y="144" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>
+  <widgets xsi:type="model:Label" id="169" x="451" y="144" text="Edit Comments" measuredWidth="107" measuredHeight="25" textAlignment="Center" foreground="#990000">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="170" x="564" y="144" height="25" measuredWidth="6" measuredHeight="25"/>
+  <widgets xsi:type="model:WidgetGroup" id="171" x="463" y="59" measuredWidth="455" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="172" x="37" text="Reviewer's Consolidated Comments" measuredWidth="418" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="173" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-comments (large)"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

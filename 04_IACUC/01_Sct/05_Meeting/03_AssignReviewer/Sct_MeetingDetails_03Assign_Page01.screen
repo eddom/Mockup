@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="539" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="514" x="162" y="128" measuredWidth="597" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+      <widgets ref="8/2">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Note" id="522" x="336" y="17" text="3 persons will be able to perform Assign Reviewer&#xD;&#xA;1. IACUC Chairman&#xD;&#xA;2. Meeting Chairman&#xD;&#xA;3. Secretariat" measuredWidth="290" measuredHeight="74" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="542" x="161" y="127" measuredWidth="1168" measuredHeight="578" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../99_Common/05_Meeting/Ctrl_MeetingDetails_AssignReviewer.screen#/"/>
+    <overrides>
+      <widgets ref="64" link="../../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_BeforePreCheck.screen"/>
+      <widgets ref="65" link="../../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
+      <widgets ref="51" link="Sct_MeetingDetails_03Assign_Page02_NotifyRv.screen"/>
+      <widgets ref="67">
+        <attributes key="foreground" value="#999999"/>
+      </widgets>
+      <widgets ref="68">
+        <attributes key="foreground" value="#999999"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

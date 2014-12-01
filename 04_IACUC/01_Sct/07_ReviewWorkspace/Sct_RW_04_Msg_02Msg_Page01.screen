@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_00_Ctrl_Message.screen#/"/>
+    <overrides>
+      <widgets ref="13">
+        <attributes key="selection" value="1"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Table" id="2" x="321" y="184" width="736" height="345" text="=(w:40). ,Subject,(w:90).Status,(w:130).Create Date,=(w:130).Sent Date,=(w:130).Reply Date&#xD;&#xA;-,[Missing Attachment],Sent,11-May-2014 09:32,-,15-May-2014 09:44&#xD;&#xA;,[Comments &amp; Query],Draft,13-May-2014 11:43,-,-" measuredWidth="736" measuredHeight="345" rowHeight="28" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="5" x="329" y="242" measuredWidth="24" measuredHeight="24" icon="edit (medium)" link="Sct_RW_04_Msg_02Msg_Page05_Edit.screen"/>
+  <widgets xsi:type="model:Text" id="6" x="324" y="157" width="617" height="17" text="Click {edit} to edit Message." measuredWidth="617" measuredHeight="17" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="321" y="536" measuredWidth="131" measuredHeight="32" link="Sct_RW_04_Msg_02Msg_Page02_New.screen">
+    <widgets xsi:type="model:Icon" id="8" measuredWidth="32" measuredHeight="32" icon="assets/ai-new-email (large)"/>
+    <widgets xsi:type="model:Label" id="9" x="34" y="4" text="New Message" measuredWidth="97" measuredHeight="25" textAlignment="Center" foreground="#0000ff">
+      <font size="14px" bold="false" underline="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="10" x="363" y="242" width="112" height="24" measuredWidth="112" measuredHeight="24" background="#cfe2f3" alpha="64" border="none" link="Sct_RW_04_Msg_02Msg_Page05_Edit.screen"/>
+  <widgets xsi:type="model:Panel" id="11" x="363" y="214" width="112" height="24" measuredWidth="112" measuredHeight="24" background="#cfe2f3" alpha="64" border="none" link="Sct_RW_04_Msg_03Msg_Page08_Sent.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

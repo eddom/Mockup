@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../01_Base/Frame/Frame_iSHaRe_Secretariat.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="512" y="330" text="Dashboard" measuredWidth="358" measuredHeight="89">
+    <font size="72px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="106" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="RV_RW_New_05_AppForm.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Text" id="101" x="1082" y="206" width="266" height="120" text="Logic Check&#xD;&#xA;1. &#x9;Comments stay in &quot;Pending Comments&quot; until it's sent to Secretariat." measuredWidth="266" measuredHeight="120" foreground="#ffffff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="309" y="54" width="764" height="603" measuredWidth="764" measuredHeight="603" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="8" x="319" y="97" width="744" measuredWidth="744" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="9" x="319" y="606" width="744" measuredWidth="744" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="14" x="640" y="621" measuredWidth="102" measuredHeight="26" link="RV_RW_New_05_AppForm.screen">
+    <widgets xsi:type="model:Panel" id="15" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="16" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="17" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="123" x="319" y="106" width="744" height="490" text="Pending Comments,Comments Sent" locked="true" measuredWidth="744" measuredHeight="490" selection="0">
+    <items x="10" y="0" width="131" height="27" text="Pending Comments"/>
+    <items x="141" y="0" width="110" height="27" text="Comments Sent"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="124" x="461" y="108" width="110" height="25" measuredWidth="110" measuredHeight="25" background="#cfe2f3" alpha="64" border="none" link="RV_RW_New_03_Comments_Page04_All.screen"/>
+  <widgets xsi:type="model:Icon" id="125" x="632" y="141" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)" link="RV_RW_New_03_Comments_Page01.screen"/>
+  <widgets xsi:type="model:Label" id="126" x="333" y="144" text="My Comments" measuredWidth="100" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="RV_RW_New_03_Comments_Page01.screen">
+    <font size="14px" bold="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="127" x="429" y="144" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>
+  <widgets xsi:type="model:Label" id="128" x="451" y="144" text="Pain &amp; Distress Category" measuredWidth="170" measuredHeight="25" textAlignment="Center" foreground="#990000">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="129" x="624" y="144" height="25" measuredWidth="6" measuredHeight="25"/>
+  <widgets xsi:type="model:Table" id="110" x="333" y="334" width="716" height="85" text="(w:140).Species,Pain &amp; Distress Category,=(w:40).SS,=(w:40).MSS,=(w:40).FFR,=(w:40).PR,=(w:40).HAU,=(w:40).NCA&#xD;&#xA;Masaque,{assets/fa-check-square-o}Category 1     {assets/fa-check-square-o}Category 2     {assets/fa-square-o}Category 3,{assets/fa-check-square-o},{assets/fa-square-o},{assets/fa-square-o},{assets/fa-square-o},{assets/fa-square-o},{assets/fa-square-o}&#xD;&#xA;Rats,{assets/fa-check-square-o}Category 1     {assets/fa-square-o}Category 2     {assets/fa-square-o}Category 3,{assets/fa-check-square-o},{assets/fa-square-o},{assets/fa-square-o},{assets/fa-square-o},{assets/fa-square-o},{assets/fa-square-o}" measuredWidth="716" measuredHeight="85" rowHeight="28" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="117" x="333" y="186" measuredWidth="667" measuredHeight="135">
+    <widgets xsi:type="model:Label" id="120" text="Legend" measuredWidth="47" measuredHeight="23">
+      <font size="12px" bold="true" underline="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="118" x="396" y="42" width="271" height="93" text="\- Survival Surgery&#xD;&#xA;\- Multiple Survival Surgery&#xD;&#xA;\- Food or Fluid Regulation&#xD;&#xA;\- Prolonged Restraint&#xD;&#xA;\- Hazardous Agent Use&#xD;&#xA;\- Non-centralized Housing and/or Procedural Areas" measuredWidth="271" measuredHeight="93">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="119" x="360" y="42" width="46" height="93" text="SS&#xD;&#xA;MSS&#xD;&#xA;FFR&#xD;&#xA;PR&#xD;&#xA;HAU&#xD;&#xA;NCA" measuredWidth="46" measuredHeight="93">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="130" x="360" y="20" text="Special Consideration" measuredWidth="130" measuredHeight="23">
+      <font size="12px" bold="true" italic="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="121" x="64" y="42" width="280" height="93" text="\- Minimal, Transient, or No Pain or Distress&#xD;&#xA;\- Pain or Distress Relieved by Appropriate Measures&#xD;&#xA;\- Unrelieved Pain" measuredWidth="280" measuredHeight="93">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="122" y="42" width="65" height="93" text="Category 1&#xD;&#xA;Category 2&#xD;&#xA;Category 3" measuredWidth="65" measuredHeight="93">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="131" y="20" text="Pain &amp; Distress Category" measuredWidth="150" measuredHeight="23">
+      <font size="12px" bold="true" italic="true" underline="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="132" x="463" y="59" measuredWidth="455" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="133" x="37" text="Reviewer's Consolidated Comments" measuredWidth="418" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="134" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-comments (large)"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

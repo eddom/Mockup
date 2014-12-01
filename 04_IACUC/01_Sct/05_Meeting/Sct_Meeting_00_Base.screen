@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_00_IACUCFrame.screen#/"/>
+    <overrides>
+      <widgets ref="3/1/25">
+        <attributes key="background" value="#9fc5e8"/>
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="3/1/26">
+        <attributes key="background" value="#9fc5e8"/>
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="3/1/28">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="3/1/27">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

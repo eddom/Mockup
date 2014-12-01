@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#ea9999" alpha="0"/>
+  <widgets xsi:type="model:Panel" id="4" x="18" y="70" width="1345" height="47" measuredWidth="1345" measuredHeight="47" background="#cc0000" foreground="#999999" border="none"/>
+  <widgets xsi:type="model:HLine" id="6" x="18" y="66" width="1345" measuredWidth="1345" measuredHeight="6" foreground="#cccccc"/>
+  <widgets xsi:type="model:Image" id="9" x="14" y="16" width="80" height="49" measuredWidth="80" measuredHeight="49" src="../../assets/Eddom/Logo.jpg"/>
+  <widgets xsi:type="model:Image" id="10" x="88" y="12" width="1284" height="55" measuredWidth="1284" measuredHeight="55" src="../../assets/Eddom/iSHaRe_Banner.png"/>
+  <widgets xsi:type="model:Label" id="8" x="107" y="24" text="iSHaRe" measuredWidth="73" measuredHeight="36" foreground="#ffffff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="1188" y="42" text="Last Login 06-Jun-2014 23:45" measuredWidth="157" measuredHeight="23" foreground="#ffffff">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="11" x="1291" y="19" text="Logout" measuredWidth="50" measuredHeight="28" link="../LoginSwitcher.screen">
+    <font size="14px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

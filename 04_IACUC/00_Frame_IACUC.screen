@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../01_Base/Frame/Frame_iSHaRe_Secretariat.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="38" x="160" y="690" measuredWidth="194" measuredHeight="28">
+    <widgets xsi:type="model:Label" id="13" text="Next Meeting :" measuredWidth="102" measuredHeight="28">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="15" x="103" text="27-May-2014" measuredWidth="91" measuredHeight="28" link="01_Sct/05_Meeting/02_Prepare/Sct_MeetingDetails_01Prepare_Page01.screen">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="20" y="690" measuredWidth="126" measuredHeight="28">
+    <widgets xsi:type="model:Label" id="12" text="247 Active Studies" measuredWidth="126" measuredHeight="28">
+      <font size="14px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="44" x="28" y="128" measuredWidth="109" measuredHeight="77" link="01_Sct/01_NewSubmission/Sct_New_01New_Page01.1.screen">
+    <widgets xsi:type="model:Panel" id="41" width="61" height="77" measuredWidth="61" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Icon" id="39" x="6" y="14" measuredWidth="48" measuredHeight="48" foreground="#b6d7a8" icon="assets/fa-file-text (xlarge)"/>
+    <widgets xsi:type="model:Panel" id="42" x="59" width="50" height="77" measuredWidth="50" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Label" id="43" x="66" y="15" text="10" measuredWidth="35" measuredHeight="46" textAlignment="Center" foreground="#b6d7a8">
+      <font size="28px" italic="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="45" x="28" y="219" measuredWidth="109" measuredHeight="77" link="01_Sct/02_Revision/Sct_01_RevisionListing.screen">
+    <widgets xsi:type="model:Panel" id="46" width="61" height="77" measuredWidth="61" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Panel" id="48" x="59" width="50" height="77" measuredWidth="50" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Label" id="49" x="74" y="15" text="7" measuredWidth="20" measuredHeight="46" textAlignment="Center" foreground="#b6d7a8">
+      <font size="28px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="50" x="6" y="14" measuredWidth="48" measuredHeight="48" foreground="#b6d7a8" icon="assets/fi-clipboard-pencil (xlarge)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="51" x="28" y="306" measuredWidth="109" measuredHeight="77" link="01_Sct/03_Report/Sct_01_StudyReport.screen">
+    <widgets xsi:type="model:Panel" id="52" width="61" height="77" measuredWidth="61" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Panel" id="53" x="59" width="50" height="77" measuredWidth="50" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Label" id="54" x="74" y="15" text="6" measuredWidth="20" measuredHeight="46" textAlignment="Center" foreground="#b6d7a8">
+      <font size="28px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="60" x="6" y="14" measuredWidth="48" measuredHeight="48">
+      <widgets xsi:type="model:WidgetGroup" id="61" measuredWidth="48" measuredHeight="48">
+        <widgets xsi:type="model:Icon" id="62" width="48" height="48" measuredWidth="48" measuredHeight="48" foreground="#b6d7a8" icon="assets/fa-file-o (xlarge)"/>
+        <widgets xsi:type="model:Label" id="63" x="14" y="7" text="R" measuredWidth="21" measuredHeight="40" foreground="#b6d7a8">
+          <font size="24px" bold="true"/>
+        </widgets>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="64" x="28" y="397" measuredWidth="109" measuredHeight="77" link="01_Sct/04_AllStudies/Sct_01_AllStudies_Feature.screen">
+    <widgets xsi:type="model:Panel" id="65" width="61" height="77" measuredWidth="61" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Panel" id="66" x="59" width="50" height="77" measuredWidth="50" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Label" id="67" x="75" y="12" text="-" measuredWidth="18" measuredHeight="53" textAlignment="Center" foreground="#9fc5e8">
+      <font size="32px" bold="true" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="73" x="6" y="14" measuredWidth="48" measuredHeight="48" foreground="#9fc5e8" icon="assets/fa-folder (xlarge)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="74" x="28" y="484" measuredWidth="109" measuredHeight="77" link="01_Sct/05_Meeting/01_Listing/Sct_MeetingListing_01.screen">
+    <widgets xsi:type="model:Panel" id="75" width="61" height="77" measuredWidth="61" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Panel" id="76" x="59" width="50" height="77" measuredWidth="50" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Label" id="77" x="75" y="12" text="-" measuredWidth="18" measuredHeight="53" textAlignment="Center" foreground="#9fc5e8">
+      <font size="32px" bold="true" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="81" x="6" y="14" measuredWidth="48" measuredHeight="48" foreground="#9fc5e8" icon="assets/fa-calendar (xlarge)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="82" x="28" y="576" measuredWidth="109" measuredHeight="77" link="03_Reviewer/06_StudyAppointed/RV_Appointed_01PendingComments_Page01.screen">
+    <widgets xsi:type="model:Panel" id="83" width="61" height="77" measuredWidth="61" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Panel" id="84" x="59" width="50" height="77" measuredWidth="50" measuredHeight="77" foreground="#b6d7a8"/>
+    <widgets xsi:type="model:Label" id="85" x="75" y="12" text="-" measuredWidth="18" measuredHeight="53" textAlignment="Center" foreground="#9fc5e8">
+      <font size="32px" bold="true" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="88" x="6" y="14" measuredWidth="48" measuredHeight="48" foreground="#9fc5e8" icon="assets/fi-book-bookmark (xlarge)"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

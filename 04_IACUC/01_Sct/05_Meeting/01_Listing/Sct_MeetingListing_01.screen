@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="188" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="189" x="162" y="128" measuredWidth="1130" measuredHeight="504" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../99_Common/05_Meeting/Ctrl_Meeting_Schedules.screen#/"/>
+    <overrides>
+      <widgets ref="172" link="../02_Prepare/Sct_MeetingDetails_01Prepare_Page01.screen"/>
+      <widgets ref="124" link="Sct_MeetingListing_02_AddMeeting.screen"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

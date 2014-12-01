@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="106" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="RV_RW_New_05_AppForm.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Text" id="101" x="1092" y="216" width="266" height="120" text="Logic Check&#xD;&#xA;1. &#x9;Comments stay in &quot;Pending Comments&quot; until it's sent to Secretariat.&#xD;&#xA;2. Reviewer only will send the Pain &amp; Distress Category once. After that will be disabled for reviewer.&#xD;&#xA;3. Comments function is disabled once application withdrawn, re-submit, or approved." measuredWidth="266" measuredHeight="120" foreground="#ffffff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="309" y="54" width="764" height="603" locked="true" measuredWidth="764" measuredHeight="603" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="8" x="319" y="97" width="744" measuredWidth="744" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="22" x="463" y="59" measuredWidth="455" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="18" x="37" text="Reviewer's Consolidated Comments" measuredWidth="418" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="19" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-comments (large)"/>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="112" x="319" y="106" width="744" height="490" text="Pending Comments,Comments Sent" locked="true" measuredWidth="744" measuredHeight="490" selection="0">
+    <items x="10" y="0" width="131" height="27" text="Pending Comments"/>
+    <items x="141" y="0" width="110" height="27" text="Comments Sent"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="113" x="462" y="108" width="110" height="25" measuredWidth="110" measuredHeight="25" background="#cfe2f3" alpha="64" border="none" link="RV_RW_New_03_Comments_Page04_All.screen"/>
+  <widgets xsi:type="model:VScrollbar" id="49" x="1036" y="175" height="411" measuredWidth="17" measuredHeight="411"/>
+  <widgets xsi:type="model:Text" id="50" x="363" y="239" width="617" height="17" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="617" measuredHeight="17">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="51" x="363" y="217" text="Section J: Survival Surgery" measuredWidth="160" measuredHeight="23">
+    <font bold="true" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="339" y="217" text="1." measuredWidth="15" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="53" x="363" y="289" width="617" height="17" text="How long after HIFU will euthanasia be carried out? Is it right after scanning?" measuredWidth="617" measuredHeight="17">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="363" y="267" text="Section M: Hazardous Agents" measuredWidth="175" measuredHeight="23">
+    <font bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="339" y="267" text="2." measuredWidth="15" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="56" x="363" y="339" width="659" height="77" text="According to Section E, 'Ten pigs will be used to establish the optimized parameters to remove kidney tissue efficiently. Ten pigs will be used to approve haemostasis effects'.&#xD;&#xA;&#xD;&#xA;Should the PI provide more details in Section G for the above procedures?  Could Dr. Fred Chua and/or the other vets to comment." measuredWidth="659" measuredHeight="77">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="57" x="363" y="317" text="Section G: Description of Experimental Design &amp; Animal Procedures" measuredWidth="393" measuredHeight="23">
+    <font bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="339" y="317" text="3." measuredWidth="15" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="61" x="980" y="266" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (small)" link="RV_RW_New_03_Comments_Page03_Edit.screen"/>
+  <widgets xsi:type="model:Icon" id="62" x="1002" y="266" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="delete (custom)"/>
+  <widgets xsi:type="model:Image" id="67" x="363" y="287" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Icon" id="69" x="980" y="316" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (small)" link="RV_RW_New_03_Comments_Page03_Edit.screen"/>
+  <widgets xsi:type="model:Icon" id="70" x="1002" y="316" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="delete (custom)"/>
+  <widgets xsi:type="model:Image" id="71" x="363" y="337" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Icon" id="72" x="980" y="216" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (small)" link="RV_RW_New_03_Comments_Page03_Edit.screen"/>
+  <widgets xsi:type="model:Icon" id="73" x="1002" y="216" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="delete (custom)"/>
+  <widgets xsi:type="model:Image" id="74" x="363" y="237" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Icon" id="40" x="444" y="144" measuredWidth="32" measuredHeight="32" icon="assets/ai-new-event (large)" link="RV_RW_New_03_Comments_Page02_New.screen"/>
+  <widgets xsi:type="model:Icon" id="93" x="481" y="148" measuredWidth="24" measuredHeight="24" icon="assets/fa-send (medium)" link="RV_RW_New_03_Comments_Page05_PastComments.screen"/>
+  <widgets xsi:type="model:Text" id="96" x="340" y="181" width="617" height="17" text="Click {assets/ai-new-event} to add new comment or {assets/ai-email} to send pending comments below to secretariat." measuredWidth="617" measuredHeight="17" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="9" x="319" y="606" width="744" measuredWidth="744" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="14" x="640" y="621" measuredWidth="102" measuredHeight="26" link="RV_RW_New_05_AppForm.screen">
+    <widgets xsi:type="model:Panel" id="15" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="16" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="17" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="108" x="624" y="464" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (medium)" link="RV_RW_New_03_Comments_Page02_AAALAC.screen"/>
+  <widgets xsi:type="model:Table" id="110" x="368" y="487" width="640" height="90" text="(w:100).Species,Pain &amp; Distress Category,=(w:40).SS,=(w:40).MSS,=(w:40).FFR,=(w:40).PR,=(w:40).HAU,=(w:40).NCA&#xD;&#xA;Masaque,Category 1\,2,{assets/fa-check}&#xD;&#xA;Rats,Category 1,{assets/fa-check}" measuredWidth="640" measuredHeight="90" rowHeight="28" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="111" x="341" y="463" text="Pain &amp; Distress Category / Special Consideration" measuredWidth="280" measuredHeight="23" foreground="#38761d">
+    <font bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="115" x="333" y="144" text="My Comments" measuredWidth="100" measuredHeight="25" textAlignment="Center">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="118" x="433" y="144" height="25" measuredWidth="6" measuredHeight="25"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

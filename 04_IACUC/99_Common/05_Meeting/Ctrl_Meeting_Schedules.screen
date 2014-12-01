@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Combo" id="122" x="56" y="48" width="78" text="2014" measuredWidth="78" measuredHeight="25">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="123" x="8" y="48" text="Year" measuredWidth="35" measuredHeight="25">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="124" x="156" y="48" measuredWidth="137" measuredHeight="28">
+    <widgets xsi:type="model:Panel" id="125" width="137" height="28" measuredWidth="137" measuredHeight="28" background="#cfe2f3" border="none"/>
+    <widgets xsi:type="model:Icon" id="126" x="6" y="4" width="20" height="20" measuredWidth="20" measuredHeight="20" foreground="#0b5394" icon="assets/fa-calendar (medium)"/>
+    <widgets xsi:type="model:Label" id="127" x="35" y="1" text="Add Meeting" measuredWidth="95" measuredHeight="26">
+      <font size="14px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="128" x="8" y="92" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="129" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#eeeeee" border="none"/>
+    <widgets xsi:type="model:Label" id="130" x="110" y="30" width="120" text="05 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="131" x="110" y="52" width="120" text="02 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="132" x="110" y="74" width="120" text="08 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="250" x="160" y="2" width="97" height="17" text="Attended : 9" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="251" x="157" y="100" width="100" height="17" text="Completed" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="260" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="257" width="100" height="55" text="Jan" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="258" y="51" width="100" height="26" text="28 Tue" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="286" x="4" y="2" width="30" height="16" text="#82" measuredWidth="30" measuredHeight="16" foreground="#990000">
+      <font size="12px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="139" x="298" y="92" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="140" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#eeeeee" border="none"/>
+    <widgets xsi:type="model:Label" id="141" x="110" y="30" width="120" text="10 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="142" x="110" y="52" width="120" text="05 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="143" x="110" y="74" width="120" text="12 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="287" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="288" width="100" height="55" text="Feb" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="289" y="51" width="100" height="26" text="25 Tue" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="317" x="4" y="2" width="30" height="16" text="#83" measuredWidth="30" measuredHeight="16" foreground="#990000">
+      <font size="12px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="321" x="157" y="100" width="100" height="17" text="Completed" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="336" x="160" y="2" width="97" height="17" text="Attended : 10" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="150" x="588" y="92" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="151" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#eeeeee" border="none"/>
+    <widgets xsi:type="model:Label" id="152" x="110" y="30" width="120" text="09 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="153" x="110" y="52" width="120" text="03 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="154" x="110" y="74" width="120" text="05 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="290" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="291" width="100" height="55" text="Mar" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="292" y="51" width="100" height="26" text="26 Wed" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="318" x="4" y="2" width="30" height="16" text="#84" measuredWidth="30" measuredHeight="16" foreground="#990000">
+      <font size="12px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="322" x="157" y="100" width="100" height="17" text="Completed" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="337" x="160" y="2" width="97" height="17" text="Attended : 10" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="161" x="878" y="92" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="162" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#eeeeee" border="none"/>
+    <widgets xsi:type="model:Label" id="163" x="110" y="30" width="120" text="13 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="164" x="110" y="52" width="120" text="08 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="165" x="110" y="74" width="120" text="05 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="293" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="294" width="100" height="55" text="Apr" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="295" y="51" width="100" height="26" text="29 Tue" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="319" x="4" y="2" width="30" height="16" text="#85" measuredWidth="30" measuredHeight="16" foreground="#990000">
+      <font size="12px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="323" x="157" y="100" width="100" height="17" text="Completed" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="338" x="160" y="2" width="97" height="17" text="Attended : 8" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="172" x="8" y="242" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="173" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#fce5cd" border="none"/>
+    <widgets xsi:type="model:Label" id="174" x="110" y="30" width="120" text="08 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="175" x="110" y="52" width="120" text="03 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="176" x="110" y="74" width="120" text="02 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="296" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="297" width="100" height="55" text="May" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="298" y="51" width="100" height="26" text="27 Tue" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="320" x="4" y="2" width="30" height="16" text="#86" measuredWidth="30" measuredHeight="16" foreground="#990000">
+      <font size="12px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="324" x="157" y="100" width="100" height="17" text="Planned" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="339" x="160" y="2" width="97" height="17" text="Attendees : 8" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="183" x="298" y="242" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="184" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#cfe2f3" border="none"/>
+    <widgets xsi:type="model:Label" id="185" x="110" y="30" width="120" text="03 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="186" x="110" y="52" width="120" text="00 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="187" x="110" y="74" width="120" text="00 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="193" x="2" y="102" measuredWidth="16" measuredHeight="16" foreground="#073763" icon="assets/fi-trash (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="299" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="300" width="100" height="55" text="Jun" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="301" y="51" width="100" height="26" text="24 Tue" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="325" x="157" y="100" width="100" height="17" text="Draft" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="340" x="160" y="2" width="97" height="17" text="Attendees : 0" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="194" x="588" y="242" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="195" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#cfe2f3" border="none"/>
+    <widgets xsi:type="model:Label" id="196" x="110" y="30" width="120" text="00 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="197" x="110" y="52" width="120" text="00 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="198" x="110" y="74" width="120" text="00 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="204" x="2" y="102" measuredWidth="16" measuredHeight="16" foreground="#073763" icon="assets/fi-trash (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="302" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="303" width="100" height="55" text="Jul" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="304" y="51" width="100" height="26" text="29 Tue" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="326" x="157" y="100" width="100" height="17" text="Draft" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="341" x="160" y="2" width="97" height="17" text="Attendees : 0" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="205" x="878" y="242" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="206" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#cfe2f3" border="none"/>
+    <widgets xsi:type="model:Label" id="207" x="110" y="30" width="120" text="00 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="208" x="110" y="52" width="120" text="00 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="209" x="110" y="74" width="120" text="00 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="215" x="2" y="102" measuredWidth="16" measuredHeight="16" foreground="#073763" icon="assets/fi-trash (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="305" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="306" width="100" height="55" text="Aug" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="307" y="51" width="100" height="26" text="26 Tue" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="327" x="157" y="100" width="100" height="17" text="Draft" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="342" x="160" y="2" width="97" height="17" text="Attendees : 0" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="216" x="8" y="392" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="217" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#cfe2f3" border="none"/>
+    <widgets xsi:type="model:Label" id="218" x="110" y="30" width="120" text="00 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="219" x="110" y="52" width="120" text="00 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="220" x="110" y="74" width="120" text="00 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="226" x="2" y="102" measuredWidth="16" measuredHeight="16" foreground="#073763" icon="assets/fi-trash (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="308" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="309" width="100" height="55" text="Sep" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="310" y="51" width="100" height="26" text="30 Tue" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="331" x="157" y="100" width="100" height="17" text="Draft" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="343" x="160" y="2" width="97" height="17" text="Attendees : 0" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="227" x="298" y="392" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="228" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#cfe2f3" border="none"/>
+    <widgets xsi:type="model:Label" id="229" x="110" y="30" width="120" text="00 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="230" x="110" y="52" width="120" text="00 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="231" x="110" y="74" width="120" text="00 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="237" x="2" y="103" measuredWidth="16" measuredHeight="16" foreground="#073763" icon="assets/fi-trash (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="311" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="312" width="100" height="55" text="Oct" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="313" y="51" width="100" height="26" text="29 Wed" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="333" x="157" y="100" width="100" height="17" text="Draft" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="344" x="160" y="2" width="97" height="17" text="Attendees : 0" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="238" x="588" y="392" measuredWidth="260" measuredHeight="120">
+    <widgets xsi:type="model:Panel" id="239" width="260" height="120" measuredWidth="260" measuredHeight="120" background="#cfe2f3" border="none"/>
+    <widgets xsi:type="model:Label" id="240" x="110" y="30" width="120" text="00 New Applications" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="241" x="110" y="52" width="120" text="00 Amendments" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="242" x="110" y="74" width="120" text="00 Reports" measuredWidth="120" measuredHeight="23">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="248" x="2" y="102" measuredWidth="16" measuredHeight="16" foreground="#073763" icon="assets/fi-trash (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="314" x="4" y="20" measuredWidth="100" measuredHeight="77">
+      <widgets xsi:type="model:Text" id="315" width="100" height="55" text="Nov" measuredWidth="100" measuredHeight="55" textAlignment="Center">
+        <font size="48px" bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Text" id="316" y="51" width="100" height="26" text="25 Tue" measuredWidth="100" measuredHeight="26" textAlignment="Center">
+        <font size="24px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Text" id="334" x="157" y="100" width="100" height="17" text="Draft" measuredWidth="100" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="345" x="160" y="2" width="97" height="17" text="Attendees : 0" measuredWidth="97" measuredHeight="17" textAlignment="Right" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="249" x="8" y="8" text="Meeting Schedules" measuredWidth="183" measuredHeight="30" foreground="#990000">
+    <font size="18px" bold="true" underline="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="8" y="8" height="153" locked="true" measuredWidth="1167" measuredHeight="90">
+    <widgets xsi:type="model:Panel" id="2" width="1167" height="90" measuredWidth="1167" measuredHeight="90" background="#000000" border="none"/>
+    <widgets xsi:type="model:Panel" id="3" x="1" y="1" width="1165" height="88" measuredWidth="1165" measuredHeight="88" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="14" y="12" text="Date / Time" measuredWidth="68" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="14" y="53" text="Subject" measuredWidth="46" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="414" y="12" text="Venue" measuredWidth="39" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="116" y="12" width="107" text="27-May-2014" measuredWidth="107" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="116" y="53" width="235" text="IACUC Monthly Review Meeting" measuredWidth="235" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="200" y="12" width="108" text="09:00 to 17:00" measuredWidth="108" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="854" y="32" text="Acting Chairman" measuredWidth="96" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="957" y="32" width="193" text=": Dr. Chua Seng Chye Winston" measuredWidth="193" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="854" y="52" text="Attendees" measuredWidth="60" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="957" y="52" width="55" text=": 8 / 16" measuredWidth="55" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="854" y="73" text="Quorum" measuredWidth="50" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="957" y="72" width="55" text=": 7" measuredWidth="55" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="108" y="12" text=":" measuredWidth="8" measuredHeight="23" textAlignment="Center" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="108" y="53" text=":" measuredWidth="8" measuredHeight="23" textAlignment="Center" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="18" x="458" y="11" width="232" height="80" text="Office of Research Meeting Room&#xD;&#xA;20 College Road,&#xD;&#xA;The Academia, Level 7,&#xD;&#xA;Discovery Tower,&#xD;&#xA;Singapore 169856" measuredWidth="232" measuredHeight="80" borderColor="#ffffff">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="454" y="12" text=":" measuredWidth="8" measuredHeight="23" textAlignment="Center" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="14" y="32" text="Meeting Number" measuredWidth="96" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="116" y="32" width="107" text="87" measuredWidth="107" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="108" y="32" text=":" measuredWidth="8" measuredHeight="23" textAlignment="Center" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="14" y="74" text="Status" measuredWidth="40" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="116" y="74" width="235" text="Planned" measuredWidth="235" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="108" y="74" text=":" measuredWidth="8" measuredHeight="23" textAlignment="Center" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="854" y="12" text="Chairman" measuredWidth="60" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="957" y="12" width="193" text=": Not Available" measuredWidth="193" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

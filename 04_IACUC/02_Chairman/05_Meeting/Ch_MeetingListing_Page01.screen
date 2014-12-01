@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="3" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Ch_Meeting_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="162" y="128" measuredWidth="1130" measuredHeight="504" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../99_Common/05_Meeting/Ctrl_Meeting_Schedules.screen#/"/>
+    <overrides>
+      <widgets ref="125">
+        <attributes key="background" value="#cccccc"/>
+      </widgets>
+      <widgets ref="126">
+        <attributes key="foreground" value="#666666"/>
+      </widgets>
+      <widgets ref="127">
+        <attributes key="foreground" value="#666666"/>
+      </widgets>
+      <widgets ref="172" link="Ch_MeetingDetails_03Assign_Page01.screen"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

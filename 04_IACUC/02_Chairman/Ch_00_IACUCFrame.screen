@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="2" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../01_Base/Frame/Frame_iSHaRe_Chairman.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="20" y="130" measuredWidth="109" measuredHeight="525" dimmed="true">
+    <screen xsi:type="model:Screen" href="Ch_00_IACUCMenu.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="20" y="695" text="248 Active Studies" measuredWidth="106" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="139" y="695" text="Next Meeting :" measuredWidth="82" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="6" x="220" y="695" text="27-May-2014" measuredWidth="74" measuredHeight="23" link="05_Meeting/Ch_MeetingDetails_03Assign_Page01.screen">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

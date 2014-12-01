@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="179" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_New_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="28" x="162" y="164" width="1169" measuredWidth="1169" measuredHeight="45">
+    <widgets xsi:type="model:Panel" id="29" width="1169" height="45" measuredWidth="1169" measuredHeight="45" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Label" id="30" x="10" y="8" width="229" text="27 May 2014 (Tuesday)" measuredWidth="229" measuredHeight="26" foreground="#0000ff">
+      <font size="14px" bold="true" underline="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="60" x="1038" y="9" width="121" text="Total: 8" measuredWidth="121" measuredHeight="26" textAlignment="Right">
+      <font size="14px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="87" x="886" y="9" width="169" text="Status: Planned" measuredWidth="169" measuredHeight="26" textAlignment="Right">
+      <font size="14px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="40" x="162" y="209" height="472" measuredWidth="1169" measuredHeight="472">
+    <widgets xsi:type="model:Panel" id="36" width="1169" height="472" measuredWidth="1169" measuredHeight="472" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Panel" id="39" x="2" width="1165" height="470" measuredWidth="1165" measuredHeight="470" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="52" x="1343" y="154" height="527" measuredWidth="17" measuredHeight="527">
+    <widgets xsi:type="model:VScrollbar" id="53" height="526" measuredWidth="17" measuredHeight="526"/>
+    <widgets xsi:type="model:Panel" id="54" width="17" height="527" measuredWidth="17" measuredHeight="527" alpha="64" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="88" x="179" y="220" measuredWidth="1136" measuredHeight="77">
+    <widgets xsi:type="model:Panel" id="69" width="1136" height="77" measuredWidth="1136" measuredHeight="77" background="#ecf5ff" border="none"/>
+    <widgets xsi:type="model:Label" id="70" x="6" y="2" text="IACUC-14-00201 (W)" measuredWidth="144" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="71" x="6" y="24" text="National Cancer Centre" measuredWidth="171" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="72" x="230" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-reply-all (medium)"/>
+    <widgets xsi:type="model:Label" id="73" x="709" y="53" width="195" text="PI:- Dr. Cora Mcdonagh" measuredWidth="195" measuredHeight="23" textAlignment="Right" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="76" x="271" y="8" width="610" height="44" text="Pelvic Organ Prolapse study with language for questionnaires, routine procedures, secondary analysis, database search of patients, analyzing tissue from surgery, ..." measuredWidth="610" measuredHeight="44">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="78" x="256" y="6" height="65" measuredWidth="6" measuredHeight="65" foreground="#0b5394"/>
+    <widgets xsi:type="model:VLine" id="79" x="911" y="6" height="65" measuredWidth="6" measuredHeight="65" foreground="#0b5394"/>
+    <widgets xsi:type="model:Label" id="80" x="922" y="3" text="PR:- Dr. Lupe Talor" measuredWidth="109" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="81" x="922" y="21" text="SR:- Dr. Edison Fenstermacher" measuredWidth="175" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="82" x="955" y="43" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="assets/fi-mail (medium)"/>
+    <widgets xsi:type="model:Icon" id="83" x="922" y="43" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="assets/fa-comments (medium)"/>
+    <widgets xsi:type="model:Icon" id="84" x="880" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-ellipsis-h (medium)"/>
+    <widgets xsi:type="model:Label" id="86" x="6" y="53" width="181" text="Pending Committee Review" measuredWidth="181" measuredHeight="23" foreground="#990000">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="149" x="271" y="53" width="214" text="Submitted on %(color:#990000)12-Apr-2014%" measuredWidth="214" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="89" x="179" y="305" measuredWidth="1136" measuredHeight="77">
+    <widgets xsi:type="model:Panel" id="90" width="1136" height="77" measuredWidth="1136" measuredHeight="77" background="#ecf5ff" border="none"/>
+    <widgets xsi:type="model:Label" id="91" x="6" y="2" text="IACUC-14-00202" measuredWidth="117" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="92" x="6" y="24" text="National Cancer Centre" measuredWidth="171" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="95" x="271" y="8" width="610" height="44" text="Rationale and design of DECISION: a double-blind, randomized, placebo-controlled phase III trial evaluating the efficacy and safety of sorafenib in patients with locally advanced ..." measuredWidth="610" measuredHeight="44">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="96" x="256" y="6" height="65" measuredWidth="6" measuredHeight="65" foreground="#0b5394"/>
+    <widgets xsi:type="model:VLine" id="97" x="911" y="6" height="65" measuredWidth="6" measuredHeight="65" foreground="#0b5394"/>
+    <widgets xsi:type="model:Label" id="98" x="922" y="3" text="PR:- Prof. Brenton Gearhart" measuredWidth="154" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="99" x="922" y="21" text="SR:- " measuredWidth="32" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="100" x="955" y="43" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="assets/fi-mail (medium)"/>
+    <widgets xsi:type="model:Icon" id="101" x="922" y="43" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="assets/fa-comments (medium)"/>
+    <widgets xsi:type="model:Icon" id="102" x="880" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-ellipsis-h (medium)"/>
+    <widgets xsi:type="model:Label" id="103" x="6" y="53" width="181" text="Pending Committee Review" measuredWidth="181" measuredHeight="23" foreground="#990000">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="150" x="709" y="53" width="195" text="PI:- Dr. Edwin Findlay" measuredWidth="195" measuredHeight="23" textAlignment="Right" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="151" x="271" y="53" width="214" text="Submitted on %(color:#990000)14-Apr-2014%" measuredWidth="214" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="175" x="230" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-reply-all (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="104" x="179" y="390" measuredWidth="1136" measuredHeight="77">
+    <widgets xsi:type="model:Panel" id="105" width="1136" height="77" measuredWidth="1136" measuredHeight="77" background="#ecf5ff" border="none"/>
+    <widgets xsi:type="model:Label" id="106" x="6" y="2" text="IACUC-14-00203" measuredWidth="117" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="107" x="6" y="24" text="National Cancer Centre" measuredWidth="171" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="110" x="271" y="8" width="610" height="44" text="Optimization of complex palliative care at home via telemedicine. A cluster randomized controlled trial." measuredWidth="610" measuredHeight="44">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="111" x="256" y="6" height="65" measuredWidth="6" measuredHeight="65" foreground="#0b5394"/>
+    <widgets xsi:type="model:VLine" id="112" x="911" y="6" height="65" measuredWidth="6" measuredHeight="65" foreground="#0b5394"/>
+    <widgets xsi:type="model:Label" id="113" x="922" y="3" text="PR:- Dr. Jerome Flach" measuredWidth="126" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="114" x="922" y="21" text="SR:- Dr. Matt Westover" measuredWidth="127" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="115" x="955" y="43" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="assets/fi-mail (medium)"/>
+    <widgets xsi:type="model:Icon" id="116" x="922" y="43" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="assets/fa-comments (medium)"/>
+    <widgets xsi:type="model:Icon" id="117" x="880" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-ellipsis-h (medium)"/>
+    <widgets xsi:type="model:Label" id="118" x="6" y="53" width="181" text="Pending Committee Review" measuredWidth="181" measuredHeight="23" foreground="#990000">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="152" x="709" y="53" width="195" text="PI:- Dr. Travis Vose" measuredWidth="195" measuredHeight="23" textAlignment="Right" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="153" x="271" y="53" width="214" text="Submitted on %(color:#990000)16-Apr-2014%" measuredWidth="214" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="176" x="230" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-reply-all (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="119" x="179" y="475" measuredWidth="1136" measuredHeight="77">
+    <widgets xsi:type="model:Panel" id="120" width="1136" height="77" measuredWidth="1136" measuredHeight="77" background="#ecf5ff" border="none"/>
+    <widgets xsi:type="model:Label" id="121" x="6" y="2" text="IACUC-14-00204" measuredWidth="117" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="122" x="6" y="24" text="National Heart Centre" measuredWidth="159" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="125" x="271" y="8" width="610" height="44" text="Rationale and Methods of the Multicenter Randomised Trial of a Heart Failure Management Programme among Geriatric Patients (HF-Geriatrics)." measuredWidth="610" measuredHeight="44">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="126" x="256" y="6" height="65" measuredWidth="6" measuredHeight="65" foreground="#0b5394"/>
+    <widgets xsi:type="model:VLine" id="127" x="911" y="6" height="65" measuredWidth="6" measuredHeight="65" foreground="#0b5394"/>
+    <widgets xsi:type="model:Label" id="128" x="922" y="3" text="PR:- Prof. Quentin Beckman" measuredWidth="159" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="129" x="922" y="21" text="SR:- Dr. Alfonso Hackworth" measuredWidth="153" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="130" x="955" y="43" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="assets/fi-mail (medium)"/>
+    <widgets xsi:type="model:Icon" id="131" x="922" y="43" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="assets/fa-comments (medium)"/>
+    <widgets xsi:type="model:Icon" id="132" x="880" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-ellipsis-h (medium)"/>
+    <widgets xsi:type="model:Label" id="133" x="6" y="53" width="181" text="Pending Committee Review" measuredWidth="181" measuredHeight="23" foreground="#990000">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="154" x="709" y="53" width="195" text="PI:- Dr. Johnson Gail" measuredWidth="195" measuredHeight="23" textAlignment="Right" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="155" x="271" y="53" width="214" text="Submitted on %(color:#990000)16-Apr-2014%" measuredWidth="214" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="177" x="230" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-reply-all (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="134" x="179" y="560" measuredWidth="1136" measuredHeight="77">
+    <widgets xsi:type="model:Panel" id="135" width="1136" height="77" measuredWidth="1136" measuredHeight="77" background="#ecf5ff" border="none"/>
+    <widgets xsi:type="model:Label" id="136" x="6" y="2" text="IACUC-14-00205 (W)" measuredWidth="144" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="137" x="6" y="24" text="National Heart Centre" measuredWidth="159" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="140" x="271" y="8" width="610" height="44" text="Impact of remote ischemic preconditioning preceding coronary artery bypass grafting on inducing neuroprotection (RIPCAGE): study protocol for a randomized controlled trial." measuredWidth="610" measuredHeight="44">
+      <font size="14px"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="141" x="256" y="6" height="65" measuredWidth="6" measuredHeight="65" foreground="#0b5394"/>
+    <widgets xsi:type="model:VLine" id="142" x="911" y="6" height="65" measuredWidth="6" measuredHeight="65" foreground="#0b5394"/>
+    <widgets xsi:type="model:Label" id="143" x="922" y="3" text="PR:- Dr. Lupe Talor" measuredWidth="109" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="144" x="922" y="21" text="SR:- Dr. Jerome Flach" measuredWidth="126" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="145" x="955" y="43" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="assets/fi-mail (medium)"/>
+    <widgets xsi:type="model:Icon" id="146" x="922" y="43" measuredWidth="24" measuredHeight="24" foreground="#999999" icon="assets/fa-comments (medium)"/>
+    <widgets xsi:type="model:Icon" id="147" x="880" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-ellipsis-h (medium)"/>
+    <widgets xsi:type="model:Label" id="148" x="6" y="53" width="181" text="Pending Committee Review" measuredWidth="181" measuredHeight="23" foreground="#990000">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="156" x="709" y="53" width="195" text="PI:- Dr. Truman Bauer" measuredWidth="195" measuredHeight="23" textAlignment="Right" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="157" x="271" y="53" width="214" text="Submitted on %(color:#990000)20-Apr-2014%" measuredWidth="214" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="178" x="230" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-reply-all (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="180" x="216" y="128" text="Pending Comm. Review" measuredWidth="223" measuredHeight="30" foreground="#990000" link="">
+    <font size="18px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="181" x="162" y="128" text="New" measuredWidth="44" measuredHeight="30" foreground="#0000ff" link="Sct_New_01New_Page01.1.screen">
+    <font size="18px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="182" x="450" y="128" text="Reviewed" measuredWidth="94" measuredHeight="30" foreground="#0000ff" link="Sct_New_03Review_Page01.1.screen">
+    <font size="18px" bold="true" underline="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

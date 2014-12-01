@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_00_Ctrl_Message.screen#/"/>
+    <overrides>
+      <widgets ref="13">
+        <attributes key="selection" value="1"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="46" x="323" y="200" text="Additional Comments" measuredWidth="127" measuredHeight="23">
+    <font bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="47" x="356" y="229" width="634" height="66" measuredWidth="634" measuredHeight="66" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="49" x="333" y="226" text="1." measuredWidth="16" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="51" x="454" y="197" measuredWidth="32" measuredHeight="32" icon="assets/ai-new-event (large)"/>
+  <widgets xsi:type="model:Icon" id="52" x="992" y="226" measuredWidth="24" measuredHeight="24" icon="delete (medium)"/>
+  <widgets xsi:type="model:WidgetGroup" id="53" x="1049" y="190" measuredWidth="17" measuredHeight="371">
+    <widgets xsi:type="model:VScrollbar" id="54" height="371" measuredWidth="17" measuredHeight="371" value="100"/>
+    <widgets xsi:type="model:Panel" id="55" width="17" height="331" measuredWidth="17" measuredHeight="331" alpha="64" border="none" link="Sct_RW_04_Msg_02Msg_Page03_New.screen"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="61" x="551" y="153" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="assets/fa-send (large)"/>
+  <widgets xsi:type="model:Label" id="62" x="323" y="154" text="Message" measuredWidth="65" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="Sct_RW_04_Msg_02Msg_Page01.screen">
+    <font size="14px" bold="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="63" x="384" y="154" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>
+  <widgets xsi:type="model:Label" id="64" x="406" y="154" text="New Message" measuredWidth="98" measuredHeight="25" textAlignment="Center" foreground="#990000">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="65" x="514" y="151" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:VLine" id="66" x="506" y="154" height="25" measuredWidth="6" measuredHeight="25"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

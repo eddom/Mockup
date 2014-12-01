@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_03Assign_Page01.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="522"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="373" y="54" width="630" height="360" measuredWidth="630" measuredHeight="360" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="383" y="97" width="610" measuredWidth="610" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="588" y="59" text="Notify Reviewers" measuredWidth="198" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="6" x="383" y="362" width="610" measuredWidth="610" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="582" y="377" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_03Assign_Page01.screen">
+    <widgets xsi:type="model:Panel" id="8" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="9" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="10" x="6" y="2" width="90" text="Send" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="692" y="377" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_03Assign_Page01.screen">
+    <widgets xsi:type="model:Panel" id="12" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="13" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="14" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="411" y="175" width="194" text="Additional Remarks" measuredWidth="194" measuredHeight="26">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="21" x="409" y="201" width="559" height="141" measuredWidth="559" measuredHeight="141" verticalScrollbar="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="411" y="120" width="121" text="Request to review by" measuredWidth="121" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="23" x="531" y="120" width="123" text="  16-May-2014" measuredWidth="123" measuredHeight="23"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

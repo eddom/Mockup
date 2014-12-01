@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="72" x="8" y="8" width="1100" height="753" locked="true" measuredWidth="1100" measuredHeight="753" foreground="#999999" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="73" x="16" y="50" width="1085" measuredWidth="1085" measuredHeight="6" foreground="#999999"/>
+  <widgets xsi:type="model:Label" id="74" x="24" y="18" text="Changes" measuredWidth="64" measuredHeight="28">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="75" x="1065" y="16" measuredWidth="32" measuredHeight="32" icon="delete (large)"/>
+  <widgets xsi:type="model:Label" id="76" x="24" y="64" text="Section J : Survival Surgery" measuredWidth="179" measuredHeight="28">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="89" x="18" y="101" measuredWidth="963" measuredHeight="161">
+    <widgets xsi:type="model:Image" id="80" measuredWidth="963" measuredHeight="161" src="../assets/Eddom/TrackChanges/002.png"/>
+    <widgets xsi:type="model:Image" id="79" x="14" y="58" width="937" measuredWidth="937" measuredHeight="94" src="../assets/Eddom/TrackChanges/001.png"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="90" x="18" y="265" measuredWidth="963" measuredHeight="166">
+    <widgets xsi:type="model:Image" id="81" measuredWidth="963" measuredHeight="166" src="../assets/Eddom/TrackChanges/003.png"/>
+    <widgets xsi:type="model:Image" id="84" x="234" y="58" measuredWidth="231" measuredHeight="28" src="../assets/Eddom/TrackChanges/004.png"/>
+    <widgets xsi:type="model:Image" id="85" x="462" y="55" measuredWidth="117" measuredHeight="32" src="../assets/Eddom/TrackChanges/005.png"/>
+    <widgets xsi:type="model:Image" id="86" x="232" y="89" measuredWidth="106" measuredHeight="29" src="../assets/Eddom/TrackChanges/006.png"/>
+    <widgets xsi:type="model:Image" id="87" x="335" y="90" measuredWidth="138" measuredHeight="26" src="../assets/Eddom/TrackChanges/007.png"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="88" x="18" y="436" measuredWidth="962" measuredHeight="261" src="../assets/Eddom/TrackChanges/008.png"/>
+  <widgets xsi:type="model:Image" id="91" x="40" y="488" measuredWidth="31" measuredHeight="25" src="../assets/Eddom/TrackChanges/009.png"/>
+  <widgets xsi:type="model:Image" id="92" x="40" y="626" measuredWidth="27" measuredHeight="26" src="../assets/Eddom/TrackChanges/010.png"/>
+  <widgets xsi:type="model:Image" id="93" x="68" y="488" measuredWidth="28" measuredHeight="26" src="../assets/Eddom/TrackChanges/011.png"/>
+  <widgets xsi:type="model:Image" id="94" x="64" y="627" measuredWidth="32" measuredHeight="24" src="../assets/Eddom/TrackChanges/012.png"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

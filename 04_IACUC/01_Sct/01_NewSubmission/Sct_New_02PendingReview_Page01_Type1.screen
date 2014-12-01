@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="101" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_New_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="28" x="162" y="164" width="1169" measuredWidth="1169" measuredHeight="45">
+    <widgets xsi:type="model:Panel" id="29" width="1169" height="45" measuredWidth="1169" measuredHeight="45" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Label" id="30" x="10" y="8" width="165" text="27 May 2014 (Tuesday)" measuredWidth="165" measuredHeight="26" foreground="#0000ff" link="../05_Meeting/02_Prepare/Sct_MeetingDetails_01Prepare_Page01.screen">
+      <font size="14px" bold="true" underline="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="60" x="1038" y="9" width="121" text="Total : 8" measuredWidth="121" measuredHeight="26" textAlignment="Right">
+      <font size="14px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="40" x="162" y="209" height="280" locked="true" measuredWidth="1169" measuredHeight="320">
+    <widgets xsi:type="model:Panel" id="36" width="1169" height="320" measuredWidth="1169" measuredHeight="320" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Panel" id="39" x="2" width="1165" height="318" measuredWidth="1165" measuredHeight="318" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="52" x="1343" y="154" height="527" measuredWidth="17" measuredHeight="527">
+    <widgets xsi:type="model:VScrollbar" id="53" height="526" measuredWidth="17" measuredHeight="526"/>
+    <widgets xsi:type="model:Panel" id="54" width="17" height="527" measuredWidth="17" measuredHeight="527" alpha="64" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="216" y="128" text="Pending Comm. Review" measuredWidth="223" measuredHeight="30" foreground="#990000" link="Sct_New_02PendingReview_Page01_Type2.screen">
+    <font size="18px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="162" y="128" text="New" measuredWidth="44" measuredHeight="30" foreground="#0000ff" link="Sct_New_01New_Page01.1.screen">
+    <font size="18px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="59" x="450" y="128" text="Reviewed" measuredWidth="94" measuredHeight="30" foreground="#0000ff" link="Sct_New_03Review_Page01.1.screen">
+    <font size="18px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="61" x="162" y="540" measuredWidth="1169" measuredHeight="45">
+    <widgets xsi:type="model:Panel" id="62" width="1169" height="45" measuredWidth="1169" measuredHeight="45" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Label" id="63" x="10" y="8" width="229" text="24 Jun 2014 (Tuesday)" measuredWidth="229" measuredHeight="26" foreground="#0000ff">
+      <font size="14px" bold="true" underline="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="64" x="1038" y="9" width="121" text="Total : 3" measuredWidth="121" measuredHeight="26" textAlignment="Right">
+      <font size="14px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="65" x="162" y="584" measuredWidth="1169" measuredHeight="100">
+    <widgets xsi:type="model:Panel" id="66" width="1169" measuredWidth="1169" measuredHeight="100" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Panel" id="67" x="2" width="1163" height="98" measuredWidth="1163" measuredHeight="98" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="47" x="168" y="616" width="1153" height="55" text="(w:40). ,(w:110).Submission Date,(w:160).IACUC Ref. No.,(w:20). ,(w:80).Institution,(w:170).PI's Name,Protocol Title,=(w:50).PR,=(w:50).SR,=(w:80). &#xA;{assets/fa-square-o},08-May-2014,IACUC/2014/SHS/00209,,NCC,Lee Yoke Kiew,To evaluate the efficacy ...,,,%(color:#999999){assets/fa-comments}  {assets/fi-mail}%  {assets/fa-ellipsis-h}" measuredWidth="1153" measuredHeight="55" rowHeight="28" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="68" x="164" y="668" width="1163" height="12" measuredWidth="1163" measuredHeight="12" border="none"/>
+  <widgets xsi:type="model:Table" id="76" x="168" y="243" width="1153" height="278" text="(w:40). ,(w:110).Submission Date,(w:160).IACUC Ref. No.,(w:20). ,(w:80).Institution,(w:170).PI's Name,Protocol Title,=(w:50).PR,=(w:50).SR,=(w:80). &#xA;{assets/fa-check-square-o},14-Apr-2014,IACUC/2014/SHS/00201,W,NCC,Lee Yoke Kiew,To evaluate the ...,LT,EF,%(color:#999999){assets/fa-comments}  {assets/fi-mail}%  {assets/fa-ellipsis-h}&#xA;{assets/fa-check-square-o},12-Apr-2014,IACUC/2014/SHS/00202,,NCC,Geraldine Teo Beng Yen,To evaluate the ...,BG,,%(color:#999999){assets/fa-comments}  {assets/fi-mail}%  {assets/fa-ellipsis-h}&#xA;{assets/fa-square-o},16-Apr-2014,IACUC/2014/SHS/00203,,NCC,Yang Shih Wei,To evaluate the ...,JF,MW,%(color:#999999){assets/fa-comments}  {assets/fi-mail}%  {assets/fa-ellipsis-h}&#xA;{assets/fa-square-o},16-Apr-2014,IACUC/2014/SHS/00204,,NHC,Chan Choon Lee,To evaluate the ...,,AH,%(color:#999999){assets/fa-comments}  {assets/fi-mail}%  {assets/fa-ellipsis-h}&#xA;{assets/fa-square-o},20-Apr-2014,IACUC/2014/SHS/00205,W,NHC,Jayden Tay Jieren,To evaluate the ...,LT,JF,%(color:#999999){assets/fa-comments}  {assets/fi-mail}%  {assets/fa-ellipsis-h}&#xA;{assets/fa-square-o},30-Apr-2014,IACUC/2014/SHS/00206,,SKH,Martin Leah Anne,To evaluate the ...,DL,EF,%(color:#999999){assets/fa-comments}  {assets/fi-mail}%  {assets/fa-ellipsis-h}&#xA;{assets/fa-square-o},07-May-2014,IACUC/2014/SHS/00207,,SKH,Khoo Boo Jin,To evaluate the ...,CLM,,%(color:#999999){assets/fa-comments}  {assets/fi-mail}%  {assets/fa-ellipsis-h}&#xA;{assets/fa-square-o},04-May-2014,IACUC/2014/SHS/00208,,SGH,Benjamin O'Brien,To evaluate the ...,FB,MW,%(color:#999999){assets/fa-comments}  {assets/fi-mail}%  {assets/fa-ellipsis-h}" measuredWidth="1153" measuredHeight="278" rowHeight="28" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="100" x="808" y="128" width="168" height="65" text="1. With review status or without" measuredWidth="168" measuredHeight="65" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="102" x="170" y="214" measuredWidth="24" measuredHeight="24" icon="assets/fa-reply-all (medium)" link="Sct_New_02PendingReview_Page02.screen"/>
+  <widgets xsi:type="model:Icon" id="103" x="203" y="214" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_02PendingReview_Page03.screen"/>
+  <widgets xsi:type="model:Icon" id="104" x="170" y="589" measuredWidth="24" measuredHeight="24" icon="assets/fa-reply-all (medium)" link="Sct_New_02PendingReview_Page02.screen"/>
+  <widgets xsi:type="model:Icon" id="105" x="203" y="589" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_02PendingReview_Page03.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

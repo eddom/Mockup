@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="350" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_01Prepare_Page01.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="39">
+        <object xsi:type="model:WidgetGroup" x="811" y="123">
+          <widgets xsi:type="model:Icon" x="6" y="6" icon="assets/fa-calendar (medium)"/>
+          <widgets xsi:type="model:Icon" width="36" height="36" foreground="#cc0000" icon="delete (large)"/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="37"/>
+      <widgets ref="30" text="Planned"/>
+      <widgets ref="36" link="Sct_MeetingDetails_01Prepare_Page01.screen">
+        <attributes key="icon" value="unsecure (large)"/>
+      </widgets>
+      <widgets ref="348" text="87"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

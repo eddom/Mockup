@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="37" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="162" y="128" measuredWidth="597" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="3">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+      <widgets ref="8/4">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="40" x="162" y="168" locked="true" measuredWidth="1167" measuredHeight="90" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../99_Common/05_Meeting/Ctrl_MeetingDetails_Header.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="41" x="522" y="341" width="447" height="25" text="Set meeting as Completed to proceed to enter review decisions." measuredWidth="447" measuredHeight="25">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" x="570" y="365" measuredWidth="350" measuredHeight="80" link="Sct_MeetingDetails_05Decision_Page02_ConfirmComplete.screen">
+    <widgets xsi:type="model:Panel" id="43" width="350" height="80" measuredWidth="350" measuredHeight="80" background="#38761d" border="none"/>
+    <widgets xsi:type="model:Panel" id="44" x="2" y="2" width="346" height="76" measuredWidth="346" measuredHeight="76" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Label" id="45" x="68" y="22" text="Meeting Completed" measuredWidth="214" measuredHeight="35" textAlignment="Center" foreground="#444444">
+      <font size="24px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Note" id="47" x="570" y="472" height="91" text="Logic Check&#xD;&#xA;1. Button shall be available only when Meeting Agenda was sent once." measuredWidth="397" measuredHeight="91" annotation="true" textAlignment="Left" alpha="128">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

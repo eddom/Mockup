@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="106" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="RV_RW_New_05_AppForm.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Text" id="101" x="1072" y="216" width="266" height="120" text="Logic Check&#xD;&#xA;1. &#x9;Comments stay in &quot;Pending Comments&quot; until it's sent to Secretariat." measuredWidth="266" measuredHeight="120" foreground="#ffffff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="319" y="54" width="744" height="603" locked="true" measuredWidth="744" measuredHeight="603" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="8" x="329" y="97" width="723" measuredWidth="723" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="22" x="608" y="59" measuredWidth="166" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="18" x="37" text="Comments" measuredWidth="129" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="19" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-comments (large)"/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="49" x="1029" y="160" height="441" measuredWidth="17" measuredHeight="441"/>
+  <widgets xsi:type="model:Text" id="50" x="363" y="196" width="617" height="17" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="617" measuredHeight="17">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="51" x="363" y="174" text="Section J: Survival Surgery" measuredWidth="161" measuredHeight="23">
+    <font bold="true" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="339" y="174" text="1." measuredWidth="16" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="53" x="363" y="246" width="617" height="17" text="How long after HIFU will euthanasia be carried out? Is it right after scanning?" measuredWidth="617" measuredHeight="17">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="363" y="224" text="Section M: Hazardous Agents" measuredWidth="176" measuredHeight="23">
+    <font bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="339" y="224" text="2." measuredWidth="16" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="56" x="363" y="296" width="659" height="77" text="According to Section E, 'Ten pigs will be used to establish the optimized parameters to remove kidney tissue efficiently. Ten pigs will be used to approve haemostasis effects'.&#xD;&#xA;&#xD;&#xA;Should the PI provide more details in Section G for the above procedures?  Could Dr. Fred Chua and/or the other vets to comment." measuredWidth="659" measuredHeight="77">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="57" x="363" y="274" text="Section G: Description of Experimental Design &amp; Animal Procedures" measuredWidth="394" measuredHeight="23">
+    <font bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="339" y="274" text="3." measuredWidth="16" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="61" x="980" y="223" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (small)" link="RV_RW_New_03_Comments_Page03_Edit.screen"/>
+  <widgets xsi:type="model:Icon" id="62" x="1002" y="223" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="delete (custom)"/>
+  <widgets xsi:type="model:Image" id="67" x="363" y="244" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Icon" id="69" x="980" y="273" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (small)" link="RV_RW_New_03_Comments_Page03_Edit.screen"/>
+  <widgets xsi:type="model:Icon" id="70" x="1002" y="273" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="delete (custom)"/>
+  <widgets xsi:type="model:Image" id="71" x="363" y="294" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Icon" id="72" x="980" y="173" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (small)" link="RV_RW_New_03_Comments_Page03_Edit.screen"/>
+  <widgets xsi:type="model:Icon" id="73" x="1002" y="173" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="delete (custom)"/>
+  <widgets xsi:type="model:Image" id="74" x="363" y="194" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Icon" id="40" x="976" y="104" measuredWidth="32" measuredHeight="32" icon="assets/ai-new-event (large)" link="RV_RW_New_03_Comments_Page02_New.screen"/>
+  <widgets xsi:type="model:Icon" id="93" x="1013" y="108" width="24" height="24" measuredWidth="24" measuredHeight="24" icon="assets/fa-send (large)" link="RV_RW_New_03_Comments_Page04_All.screen"/>
+  <widgets xsi:type="model:Text" id="96" x="345" y="138" width="617" height="17" text="Click {assets/ai-new-event} to add new comment or {assets/ai-email} to send pending comments below to secretariat." measuredWidth="617" measuredHeight="17" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="97" x="633" y="109" text="Pending Comments" measuredWidth="144" measuredHeight="26" textAlignment="Center">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="98" x="339" y="105" measuredWidth="65" measuredHeight="32" link="RV_RW_New_03_Comments_Page04_All.screen">
+    <widgets xsi:type="model:Icon" id="99" measuredWidth="32" measuredHeight="32" icon="assets/ai-storage (large)"/>
+    <widgets xsi:type="model:Label" id="100" x="29" y="4" text="Sent" measuredWidth="36" measuredHeight="25" textAlignment="Center" foreground="#0000ff">
+      <font size="14px" bold="false" underline="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="9" x="329" y="606" width="723" measuredWidth="723" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="14" x="640" y="621" measuredWidth="102" measuredHeight="26" link="RV_RW_New_05_AppForm.screen">
+    <widgets xsi:type="model:Panel" id="15" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="16" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="17" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="108" x="618" y="511" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (medium)" link="RV_RW_New_03_Comments_Page02_AAALAC.screen"/>
+  <widgets xsi:type="model:Table" id="110" x="363" y="534" width="640" height="57" text="Pain &amp; Distress Category,=(w:40).SS,=(w:40).MSS,=(w:40).FFR,=(w:40).PR,=(w:40).HAU,=(w:40).NCA&#xD;&#xA;Category 1\,2,{assets/fa-check}" measuredWidth="640" measuredHeight="57" rowHeight="28" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="111" x="336" y="510" text="Pain &amp; Distress Category / Special Consideration" measuredWidth="281" measuredHeight="23" foreground="#38761d">
+    <font bold="true" italic="false" underline="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

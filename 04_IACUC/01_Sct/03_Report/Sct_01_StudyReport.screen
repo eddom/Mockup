@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="4" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_00_IACUCFrame.screen#/"/>
+    <overrides>
+      <widgets ref="1/16">
+        <attributes key="background" value="#660000"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="248" y="136" text="User Interface for Secretariat to perform the following task" measuredWidth="815" measuredHeight="45">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="3" x="248" y="190" width="1105" height="473" text="- Listing for study reports (e.g. Annual Project Update Report, Final Project Report)&#xD;&#xA;- Extension request&#xD;&#xA;" measuredWidth="1105" measuredHeight="473">
+    <font size="24px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Cambria" size="12px"/>
+</model:Screen>

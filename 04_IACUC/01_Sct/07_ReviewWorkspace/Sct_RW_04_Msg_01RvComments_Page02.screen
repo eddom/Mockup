@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="94" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_00_Ctrl_Message.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="65" x="1050" y="186" height="378" measuredWidth="17" measuredHeight="378"/>
+  <widgets xsi:type="model:Text" id="66" x="366" y="237" width="617" height="17" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="617" measuredHeight="17">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="67" x="366" y="215" text="Section J: Survival Surgery" measuredWidth="160" measuredHeight="23">
+    <font bold="true" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="68" x="342" y="215" text="1." measuredWidth="15" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="69" x="366" y="287" width="617" height="17" text="How long after HIFU will euthanasia be carried out? Is it right after scanning?" measuredWidth="617" measuredHeight="17">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="70" x="366" y="265" text="Section M: Hazardous Agents" measuredWidth="175" measuredHeight="23">
+    <font bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="342" y="265" text="2." measuredWidth="15" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="72" x="366" y="337" width="659" height="77" text="According to Section E, 'Ten pigs will be used to establish the optimized parameters to remove kidney tissue efficiently. Ten pigs will be used to approve haemostasis effects'.&#xD;&#xA;&#xD;&#xA;Should the PI provide more details in Section G for the above procedures?  Could Dr. Fred Chua and/or the other vets to comment." measuredWidth="659" measuredHeight="77">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="73" x="366" y="315" text="Section G: Description of Experimental Design &amp; Animal Procedures" measuredWidth="393" measuredHeight="23">
+    <font bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="74" x="342" y="315" text="3." measuredWidth="15" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="75" x="366" y="285" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Image" id="76" x="366" y="335" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Image" id="77" x="366" y="235" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Label" id="82" x="862" y="152" width="206" text="Sent on 10-May-2014 10:00" measuredWidth="206" measuredHeight="23" textAlignment="Right">
+    <font size="12px" bold="false" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="84" x="321" y="186" text="Dr. Edison Fenstermacher" measuredWidth="190" measuredHeight="26">
+    <font size="14px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="91" x="366" y="546" width="172" text="Acknolwedge&#xD;&#xA;To be sent to Applicant" measuredWidth="172" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="92" x="316" y="549" width="49" height="17" text="Action" measuredWidth="49" measuredHeight="17">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="93" x="539" y="542" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:Label" id="95" x="319" y="154" text="Inbox" measuredWidth="39" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="Sct_RW_04_Msg_01RvComments_Page01.screen">
+    <font size="14px" bold="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="96" x="358" y="154" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>
+  <widgets xsi:type="model:Label" id="97" x="380" y="154" text="Reviewer's Comments" measuredWidth="154" measuredHeight="25" textAlignment="Center" foreground="#990000">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="98" x="366" y="450" width="640" height="90" text="(w:100).Species,Pain &amp; Distress Category,=(w:40).SS,=(w:40).MSS,=(w:40).FFR,=(w:40).PR,=(w:40).HAU,=(w:40).NCA&#xD;&#xA;Masaque,Category 1\,2,{assets/fa-check}&#xD;&#xA;Rats,Category 1,{assets/fa-check}" measuredWidth="640" measuredHeight="90" rowHeight="28" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="99" x="341" y="426" text="Pain &amp; Distress Category / Special Consideration" measuredWidth="280" measuredHeight="23" foreground="#38761d">
+    <font bold="true" italic="false" underline="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

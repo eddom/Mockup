@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_05Decision_Page04_NewApp.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="301" y="49" width="780" height="606" locked="true" measuredWidth="780" measuredHeight="606" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="315" y="97" width="755" measuredWidth="755" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="5" x="315" y="599" width="755" measuredWidth="755" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="639" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_05Decision_Page04_NewApp.screen">
+    <widgets xsi:type="model:Panel" id="7" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="8" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="9" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="409" y="59" text="Pain &amp; Distress Category / Special Consideration" measuredWidth="564" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="17" x="1050" y="146" height="445" measuredWidth="17" measuredHeight="445" link="Sct_MeetingDetails_05Decision_Page08_AAALAC.screen">
+    <widgets xsi:type="model:VScrollbar" id="18" height="445" measuredWidth="17" measuredHeight="445"/>
+    <widgets xsi:type="model:Panel" id="19" y="38" width="17" height="407" measuredWidth="17" measuredHeight="407" alpha="64" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="35" x="318" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:Label" id="36" x="397" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="808" y="109" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
+    <font size="14px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="38" x="385" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:WidgetGroup" id="157" x="311" y="263" measuredWidth="731" measuredHeight="330">
+    <widgets xsi:type="model:WidgetGroup" id="156" measuredWidth="731" measuredHeight="330">
+      <widgets xsi:type="model:Panel" id="153" width="731" height="330" measuredWidth="731" measuredHeight="330" background="#999999" border="none"/>
+      <widgets xsi:type="model:Panel" id="154" x="1" y="1" width="729" height="328" measuredWidth="729" measuredHeight="328" border="none"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="116" x="34" y="5" text="Masaque" measuredWidth="69" measuredHeight="26">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="117" x="7" y="3" measuredWidth="24" measuredHeight="24" icon="assets/fi-paw (medium)"/>
+    <widgets xsi:type="model:HLine" id="118" x="7" y="27" width="715" measuredWidth="715" measuredHeight="6" foreground="#666666"/>
+    <widgets xsi:type="model:Label" id="121" x="543" y="6" text="Number of Animal Applied" measuredWidth="146" measuredHeight="23" foreground="#666666">
+      <font size="12px" bold="false" italic="false" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="122" x="691" y="6" text=": 16" measuredWidth="25" measuredHeight="23">
+      <font size="12px" bold="false" italic="false" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="172" x="17" y="167" measuredWidth="705" measuredHeight="148">
+      <widgets xsi:type="model:Label" id="123" x="2" text="Reviewer's Input" measuredWidth="99" measuredHeight="23" foreground="#38761d">
+        <font bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Table" id="124" y="24" width="705" height="124" text="Reviewer,(w:220).Pain &amp; Distress Category,=(w:40).SS,=(w:40).MSS,=(w:40).FFR,=(w:40).PR,=(w:40).HAU,=(w:40).NCA&#xD;&#xA;Dr. Lupe Talor,Category 1\,2,{assets/fa-check}&#xD;&#xA;Dr. Edison Fenstermacher, Category 2,{assets/fa-check},{assets/fa-check}&#xD;&#xA;Prof. Chou Li Mei,Category 1\, 2,{assets/fa-check}" measuredWidth="705" measuredHeight="124" rowHeight="28" alternative="#eeeeee">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="173" x="17" y="37" measuredWidth="542" measuredHeight="118">
+      <widgets xsi:type="model:Label" id="135" x="2" text="Final Categorisation" measuredWidth="117" measuredHeight="23" foreground="#38761d">
+        <font bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Group" id="137" y="25" width="257" height="93" text="Pain &amp; Distress Category" measuredWidth="257" measuredHeight="93">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:List" id="112" x="14" y="42" text="[x] Category 1&#xA;[ ] Category 2&#xA;[ ] Category 3" measuredWidth="88" measuredHeight="70" border="false" alpha="0">
+        <font/>
+        <items x="0" y="2" width="88" height="22" text="[x] Category 1"/>
+        <items x="0" y="24" width="88" height="22" text="[ ] Category 2"/>
+        <items x="0" y="46" width="88" height="22" text="[ ] Category 3"/>
+      </widgets>
+      <widgets xsi:type="model:Group" id="138" x="285" y="25" width="257" height="93" text="Special Consideration" measuredWidth="257" measuredHeight="93">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:List" id="114" x="299" y="42" text="[x] SS&#xA;[x] MSS&#xA;[ ] FFR" measuredWidth="54" measuredHeight="70" border="false" alpha="0">
+        <font/>
+        <items x="0" y="2" width="54" height="22" text="[x] SS"/>
+        <items x="0" y="24" width="54" height="22" text="[x] MSS"/>
+        <items x="0" y="46" width="54" height="22" text="[ ] FFR"/>
+      </widgets>
+      <widgets xsi:type="model:List" id="136" x="423" y="42" text="[ ] PR&#xA;[ ] HAU&#xA;[ ] NCA" measuredWidth="54" measuredHeight="70" border="false" alpha="0">
+        <font/>
+        <items x="0" y="2" width="54" height="22" text="[ ] PR"/>
+        <items x="0" y="24" width="54" height="22" text="[ ] HAU"/>
+        <items x="0" y="46" width="54" height="22" text="[ ] NCA"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="158" x="350" y="106" measuredWidth="32" measuredHeight="32" icon="assets/fa-lock (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="169" x="318" y="136" measuredWidth="715" measuredHeight="124">
+    <widgets xsi:type="model:Text" id="139" x="36" y="37" width="271" height="87" text="\- Survival Surgery&#xD;&#xA;\- Multiple Survival Surgery&#xD;&#xA;\- Food or Fluid Regulation&#xD;&#xA;\- Prolonged Restraint&#xD;&#xA;\- Hazardous Agent Use&#xD;&#xA;\- Non-centralized Housing and/or Procedural Areas" measuredWidth="271" measuredHeight="87">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="140" y="37" width="46" height="87" text="SS&#xD;&#xA;MSS&#xD;&#xA;FFR&#xD;&#xA;PR&#xD;&#xA;HAU&#xD;&#xA;NCA" measuredWidth="46" measuredHeight="87">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="147" text="Legend" measuredWidth="47" measuredHeight="23">
+      <font size="12px" bold="true" underline="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="148" x="394" y="37" width="321" height="87" text="\- Minimal, Transient, or No Pain or Distress&#xD;&#xA;\- Pain or Distress Relieved by Appropriate Measures&#xD;&#xA;\- Unrelieved Pain" measuredWidth="321" measuredHeight="87">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="149" x="330" y="37" width="65" height="87" text="Category 1&#xD;&#xA;Category 2&#xD;&#xA;Category 3" measuredWidth="65" measuredHeight="87">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="167" y="17" text="Pain &amp; Distress Category" measuredWidth="150" measuredHeight="23">
+      <font size="12px" bold="true" italic="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="168" x="330" y="17" text="Special Consideration" measuredWidth="130" measuredHeight="23">
+      <font size="12px" bold="true" italic="true" underline="false"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="27" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_02PreCheck_Page01.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="373" y="54" width="630" height="420" measuredWidth="630" measuredHeight="420" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="383" y="97" width="610" measuredWidth="610" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="421" y="59" text="Notification for Chairman to Assign Reviewers" measuredWidth="534" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="6" x="383" y="419" width="610" measuredWidth="610" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="582" y="434" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_02PreCheck_Page01.screen">
+    <widgets xsi:type="model:Panel" id="8" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="9" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="10" x="6" y="2" width="90" text="Send" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="692" y="434" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_02PreCheck_Page01.screen">
+    <widgets xsi:type="model:Panel" id="12" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="13" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="14" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Text" id="16" x="401" y="122" width="564" height="17" text="Secretariat to select who will receive the notification" measuredWidth="564" measuredHeight="17" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="401" y="235" width="194" text="Additional Remarks" measuredWidth="194" measuredHeight="26">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="25" x="401" y="261" width="576" height="141" measuredWidth="576" measuredHeight="141" verticalScrollbar="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="28" x="401" y="156" text="Chairman (Dr. Christy Chan)" measuredWidth="176" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="29" x="401" y="186" text="Acting Chairman (Dr. Chua Seng Chye Winston)" measuredWidth="282" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

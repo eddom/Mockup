@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="394" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_01Prepare_Page01.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="342" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="343" x="462" y="54" width="423" height="563" measuredWidth="423" measuredHeight="563" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:Label" id="344" x="485" y="115" text="IACUC Members" measuredWidth="121" measuredHeight="26" foreground="#444444">
+    <font size="14px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="345" x="472" y="97" width="402" measuredWidth="402" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="346" x="575" y="59" text="Select Attendees" measuredWidth="196" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="347" x="738" y="115" text="Category" measuredWidth="69" measuredHeight="26" foreground="#444444">
+    <font size="14px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="349" x="485" y="140" text="Dr. Chua Seng Chye Winston" measuredWidth="181" measuredHeight="23" selected="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="350" x="485" y="165" text="Dr. Khanti Adie Sugiarto" measuredWidth="150" measuredHeight="23" selected="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="351" x="485" y="190" text="Dr. Christy Chan" measuredWidth="111" measuredHeight="23" selected="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="352" x="485" y="215" text="Dr. Wong Wei Lun Derek" measuredWidth="156" measuredHeight="23" selected="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="353" x="485" y="240" text="Dr. Michael Heller" measuredWidth="118" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="354" x="485" y="265" text="Prof. Chou Li Mei" measuredWidth="114" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="355" x="485" y="290" text="Dr. Dominique Lecompte" measuredWidth="159" measuredHeight="23" selected="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="356" x="485" y="315" text="Dr. Lupe Talor" measuredWidth="98" measuredHeight="23" selected="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="357" x="485" y="340" text="Dr. Edison Fenstermacher" measuredWidth="166" measuredHeight="23" selected="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="358" x="485" y="365" text="Prof. Brenton Gearhart" measuredWidth="143" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="361" x="485" y="390" text="Dr. Reynaldo Benavides" measuredWidth="153" measuredHeight="23" selected="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="362" x="485" y="415" text="Dr. Matt Westover" measuredWidth="116" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="363" x="485" y="531" text="8 members selected" measuredWidth="118" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="364" x="738" y="140" text="Veterinarian" measuredWidth="70" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="365" x="738" y="165" text="Veterinarian" measuredWidth="70" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="366" x="738" y="190" text="Scientist" measuredWidth="52" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="367" x="738" y="265" text="Scientist" measuredWidth="52" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="368" x="738" y="290" text="Scientist" measuredWidth="52" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="369" x="738" y="365" text="Scientist" measuredWidth="52" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="370" x="738" y="215" text="Scientist" measuredWidth="52" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="371" x="738" y="390" text="Non-scientist" measuredWidth="78" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="372" x="738" y="340" text="Non-scientist" measuredWidth="78" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="373" x="738" y="415" text="Not Affiliated" measuredWidth="72" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="374" x="738" y="240" text="Not Affiliated" measuredWidth="72" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="375" x="738" y="315" text="Veterinarian" measuredWidth="70" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="376" x="485" y="440" text="Dr. Dao Ciaran Christopher" measuredWidth="171" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="377" x="485" y="465" text="Dr. Liew Geok Cheng" measuredWidth="138" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="378" x="485" y="490" text="Dr. Myung Wol Laylock Moon" measuredWidth="176" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="379" x="738" y="440" text="Veterinarian" measuredWidth="70" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="381" x="738" y="465" text="Scientist" measuredWidth="52" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="382" x="738" y="490" text="Scientist" measuredWidth="52" measuredHeight="23" foreground="#444444">
+    <font size="12px" bold="false" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="383" x="854" y="106" height="415" measuredWidth="17" measuredHeight="415"/>
+  <widgets xsi:type="model:HLine" id="384" x="472" y="563" width="402" measuredWidth="402" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="385" x="567" y="578" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_01Prepare_Page01.screen">
+    <widgets xsi:type="model:Panel" id="386" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="387" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="388" x="6" y="2" width="90" text="Confirm" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="389" x="677" y="578" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_01Prepare_Page01.screen">
+    <widgets xsi:type="model:Panel" id="390" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="391" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="392" x="6" y="2" width="90" text="Cancel" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

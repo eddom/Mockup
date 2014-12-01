@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" measuredWidth="109" measuredHeight="525" dimmed="true">
+    <screen xsi:type="model:Screen" href="../99_Common/Ctrl_IACUC_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="30">
+        <attributes key="foreground" value="#999999"/>
+      </widgets>
+      <widgets ref="31">
+        <attributes key="foreground" value="#999999"/>
+      </widgets>
+      <widgets ref="33">
+        <attributes key="foreground" value="#999999"/>
+      </widgets>
+      <widgets ref="32">
+        <attributes key="foreground" value="#999999"/>
+      </widgets>
+      <widgets ref="1" link="01_NewSubmission/Sct_New_01New_Page01.1.screen"/>
+      <widgets ref="24" link="05_Meeting/01_Listing/Sct_MeetingListing_01.screen"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

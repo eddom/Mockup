@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="22" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_New_01New_Page01.1.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="205" y="54" width="972" height="611" measuredWidth="972" measuredHeight="611" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="215" y="97" width="952" measuredWidth="952" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="559" y="59" text="Schedule Applications" measuredWidth="264" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="6" x="215" y="613" width="952" measuredWidth="952" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="585" y="628" measuredWidth="102" measuredHeight="26" link="Sct_New_01New_Page01.1.screen">
+    <widgets xsi:type="model:Panel" id="8" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="9" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="10" x="6" y="2" width="90" text="Schedule" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="695" y="628" measuredWidth="102" measuredHeight="26" link="Sct_New_01New_Page01.1.screen">
+    <widgets xsi:type="model:Panel" id="12" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="13" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="14" x="6" y="2" width="90" text="Cancel" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="15" x="328" y="112" width="197" text="27-May-2014, Tuesday" measuredWidth="197" measuredHeight="25">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="223" y="112" text="Select Meeting" measuredWidth="101" measuredHeight="25">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="20" x="223" y="150" width="938" height="451" text="(w:50). ,(w:110).Submission Date,(w:160).IACUC Ref. No.,(w:20). ,(w:80).Institution,(w:180).PI's Name,Protocol Title&#xA;{checked},14-Apr-2014,IACUC/2014/SHS/00201,W,NCC,Lee Yoke Kiew,To evaluate the efficacy of antibiotics in ...&#xA;{checked},12-Apr-2014,IACUC/2014/SHS/00202,B,NCC,Geraldine Teo Beng Yen,To evaluate the efficacy of antibiotics in ...&#xA;{checked},16-Apr-2014,IACUC/2014/SHS/00203,,NCC,Yang Shih Wei,To evaluate the efficacy of antibiotics in ...&#xA;{checked},16-Apr-2014,IACUC/2014/SHS/00204,,NHC,Chan Choon Lee,To evaluate the efficacy of antibiotics in ...&#xA;{checked},20-Apr-2014,IACUC/2014/SHS/00205,W,NHC,Jayden Tay Jieren,To evaluate the efficacy of antibiotics in ...&#xA;{checked},30-Apr-2014,IACUC/2014/SHS/00206,,SKH,Martin Leah Anne,To evaluate the efficacy of antibiotics in ...&#xA;{checked},04-May-2014,IACUC/2014/SHS/00208,B,SGH,Benjamin O'Brien,To evaluate the efficacy of antibiotics in ...&#xA;{checked},07-May-2014,IACUC/2014/SHS/00207,,SKH,Khoo Boo Jin,To evaluate the efficacy of antibiotics in ...&#xA;{unchecked},09-May-2014,IACUC/2014/SHS/00212,,NHC,Chan Choon Lee,To evaluate the efficacy of antibiotics in ...&#xA;{unchecked},16-May-2014,IACUC/2014/SHS/00214,W,SKH,Liew Geok Cheng,To evaluate the efficacy of antibiotics in ...&#xA;{unchecked},19-May-2014,IACUC/2014/SHS/00215,W,SKH,Wong Wei Lun Derek,To evaluate the efficacy of antibiotics in ...&#xA;{unchecked},21-May-2014,IACUC/2014/SHS/00216,,SGH,Myung Wol Laylock Moon,To evaluate the efficacy of antibiotics in ...&#xA;{unchecked},22-May-2014,IACUC/2014/SHS/00213,,NHC,Reynaldo Benavides,To evaluate the efficacy of antibiotics in ..." measuredWidth="938" measuredHeight="451" verticalScrollbar="true" rowHeight="30" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

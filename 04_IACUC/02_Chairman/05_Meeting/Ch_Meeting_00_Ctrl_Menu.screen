@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" measuredWidth="597" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../99_Common/05_Meeting/Ctrl_MeetingDetails_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="6">
+        <attributes key="foreground" value="#cccccc"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#cccccc"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#cccccc"/>
+      </widgets>
+      <widgets ref="7">
+        <attributes key="foreground" value="#cccccc"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="foreground" value="#cccccc"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

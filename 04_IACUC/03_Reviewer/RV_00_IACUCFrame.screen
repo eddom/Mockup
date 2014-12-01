@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="2" x="1188" y="22" text="&quot;Reviewer&quot;" measuredWidth="87" measuredHeight="26" foreground="#ffffff">
+    <font size="14px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../01_Base/Frame/Frame_iSHaRe_Reviewer.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="20" y="130" measuredWidth="109" measuredHeight="525" dimmed="true">
+    <screen xsi:type="model:Screen" href="RV_00_IACUCMenu.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="20" y="695" text="248 Active Studies" measuredWidth="105" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

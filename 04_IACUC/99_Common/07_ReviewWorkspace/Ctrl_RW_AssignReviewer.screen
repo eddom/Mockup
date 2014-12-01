@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Text" id="1" x="13" y="301" width="523" height="120" text="Logic Check&#xD;&#xA;1. PI and Collaborators cannot be PR&#xD;&#xA;2. PI / Collaborators may become SR&#xD;&#xA;&#xD;&#xA;Query&#xD;&#xA;1. Can assigned PR / SR reject to review?&#xD;&#xA;2. Assigner who are PI or Collaborators should not perform assign reviewer?" measuredWidth="523" measuredHeight="120" foreground="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="13" y="13" width="600" height="268" measuredWidth="600" measuredHeight="268" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="3" x="23" y="56" width="578" measuredWidth="578" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="4" x="23" y="228" width="578" measuredWidth="578" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="5" x="207" y="243" measuredWidth="102" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="6" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="7" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="8" x="6" y="2" width="90" text="Assign" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="317" y="243" measuredWidth="102" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="10" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="11" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="12" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="31" y="75" text="Primary Reviewer" measuredWidth="102" measuredHeight="23" textAlignment="Center">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="15" x="161" y="75" width="280" text="Dr. Reynaldo Benavides" measuredWidth="280" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="31" y="103" text="Secondary Reviewer" measuredWidth="118" measuredHeight="23" textAlignment="Center">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="17" x="161" y="103" width="280" text="Dr. Edison Fenstermacher" measuredWidth="280" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="444" y="103" text="Membership Expired!" measuredWidth="122" measuredHeight="23" textAlignment="Center" foreground="#990000">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="161" y="136" text="Reviewers last assigned by Dr. Dominique Lecompte on 14-May-2014 15:35" measuredWidth="423" measuredHeight="23" textAlignment="Center" foreground="#666666">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="136" y="18" measuredWidth="353" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="20" x="38" text="Assign Protocol Reviewers" measuredWidth="315" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="21" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-results-demographics (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="31" y="204" text="Error: Dr. Reynaldo Benavides is PI / Collaborator of this study" measuredWidth="343" measuredHeight="23" textAlignment="Center" foreground="#990000">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

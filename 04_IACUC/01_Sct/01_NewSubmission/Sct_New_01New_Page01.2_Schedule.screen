@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="19" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_New_01New_Page01.1.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="501" y="54" width="380" height="323" measuredWidth="380" measuredHeight="323" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="511" y="97" width="360" measuredWidth="360" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="609" y="59" text="Select Meeting" measuredWidth="175" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="6" x="511" y="323" width="360" measuredWidth="360" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="585" y="338" measuredWidth="102" measuredHeight="26" link="Sct_New_01New_Page01.1.screen">
+    <widgets xsi:type="model:Panel" id="8" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="9" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="10" x="6" y="2" width="90" text="Schedule" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="695" y="338" measuredWidth="102" measuredHeight="26" link="Sct_New_01New_Page01.1.screen">
+    <widgets xsi:type="model:Panel" id="12" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="13" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="14" x="6" y="2" width="90" text="Cancel" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="15" x="567" y="112" width="78" text="2014" measuredWidth="78" measuredHeight="25">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="519" y="112" text="Year" measuredWidth="35" measuredHeight="25">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="17" x="519" y="150" width="346" height="158" text="(o) 27-May-2014, Tuesday&#xA;( ) 24-Jun-2014, Tuesday&#xA;( ) 29-Jul-2014, Tuesday&#xA;( ) 26-Aug-2014, Tuesday&#xA;( ) 30-Sep-2014, Tuesday" measuredWidth="346" measuredHeight="158" border="false" verticalScrollbar="true" alpha="0" rowHeight="30">
+    <font size="14px"/>
+    <items x="0" y="2" width="329" height="30" text="(o) 27-May-2014, Tuesday"/>
+    <items x="0" y="32" width="329" height="30" text="( ) 24-Jun-2014, Tuesday"/>
+    <items x="0" y="62" width="329" height="30" text="( ) 29-Jul-2014, Tuesday"/>
+    <items x="0" y="92" width="329" height="30" text="( ) 26-Aug-2014, Tuesday"/>
+    <items x="0" y="122" width="329" height="30" text="( ) 30-Sep-2014, Tuesday"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="5" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Ch_00_IACUCFrame.screen#/"/>
+    <overrides>
+      <widgets ref="1/34">
+        <attributes key="background" value="#660000"/>
+      </widgets>
+      <widgets ref="3/2/30">
+        <attributes key="background" value="#9fc5e8"/>
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="3/2/31">
+        <attributes key="background" value="#9fc5e8"/>
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="3/2/33">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+      <widgets ref="3/2/32">
+        <attributes key="foreground" value="#ffffff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="7" x="162" y="128" measuredWidth="1169" measuredHeight="525" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../99_Common/06_Appointed/Ctrl_Appointed_PendingComments.screen#/"/>
+    <overrides>
+      <widgets ref="5/2">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+      <widgets ref="3" link="../07_ReviewWorkspace/Ch_RW_New_05_AppForm.screen"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

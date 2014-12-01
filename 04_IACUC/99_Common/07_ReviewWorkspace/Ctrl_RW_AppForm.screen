@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:VLine" id="1" x="259" y="10" height="533" measuredWidth="6" measuredHeight="533"/>
+  <widgets xsi:type="model:Label" id="2" x="8" y="16" width="219" text="Information of IACUC" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="8" y="44" width="219" text="Declaration of Ethics / Biosafety Con..." measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="8" y="72" width="219" text="Study Funding Information" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="8" y="100" width="219" text="Section A: Administrative Data" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="8" y="128" width="219" text="Section B: Objectives of the Study" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="8" y="156" width="219" text="Section C: Abstract of the Study" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="8" y="184" width="219" text="Section D: Animal Requirements" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="8" y="212" width="219" text="Section E: Rationale of Animals" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="8" y="240" width="219" text="Section F: Transport of Animals" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="8" y="268" width="219" text="Section G: Description of Experimen..." measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="8" y="296" width="219" text="Section H: Humane Endpoint Criteria" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="8" y="324" width="219" text="Section I: Anaesthesia / Analgesia" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="8" y="352" width="219" text="Section J: Survival Surgery" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="8" y="380" width="219" text="Section K: Pain &amp; Distress Category" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="8" y="408" width="219" text="Section L: Method of Euthanasia / Ani..." measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="8" y="436" width="219" text="Section M: Hazardous Agents" measuredWidth="219" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="8" y="464" text="Section N: Biological Material / Anim..." measuredWidth="230" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="8" y="492" text="Section O: Special Concerns / or Requ..." measuredWidth="242" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="8" y="520" text="Section P: Unnecessary Duplication ..." measuredWidth="230" measuredHeight="24">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="1315" y="48" measuredWidth="17" measuredHeight="491">
+    <widgets xsi:type="model:VScrollbar" id="22" height="490" measuredWidth="17" measuredHeight="490"/>
+    <widgets xsi:type="model:Panel" id="23" width="17" height="491" measuredWidth="17" measuredHeight="491" alpha="64" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="24" x="266" y="38" width="1065" measuredWidth="1065" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="25" x="268" y="10" width="288" text="Section B: Objectives of the Study" measuredWidth="288" measuredHeight="27">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="26" x="238" y="11" measuredWidth="17" measuredHeight="532">
+    <widgets xsi:type="model:VScrollbar" id="27" height="530" measuredWidth="17" measuredHeight="530"/>
+    <widgets xsi:type="model:Panel" id="28" width="17" height="532" measuredWidth="17" measuredHeight="532" alpha="64" border="none"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

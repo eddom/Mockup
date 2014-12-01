@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="350" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="5" x="219" y="200" width="689" text="IACUC Monthly Review Meeting" measuredWidth="689" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="162" y="200" text="Subject" measuredWidth="48" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="162" y="227" text="Venue" measuredWidth="40" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="550" y="173" width="56" text="End Time" measuredWidth="56" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="441" y="173" width="88" text="09:00" measuredWidth="88" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="375" y="173" text="Start Time" measuredWidth="64" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="13" x="932" y="397" width="397" measuredWidth="397" measuredHeight="267" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../../assets/RichText.screen#/"/>
+    <overrides>
+      <widgets ref="1" x="-265" y="12" width="397" text="{text-bold} {text-italic} {text-underline} {separator} {list-bullet} {list-number}"/>
+      <widgets ref="2" x="-265" y="36" width="397" height="243" text="Note: xxxxxx xxxxx xxx xxxxxxxxxxxxx xxxxxxxxxxx">
+        <font size="12px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="932" y="368" text="Notes (For Secretariat Use Only)" measuredWidth="235" measuredHeight="26" foreground="#666666">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="162" y="173" text="Date" measuredWidth="31" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="18" x="608" y="173" width="88" text="17:00" measuredWidth="88" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="1004" y="173" text="Status :" measuredWidth="48" measuredHeight="23" textAlignment="Right" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="30" x="1056" y="173" width="113" text="Draft" measuredWidth="113" measuredHeight="23" state="disabled">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="35" x="760" y="127" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
+  <widgets xsi:type="model:Icon" id="36" x="768" y="125" measuredWidth="32" measuredHeight="32" icon="save (large)"/>
+  <widgets xsi:type="model:Icon" id="37" x="804" y="125" measuredWidth="32" measuredHeight="32" icon="secure (large)" link="Sct_MeetingDetails_01Prepare_Page03_Planned.screen"/>
+  <widgets xsi:type="model:Combo" id="294" x="1056" y="220" width="253" text="Dr. Chua Seng Chye Winston" measuredWidth="253" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="297" x="941" y="274" text="Quorum Required :" measuredWidth="111" measuredHeight="23" textAlignment="Right" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="331" x="162" y="128" measuredWidth="597" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="2">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+      <widgets ref="8/3">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="332" x="953" y="247" text="Total Attendees :" measuredWidth="99" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="338" x="162" y="368" measuredWidth="103" measuredHeight="26" link="Sct_MeetingDetails_01Prepare_Page02_AddAttendees.screen">
+    <widgets xsi:type="model:Label" id="19" text="Attendees" measuredWidth="77" measuredHeight="26" foreground="#666666">
+      <font size="14px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="38" x="79" y="1" measuredWidth="24" measuredHeight="24" icon="assets/ai-add-person (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="236" x="666" y="480" measuredWidth="242" measuredHeight="55">
+    <widgets xsi:type="model:Panel" id="237" width="242" height="54" measuredWidth="242" measuredHeight="54" background="#000000" border="none"/>
+    <widgets xsi:type="model:Panel" id="238" x="1" y="1" width="240" height="52" measuredWidth="240" measuredHeight="52" border="none"/>
+    <widgets xsi:type="model:Label" id="239" x="6" y="1" width="210" text="Dr. Wong Wei Lun Derek" measuredWidth="210" measuredHeight="23">
+      <font size="12px" bold="true" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="240" x="24" y="20" width="192" text="Tang_Kong_Yee@SingHealth.com.sg" measuredWidth="192" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="241" x="24" y="33" width="89" text="+6588382911" measuredWidth="89" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="242" x="221" y="3" width="18" height="18" measuredWidth="18" measuredHeight="18" icon="assets/fi-x (custom)"/>
+    <widgets xsi:type="model:Icon" id="243" x="6" y="37" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-phone (small)"/>
+    <widgets xsi:type="model:Icon" id="244" x="6" y="22" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-envelope (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="245" x="162" y="480" measuredWidth="242" measuredHeight="55">
+    <widgets xsi:type="model:Panel" id="246" width="242" height="54" measuredWidth="242" measuredHeight="54" background="#000000" border="none"/>
+    <widgets xsi:type="model:Panel" id="247" x="1" y="1" width="240" height="52" measuredWidth="240" measuredHeight="52" border="none"/>
+    <widgets xsi:type="model:Label" id="248" x="6" y="1" width="210" text="Dr. Michael Heller" measuredWidth="210" measuredHeight="23">
+      <font size="12px" bold="true" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="249" x="24" y="20" width="192" text="Tang_Kong_Yee@SingHealth.com.sg" measuredWidth="192" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="250" x="24" y="33" width="89" text="+6588382911" measuredWidth="89" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="251" x="221" y="3" width="18" height="18" measuredWidth="18" measuredHeight="18" icon="assets/fi-x (custom)"/>
+    <widgets xsi:type="model:Icon" id="252" x="6" y="37" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-phone (small)"/>
+    <widgets xsi:type="model:Icon" id="253" x="6" y="22" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-envelope (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="254" x="162" y="538" measuredWidth="242" measuredHeight="55">
+    <widgets xsi:type="model:Panel" id="255" width="242" height="54" measuredWidth="242" measuredHeight="54" background="#000000" border="none"/>
+    <widgets xsi:type="model:Panel" id="256" x="1" y="1" width="240" height="52" measuredWidth="240" measuredHeight="52" border="none"/>
+    <widgets xsi:type="model:Label" id="257" x="6" y="1" width="210" text="Prof. Chou Li Mei" measuredWidth="210" measuredHeight="23">
+      <font size="12px" bold="true" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="258" x="24" y="20" width="192" text="Tang_Kong_Yee@SingHealth.com.sg" measuredWidth="192" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="259" x="24" y="33" width="89" text="+6588382911" measuredWidth="89" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="260" x="221" y="3" width="18" height="18" measuredWidth="18" measuredHeight="18" icon="assets/fi-x (custom)"/>
+    <widgets xsi:type="model:Icon" id="261" x="6" y="37" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-phone (small)"/>
+    <widgets xsi:type="model:Icon" id="262" x="6" y="22" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-envelope (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="263" x="666" y="421" measuredWidth="242" measuredHeight="55">
+    <widgets xsi:type="model:Panel" id="264" width="242" height="54" measuredWidth="242" measuredHeight="54" background="#000000" border="none"/>
+    <widgets xsi:type="model:Panel" id="265" x="1" y="1" width="240" height="52" measuredWidth="240" measuredHeight="52" border="none"/>
+    <widgets xsi:type="model:Label" id="266" x="6" y="1" width="210" text="Dr. Faustino Buckalew" measuredWidth="210" measuredHeight="23">
+      <font size="12px" bold="true" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="267" x="24" y="20" width="192" text="Tang_Kong_Yee@SingHealth.com.sg" measuredWidth="192" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="268" x="24" y="33" width="89" text="+6588382911" measuredWidth="89" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="269" x="221" y="3" width="18" height="18" measuredWidth="18" measuredHeight="18" icon="assets/fi-x (custom)"/>
+    <widgets xsi:type="model:Icon" id="270" x="6" y="37" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-phone (small)"/>
+    <widgets xsi:type="model:Icon" id="271" x="6" y="22" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-envelope (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="272" x="414" y="538" measuredWidth="242" measuredHeight="55">
+    <widgets xsi:type="model:Panel" id="273" width="242" height="54" measuredWidth="242" measuredHeight="54" background="#000000" border="none"/>
+    <widgets xsi:type="model:Panel" id="274" x="1" y="1" width="240" height="52" measuredWidth="240" measuredHeight="52" border="none"/>
+    <widgets xsi:type="model:Label" id="275" x="6" y="1" width="210" text="Dr. Dominique Lecompte" measuredWidth="210" measuredHeight="23">
+      <font size="12px" bold="true" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="276" x="24" y="20" width="192" text="Tang_Kong_Yee@SingHealth.com.sg" measuredWidth="192" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="277" x="24" y="33" width="89" text="+6588382911" measuredWidth="89" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="278" x="221" y="3" width="18" height="18" measuredWidth="18" measuredHeight="18" icon="assets/fi-x (custom)"/>
+    <widgets xsi:type="model:Icon" id="279" x="6" y="37" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-phone (small)"/>
+    <widgets xsi:type="model:Icon" id="280" x="6" y="22" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-envelope (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="299" x="162" y="421" measuredWidth="242" measuredHeight="55">
+    <widgets xsi:type="model:Panel" id="300" width="242" height="54" measuredWidth="242" measuredHeight="54" background="#000000" border="none"/>
+    <widgets xsi:type="model:Panel" id="301" x="1" y="1" width="240" height="52" measuredWidth="240" measuredHeight="52" border="none"/>
+    <widgets xsi:type="model:Label" id="302" x="6" y="1" width="210" text="Dr. Chua Seng Chye Winston" measuredWidth="210" measuredHeight="23">
+      <font size="12px" bold="true" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="303" x="24" y="20" width="192" text="Tang_Kong_Yee@SingHealth.com.sg" measuredWidth="192" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="304" x="24" y="33" width="89" text="+6588382911" measuredWidth="89" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="305" x="221" y="3" width="18" height="18" measuredWidth="18" measuredHeight="18" icon="assets/fi-x (custom)"/>
+    <widgets xsi:type="model:Icon" id="306" x="6" y="37" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-phone (small)"/>
+    <widgets xsi:type="model:Icon" id="307" x="6" y="22" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-envelope (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="308" x="414" y="421" measuredWidth="242" measuredHeight="55">
+    <widgets xsi:type="model:Panel" id="309" width="242" height="54" measuredWidth="242" measuredHeight="54" background="#000000" border="none"/>
+    <widgets xsi:type="model:Panel" id="310" x="1" y="1" width="240" height="52" measuredWidth="240" measuredHeight="52" border="none"/>
+    <widgets xsi:type="model:Label" id="311" x="6" y="1" width="210" text="Dr. Khanti Adie Sugiarto" measuredWidth="210" measuredHeight="23">
+      <font size="12px" bold="true" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="312" x="24" y="20" width="192" text="Tang_Kong_Yee@SingHealth.com.sg" measuredWidth="192" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="313" x="24" y="33" width="89" text="+6588382911" measuredWidth="89" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="314" x="221" y="3" width="18" height="18" measuredWidth="18" measuredHeight="18" icon="assets/fi-x (custom)"/>
+    <widgets xsi:type="model:Icon" id="315" x="6" y="37" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-phone (small)"/>
+    <widgets xsi:type="model:Icon" id="316" x="6" y="22" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-envelope (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="317" x="414" y="480" measuredWidth="242" measuredHeight="55">
+    <widgets xsi:type="model:Panel" id="318" width="242" height="54" measuredWidth="242" measuredHeight="54" background="#000000" border="none"/>
+    <widgets xsi:type="model:Panel" id="319" x="1" y="1" width="240" height="52" measuredWidth="240" measuredHeight="52" border="none"/>
+    <widgets xsi:type="model:Label" id="320" x="6" y="1" width="210" text="Dr. Christy Chan" measuredWidth="210" measuredHeight="23">
+      <font size="12px" bold="true" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="321" x="24" y="20" width="192" text="Tang_Kong_Yee@SingHealth.com.sg" measuredWidth="192" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="322" x="24" y="33" width="89" text="+6588382911" measuredWidth="89" measuredHeight="22" foreground="#666666">
+      <font size="11px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="323" x="221" y="3" width="18" height="18" measuredWidth="18" measuredHeight="18" icon="assets/fi-x (custom)"/>
+    <widgets xsi:type="model:Icon" id="324" x="6" y="37" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-phone (small)"/>
+    <widgets xsi:type="model:Icon" id="325" x="6" y="22" width="14" height="14" measuredWidth="14" measuredHeight="14" foreground="#666666" icon="assets/fa-envelope (small)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="337" x="162" y="394" text="Veterinarian" measuredWidth="83" measuredHeight="24" foreground="#38761d">
+    <font size="13px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="339" x="414" y="394" text="Scientist" measuredWidth="59" measuredHeight="24" foreground="#38761d">
+    <font size="13px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="340" x="666" y="394" text="Non-scientist / Not Affiliated" measuredWidth="179" measuredHeight="24" foreground="#38761d">
+    <font size="13px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="342" x="219" y="227" width="689" height="99" text="Office of Research Meeting Room&#xD;&#xA;20 College Road,&#xD;&#xA;The Academia, Level 7,&#xD;&#xA;Discovery Tower,&#xD;&#xA;Singapore 169856" measuredWidth="689" measuredHeight="99">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="343" x="219" y="173" width="114" text="27-May-2014" measuredWidth="114" measuredHeight="23"/>
+  <widgets xsi:type="model:TextField" id="345" x="1056" y="247" width="113" text="8 of 13" measuredWidth="113" measuredHeight="23" state="disabled">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="346" x="1056" y="274" width="113" text="7" measuredWidth="113" measuredHeight="23" state="disabled">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="347" x="947" y="220" text="Acting Chairman :" measuredWidth="105" measuredHeight="23" textAlignment="Right" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="348" x="864" y="173" width="44" measuredWidth="44" measuredHeight="23" state="disabled">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="349" x="762" y="173" width="101" text="Meeting Number" measuredWidth="101" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="351" x="986" y="197" text="Chairman :" measuredWidth="66" measuredHeight="23" textAlignment="Right" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="352" x="1056" y="197" text="Not Available" measuredWidth="78" measuredHeight="23" textAlignment="Right" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

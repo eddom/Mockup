@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="258" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="162" y="128" measuredWidth="597" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="4">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+      <widgets ref="8/5">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="154" x="760" y="127" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
+  <widgets xsi:type="model:Icon" id="156" x="768" y="125" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:Icon" id="157" x="799" y="125" measuredWidth="32" measuredHeight="32" icon="assets/ai-send-now (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="158" x="1343" y="159" height="521" measuredWidth="17" measuredHeight="521">
+    <widgets xsi:type="model:WidgetGroup" id="159" height="521" measuredWidth="17" measuredHeight="521">
+      <widgets xsi:type="model:VScrollbar" id="160" height="521" measuredWidth="17" measuredHeight="521"/>
+      <widgets xsi:type="model:Panel" id="162" y="45" width="17" height="474" measuredWidth="17" measuredHeight="474" alpha="64" border="none" link="Sct_MeetingDetails_04Material_Page04.screen"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="173" x="240" y="200" width="668" text="IACUC Monthly Review Meeting" measuredWidth="668" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="174" x="162" y="200" text="Subject" measuredWidth="48" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="175" x="162" y="227" text="Venue" measuredWidth="40" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="179" x="162" y="173" text="Date" measuredWidth="31" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="182" x="240" y="227" width="668" height="99" text="Office of Research Meeting Room&#xD;&#xA;20 College Road,&#xD;&#xA;The Academia, Level 7,&#xD;&#xA;Discovery Tower,&#xD;&#xA;Singapore 169856" measuredWidth="668" measuredHeight="99">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="185" x="240" y="355" width="210" text="Dr. Chua Seng Chye Winston" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="186" x="240" y="382" width="210" text="Dr. Khanti Adie Sugiarto" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="187" x="240" y="409" width="210" text="Dr. Christy Chan" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="188" x="240" y="436" width="210" text="Dr. Wong Wei Lun Derek" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="189" x="240" y="464" width="210" text="Dr. Michael Heller" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="190" x="240" y="491" width="210" text="Prof. Chou Li Mei" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="191" x="240" y="518" width="210" text="Dr. Faustino Buckalew" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="192" x="240" y="545" width="210" text="Dr. Dominique Lecompte" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="212" x="528" y="355" width="210" text="Dr. Lupe Talor" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="213" x="528" y="383" width="210" text="Dr. Edison Fenstermacher" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="214" x="528" y="410" width="210" text="Prof. Brenton Gearhart" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="215" x="528" y="437" width="210" text="Dr. Reynaldo Benavides" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="216" x="528" y="464" width="210" text="Dr. Matt Westover" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="229" x="162" y="355" text="Attending" measuredWidth="59" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="230" x="453" y="355" text="Apologies" measuredWidth="61" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="235" x="528" y="491" width="210" text="Dr. Dao Ciaran Christopher" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="236" x="528" y="518" width="210" text="Dr. Liew Geok Cheng" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="237" x="528" y="545" width="210" text="Dr. Myung Wol Laylock Moon" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="238" x="720" y="355" text="Secretariat" measuredWidth="69" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="239" x="806" y="355" width="210" text="Ms. Serene Lok" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="240" x="806" y="382" width="210" text="Dr. John Coe" measuredWidth="210" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="251" x="240" y="173" width="114" text="27-May-2014" measuredWidth="114" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="252" x="550" y="173" width="56" text="End Time" measuredWidth="56" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="253" x="441" y="173" width="88" text="09:00" measuredWidth="88" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="254" x="375" y="173" text="Start Time" measuredWidth="64" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="255" x="608" y="173" width="88" text="17:00" measuredWidth="88" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="256" x="864" y="173" width="44" text="87" measuredWidth="44" measuredHeight="23" state="disabled">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="257" x="762" y="173" width="101" text="Meeting Number" measuredWidth="101" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="259" x="162" y="583" text="Agenda" measuredWidth="76" measuredHeight="32" foreground="#0b5394">
+    <font size="20px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="260" x="200" y="649" text="Confirmation of previous meeting minutes" measuredWidth="291" measuredHeight="25">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="261" x="175" y="624" text="1. Meeting Minutes" measuredWidth="137" measuredHeight="25">
+    <font size="14px" bold="true" italic="true" underline="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="1" x="303" y="8" text="My Review Studies" measuredWidth="149" measuredHeight="27" foreground="#0000ff">
+    <font size="16px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="8" y="8" text="Pending Comments" measuredWidth="156" measuredHeight="27" foreground="#0000ff">
+    <font size="16px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="169" y="8" width="128" text="Pending Review" measuredWidth="128" measuredHeight="27" foreground="#0000ff">
+    <font size="16px" bold="true" underline="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

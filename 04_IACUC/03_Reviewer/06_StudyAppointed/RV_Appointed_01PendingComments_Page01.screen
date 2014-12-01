@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="11" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="RV_Appointed_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="162" y="128" measuredWidth="1169" measuredHeight="525" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../99_Common/06_Appointed/Ctrl_Appointed_PendingComments.screen#/"/>
+    <overrides>
+      <widgets ref="5/2">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+      <widgets ref="5/3" link="RV_Appointed_02PendingReview_Page01.screen"/>
+      <widgets ref="5/1" link="RV_Appointed_03MyReviewStudy_Page01.screen"/>
+      <widgets ref="3" link="../07_ReviewWorkspace/01_New/RV_RW_New_05_AppForm.screen"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>
