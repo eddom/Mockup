@@ -43,7 +43,7 @@
   </widgets>
   <widgets xsi:type="model:Icon" id="51" x="318" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
   <widgets xsi:type="model:Icon" id="55" x="355" y="106" measuredWidth="32" measuredHeight="32" icon="assets/fi-mail (large)" link="Sct_MD_05Decision_04_NewApp.screen"/>
-  <widgets xsi:type="model:WidgetGroup" id="58" x="1050" y="109" measuredWidth="17" measuredHeight="482" link="Sct_MD_05Decision_Page10_NewAppComments.screen">
+  <widgets xsi:type="model:WidgetGroup" id="58" x="1050" y="109" measuredWidth="17" measuredHeight="482" link="Sct_MD_05Decision_07_Comments_Page02.screen">
     <widgets xsi:type="model:VScrollbar" id="59" height="482" measuredWidth="17" measuredHeight="482"/>
     <widgets xsi:type="model:Panel" id="60" y="39" width="17" height="443" measuredWidth="17" measuredHeight="443" alpha="64" border="none"/>
   </widgets>

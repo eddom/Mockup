@@ -33,7 +33,7 @@
   <widgets xsi:type="model:Checkbox" id="39" x="369" y="155" text="Include as comments to Applicant" measuredWidth="205" measuredHeight="23" selected="true">
     <font/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="43" x="1050" y="109" measuredWidth="17" measuredHeight="482" link="Sct_MD_05Decision_Page09_NewAppComments.screen">
+  <widgets xsi:type="model:WidgetGroup" id="43" x="1050" y="109" measuredWidth="17" measuredHeight="482" link="Sct_MD_05Decision_07_Comments_Page01.screen">
     <widgets xsi:type="model:VScrollbar" id="44" height="482" measuredWidth="17" measuredHeight="482" value="100"/>
     <widgets xsi:type="model:Panel" id="45" width="17" height="444" measuredWidth="17" measuredHeight="444" alpha="64" border="none"/>
   </widgets>

@@ -71,15 +71,15 @@
       <items x="0" y="46" width="54" height="22" text="[ ] NCA"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Icon" id="158" x="318" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
-  <widgets xsi:type="model:Label" id="159" x="397" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
-    <font size="18px" bold="true"/>
-  </widgets>
   <widgets xsi:type="model:Label" id="160" x="808" y="109" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
     <font size="14px" bold="true" italic="false"/>
   </widgets>
-  <widgets xsi:type="model:VLine" id="161" x="385" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
-  <widgets xsi:type="model:Icon" id="162" x="350" y="106" measuredWidth="32" measuredHeight="32" icon="assets/fa-lock (large)"/>
+  <widgets xsi:type="model:Icon" id="163" x="598" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:Label" id="164" x="318" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="165" x="590" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:Icon" id="166" x="630" y="106" measuredWidth="32" measuredHeight="32" icon="assets/fa-lock (large)"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

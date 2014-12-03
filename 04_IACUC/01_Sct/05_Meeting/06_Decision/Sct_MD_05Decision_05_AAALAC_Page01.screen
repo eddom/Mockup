@@ -21,14 +21,14 @@
     <widgets xsi:type="model:VScrollbar" id="18" height="445" measuredWidth="17" measuredHeight="445"/>
     <widgets xsi:type="model:Panel" id="19" y="38" width="17" height="407" measuredWidth="17" measuredHeight="407" alpha="64" border="none"/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="35" x="318" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
-  <widgets xsi:type="model:Label" id="36" x="397" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+  <widgets xsi:type="model:Icon" id="35" x="598" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:Label" id="36" x="318" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
     <font size="18px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="37" x="808" y="109" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
     <font size="14px" bold="true" italic="false"/>
   </widgets>
-  <widgets xsi:type="model:VLine" id="38" x="385" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:VLine" id="38" x="590" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
   <widgets xsi:type="model:WidgetGroup" id="157" x="311" y="263" measuredWidth="731" measuredHeight="330">
     <widgets xsi:type="model:WidgetGroup" id="156" measuredWidth="731" measuredHeight="330">
       <widgets xsi:type="model:Panel" id="153" width="731" height="330" measuredWidth="731" measuredHeight="330" background="#999999" border="none"/>
@@ -83,7 +83,7 @@
       </widgets>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Icon" id="158" x="350" y="106" measuredWidth="32" measuredHeight="32" icon="assets/fa-lock (large)"/>
+  <widgets xsi:type="model:Icon" id="158" x="630" y="106" measuredWidth="32" measuredHeight="32" icon="assets/fa-lock (large)"/>
   <widgets xsi:type="model:WidgetGroup" id="169" x="318" y="136" measuredWidth="715" measuredHeight="124">
     <widgets xsi:type="model:Text" id="139" x="36" y="37" width="271" height="87" text="\- Survival Surgery&#xD;&#xA;\- Multiple Survival Surgery&#xD;&#xA;\- Food or Fluid Regulation&#xD;&#xA;\- Prolonged Restraint&#xD;&#xA;\- Hazardous Agent Use&#xD;&#xA;\- Non-centralized Housing and/or Procedural Areas" measuredWidth="271" measuredHeight="87">
       <font size="11px"/>
@@ -106,6 +106,9 @@
     <widgets xsi:type="model:Label" id="168" x="330" y="17" text="Special Consideration" measuredWidth="130" measuredHeight="23">
       <font size="12px" bold="true" italic="true" underline="false"/>
     </widgets>
+  </widgets>
+  <widgets xsi:type="model:Note" id="174" x="1111" y="67" width="242" height="102" text="Clarified&#xD;&#xA;1. Pain &amp; Distress / Special Consideration are not allowed to edit after protocol approved." measuredWidth="242" measuredHeight="102" annotation="true" textAlignment="Left">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>

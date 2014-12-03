@@ -42,7 +42,7 @@
   <widgets xsi:type="model:Label" id="19" x="162" y="269" text="New Application" measuredWidth="117" measuredHeight="26" foreground="#38761d">
     <font size="14px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="29" x="1298" y="329" measuredWidth="24" measuredHeight="220" link="Sct_MD_05Decision_Page09_NewAppComments.screen">
+  <widgets xsi:type="model:WidgetGroup" id="29" x="1298" y="329" measuredWidth="24" measuredHeight="220" link="Sct_MD_05Decision_07_Comments_Page01.screen">
     <widgets xsi:type="model:Icon" id="21" measuredWidth="24" measuredHeight="24" foreground="#38761d" icon="assets/fi-mail (medium)"/>
     <widgets xsi:type="model:Icon" id="22" y="28" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)"/>
     <widgets xsi:type="model:Icon" id="23" y="56" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)"/>
