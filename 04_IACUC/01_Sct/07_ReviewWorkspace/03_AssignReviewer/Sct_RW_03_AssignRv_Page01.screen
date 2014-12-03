@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="41" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_RW_00_Base_AppForm_PendingCommReview.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Master" id="58" x="349" y="54" locked="true" measuredWidth="684" measuredHeight="628" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../99_Common/07_ReviewWorkspace/Ctrl_RW_AssignReviewer.screen#/"/>
+    <overrides>
+      <widgets ref="5" link="../Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
+      <widgets ref="9" link="../Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

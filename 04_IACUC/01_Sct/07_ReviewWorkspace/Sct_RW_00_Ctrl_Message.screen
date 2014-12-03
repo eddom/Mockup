@@ -25,8 +25,8 @@
     <items x="156" y="0" width="72" height="27" text="Message"/>
     <font/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="14" x="464" y="114" width="73" height="26" measuredWidth="73" measuredHeight="26" background="#cfe2f3" alpha="64" border="none" link="Sct_RW_04_Msg_02Msg_Page01.screen"/>
-  <widgets xsi:type="model:Panel" id="16" x="317" y="114" width="145" height="26" measuredWidth="145" measuredHeight="26" background="#cfe2f3" alpha="64" border="none" link="Sct_RW_04_Msg_01RvComments_Page01.screen"/>
+  <widgets xsi:type="model:Panel" id="14" x="464" y="114" width="73" height="26" measuredWidth="73" measuredHeight="26" background="#cfe2f3" alpha="64" border="none" link="04_Message/Sct_RW_04_Msg_02Msg_Page01.screen"/>
+  <widgets xsi:type="model:Panel" id="16" x="317" y="114" width="145" height="26" measuredWidth="145" measuredHeight="26" background="#cfe2f3" alpha="64" border="none" link="04_Message/Sct_RW_04_Msg_01RvComments_Page01.screen"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

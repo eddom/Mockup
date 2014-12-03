@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="2" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_RW_00_Ctrl_Message.screen#/"/>
+    <screen xsi:type="model:Screen" href="../Sct_RW_00_Ctrl_Message.screen#/"/>
     <overrides>
       <widgets ref="13">
         <attributes key="selection" value="1"/>
@@ -20,7 +20,7 @@
   <widgets xsi:type="model:Label" id="7" x="335" y="225" text="1." measuredWidth="15" measuredHeight="23">
     <font size="12px" bold="false" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Image" id="8" x="359" y="245" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Image" id="8" x="359" y="245" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
   <widgets xsi:type="model:WidgetGroup" id="17" x="1049" y="190" measuredWidth="17" measuredHeight="371">
     <widgets xsi:type="model:VScrollbar" id="18" height="371" measuredWidth="17" measuredHeight="371"/>
     <widgets xsi:type="model:Panel" id="19" y="40" width="17" height="331" measuredWidth="17" measuredHeight="331" alpha="64" border="none" link="Sct_RW_04_Msg_03Msg_Page09_Sent.screen"/>
@@ -37,7 +37,7 @@
   <widgets xsi:type="model:Label" id="46" x="335" y="305" text="2." measuredWidth="15" measuredHeight="23">
     <font size="12px" bold="false" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Image" id="47" x="359" y="325" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Image" id="47" x="359" y="325" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
   <widgets xsi:type="model:Label" id="55" x="323" y="154" text="Message" measuredWidth="64" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="Sct_RW_04_Msg_02Msg_Page01.screen">
     <font size="14px" bold="false" underline="true"/>
   </widgets>

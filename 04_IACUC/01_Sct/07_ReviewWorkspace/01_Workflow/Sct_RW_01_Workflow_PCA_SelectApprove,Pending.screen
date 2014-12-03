@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="37" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_RW_00_Base_AppForm_PendingCommApproval.screen#/"/>
+    <screen xsi:type="model:Screen" href="../Sct_RW_00_Base_AppForm_PendingCommApproval.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="3" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
   <widgets xsi:type="model:Master" id="49" x="319" y="54" measuredWidth="744" measuredHeight="523" dimmed="true">
-    <screen xsi:type="model:Screen" href="../../99_Common/04_Workflow/Ctrl_Workflow_PCA_SelectApprove_PendingItems.screen#/"/>
+    <screen xsi:type="model:Screen" href="../../../99_Common/04_Workflow/Ctrl_Workflow_PCA_SelectApprove_PendingItems.screen#/"/>
     <overrides>
       <widgets ref="33" link="Sct_RW_01_Workflow_PCA_SelectApprove,NoPending.screen"/>
-      <widgets ref="21" link="Sct_RW_00_Base_AppForm_PendingCommApproval.screen"/>
-      <widgets ref="36" link="Sct_RW_00_Base_AppForm_PendingApprovalLetter.screen"/>
+      <widgets ref="21" link="../Sct_RW_00_Base_AppForm_PendingCommApproval.screen"/>
+      <widgets ref="36" link="../Sct_RW_00_Base_AppForm_PendingApprovalLetter.screen"/>
     </overrides>
   </widgets>
   <hRuler/>

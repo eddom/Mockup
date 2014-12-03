@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="57" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_RW_00_Ctrl_Message.screen#/"/>
+    <screen xsi:type="model:Screen" href="../Sct_RW_00_Ctrl_Message.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Table" id="48" x="319" y="214" width="736" height="349" text="(w:40). ,Reviewer,(w:90).Appointment,(w:150).Status,(w:130).Received Date,(w:130).Sent Date (to PI)&#xD;&#xA;,Dr. Lupe Talor,Primary,New,14-May-2014 19:10,-&#xD;&#xA;,Dr. Edison Fenstermacher,Reviewer,Acknowledged,10-May-2014 10:00,-&#xD;&#xA;,Dr. Edison Fenstermacher,Reviewer,To be sent to Applicant,11-May-2014 10:00,13-May-2014 13:15" measuredWidth="736" measuredHeight="349" verticalScrollbar="true" rowHeight="28" alternative="#eeeeee">
     <font/>
