@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="2" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_RW_04Msg_02NewMsg_Page01.screen#/"/>
+    <screen xsi:type="model:Screen" href="Sct_RW_04Msg_03NewMsg_Page01.screen#/"/>
     <overrides>
       <widgets ref="80" text="Edit Message"/>
-      <widgets ref="152" link="Sct_RW_04Msg_03EditMsg_Page03.screen"/>
-      <widgets ref="47" link="Sct_RW_04Msg_03EditMsg_Page02.screen"/>
+      <widgets ref="152" link="Sct_RW_04Msg_04EditMsg_Page03.screen"/>
+      <widgets ref="47" link="Sct_RW_04Msg_04EditMsg_Page02.screen"/>
     </overrides>
   </widgets>
   <hRuler/>
