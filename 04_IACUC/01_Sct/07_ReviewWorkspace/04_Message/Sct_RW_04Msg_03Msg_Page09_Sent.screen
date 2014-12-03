@@ -10,7 +10,7 @@
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="17" x="1049" y="184" height="377" measuredWidth="17" measuredHeight="377">
     <widgets xsi:type="model:VScrollbar" id="18" height="377" measuredWidth="17" measuredHeight="377" value="100"/>
-    <widgets xsi:type="model:Panel" id="19" width="17" height="336" measuredWidth="17" measuredHeight="336" alpha="64" border="none" link="Sct_RW_04_Msg_03Msg_Page08_Sent.screen"/>
+    <widgets xsi:type="model:Panel" id="19" width="17" height="336" measuredWidth="17" measuredHeight="336" alpha="64" border="none" link="Sct_RW_04Msg_03Msg_Page08_Sent.screen"/>
   </widgets>
   <widgets xsi:type="model:Text" id="37" x="357" y="217" width="617" height="80" text="According to Section E, 'Ten pigs will be used to establish the optimized parameters to remove kidney tissue efficiently. Ten pigs will be used to approve haemostasis effects'.&#xD;&#xA;&#xD;&#xA;Should the PI provide more details in Section G for the above procedures?  Could Dr. Fred Chua and/or the other vets to comment." measuredWidth="617" measuredHeight="80" foreground="#666666">
     <font/>
@@ -25,7 +25,7 @@
   <widgets xsi:type="model:TextArea" id="42" x="356" y="310" width="660" height="103" text="According to Section E, 'Ten pigs will be used to establish the optimized parameters to remove kidney tissue efficiently. Ten pigs will be used to approve haemostasis effects'.&#xD;&#xA;&#xD;&#xA;Should the PI provide more details in Section G for the above procedures?  Could Dr. Fred Chua and/or the other vets to comment." measuredWidth="660" measuredHeight="103" verticalScrollbar="true">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="43" x="323" y="154" text="Message" measuredWidth="65" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="Sct_RW_04_Msg_02Msg_Page01.screen">
+  <widgets xsi:type="model:Label" id="43" x="323" y="154" text="Message" measuredWidth="65" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="Sct_RW_04Msg_02Msg_Page01.screen">
     <font size="14px" bold="false" underline="true"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="44" x="384" y="154" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>

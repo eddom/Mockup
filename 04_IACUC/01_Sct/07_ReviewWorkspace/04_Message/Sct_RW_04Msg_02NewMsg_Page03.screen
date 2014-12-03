@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_RW_00_Ctrl_Message.screen#/"/>
+    <overrides>
+      <widgets ref="13">
+        <attributes key="selection" value="1"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="42" x="551" y="153" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="assets/fa-send (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="45" x="1049" y="190" measuredWidth="17" measuredHeight="371">
+    <widgets xsi:type="model:VScrollbar" id="46" height="371" measuredWidth="17" measuredHeight="371" value="100"/>
+    <widgets xsi:type="model:Panel" id="47" width="17" height="331" measuredWidth="17" measuredHeight="331" alpha="64" border="none" link="Sct_RW_04Msg_02NewMsg_Page01.screen"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="78" x="323" y="154" text="Message" measuredWidth="64" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="Sct_RW_04Msg_02Msg_Page01.screen">
+    <font size="14px" bold="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="79" x="384" y="154" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>
+  <widgets xsi:type="model:Label" id="80" x="406" y="154" text="New Message" measuredWidth="97" measuredHeight="25" textAlignment="Center" foreground="#990000">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="81" x="514" y="151" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:VLine" id="82" x="506" y="154" height="25" measuredWidth="6" measuredHeight="25"/>
+  <widgets xsi:type="model:WidgetGroup" id="148" x="340" y="193" measuredWidth="680" measuredHeight="362">
+    <widgets xsi:type="model:WidgetGroup" id="108" measuredWidth="680" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="109" width="680" height="32" measuredWidth="680" measuredHeight="32" background="#d9ead3" border="none"/>
+      <widgets xsi:type="model:Label" id="110" x="7" y="5" text="Section J: Survival Surgery" measuredWidth="157" measuredHeight="23">
+        <font bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="111" x="646" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90" link="Sct_RW_04Msg_02NewMsg_Page02.screen"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="112" y="32" measuredWidth="680" measuredHeight="330">
+      <widgets xsi:type="model:Panel" id="113" width="680" height="330" measuredWidth="680" measuredHeight="330" background="#d9ead3" border="none"/>
+      <widgets xsi:type="model:Panel" id="114" x="2" width="676" height="328" measuredWidth="676" measuredHeight="328" border="none"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="123" x="11" y="40" text="Dr. Lupe Talor" measuredWidth="82" measuredHeight="23" foreground="#38761d">
+      <font bold="false" italic="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="126" x="172" y="60" width="348" height="17" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="348" measuredHeight="17">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="127" x="31" y="60" width="114" height="17" text="19-May-2014 19:10" measuredWidth="114" measuredHeight="17">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="128" x="172" y="80" width="470" height="33" text="Please account for the animals that will be generated from breeding of the Cre/Cre lines and provide the breeding protocol." measuredWidth="470" measuredHeight="33">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="129" x="31" y="80" width="114" height="17" text="23-May-2014 21:14" measuredWidth="114" measuredHeight="17">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="130" x="11" y="120" text="Dr. Edison Fenstermacher" measuredWidth="148" measuredHeight="23" foreground="#38761d">
+      <font bold="false" italic="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="131" x="172" y="140" width="356" height="17" text="Please elaborates further for ureteric catheterization procedure." measuredWidth="356" measuredHeight="17">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="132" x="31" y="140" width="114" height="17" text="20-May-2014 10:00" measuredWidth="114" measuredHeight="17">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="133" x="11" y="168" text="Comments to PI" measuredWidth="95" measuredHeight="23">
+      <font bold="true" underline="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="136" x="107" y="170" measuredWidth="24" measuredHeight="24" icon="assets/ai-new-event (medium)"/>
+    <widgets xsi:type="model:Icon" id="138" x="148" y="60" measuredWidth="16" measuredHeight="16" icon="assets/fa-edit (small)"/>
+    <widgets xsi:type="model:Icon" id="140" x="148" y="80" measuredWidth="16" measuredHeight="16" icon="assets/fa-edit (small)"/>
+    <widgets xsi:type="model:Icon" id="141" x="148" y="140" measuredWidth="16" measuredHeight="16" icon="assets/fa-edit (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="143" x="18" y="194" measuredWidth="642" measuredHeight="69">
+      <widgets xsi:type="model:TextArea" id="134" x="26" y="3" width="616" height="66" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="616" measuredHeight="66" verticalScrollbar="true">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="135" x="3" text="1." measuredWidth="15" measuredHeight="23">
+        <font size="12px" bold="false" underline="false"/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="142" y="52" measuredWidth="16" measuredHeight="16" foreground="#073763" icon="assets/fi-trash (small)"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="144" x="18" y="274" measuredWidth="642" measuredHeight="69">
+      <widgets xsi:type="model:TextArea" id="145" x="26" y="3" width="616" height="66" text="Please account for the animals that will be generated from breeding of the Cre/Cre lines and provide the breeding protocol." measuredWidth="616" measuredHeight="66" verticalScrollbar="true">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="146" x="3" text="2." measuredWidth="15" measuredHeight="23">
+        <font size="12px" bold="false" underline="false"/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="147" y="52" measuredWidth="16" measuredHeight="16" foreground="#073763" icon="assets/fi-trash (small)"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -6,12 +6,12 @@
   <widgets xsi:type="model:Table" id="48" x="319" y="214" width="736" height="349" text="(w:40). ,Reviewer,(w:90).Appointment,(w:150).Status,(w:130).Received Date,(w:130).Sent Date (to PI)&#xD;&#xA;,Dr. Lupe Talor,Primary,New,14-May-2014 19:10,-&#xD;&#xA;,Dr. Edison Fenstermacher,Reviewer,Acknowledged,10-May-2014 10:00,-&#xD;&#xA;,Dr. Edison Fenstermacher,Reviewer,To be sent to Applicant,11-May-2014 10:00,13-May-2014 13:15" measuredWidth="736" measuredHeight="349" verticalScrollbar="true" rowHeight="28" alternative="#eeeeee">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="52" x="328" y="245" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)" link="Sct_RW_04_Msg_01RvComments_Page02.screen"/>
-  <widgets xsi:type="model:Icon" id="53" x="328" y="273" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)" link="Sct_RW_04_Msg_01RvComments_Page02.screen"/>
+  <widgets xsi:type="model:Icon" id="52" x="328" y="245" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)" link="Sct_RW_04Msg_01RvComments_Page02.screen"/>
+  <widgets xsi:type="model:Icon" id="53" x="328" y="273" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)" link="Sct_RW_04Msg_01RvComments_Page02.screen"/>
   <widgets xsi:type="model:Text" id="54" x="319" y="187" width="617" height="17" text="Click {assets/fi-mail} to  view Reviewer's comment." measuredWidth="617" measuredHeight="17" foreground="#666666">
     <font italic="true"/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="55" x="328" y="301" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)" link="Sct_RW_04_Msg_01RvComments_Page02.screen"/>
+  <widgets xsi:type="model:Icon" id="55" x="328" y="301" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)" link="Sct_RW_04Msg_01RvComments_Page02.screen"/>
   <widgets xsi:type="model:Label" id="58" x="319" y="154" text="Inbox" measuredWidth="39" measuredHeight="25" textAlignment="Center">
     <font size="14px" bold="false" underline="false"/>
   </widgets>
