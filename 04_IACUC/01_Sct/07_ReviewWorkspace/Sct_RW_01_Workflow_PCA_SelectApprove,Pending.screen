@@ -9,6 +9,7 @@
     <overrides>
       <widgets ref="33" link="Sct_RW_01_Workflow_PCA_SelectApprove,NoPending.screen"/>
       <widgets ref="21" link="Sct_RW_00_Base_AppForm_PendingCommApproval.screen"/>
+      <widgets ref="36" link="Sct_RW_00_Base_AppForm_PendingApprovalLetter.screen"/>
     </overrides>
   </widgets>
   <hRuler/>

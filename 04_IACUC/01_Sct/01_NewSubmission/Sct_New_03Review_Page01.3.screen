@@ -29,7 +29,7 @@
   <widgets xsi:type="model:Table" id="261" x="173" y="213" width="1153" height="458" text="(w:110).Submission Date,(w:160).IACUC Ref. No.,(w:20).{tag},(w:80).Institution,(w:160).PI's Name,Protocol Title,(w:200).Pending Items,=(w:50).PR,=(w:50).SR,=(w:40). &#xA;12-Mar-2014,IACUC/2014/SHS/00183,,NCC,Cletus Quarterman,Biomechanical comparison of different ...,Pending IBC approval ...,KAS,CC,{assets/fa-ellipsis-h}&#xA;12-Mar-2014,IACUC/2014/SHS/00186,,SKH,Rogelio Dragon,Prevalence and risk factors for foot and ...,,CSC,WWL,{assets/fa-ellipsis-h}&#xA;14-Mar-2014,IACUC/2014/SHS/00188,,SGH,Emerson Smyre,MALDI-TOF-MS serum protein profiling for ...,,MH,CC,{assets/fa-ellipsis-h}&#xA;15-Mar-2014,IACUC/2014/SHS/00190,,SGH,Harley Brubaker,Improved lag screw positioning in the ...,,CLM,NYH,{assets/fa-ellipsis-h}" measuredWidth="1153" measuredHeight="458" rowHeight="28" alternative="#eeeeee">
     <font size="12px"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="262" x="286" y="243" width="154" height="110" measuredWidth="154" measuredHeight="110" background="#cfe2f3" alpha="64" border="none" link="../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_Approved.screen"/>
+  <widgets xsi:type="model:Panel" id="262" x="286" y="243" width="154" height="110" measuredWidth="154" measuredHeight="110" background="#cfe2f3" alpha="64" border="none" link="../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingApprovalLetter.screen"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

@@ -11,6 +11,7 @@
       <widgets ref="13" link="Sct_RW_01_Workflow_PCR_SelectApprove,NoPending.screen"/>
       <widgets ref="25" link="Sct_RW_01_Workflow_PCR_SelectResubmit.screen"/>
       <widgets ref="15" link="Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
+      <widgets ref="28" link="Sct_RW_00_Base_AppForm_PendingCommApproval.screen"/>
     </overrides>
   </widgets>
   <hRuler/>
