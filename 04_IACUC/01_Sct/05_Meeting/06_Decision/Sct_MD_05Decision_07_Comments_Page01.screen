@@ -17,12 +17,6 @@
   <widgets xsi:type="model:Label" id="15" x="594" y="59" text="Comments To PI" measuredWidth="193" measuredHeight="37" textAlignment="Center">
     <font size="24px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="29" x="336" y="406" text="Subject" measuredWidth="48" measuredHeight="23">
-    <font bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="30" x="826" y="406" width="204" text="(Comments &amp; Query)" measuredWidth="204" measuredHeight="23">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Label" id="40" x="357" y="214" text="Dr. Lupe Talor (PR)" measuredWidth="110" measuredHeight="23">
     <font/>
   </widgets>
@@ -41,19 +35,16 @@
   <widgets xsi:type="model:Checkbox" id="45" x="335" y="236" measuredWidth="21" measuredHeight="23" selected="true" state="disabled">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="51" x="318" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
-  <widgets xsi:type="model:Icon" id="55" x="355" y="106" measuredWidth="32" measuredHeight="32" icon="assets/fi-mail (large)" link="Sct_MD_05Decision_04_NewApp.screen"/>
-  <widgets xsi:type="model:WidgetGroup" id="58" x="1050" y="109" measuredWidth="17" measuredHeight="482" link="Sct_MD_05Decision_07_Comments_Page02.screen">
-    <widgets xsi:type="model:VScrollbar" id="59" height="482" measuredWidth="17" measuredHeight="482"/>
-    <widgets xsi:type="model:Panel" id="60" y="39" width="17" height="443" measuredWidth="17" measuredHeight="443" alpha="64" border="none"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="61" x="407" y="406" width="421" text=": iSHaRe - IACUC/2014/SHS/00182 - To evaluate the efficacy of antibiotics in" measuredWidth="421" measuredHeight="23">
-    <font/>
+  <widgets xsi:type="model:Icon" id="51" x="598" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:Icon" id="55" x="635" y="106" measuredWidth="32" measuredHeight="32" icon="assets/fi-mail (large)" link="Sct_MD_05Decision_04_NewApp.screen"/>
+  <widgets xsi:type="model:WidgetGroup" id="58" x="1050" y="141" height="450" measuredWidth="17" measuredHeight="450">
+    <widgets xsi:type="model:VScrollbar" id="59" height="450" measuredWidth="17" measuredHeight="450"/>
+    <widgets xsi:type="model:Panel" id="60" y="36" width="17" height="413" measuredWidth="17" measuredHeight="413" alpha="64" border="none" link="Sct_MD_05Decision_07_Comments_Page02.screen"/>
   </widgets>
   <widgets xsi:type="model:Text" id="62" x="318" y="152" width="617" height="17" text="Tick to select the reviewer's comment to be included in the messaage to applicant." measuredWidth="617" measuredHeight="17" foreground="#666666">
     <font italic="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="67" x="405" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+  <widgets xsi:type="model:Label" id="67" x="318" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
     <font size="18px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="68" x="808" y="109" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
@@ -95,25 +86,6 @@
   <widgets xsi:type="model:Checkbox" id="81" x="335" y="328" measuredWidth="21" measuredHeight="23" selected="true">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Text" id="85" x="370" y="480" width="617" height="17" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="617" measuredHeight="17" foreground="#666666">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="86" x="370" y="458" text="Section J: Survival Surgery" measuredWidth="160" measuredHeight="23">
-    <font bold="true" italic="true" underline="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="87" x="346" y="458" text="1." measuredWidth="15" measuredHeight="23">
-    <font size="12px" bold="false" underline="false"/>
-  </widgets>
-  <widgets xsi:type="model:Image" id="88" x="370" y="478" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
-  <widgets xsi:type="model:TextArea" id="89" x="369" y="519" width="660" height="66" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="660" measuredHeight="66" verticalScrollbar="true">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="90" x="336" y="435" text="Dr. Lupe Talor (PR)" measuredWidth="110" measuredHeight="23" foreground="#0b5394">
-    <font bold="true" italic="false"/>
-  </widgets>
-  <widgets xsi:type="model:Checkbox" id="91" x="369" y="496" text="Include as comments to Applicant" measuredWidth="205" measuredHeight="23" selected="true">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:WidgetGroup" id="96" x="318" y="184" measuredWidth="192" measuredHeight="30">
     <widgets xsi:type="model:Label" id="39" x="27" y="2" text="Reviewers' Comments" measuredWidth="164" measuredHeight="26">
       <font size="14px" bold="true" underline="false"/>
@@ -128,7 +100,40 @@
     <widgets xsi:type="model:Icon" id="84" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)"/>
     <widgets xsi:type="model:HLine" id="93" y="22" width="192" measuredWidth="192" measuredHeight="6"/>
   </widgets>
-  <widgets xsi:type="model:VLine" id="94" x="393" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:VLine" id="94" x="590" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:Label" id="97" x="340" y="412" text="Subject" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="98" x="413" y="435" width="256" text="(Comments &amp; Query)" measuredWidth="256" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="99" x="414" y="412" width="622" text="iSHaRe - IACUC/2014/SHS/00182 - To evaluate the efficacy of ..." measuredWidth="622" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="100" x="403" y="412" text=":" measuredWidth="8" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="101" x="340" y="473" measuredWidth="680" measuredHeight="32">
+    <widgets xsi:type="model:Panel" id="102" width="680" height="32" measuredWidth="680" measuredHeight="32" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Label" id="103" x="7" y="5" text="Section J: Survival Surgery" measuredWidth="157" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="104" x="646" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90" link="Sct_MD_05Decision_07_Comments_Page03.screen"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="105" x="340" y="513" measuredWidth="680" measuredHeight="32">
+    <widgets xsi:type="model:Panel" id="106" width="680" height="32" measuredWidth="680" measuredHeight="32" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Label" id="107" x="7" y="5" text="Section M: Hazardous Agents" measuredWidth="171" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="108" x="646" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="109" x="340" y="553" measuredWidth="680" measuredHeight="32">
+    <widgets xsi:type="model:Panel" id="110" width="680" height="32" measuredWidth="680" measuredHeight="32" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Label" id="111" x="7" y="5" text="Section G: Description of Experimental Design &amp; Animal Procedures" measuredWidth="388" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="112" x="646" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>
