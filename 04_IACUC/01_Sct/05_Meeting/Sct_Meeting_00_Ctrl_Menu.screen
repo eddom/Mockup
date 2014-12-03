@@ -7,10 +7,10 @@
       <widgets ref="6" link="04_Preliminary/Sct_MeetingDetails_02PreCheck_Page01.screen"/>
       <widgets ref="2" link="03_AssignReviewer/Sct_MeetingDetails_03Assign_Page01.screen"/>
       <widgets ref="5" link="05_Material/Sct_MeetingDetails_04Material_Page01.screen"/>
-      <widgets ref="4" link="06_Decision/Sct_MD_05Decision_Page01.screen"/>
+      <widgets ref="4" link="06_Decision/Sct_MD_05Decision_01.screen"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Panel" id="9" x="488" y="12" width="45" height="20" measuredWidth="45" measuredHeight="20" background="#cfe2f3" alpha="64" border="none" link="06_Decision/Sct_MD_05Decision_Page03_Completed.screen"/>
+  <widgets xsi:type="model:Panel" id="9" x="488" y="12" width="45" height="20" measuredWidth="45" measuredHeight="20" background="#cfe2f3" alpha="64" border="none" link="06_Decision/Sct_MD_05Decision_02_Completed.screen"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

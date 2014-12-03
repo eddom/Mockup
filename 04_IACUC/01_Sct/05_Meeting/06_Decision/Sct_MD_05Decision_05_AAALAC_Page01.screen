@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_MD_05Decision_Page04_NewApp.screen#/"/>
+    <screen xsi:type="model:Screen" href="Sct_MD_05Decision_04_NewApp.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
   <widgets xsi:type="model:Panel" id="3" x="301" y="49" width="780" height="606" locked="true" measuredWidth="780" measuredHeight="606" foreground="#eeeeee" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="4" x="315" y="97" width="755" measuredWidth="755" measuredHeight="6"/>
   <widgets xsi:type="model:HLine" id="5" x="315" y="599" width="755" measuredWidth="755" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="6" x="639" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MD_05Decision_Page04_NewApp.screen">
+  <widgets xsi:type="model:WidgetGroup" id="6" x="639" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MD_05Decision_04_NewApp.screen">
     <widgets xsi:type="model:Panel" id="7" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="8" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="9" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
@@ -17,7 +17,7 @@
   <widgets xsi:type="model:Label" id="10" x="409" y="59" text="Pain &amp; Distress Category / Special Consideration" measuredWidth="564" measuredHeight="37" textAlignment="Center">
     <font size="24px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="17" x="1050" y="146" height="445" measuredWidth="17" measuredHeight="445" link="Sct_MD_05Decision_Page08_AAALAC.screen">
+  <widgets xsi:type="model:WidgetGroup" id="17" x="1050" y="146" height="445" measuredWidth="17" measuredHeight="445" link="Sct_MD_05Decision_05_AAALAC_Page02.screen">
     <widgets xsi:type="model:VScrollbar" id="18" height="445" measuredWidth="17" measuredHeight="445"/>
     <widgets xsi:type="model:Panel" id="19" y="38" width="17" height="407" measuredWidth="17" measuredHeight="407" alpha="64" border="none"/>
   </widgets>

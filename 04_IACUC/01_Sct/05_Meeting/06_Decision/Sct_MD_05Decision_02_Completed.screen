@@ -18,7 +18,7 @@
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="4" x="1343" y="154" measuredWidth="17" measuredHeight="526">
     <widgets xsi:type="model:VScrollbar" id="6" height="526" measuredWidth="17" measuredHeight="526"/>
-    <widgets xsi:type="model:Panel" id="7" y="38" width="17" height="488" measuredWidth="17" measuredHeight="488" alpha="64" border="none" link="Sct_MD_05Decision_Page04_NewApp.screen"/>
+    <widgets xsi:type="model:Panel" id="7" y="38" width="17" height="488" measuredWidth="17" measuredHeight="488" alpha="64" border="none" link="Sct_MD_05Decision_04_NewApp.screen"/>
   </widgets>
   <widgets xsi:type="model:Master" id="8" x="162" y="168" locked="true" measuredWidth="1167" measuredHeight="90" dimmed="true">
     <screen xsi:type="model:Screen" href="../../../99_Common/05_Meeting/Ctrl_MeetingDetails_Header.screen#/"/>
