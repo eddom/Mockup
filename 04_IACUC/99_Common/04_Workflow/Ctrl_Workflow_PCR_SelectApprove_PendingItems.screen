@@ -60,10 +60,10 @@
   <widgets xsi:type="model:Label" id="65" x="179" y="316" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="66" x="189" y="316" text="Yes" measuredWidth="44" measuredHeight="25">
+  <widgets xsi:type="model:RadioButton" id="66" x="189" y="316" text="Yes" measuredWidth="44" measuredHeight="25" selected="true">
     <font size="14px"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="67" x="249" y="316" text="No" measuredWidth="38" measuredHeight="25" selected="true">
+  <widgets xsi:type="model:RadioButton" id="67" x="249" y="316" text="No" measuredWidth="38" measuredHeight="25">
     <font size="14px"/>
   </widgets>
   <widgets xsi:type="model:TextArea" id="68" x="189" y="342" width="525" height="96" text="Pending IBC Approval&#xD;&#xA;Pending IRB Approval" measuredWidth="525" measuredHeight="96" verticalScrollbar="true">
@@ -74,7 +74,7 @@
   </widgets>
   <widgets xsi:type="model:Icon" id="70" x="316" y="60" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
   <widgets xsi:type="model:VLine" id="71" x="307" y="61" height="30" measuredWidth="6" measuredHeight="30"/>
-  <widgets xsi:type="model:WidgetGroup" id="72" x="329" y="565" measuredWidth="102" measuredHeight="26" link="../../01_Sct/05_Meeting/06_Decision/Sct_MD_05Decision_Page04_NewApp.screen">
+  <widgets xsi:type="model:WidgetGroup" id="72" x="329" y="565" measuredWidth="102" measuredHeight="26">
     <widgets xsi:type="model:Panel" id="73" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="74" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="75" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">

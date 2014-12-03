@@ -60,10 +60,10 @@
   <widgets xsi:type="model:Label" id="62" x="179" y="316" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="63" x="189" y="316" text="Yes" measuredWidth="44" measuredHeight="25" selected="true">
+  <widgets xsi:type="model:RadioButton" id="63" x="189" y="316" text="Yes" measuredWidth="44" measuredHeight="25">
     <font size="14px"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="64" x="249" y="316" text="No" measuredWidth="38" measuredHeight="25">
+  <widgets xsi:type="model:RadioButton" id="64" x="249" y="316" text="No" measuredWidth="38" measuredHeight="25" selected="true">
     <font size="14px"/>
   </widgets>
   <widgets xsi:type="model:RadioButton" id="65" x="50" y="456" text="Withdraw" measuredWidth="85" measuredHeight="26">

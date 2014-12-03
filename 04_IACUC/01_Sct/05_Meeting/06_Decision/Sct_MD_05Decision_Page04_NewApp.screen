@@ -52,7 +52,7 @@
     <widgets xsi:type="model:Icon" id="27" y="168" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)"/>
     <widgets xsi:type="model:Icon" id="28" y="196" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="30" x="1267" y="329" measuredWidth="24" measuredHeight="220" link="Sct_MD_05Decision_Page05_WorkflowSelectPendingPR.screen">
+  <widgets xsi:type="model:WidgetGroup" id="30" x="1267" y="329" measuredWidth="24" measuredHeight="220" link="Sct_MD_05Decision_Page05_Workflow_SelectPendingPR.screen">
     <widgets xsi:type="model:Icon" id="31" measuredWidth="24" measuredHeight="24" foreground="#38761d" icon="assets/fi-shuffle (medium)"/>
     <widgets xsi:type="model:Icon" id="32" y="28" measuredWidth="24" measuredHeight="24" icon="assets/fi-shuffle (medium)"/>
     <widgets xsi:type="model:Icon" id="33" y="56" measuredWidth="24" measuredHeight="24" icon="assets/fi-shuffle (medium)"/>
