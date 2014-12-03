@@ -11,7 +11,7 @@
   <widgets xsi:type="model:Table" id="2" x="321" y="184" width="736" height="345" text="=(w:40). ,Subject,(w:90).Status,(w:130).Create Date,=(w:130).Sent Date,=(w:130).Reply Date&#xD;&#xA;-,[Missing Attachment],Sent,11-May-2014 09:32,10-May-2014 12:10,15-May-2014 09:44&#xD;&#xA;,[Comments &amp; Query],Draft,13-May-2014 11:43,-,-" measuredWidth="736" measuredHeight="345" rowHeight="28" alternative="#eeeeee">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="5" x="329" y="242" measuredWidth="24" measuredHeight="24" icon="edit (medium)" link="Sct_RW_04Msg_02Msg_Page05_Edit.screen"/>
+  <widgets xsi:type="model:Icon" id="5" x="329" y="242" measuredWidth="24" measuredHeight="24" icon="edit (medium)" link="Sct_RW_04Msg_03EditMsg_Page01.screen"/>
   <widgets xsi:type="model:Text" id="6" x="324" y="157" width="617" height="17" text="Click {edit} to edit Message." measuredWidth="617" measuredHeight="17" foreground="#666666">
     <font italic="true"/>
   </widgets>
@@ -21,7 +21,7 @@
       <font size="14px" bold="false" underline="true"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Panel" id="10" x="363" y="242" width="112" height="24" measuredWidth="112" measuredHeight="24" background="#cfe2f3" alpha="64" border="none" link="Sct_RW_04Msg_02Msg_Page05_Edit.screen"/>
+  <widgets xsi:type="model:Panel" id="10" x="363" y="242" width="112" height="24" measuredWidth="112" measuredHeight="24" background="#cfe2f3" alpha="64" border="none" link="Sct_RW_04Msg_03EditMsg_Page01.screen"/>
   <widgets xsi:type="model:Panel" id="11" x="363" y="214" width="112" height="24" measuredWidth="112" measuredHeight="24" background="#cfe2f3" alpha="64" border="none" link="Sct_RW_04Msg_03Msg_Page08_Sent.screen"/>
   <hRuler/>
   <vRuler/>

@@ -43,6 +43,13 @@
     </widgets>
     <widgets xsi:type="model:Icon" id="160" x="646" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90"/>
   </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="165" x="340" y="313" measuredWidth="680" measuredHeight="32">
+    <widgets xsi:type="model:Panel" id="166" width="680" height="32" measuredWidth="680" measuredHeight="32" background="#d9ead3" border="none"/>
+    <widgets xsi:type="model:Label" id="167" x="7" y="5" text="General Comments" measuredWidth="114" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="168" x="646" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>
