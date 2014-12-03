@@ -6,6 +6,13 @@
   <widgets xsi:type="model:Panel" id="3" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
   <widgets xsi:type="model:Master" id="48" x="319" y="54" measuredWidth="744" measuredHeight="600" dimmed="true">
     <screen xsi:type="model:Screen" href="../../99_Common/04_Workflow/Ctrl_Workflow_PCR_SelectApprove_NoPendingItems.screen#/"/>
+    <overrides>
+      <widgets ref="49" link="Sct_RW_01_Workflow_PCR_SelectReviewByPR.screen"/>
+      <widgets ref="51" link="Sct_RW_01_Workflow_PCR_SelectCommitteeApproval.screen"/>
+      <widgets ref="60" link="Sct_RW_01_Workflow_PCR_SelectResubmit.screen"/>
+      <widgets ref="63" link="Sct_RW_01_Workflow_PCR_SelectApprove,Pending.screen"/>
+      <widgets ref="68" link="Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
+    </overrides>
   </widgets>
   <hRuler/>
   <vRuler/>

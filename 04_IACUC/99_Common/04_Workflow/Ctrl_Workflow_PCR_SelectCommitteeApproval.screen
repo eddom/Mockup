@@ -40,8 +40,8 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:DateField" id="23" x="291" y="288" width="108" text="02-Jun-2014" measuredWidth="108" measuredHeight="23"/>
-  <widgets xsi:type="model:Label" id="24" x="69" y="287" text="Members' objection to be sent by" measuredWidth="218" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:DateField" id="23" x="292" y="288" width="108" text="02-Jun-2014" measuredWidth="108" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="24" x="70" y="287" text="Members' objection to be sent by" measuredWidth="218" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
   <widgets xsi:type="model:RadioButton" id="25" x="50" y="311" text="Recommend to Re-submit" measuredWidth="202" measuredHeight="26">
