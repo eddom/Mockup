@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_MD_05Decision_Page01.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="47"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="533" y="54" width="316" height="197" measuredWidth="316" measuredHeight="197" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="543" y="97" width="296" measuredWidth="296" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="5" x="543" y="199" width="296" measuredWidth="296" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="585" y="214" measuredWidth="102" measuredHeight="26" link="Sct_MD_05Decision_Page03_Completed.screen">
+    <widgets xsi:type="model:Panel" id="7" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="8" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="9" x="6" y="2" width="90" text="Confirm" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="695" y="214" measuredWidth="102" measuredHeight="26" link="Sct_MD_05Decision_Page01.screen">
+    <widgets xsi:type="model:Panel" id="11" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="12" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="13" x="6" y="2" width="90" text="Cancel" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="577" y="59" text="Meeting Completed" measuredWidth="229" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="16" x="560" y="138" width="208" height="28" text="Set Meeting as Completed?" measuredWidth="208" measuredHeight="28" foreground="#990000">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="23" x="533" y="272" height="128" text="Logic Check&#xD;&#xA;1. All actions within the following page will be unavailable:&#xD;&#xA;&#x9;- Schedule&#xD;&#xA;&#x9;- Preliminary Check&#xD;&#xA;&#x9;- Assign Reviewer&#xD;&#xA;&#x9;- Materials&#xD;&#xA;" measuredWidth="331" measuredHeight="128" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

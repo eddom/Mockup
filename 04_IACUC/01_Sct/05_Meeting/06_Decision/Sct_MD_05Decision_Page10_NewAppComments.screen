@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_MD_05Decision_Page04_NewApp.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="301" y="49" width="779" height="606" locked="true" measuredWidth="779" measuredHeight="606" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="315" y="97" width="755" measuredWidth="755" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="5" x="315" y="599" width="755" measuredWidth="755" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="639" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MD_05Decision_Page04_NewApp.screen">
+    <widgets xsi:type="model:Panel" id="11" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="12" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="13" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="545" y="59" text="Comments For Applicant" measuredWidth="291" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="20" x="370" y="138" width="617" height="17" text="How long after HIFU will euthanasia be carried out? Is it right after scanning?" measuredWidth="617" measuredHeight="17" foreground="#666666">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="370" y="116" text="Section M: Hazardous Agents" measuredWidth="176" measuredHeight="23">
+    <font bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="346" y="116" text="2." measuredWidth="16" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="23" x="370" y="136" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:TextArea" id="38" x="369" y="178" width="660" height="66" text="How long after HIFU will euthanasia be carried out? Is it right after scanning?" measuredWidth="660" measuredHeight="66" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="39" x="369" y="155" text="Include as comments to Applicant" measuredWidth="205" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="43" x="1050" y="109" measuredWidth="17" measuredHeight="482" link="Sct_MD_05Decision_Page09_NewAppComments.screen">
+    <widgets xsi:type="model:VScrollbar" id="44" height="482" measuredWidth="17" measuredHeight="482" value="100"/>
+    <widgets xsi:type="model:Panel" id="45" width="17" height="444" measuredWidth="17" measuredHeight="444" alpha="64" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="76" x="370" y="302" width="617" height="80" text="According to Section E, 'Ten pigs will be used to establish the optimized parameters to remove kidney tissue efficiently. Ten pigs will be used to approve haemostasis effects'.&#xD;&#xA;&#xD;&#xA;Should the PI provide more details in Section G for the above procedures?  Could Dr. Fred Chua and/or the other vets to comment." measuredWidth="617" measuredHeight="80" foreground="#666666">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="77" x="370" y="280" text="Section G: Description of Experimental Design &amp; Animal Procedures" measuredWidth="394" measuredHeight="23">
+    <font bold="true" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="78" x="346" y="280" text="1." measuredWidth="16" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="79" x="370" y="300" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Label" id="80" x="336" y="257" text="Dr. Edison Fenstermacher" measuredWidth="153" measuredHeight="23" foreground="#0b5394">
+    <font bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="81" x="369" y="405" width="660" height="66" text="According to Section E, 'Ten pigs will be used to establish the optimized parameters to remove kidney tissue efficiently. Ten pigs will be used to approve haemostasis effects'.&#xD;&#xA;&#xD;&#xA;Should the PI provide more details in Section G for the above procedures?  Could Dr. Fred Chua and/or the other vets to comment." measuredWidth="660" measuredHeight="66" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="82" x="369" y="382" text="Include as comments to Applicant" measuredWidth="205" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="84" x="369" y="524" width="634" height="66" measuredWidth="634" measuredHeight="66" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="85" x="346" y="521" text="1." measuredWidth="16" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="86" x="517" y="487" measuredWidth="32" measuredHeight="32" icon="assets/ai-new-event (large)"/>
+  <widgets xsi:type="model:Icon" id="87" x="1005" y="521" measuredWidth="24" measuredHeight="24" icon="delete (medium)"/>
+  <widgets xsi:type="model:WidgetGroup" id="88" x="318" y="486" measuredWidth="192" measuredHeight="28">
+    <widgets xsi:type="model:Label" id="89" x="27" y="2" text="Additional Comments" measuredWidth="155" measuredHeight="26">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="90" measuredWidth="24" measuredHeight="24" icon="assets/fi-mail (medium)"/>
+    <widgets xsi:type="model:HLine" id="91" y="22" width="192" measuredWidth="192" measuredHeight="6"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

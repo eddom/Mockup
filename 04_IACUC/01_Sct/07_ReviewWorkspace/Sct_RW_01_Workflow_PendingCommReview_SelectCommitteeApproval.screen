@@ -34,7 +34,7 @@
   <widgets xsi:type="model:RadioButton" id="22" x="361" y="277" text="Approve" measuredWidth="80" measuredHeight="26" link="Sct_RW_01_Workflow_PendingCommReview_SelectApprove,Pending.screen">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="23" x="361" y="307" text="Circulate to Committee For Approval" measuredWidth="276" measuredHeight="26" selected="true" link="../05_Meeting/06_Decision/Sct_MeetingDetails_05Decision_Page06_NewAppUpdate.screen">
+  <widgets xsi:type="model:RadioButton" id="23" x="361" y="307" text="Circulate to Committee For Approval" measuredWidth="276" measuredHeight="26" selected="true" link="../05_Meeting/06_Decision/Sct_MD_05Decision_Page06_NewAppUpdate.screen">
     <font size="14px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="7" x="695" y="611" measuredWidth="102" measuredHeight="26" link="Sct_RW_00_Base_AppForm_PendingCommApproval.screen">

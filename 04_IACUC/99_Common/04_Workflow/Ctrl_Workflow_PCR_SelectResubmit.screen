@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="8" y="8" width="744" height="600" locked="true" measuredWidth="744" measuredHeight="600" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="2" x="18" y="51" width="723" measuredWidth="723" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="3" x="18" y="550" width="723" measuredWidth="723" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="4" x="236" y="11" measuredWidth="292" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="5" x="37" text="Update Review Status" measuredWidth="255" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="6" y="4" measuredWidth="32" measuredHeight="32" icon="assets/gl-random (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="33" y="61" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="504" y="63" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
+    <font size="14px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="30" y="116" text="Current Review Status" measuredWidth="152" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="189" y="116" text=": Pending Committee Review" measuredWidth="194" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="30" y="166" text="Review Decision" measuredWidth="124" measuredHeight="26" foreground="#38761d">
+    <font size="14px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="12" x="50" y="201" text="Review By PR &amp; SR" measuredWidth="160" measuredHeight="26">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="13" x="50" y="231" text="Approve" measuredWidth="80" measuredHeight="26">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="14" x="50" y="261" text="Circulate to Committee For Approval" measuredWidth="276" measuredHeight="26">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="15" x="329" y="565" measuredWidth="102" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="16" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="17" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="18" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="23" x="50" y="291" text="Recommend to Re-submit" measuredWidth="202" measuredHeight="26" selected="true">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="24" x="50" y="351" text="Withdraw" measuredWidth="85" measuredHeight="26">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="25" x="70" y="316" width="665" height="33" text="Request the PI to re-submit the application as new application with new IACUC Ref. No. Application will be froze for further amendment." measuredWidth="665" measuredHeight="33" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="27" x="316" y="60" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:VLine" id="28" x="307" y="61" height="30" measuredWidth="6" measuredHeight="30"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -178,7 +178,7 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="64" x="17" y="212" width="147" height="141" measuredWidth="147" measuredHeight="141" background="#cfe2f3" alpha="64" border="none"/>
   <widgets xsi:type="model:Panel" id="65" x="17" y="452" width="147" height="82" measuredWidth="147" measuredHeight="82" background="#cfe2f3" alpha="64" border="none"/>
-  <widgets xsi:type="model:Master" id="66" x="16" y="48" measuredWidth="1167" measuredHeight="90" dimmed="true">
+  <widgets xsi:type="model:Master" id="66" x="16" y="46" measuredWidth="1167" measuredHeight="90" dimmed="true">
     <screen xsi:type="model:Screen" href="Ctrl_MeetingDetails_Header.screen#/"/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="69" x="622" y="5" measuredWidth="32" measuredHeight="32">
