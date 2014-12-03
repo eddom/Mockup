@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="37" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_RW_00_Base_AppForm_PendingCommApproval.screen#/"/>
+    <screen xsi:type="model:Screen" href="Sct_RW_00_Base_AppForm_PendingPRReview.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="3" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
-  <widgets xsi:type="model:Panel" id="4" x="319" y="54" width="744" height="523" locked="true" measuredWidth="744" measuredHeight="523" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:Panel" id="4" x="319" y="54" width="744" height="523" measuredWidth="744" measuredHeight="523" foreground="#ffffff" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="5" x="329" y="97" width="723" measuredWidth="723" measuredHeight="6"/>
   <widgets xsi:type="model:HLine" id="6" x="329" y="526" width="723" measuredWidth="723" measuredHeight="6"/>
   <widgets xsi:type="model:WidgetGroup" id="11" x="547" y="57" measuredWidth="292" measuredHeight="37">
@@ -22,13 +22,16 @@
   <widgets xsi:type="model:Label" id="18" x="341" y="162" text="Current Review Status" measuredWidth="152" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="19" x="500" y="162" text=": Pending Committee Approval" measuredWidth="201" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="19" x="500" y="162" text=": Pending PR &amp; SR Review" measuredWidth="182" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="20" x="341" y="212" text="Review Decision" measuredWidth="124" measuredHeight="26" foreground="#38761d">
     <font size="14px" bold="true" underline="true"/>
   </widgets>
   <widgets xsi:type="model:RadioButton" id="22" x="361" y="247" text="Approve" measuredWidth="80" measuredHeight="26" selected="true">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="23" x="361" y="412" text="Circulate to Committee For Approval" measuredWidth="276" measuredHeight="26" link="Sct_RW_01_Workflow_PPR_SelectCommitteeApproval.screen">
     <font size="14px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:DateField" id="24" x="510" y="273" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
@@ -49,7 +52,7 @@
     <font size="14px" bold="false"/>
   </widgets>
   <widgets xsi:type="model:DateField" id="31" x="670" y="303" width="115" text="01-Jun-2016" measuredWidth="115" measuredHeight="23"/>
-  <widgets xsi:type="model:WidgetGroup" id="7" x="695" y="541" measuredWidth="102" measuredHeight="26" link="Sct_RW_00_Base_AppForm_PendingCommApproval.screen">
+  <widgets xsi:type="model:WidgetGroup" id="7" x="695" y="541" measuredWidth="102" measuredHeight="26" link="Sct_RW_00_Base_AppForm_PendingPRReview.screen">
     <widgets xsi:type="model:Panel" id="8" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="9" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="10" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
@@ -63,7 +66,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="36" x="361" y="412" text="Withdraw" measuredWidth="85" measuredHeight="26">
+  <widgets xsi:type="model:RadioButton" id="36" x="361" y="442" text="Withdraw" measuredWidth="85" measuredHeight="26">
     <font size="14px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="38" x="400" y="332" text="Pending Items" measuredWidth="98" measuredHeight="25" foreground="#666666">
@@ -72,7 +75,7 @@
   <widgets xsi:type="model:Label" id="39" x="500" y="332" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="40" x="510" y="332" text="Yes" measuredWidth="44" measuredHeight="25" link="Sct_RW_01_Workflow_PendingCommApproval_SelectApprove,Pending.screen">
+  <widgets xsi:type="model:RadioButton" id="40" x="510" y="332" text="Yes" measuredWidth="44" measuredHeight="25" link="Sct_RW_01_Workflow_PCA_SelectApprove,Pending.screen">
     <font size="14px"/>
   </widgets>
   <widgets xsi:type="model:RadioButton" id="41" x="570" y="332" text="No" measuredWidth="38" measuredHeight="25" selected="true">

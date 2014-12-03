@@ -63,7 +63,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="36" x="361" y="462" text="Withdraw" measuredWidth="85" measuredHeight="26">
+  <widgets xsi:type="model:RadioButton" id="36" x="361" y="412" text="Withdraw" measuredWidth="85" measuredHeight="26">
     <font size="14px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="38" x="400" y="332" text="Pending Items" measuredWidth="98" measuredHeight="25" foreground="#666666">
@@ -72,14 +72,20 @@
   <widgets xsi:type="model:Label" id="39" x="500" y="332" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="40" x="510" y="332" text="Yes" measuredWidth="44" measuredHeight="25" selected="true">
+  <widgets xsi:type="model:RadioButton" id="40" x="510" y="332" text="Yes" measuredWidth="44" measuredHeight="25" link="Sct_RW_01_Workflow_PCA_SelectApprove,Pending.screen">
     <font size="14px"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="41" x="570" y="332" text="No" measuredWidth="38" measuredHeight="25" link="Sct_RW_01_Workflow_PendingCommApproval_SelectApprove,NoPending.screen">
+  <widgets xsi:type="model:RadioButton" id="41" x="570" y="332" text="No" measuredWidth="38" measuredHeight="25" selected="true">
     <font size="14px"/>
   </widgets>
-  <widgets xsi:type="model:TextArea" id="45" x="510" y="358" width="525" height="96" text="Pending IBC Approval&#xD;&#xA;Pending IRB Approval" measuredWidth="525" measuredHeight="96" verticalScrollbar="true">
-    <font/>
+  <widgets xsi:type="model:Label" id="42" x="510" y="361" text="Approval Letter to be signed by" measuredWidth="204" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="43" x="716" y="362" width="253" text="Dr. Chua Seng Chye Winston" measuredWidth="253" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="510" y="386" text="Note: a notification will be sent to inform the selected member for Approval Letter Signature." measuredWidth="503" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false" italic="true"/>
   </widgets>
   <hRuler/>
   <vRuler/>
