@@ -4,7 +4,7 @@
     <screen xsi:type="model:Screen" href="Sct_RW_00_Base.screen#/"/>
     <overrides>
       <widgets ref="5" text="Pending Committee Approval"/>
-      <widgets ref="31" link="Sct_RW_01_Workflow_PendingCommApproval_SelectApprove.screen"/>
+      <widgets ref="31" link="Sct_RW_01_Workflow_PendingCommApproval_SelectApprove,NoPending.screen"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="73" x="28" y="169" measuredWidth="1324" measuredHeight="534" dimmed="true">

@@ -26,9 +26,10 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="182" x="614" y="168" width="193" height="31" measuredWidth="193" measuredHeight="31" background="#999999" alpha="64" border="none" link="Sct_New_03Review_Page01.3.screen"/>
   <widgets xsi:type="model:Panel" id="183" x="171" y="168" width="206" height="31" measuredWidth="206" measuredHeight="31" background="#999999" alpha="64" border="none" link="Sct_New_03Review_Page01.1.screen"/>
-  <widgets xsi:type="model:Table" id="185" x="173" y="213" width="1153" height="458" text="(w:110).Submission Date,(w:160).IACUC Ref. No.,(w:20).{tag},(w:80).Institution,(w:170).PI's Name,Protocol Title,=(w:50).PR,=(w:50).SR,=(w:40). &#xA;11-Mar-2014,IACUC/2014/SHS/00185,,SGH,Anibal Burriss,Overexpression p21WAF1/CIP1 in suppressing retinal pigment epithelial cells ...,JF,EF,{assets/fa-ellipsis-h}&#xA;17-Mar-2014,IACUC/2014/SHS/00189,,SKH,Jim Mayhew,The association between dental caries and television viewing among Chinese ...,MH,RB,{assets/fa-ellipsis-h}" measuredWidth="1153" measuredHeight="458" rowHeight="28" alternative="#eeeeee">
+  <widgets xsi:type="model:Table" id="185" x="173" y="213" width="1153" height="458" text="(w:110).Submission Date,(w:160).IACUC Ref. No.,(w:20).{tag},(w:80).Institution,(w:170).PI's Name,Protocol Title,(w:140).Committee Review By,=(w:50).PR,=(w:50).SR,=(w:40). &#xA;11-Mar-2014,IACUC/2014/SHS/00185,,SGH,Anibal Burriss,Overexpression p21WAF1/CIP1 in suppressing retinal ...,06-Jun-2014,JF,EF,{assets/fa-ellipsis-h}&#xA;17-Mar-2014,IACUC/2014/SHS/00189,,SKH,Jim Mayhew,The association between dental caries and television ...,08-Jun-2014,MH,RB,{assets/fa-ellipsis-h}" measuredWidth="1153" measuredHeight="458" rowHeight="28" alternative="#eeeeee">
     <font size="12px"/>
   </widgets>
+  <widgets xsi:type="model:Panel" id="186" x="286" y="243" width="154" height="55" measuredWidth="154" measuredHeight="55" background="#cfe2f3" alpha="64" border="none" link="../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingCommApproval.screen"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

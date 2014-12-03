@@ -28,13 +28,13 @@
   <widgets xsi:type="model:Label" id="20" x="341" y="212" text="Review Decision" measuredWidth="124" measuredHeight="26" foreground="#38761d">
     <font size="14px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="21" x="361" y="247" text="Review By PR &amp; SR" measuredWidth="160" measuredHeight="26" selected="true">
+  <widgets xsi:type="model:RadioButton" id="21" x="361" y="247" text="Review By PR &amp; SR" measuredWidth="160" measuredHeight="26" link="Sct_RW_01_Workflow_PendingCommReview_SelectReviewByPR.screen">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="22" x="361" y="297" text="Approve" measuredWidth="80" measuredHeight="26" link="Sct_RW_01_Workflow_PendingCommReview_SelectApprove,Pending.screen">
+  <widgets xsi:type="model:RadioButton" id="22" x="361" y="277" text="Approve" measuredWidth="80" measuredHeight="26" link="Sct_RW_01_Workflow_PendingCommReview_SelectApprove,Pending.screen">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="23" x="361" y="327" text="Circulate to Committee For Approval" measuredWidth="276" measuredHeight="26" link="Sct_RW_01_Workflow_PendingCommReview_SelectCommitteeApproval.screen">
+  <widgets xsi:type="model:RadioButton" id="23" x="361" y="307" text="Circulate to Committee For Approval" measuredWidth="276" measuredHeight="26" link="Sct_RW_01_Workflow_PendingCommReview_SelectCommitteeApproval.screen">
     <font size="14px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="7" x="695" y="611" measuredWidth="102" measuredHeight="26" link="Sct_RW_00_Base_AppForm_PendingCommReview.screen">
@@ -51,14 +51,14 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="37" x="361" y="357" text="Recommend to Re-submit" measuredWidth="202" measuredHeight="26" link="Sct_RW_01_Workflow_PendingCommReview_SelectResubmit.screen">
+  <widgets xsi:type="model:RadioButton" id="37" x="361" y="337" text="Recommend to Re-submit" measuredWidth="202" measuredHeight="26" selected="true">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="38" x="361" y="387" text="Withdraw" measuredWidth="85" measuredHeight="26">
+  <widgets xsi:type="model:RadioButton" id="38" x="361" y="397" text="Withdraw" measuredWidth="85" measuredHeight="26">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="39" x="381" y="272" text="Application requires further review by PR and SR." measuredWidth="274" measuredHeight="23" foreground="#666666">
-    <font size="12px" bold="false" italic="true"/>
+  <widgets xsi:type="model:Text" id="40" x="381" y="362" width="665" height="33" text="Request the PI to re-submit the application as new application with new IACUC Ref. No. Application will be froze for further amendment." measuredWidth="665" measuredHeight="33" foreground="#666666">
+    <font italic="true"/>
   </widgets>
   <hRuler/>
   <vRuler/>

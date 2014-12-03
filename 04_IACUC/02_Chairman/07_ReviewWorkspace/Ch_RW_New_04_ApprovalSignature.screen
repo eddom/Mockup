@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="2" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Ch_RW_New_05_AppForm.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="3" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="4" x="418" y="54" width="546" height="425" measuredWidth="546" measuredHeight="425" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="5" x="428" y="97" width="526" measuredWidth="526" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="6" x="428" y="426" width="526" measuredWidth="526" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="559" y="57" measuredWidth="264" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="8" x="37" text="Approval Signature" measuredWidth="227" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="9" y="4" measuredWidth="32" measuredHeight="32" icon="assets/award-fill (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="695" y="441" measuredWidth="102" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="11" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="12" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="13" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="14" x="585" y="441" measuredWidth="102" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="15" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="16" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="17" x="6" y="2" width="90" text="Sign" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="443" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="771" y="109" width="184" text="PI:- Dr. Grant Knuckles" measuredWidth="184" measuredHeight="26" textAlignment="Right" foreground="#999999">
+    <font size="14px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="26" x="553" y="363" width="193" measuredWidth="193" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="29" x="553" y="163" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="30" x="443" y="162" text="Approval Date" measuredWidth="96" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="443" y="192" text="Validity Date" measuredWidth="84" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="543" y="162" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="543" y="192" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="34" x="553" y="193" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="35" x="680" y="192" text="To" measuredWidth="20" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="36" x="713" y="193" width="115" text="01-Jun-2016" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="40" x="443" y="362" text="Login ID" measuredWidth="58" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="41" x="543" y="362" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="42" x="553" y="393" width="193" measuredWidth="193" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="43" x="443" y="392" text="Password" measuredWidth="71" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="44" x="543" y="392" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="45" x="443" y="335" text="Please enter your Login ID and Password to sign the Approval Letter electronically." measuredWidth="454" measuredHeight="23" foreground="#990000">
+    <font size="12px" bold="false" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="46" x="443" y="272" text="Approved By" measuredWidth="87" measuredHeight="25">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="47" x="443" y="292" text="Dr. Chua Seng Chye Winston" measuredWidth="198" measuredHeight="25">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

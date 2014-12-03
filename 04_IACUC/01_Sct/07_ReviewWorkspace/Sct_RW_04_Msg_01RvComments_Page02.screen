@@ -34,7 +34,7 @@
   <widgets xsi:type="model:Image" id="75" x="366" y="285" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
   <widgets xsi:type="model:Image" id="76" x="366" y="335" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
   <widgets xsi:type="model:Image" id="77" x="366" y="235" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
-  <widgets xsi:type="model:Label" id="82" x="862" y="152" width="206" text="Sent on 10-May-2014 10:00" measuredWidth="206" measuredHeight="23" textAlignment="Right">
+  <widgets xsi:type="model:Label" id="82" x="842" y="152" width="206" text="Received on 10-May-2014 10:00" measuredWidth="206" measuredHeight="23" textAlignment="Right">
     <font size="12px" bold="false" italic="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="84" x="321" y="186" text="Dr. Edison Fenstermacher" measuredWidth="190" measuredHeight="26">

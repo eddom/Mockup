@@ -3,9 +3,9 @@
   <widgets xsi:type="model:Master" id="6" x="8" y="8" measuredWidth="668" measuredHeight="27" dimmed="true">
     <screen xsi:type="model:Screen" href="../../99_Common/06_Appointed/Ctrl_Appointed_Menu.screen#/"/>
     <overrides>
-      <widgets ref="2" link="RV_Appointed_01PendingComments_Page01.screen"/>
-      <widgets ref="3" link="RV_Appointed_02PendingReview_Page01.screen"/>
-      <widgets ref="4" link="RV_Appointed_04MyReviewStudy_Page01.screen"/>
+      <widgets ref="2" link="Ch_Appointed_01PendingComments_Page01.screen"/>
+      <widgets ref="3" link="Ch_Appointed_02PendingReview_Page01.screen"/>
+      <widgets ref="4" link="Ch_Appointed_04MyReviewStudy_Page01.screen"/>
     </overrides>
   </widgets>
   <hRuler/>

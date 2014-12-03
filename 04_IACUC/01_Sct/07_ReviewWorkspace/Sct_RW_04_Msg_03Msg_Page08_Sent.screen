@@ -8,22 +8,19 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Label" id="3" x="325" y="192" text="Subject" measuredWidth="47" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="3" x="325" y="192" text="Subject" measuredWidth="46" measuredHeight="23">
     <font/>
   </widgets>
   <widgets xsi:type="model:Text" id="5" x="359" y="247" width="617" height="17" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="617" measuredHeight="17" foreground="#666666">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="6" x="359" y="225" text="Section J: Survival Surgery" measuredWidth="161" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="6" x="359" y="225" text="Section J: Survival Surgery" measuredWidth="160" measuredHeight="23">
     <font bold="true" italic="true" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="7" x="335" y="225" text="1." measuredWidth="16" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="7" x="335" y="225" text="1." measuredWidth="15" measuredHeight="23">
     <font size="12px" bold="false" underline="false"/>
   </widgets>
   <widgets xsi:type="model:Image" id="8" x="359" y="245" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
-  <widgets xsi:type="model:TextArea" id="9" x="358" y="276" width="660" height="91" text="Noted." measuredWidth="660" measuredHeight="91" verticalScrollbar="true">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:WidgetGroup" id="17" x="1049" y="190" measuredWidth="17" measuredHeight="371">
     <widgets xsi:type="model:VScrollbar" id="18" height="371" measuredWidth="17" measuredHeight="371"/>
     <widgets xsi:type="model:Panel" id="19" y="40" width="17" height="331" measuredWidth="17" measuredHeight="331" alpha="64" border="none" link="Sct_RW_04_Msg_03Msg_Page09_Sent.screen"/>
@@ -31,25 +28,34 @@
   <widgets xsi:type="model:Label" id="20" x="396" y="192" width="622" text=": iSHaRe - IACUC/2014/SHS/00182 - To evaluate the efficacy of antibiotics in ... (Comments &amp; Query)" measuredWidth="622" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Text" id="44" x="359" y="407" width="617" height="17" text="How long after HIFU will euthanasia be carried out? Is it right after scanning?" measuredWidth="617" measuredHeight="17" foreground="#666666">
+  <widgets xsi:type="model:Text" id="44" x="359" y="327" width="617" height="17" text="How long after HIFU will euthanasia be carried out? Is it right after scanning?" measuredWidth="617" measuredHeight="17" foreground="#666666">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="45" x="359" y="385" text="Section M: Hazardous Agents" measuredWidth="176" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="45" x="359" y="305" text="Section M: Hazardous Agents" measuredWidth="175" measuredHeight="23">
     <font bold="true" italic="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="46" x="335" y="385" text="2." measuredWidth="16" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="46" x="335" y="305" text="2." measuredWidth="15" measuredHeight="23">
     <font size="12px" bold="false" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Image" id="47" x="359" y="405" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
-  <widgets xsi:type="model:TextArea" id="48" x="358" y="437" width="660" height="90" text="10." measuredWidth="660" measuredHeight="90" verticalScrollbar="true">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="55" x="323" y="154" text="Message" measuredWidth="65" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="Sct_RW_04_Msg_02Msg_Page01.screen">
+  <widgets xsi:type="model:Image" id="47" x="359" y="325" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Label" id="55" x="323" y="154" text="Message" measuredWidth="64" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="Sct_RW_04_Msg_02Msg_Page01.screen">
     <font size="14px" bold="false" underline="true"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="56" x="384" y="154" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>
-  <widgets xsi:type="model:Label" id="57" x="406" y="154" text="Message Details" measuredWidth="114" measuredHeight="25" textAlignment="Center" foreground="#990000">
+  <widgets xsi:type="model:Label" id="57" x="406" y="154" text="Message Details" measuredWidth="113" measuredHeight="25" textAlignment="Center" foreground="#990000">
     <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="58" x="386" y="274" width="590" height="17" text="Noted." measuredWidth="590" measuredHeight="17" foreground="#38761d">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="59" x="359" y="268" measuredWidth="24" measuredHeight="24" icon="assets/fa-level-up (medium)" iconRotation="90"/>
+  <widgets xsi:type="model:Text" id="60" x="386" y="354" width="590" height="17" text="10." measuredWidth="590" measuredHeight="17" foreground="#38761d">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="61" x="359" y="348" measuredWidth="24" measuredHeight="24" icon="assets/fa-level-up (medium)" iconRotation="90"/>
+  <widgets xsi:type="model:Icon" id="62" x="316" y="543" measuredWidth="24" measuredHeight="24" icon="assets/fa-level-up (medium)" iconRotation="90"/>
+  <widgets xsi:type="model:Text" id="63" x="343" y="549" width="65" height="17" text="PI's Reply" measuredWidth="65" measuredHeight="17" foreground="#38761d">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>

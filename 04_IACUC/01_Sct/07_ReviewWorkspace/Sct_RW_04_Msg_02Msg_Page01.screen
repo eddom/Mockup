@@ -8,7 +8,7 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Table" id="2" x="321" y="184" width="736" height="345" text="=(w:40). ,Subject,(w:90).Status,(w:130).Create Date,=(w:130).Sent Date,=(w:130).Reply Date&#xD;&#xA;-,[Missing Attachment],Sent,11-May-2014 09:32,-,15-May-2014 09:44&#xD;&#xA;,[Comments &amp; Query],Draft,13-May-2014 11:43,-,-" measuredWidth="736" measuredHeight="345" rowHeight="28" alternative="#eeeeee">
+  <widgets xsi:type="model:Table" id="2" x="321" y="184" width="736" height="345" text="=(w:40). ,Subject,(w:90).Status,(w:130).Create Date,=(w:130).Sent Date,=(w:130).Reply Date&#xD;&#xA;-,[Missing Attachment],Sent,11-May-2014 09:32,10-May-2014 12:10,15-May-2014 09:44&#xD;&#xA;,[Comments &amp; Query],Draft,13-May-2014 11:43,-,-" measuredWidth="736" measuredHeight="345" rowHeight="28" alternative="#eeeeee">
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="5" x="329" y="242" measuredWidth="24" measuredHeight="24" icon="edit (medium)" link="Sct_RW_04_Msg_02Msg_Page05_Edit.screen"/>

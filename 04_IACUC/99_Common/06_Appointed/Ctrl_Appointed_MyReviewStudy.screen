@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Table" id="1" x="8" y="64" width="1169" height="461" text="(w:100).Appointment,(w:160).IACUC Ref. No.,=(w:20).{tag},(w:80).Institution,(w:180).PI's Name,Protocol Title,(w:120).Status,(w:90). &#xA;Primary,[IACUC/2014/SHS/00141],,NHC,Chan Choon Lee,To evaluate the efficacy of antibiotics in ...,On-going,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Primary,[IACUC/2014/SHS/00148],B,SKH,Martin Leah Anne,To evaluate the efficacy of antibiotics in ...,Expired,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Secondary,[IACUC/2014/SHS/00153],,SGH,Benjamin O'Brien,To evaluate the efficacy of antibiotics in ...,Suspended,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Primary,[IACUC/2014/SHS/00162],,NHC,Wong Wei Lun Derek,To evaluate the efficacy of antibiotics in ...,On-going,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Secondary,[IACUC/2014/SHS/00163],,SGH,Reynaldo Benavides,To evaluate the efficacy of antibiotics in ...,On-going,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Secondary,[IACUC/2014/SHS/00172],,SGH,Chua Seng Chye Winston,To evaluate the efficacy of antibiotics in ...,On-going,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}" measuredWidth="1169" measuredHeight="461" rowHeight="28" alternative="#eeeeee">
+  <widgets xsi:type="model:Table" id="1" x="8" y="8" width="1169" height="461" text="(w:100).Appointment,(w:160).IACUC Ref. No.,=(w:20).{tag},(w:80).Institution,(w:180).PI's Name,Protocol Title,(w:120).Status,(w:90). &#xA;Primary,[IACUC/2014/SHS/00141],,NHC,Chan Choon Lee,To evaluate the efficacy of antibiotics in ...,On-going,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Primary,[IACUC/2014/SHS/00148],B,SKH,Martin Leah Anne,To evaluate the efficacy of antibiotics in ...,Expired,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Secondary,[IACUC/2014/SHS/00153],,SGH,Benjamin O'Brien,To evaluate the efficacy of antibiotics in ...,Suspended,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Primary,[IACUC/2014/SHS/00162],,NHC,Wong Wei Lun Derek,To evaluate the efficacy of antibiotics in ...,On-going,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Secondary,[IACUC/2014/SHS/00163],,SGH,Reynaldo Benavides,To evaluate the efficacy of antibiotics in ...,On-going,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;Secondary,[IACUC/2014/SHS/00172],,SGH,Chua Seng Chye Winston,To evaluate the efficacy of antibiotics in ...,On-going,%(color:#999999){assets/fa-comments}  {assets/fi-mail}% {assets/fa-ellipsis-h}" measuredWidth="1169" measuredHeight="461" rowHeight="28" alternative="#eeeeee">
     <font size="12px"/>
-  </widgets>
-  <widgets xsi:type="model:Master" id="4" x="8" y="8" measuredWidth="444" measuredHeight="27" dimmed="true">
-    <screen xsi:type="model:Screen" href="Ctrl_Appointed_Menu.screen#/"/>
-    <overrides>
-      <widgets ref="1">
-        <attributes key="foreground" value="#990000"/>
-        <font underline="false"/>
-      </widgets>
-    </overrides>
   </widgets>
   <hRuler/>
   <vRuler/>

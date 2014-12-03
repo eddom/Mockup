@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Master" id="5" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+  <widgets xsi:type="model:Master" id="4" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
     <screen xsi:type="model:Screen" href="../Ch_00_IACUCFrame.screen#/"/>
     <overrides>
       <widgets ref="1/34">
@@ -22,24 +22,17 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="7" x="162" y="168" measuredWidth="1169" measuredHeight="485" dimmed="true">
-    <screen xsi:type="model:Screen" href="../../99_Common/06_Appointed/Ctrl_Appointed_PendingComments.screen#/"/>
-    <overrides>
-      <widgets ref="5/2">
-        <attributes key="foreground" value="#990000"/>
-        <font underline="false"/>
-      </widgets>
-      <widgets ref="3" link="../07_ReviewWorkspace/Ch_RW_New_05_AppForm.screen"/>
-    </overrides>
-  </widgets>
-  <widgets xsi:type="model:Master" id="8" x="162" y="127" measuredWidth="668" measuredHeight="27" dimmed="true">
+  <widgets xsi:type="model:Master" id="2" x="162" y="127" measuredWidth="668" measuredHeight="27" dimmed="true">
     <screen xsi:type="model:Screen" href="Ch_Appointed_00_Ctrl_Menu.screen#/"/>
     <overrides>
-      <widgets ref="6/2">
+      <widgets ref="6/4">
         <attributes key="foreground" value="#990000"/>
         <font underline="false"/>
       </widgets>
     </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="162" y="168" measuredWidth="1169" measuredHeight="461" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../99_Common/06_Appointed/Ctrl_Appointed_MyReviewStudy.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>

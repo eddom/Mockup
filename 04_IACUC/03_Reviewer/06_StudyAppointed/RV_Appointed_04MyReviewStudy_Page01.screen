@@ -3,17 +3,20 @@
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
     <screen xsi:type="model:Screen" href="RV_Appointed_00_Base.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="7" x="162" y="158" measuredWidth="1169" measuredHeight="481" dimmed="true">
-    <screen xsi:type="model:Screen" href="../../99_Common/06_Appointed/Ctrl_Appointed_PendingReview.screen#/"/>
-  </widgets>
-  <widgets xsi:type="model:Master" id="8" x="162" y="127" measuredWidth="668" measuredHeight="27" dimmed="true">
+  <widgets xsi:type="model:Master" id="16" x="162" y="127" measuredWidth="668" measuredHeight="27" dimmed="true">
     <screen xsi:type="model:Screen" href="RV_Appointed_00_Ctrl_Menu.screen#/"/>
     <overrides>
-      <widgets ref="6/3">
+      <widgets ref="6/4">
         <attributes key="foreground" value="#990000"/>
         <font underline="false"/>
       </widgets>
     </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="17" x="162" y="167" measuredWidth="1169" measuredHeight="461" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../99_Common/06_Appointed/Ctrl_Appointed_MyReviewStudy.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="14" x="600" y="416" width="337" height="126" text="Query:&#xD;&#xA;Completed/Terminated/Suspended study will be available for reviewer?" measuredWidth="337" measuredHeight="126" annotation="true" textAlignment="Left">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>
