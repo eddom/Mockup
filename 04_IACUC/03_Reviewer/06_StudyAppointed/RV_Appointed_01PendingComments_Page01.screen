@@ -12,7 +12,7 @@
       </widgets>
       <widgets ref="5/3" link="RV_Appointed_02PendingReview_Page01.screen"/>
       <widgets ref="5/1" link="RV_Appointed_04MyReviewStudy_Page01.screen"/>
-      <widgets ref="3" link="../07_ReviewWorkspace/01_New/RV_RW_New_05_AppForm.screen"/>
+      <widgets ref="3" link="../07_ReviewWorkspace/01_New/RV_RW_New_05_AppForm_NoComments.screen"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="13" x="162" y="127" measuredWidth="668" measuredHeight="27" dimmed="true">

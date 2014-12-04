@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="RV_RW_New_05_AppForm.screen#/"/>
+    <screen xsi:type="model:Screen" href="RV_RW_New_05_AppForm_NoComments.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="4" x="330" y="54" width="722" height="514" measuredWidth="722" measuredHeight="514" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="5" x="340" y="97" width="702" measuredWidth="702" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="608" y="59" measuredWidth="165" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="7" x="37" text="Comments" measuredWidth="128" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="8" y="2" measuredWidth="32" measuredHeight="32" icon="assets/gl-comment (large)"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="10" x="340" y="514" width="702" measuredWidth="702" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="18" x="345" y="108" text="My Comments" measuredWidth="100" measuredHeight="25" textAlignment="Center">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="695" y="529" measuredWidth="102" measuredHeight="26" link="RV_RW_New_05_AppForm_NoComments.screen">
+    <widgets xsi:type="model:Panel" id="12" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="13" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="14" x="6" y="2" width="90" text="Cancel" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="22" x="585" y="529" measuredWidth="102" measuredHeight="26" link="RV_RW_New_05_AppForm_WithComments.screen">
+    <widgets xsi:type="model:Panel" id="23" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="24" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="25" x="6" y="2" width="90" text="Save" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="465" y="108" text="Section B: Objectives of the Study" measuredWidth="226" measuredHeight="25" textAlignment="Center">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="28" x="441" y="108" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>
+  <widgets xsi:type="model:Master" id="29" x="345" y="138" measuredWidth="691" measuredHeight="367">
+    <screen xsi:type="model:Screen" href="../../../../assets/RichText.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Icon" x="189" y="41" width="20" height="20" icon="assets/gl-font (medium)"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="2">
+        <object xsi:type="model:Icon" x="213" y="41" width="20" height="20" icon="assets/gl-text-height (medium)"/>
+      </widgetChanges>
+      <widgets ref="1" width="144" text="{undo}   {redo} {separator} {text-bold}  {text-italic}  {text-underline} {separator}"/>
+      <widgets ref="2" width="691" height="343" text="In the last paragraph, PI wrote: &quot;We plan to use pigs that are scheduled for euthanasia in other projects, after obtaining their approval.&quot; It is recommended that the IACUC approves the PI's request for the use of pigs from other protocols which are scheduled for euthanasia, subject to a veterinarian certifying suitability of the animals for reuse in this study under NACLAR's guiding principles on 'Repeated use of animals in experiments' (Section 8.4.4)">
+        <attributes key="verticalScrollbar" value="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

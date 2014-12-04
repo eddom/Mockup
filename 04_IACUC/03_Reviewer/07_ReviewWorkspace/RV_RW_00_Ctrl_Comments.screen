@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="01_New/RV_RW_New_05_AppForm.screen#/"/>
+    <screen xsi:type="model:Screen" href="01_New/RV_RW_New_05_AppForm_NoComments.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
   <widgets xsi:type="model:WidgetGroup" id="16" x="295" y="54" measuredWidth="791" measuredHeight="603">
@@ -19,7 +19,7 @@
       <font/>
     </widgets>
     <widgets xsi:type="model:HLine" id="9" x="10" y="552" width="771" measuredWidth="771" measuredHeight="6"/>
-    <widgets xsi:type="model:WidgetGroup" id="10" x="344" y="567" measuredWidth="102" measuredHeight="26" link="01_New/RV_RW_New_05_AppForm.screen">
+    <widgets xsi:type="model:WidgetGroup" id="10" x="344" y="567" measuredWidth="102" measuredHeight="26" link="01_New/RV_RW_New_05_AppForm_NoComments.screen">
       <widgets xsi:type="model:Panel" id="11" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
       <widgets xsi:type="model:Panel" id="12" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
       <widgets xsi:type="model:Label" id="13" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">

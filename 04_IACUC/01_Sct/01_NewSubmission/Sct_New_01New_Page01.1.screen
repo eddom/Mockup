@@ -39,7 +39,7 @@
     <font size="14px" underline="false"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="45" x="162" y="616" measuredWidth="24" measuredHeight="24" icon="tag (medium)"/>
-  <widgets xsi:type="model:Panel" id="47" x="325" y="223" width="154" height="136" measuredWidth="154" measuredHeight="136" background="#cfe2f3" alpha="64" border="none" link="../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingPRReview.screen"/>
+  <widgets xsi:type="model:Panel" id="47" x="325" y="223" width="154" height="136" measuredWidth="154" measuredHeight="136" background="#cfe2f3" alpha="64" border="none" link="../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
   <hRuler>
     <guides position="1330"/>
   </hRuler>

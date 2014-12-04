@@ -6,7 +6,7 @@
   <widgets xsi:type="model:Master" id="74" x="28" y="169" measuredWidth="1324" measuredHeight="534" dimmed="true">
     <screen xsi:type="model:Screen" href="../../../99_Common/07_ReviewWorkspace/Ctrl_RW_AppForm.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="75" x="1320" y="165" measuredWidth="32" measuredHeight="32" icon="assets/fi-comments (large)"/>
+  <widgets xsi:type="model:Icon" id="75" x="555" y="165" measuredWidth="32" measuredHeight="32" icon="assets/gl-comment (large)" link="RV_RW_New_04_SectionComments_Page01.screen"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="11px"/>

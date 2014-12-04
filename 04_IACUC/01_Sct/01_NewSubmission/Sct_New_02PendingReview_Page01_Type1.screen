@@ -56,7 +56,7 @@
   <widgets xsi:type="model:Icon" id="103" x="203" y="214" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_02PendingReview_Page03.screen"/>
   <widgets xsi:type="model:Icon" id="104" x="170" y="589" measuredWidth="24" measuredHeight="24" icon="assets/fa-reply-all (medium)" link="Sct_New_02PendingReview_Page02.screen"/>
   <widgets xsi:type="model:Icon" id="105" x="203" y="589" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_02PendingReview_Page03.screen"/>
-  <widgets xsi:type="model:Panel" id="106" x="320" y="273" width="154" height="224" measuredWidth="154" measuredHeight="224" background="#cfe2f3" alpha="64" border="none" link="../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingPRReview.screen"/>
+  <widgets xsi:type="model:Panel" id="106" x="320" y="273" width="154" height="224" measuredWidth="154" measuredHeight="224" background="#cfe2f3" alpha="64" border="none" link="../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>
