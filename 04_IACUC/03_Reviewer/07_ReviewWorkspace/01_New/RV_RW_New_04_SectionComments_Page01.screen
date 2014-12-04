@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="RV_RW_New_05_AppForm.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

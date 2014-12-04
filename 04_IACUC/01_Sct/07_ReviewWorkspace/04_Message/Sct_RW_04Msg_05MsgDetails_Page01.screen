@@ -8,15 +8,9 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Label" id="3" x="325" y="192" text="Subject" measuredWidth="46" measuredHeight="23">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:WidgetGroup" id="17" x="1049" y="190" measuredWidth="17" measuredHeight="371">
     <widgets xsi:type="model:VScrollbar" id="18" height="371" measuredWidth="17" measuredHeight="371"/>
     <widgets xsi:type="model:Panel" id="19" y="40" width="17" height="331" measuredWidth="17" measuredHeight="331" alpha="64" border="none"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="20" x="396" y="192" width="622" text=": iSHaRe - IACUC/2014/SHS/00182 - To evaluate the efficacy of antibiotics in ... (Comments &amp; Query)" measuredWidth="622" measuredHeight="23">
-    <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="55" x="323" y="154" text="Message" measuredWidth="64" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="Sct_RW_04Msg_02MsgSent_Page01.screen">
     <font size="14px" bold="false" underline="true"/>
@@ -25,63 +19,8 @@
   <widgets xsi:type="model:Label" id="57" x="406" y="154" text="Message Details" measuredWidth="113" measuredHeight="25" textAlignment="Center" foreground="#990000">
     <font size="14px" bold="false" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="142" x="325" y="543" measuredWidth="92" measuredHeight="24">
-    <widgets xsi:type="model:Icon" id="62" measuredWidth="24" measuredHeight="24" icon="assets/fa-level-up (medium)" iconRotation="90"/>
-    <widgets xsi:type="model:Text" id="63" x="27" y="6" width="65" height="17" text="PI's Reply" measuredWidth="65" measuredHeight="17" foreground="#38761d">
-      <font/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="147" x="325" y="221" measuredWidth="710" measuredHeight="172">
-    <widgets xsi:type="model:Panel" id="95" width="710" height="32" measuredWidth="710" measuredHeight="32" background="#d9ead3" border="none"/>
-    <widgets xsi:type="model:Label" id="96" x="7" y="5" text="Section J: Survival Surgery" measuredWidth="157" measuredHeight="23">
-      <font bold="true"/>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="97" x="673" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90"/>
-    <widgets xsi:type="model:WidgetGroup" id="98" y="32" measuredWidth="710" measuredHeight="140">
-      <widgets xsi:type="model:Panel" id="99" width="710" height="140" measuredWidth="710" measuredHeight="140" background="#d9ead3" border="none"/>
-      <widgets xsi:type="model:Panel" id="100" x="2" width="706" height="138" measuredWidth="706" measuredHeight="138" border="none"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="116" x="21" y="44" text="1." measuredWidth="15" measuredHeight="23">
-      <font size="12px" bold="false" underline="false"/>
-    </widgets>
-    <widgets xsi:type="model:Text" id="122" x="44" y="47" width="648" height="17" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="648" measuredHeight="17" foreground="#666666">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Text" id="123" x="71" y="72" width="590" height="17" text="Details of ureteric catheterization procedure added." measuredWidth="590" measuredHeight="17" foreground="#38761d">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="124" x="44" y="66" measuredWidth="24" measuredHeight="24" icon="assets/fa-level-up (medium)" iconRotation="90"/>
-    <widgets xsi:type="model:Label" id="125" x="21" y="94" text="2." measuredWidth="15" measuredHeight="23">
-      <font size="12px" bold="false" underline="false"/>
-    </widgets>
-    <widgets xsi:type="model:Text" id="126" x="44" y="97" width="648" height="40" text="Please account for the animals that will be generated from breeding of the Cre/Cre lines and provide the breeding protocol." measuredWidth="648" measuredHeight="40" foreground="#666666">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Text" id="127" x="71" y="137" width="590" height="17" text="Noted." measuredWidth="590" measuredHeight="17" foreground="#38761d">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="128" x="44" y="131" measuredWidth="24" measuredHeight="24" icon="assets/fa-level-up (medium)" iconRotation="90"/>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="145" x="325" y="403" measuredWidth="710" measuredHeight="32">
-    <widgets xsi:type="model:Panel" id="131" width="710" height="32" measuredWidth="710" measuredHeight="32" background="#d9ead3" border="none"/>
-    <widgets xsi:type="model:Label" id="132" x="7" y="5" text="Section M: Hazardous Agents" measuredWidth="171" measuredHeight="23">
-      <font bold="true"/>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="133" x="673" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90"/>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="144" x="325" y="443" measuredWidth="710" measuredHeight="32">
-    <widgets xsi:type="model:Panel" id="135" width="710" height="32" measuredWidth="710" measuredHeight="32" background="#d9ead3" border="none"/>
-    <widgets xsi:type="model:Label" id="136" x="7" y="5" text="Section G: Description of Experimental Design &amp; Animal Procedures" measuredWidth="388" measuredHeight="23">
-      <font bold="true"/>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="137" x="673" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90"/>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="143" x="325" y="483" measuredWidth="710" measuredHeight="32">
-    <widgets xsi:type="model:Panel" id="139" width="710" height="32" measuredWidth="710" measuredHeight="32" background="#d9ead3" border="none"/>
-    <widgets xsi:type="model:Label" id="140" x="7" y="5" text="General Comments" measuredWidth="114" measuredHeight="23">
-      <font bold="true"/>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="141" x="673" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90"/>
+  <widgets xsi:type="model:Master" id="148" x="325" y="192" measuredWidth="710" measuredHeight="375" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../99_Common/08_Message/Ctrl_Msg_PIReply_Expended.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>

@@ -1,76 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Master" id="156" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="RV_RW_New_05_AppForm.screen#/"/>
+  <widgets xsi:type="model:Master" id="220" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../RV_RW_00_Ctrl_Comments.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
-  <widgets xsi:type="model:Panel" id="118" x="309" y="54" width="764" height="603" measuredWidth="764" measuredHeight="603" foreground="#ffffff" border="solid-rounded"/>
-  <widgets xsi:type="model:HLine" id="119" x="319" y="97" width="744" measuredWidth="744" measuredHeight="6"/>
-  <widgets xsi:type="model:HLine" id="120" x="319" y="606" width="744" measuredWidth="744" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="121" x="640" y="621" measuredWidth="102" measuredHeight="26" link="RV_RW_New_05_AppForm.screen">
-    <widgets xsi:type="model:Panel" id="122" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
-    <widgets xsi:type="model:Panel" id="123" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
-    <widgets xsi:type="model:Label" id="124" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
-      <font/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:TabbedPane" id="182" x="319" y="106" width="744" height="490" text="Pending Comments,Comments Sent" measuredWidth="744" measuredHeight="490" selection="1">
-    <items x="10" y="0" width="131" height="27" text="Pending Comments"/>
-    <items x="141" y="0" width="110" height="27" text="Comments Sent"/>
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="157" x="333" y="182" text="Subject" measuredWidth="46" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="158" x="367" y="237" width="617" height="17" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="617" measuredHeight="17" foreground="#666666">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="159" x="367" y="215" text="Section J: Survival Surgery" measuredWidth="160" measuredHeight="23">
-    <font bold="true" italic="true" underline="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="160" x="343" y="215" text="1." measuredWidth="15" measuredHeight="23">
-    <font size="12px" bold="false" underline="false"/>
-  </widgets>
-  <widgets xsi:type="model:Image" id="161" x="367" y="235" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
-  <widgets xsi:type="model:TextArea" id="162" x="366" y="266" width="660" height="91" text="Noted." measuredWidth="660" measuredHeight="91" verticalScrollbar="true">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="166" x="1038" y="170" height="416" measuredWidth="17" measuredHeight="416">
+  <widgets xsi:type="model:WidgetGroup" id="166" x="1048" y="170" measuredWidth="17" measuredHeight="416">
     <widgets xsi:type="model:VScrollbar" id="167" height="416" measuredWidth="17" measuredHeight="416"/>
     <widgets xsi:type="model:Panel" id="168" y="39" width="17" height="374" measuredWidth="17" measuredHeight="374" alpha="64" border="none"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="169" x="404" y="182" width="622" text=": iSHaRe - IACUC/2014/SHS/00182 - To evaluate the efficacy of antibiotics in ... (Comments &amp; Query)" measuredWidth="622" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="170" x="367" y="397" width="617" height="17" text="How long after HIFU will euthanasia be carried out? Is it right after scanning?" measuredWidth="617" measuredHeight="17" foreground="#666666">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="171" x="367" y="375" text="Section M: Hazardous Agents" measuredWidth="175" measuredHeight="23">
-    <font bold="true" italic="true"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="172" x="343" y="375" text="2." measuredWidth="15" measuredHeight="23">
-    <font size="12px" bold="false" underline="false"/>
-  </widgets>
-  <widgets xsi:type="model:Image" id="173" x="367" y="395" measuredWidth="660" measuredHeight="1" src="../../../../assets/Eddom/Line_Gray.png"/>
-  <widgets xsi:type="model:TextArea" id="174" x="366" y="427" width="660" height="90" text="10." measuredWidth="660" measuredHeight="90" verticalScrollbar="true">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="175" x="847" y="145" width="206" text="Sent on 15-Jun-2014 10:32" measuredWidth="206" measuredHeight="23" textAlignment="Right">
+  <widgets xsi:type="model:Label" id="175" x="841" y="145" width="206" text="Sent on 15-Jun-2014 10:32" measuredWidth="206" measuredHeight="23" textAlignment="Right">
     <font size="12px" bold="false" italic="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="176" x="333" y="144" text="Sent" measuredWidth="35" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="RV_RW_New_03_Comments_Page04_All.screen">
+  <widgets xsi:type="model:Label" id="176" x="320" y="144" text="Sent" measuredWidth="35" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="RV_RW_New_03_Comments_Page04_All.screen">
     <font size="14px" bold="false" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="177" x="364" y="144" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>
-  <widgets xsi:type="model:Label" id="178" x="386" y="144" text="Message" measuredWidth="64" measuredHeight="25" textAlignment="Center" foreground="#990000">
+  <widgets xsi:type="model:Icon" id="177" x="351" y="144" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>
+  <widgets xsi:type="model:Label" id="178" x="373" y="144" text="Message" measuredWidth="64" measuredHeight="25" textAlignment="Center" foreground="#990000">
     <font size="14px" bold="false" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="183" x="330" y="108" width="130" height="25" measuredWidth="130" measuredHeight="25" background="#cfe2f3" alpha="64" border="none" link="RV_RW_New_03_Comments_Page01.screen"/>
-  <widgets xsi:type="model:WidgetGroup" id="184" x="463" y="59" measuredWidth="455" measuredHeight="37">
-    <widgets xsi:type="model:Label" id="185" x="37" text="Reviewer's Consolidated Comments" measuredWidth="418" measuredHeight="37" textAlignment="Center">
-      <font size="24px" bold="true"/>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="186" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-comments (large)"/>
+  <widgets xsi:type="model:Master" id="217" x="322" y="177" measuredWidth="710" measuredHeight="375" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../99_Common/08_Message/Ctrl_Msg_PIReply_Expended.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>

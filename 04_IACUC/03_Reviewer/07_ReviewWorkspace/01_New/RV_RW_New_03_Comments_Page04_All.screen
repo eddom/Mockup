@@ -1,39 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Master" id="168" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="RV_RW_New_05_AppForm.screen#/"/>
+  <widgets xsi:type="model:Master" id="179" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../RV_RW_00_Ctrl_Comments.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
-  <widgets xsi:type="model:Panel" id="118" x="309" y="54" width="764" height="603" measuredWidth="764" measuredHeight="603" foreground="#ffffff" border="solid-rounded"/>
-  <widgets xsi:type="model:HLine" id="119" x="319" y="97" width="744" measuredWidth="744" measuredHeight="6"/>
-  <widgets xsi:type="model:HLine" id="120" x="319" y="606" width="744" measuredWidth="744" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="121" x="640" y="621" measuredWidth="102" measuredHeight="26" link="RV_RW_New_05_AppForm.screen">
-    <widgets xsi:type="model:Panel" id="122" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
-    <widgets xsi:type="model:Panel" id="123" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
-    <widgets xsi:type="model:Label" id="124" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
-      <font/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:TabbedPane" id="171" x="319" y="106" width="744" height="490" text="Pending Comments,Comments Sent" measuredWidth="744" measuredHeight="490" selection="1">
-    <items x="10" y="0" width="131" height="27" text="Pending Comments"/>
-    <items x="141" y="0" width="110" height="27" text="Comments Sent"/>
+  <widgets xsi:type="model:Table" id="158" x="322" y="175" width="735" height="402" text="(w:40). ,(w:140).Sent Date,Remarks,(w:100).Secretariat Message&#xA;,02-Jun-2014 19:30,Acknowledged by Ms. Serene Lok,=.-&#xA;,08-Jun-2014 16;20,Sent to applicant by Ms. Serene Lok,[15-Jun-2014 10:32]" measuredWidth="735" measuredHeight="402" verticalScrollbar="true" rowHeight="28" alternative="#eeeeee">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Table" id="158" x="334" y="175" width="708" height="402" text="(w:40). ,(w:140).Sent Date,Remarks,(w:100).Secretariat Message&#xA;,02-Jun-2014 19:30,Acknowledged by Ms. Serene Lok,=.-&#xA;,08-Jun-2014 16;20,Sent to applicant by Ms. Serene Lok,[15-Jun-2014 10:32]" measuredWidth="708" measuredHeight="402" verticalScrollbar="true" rowHeight="28" alternative="#eeeeee">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="159" x="343" y="206" measuredWidth="24" measuredHeight="24" icon="assets/fa-file-text-o (medium)" link="RV_RW_New_03_Comments_Page05_PastComments.screen"/>
-  <widgets xsi:type="model:Icon" id="160" x="343" y="233" measuredWidth="24" measuredHeight="24" icon="assets/fa-file-text-o (medium)" link="RV_RW_New_03_Comments_Page05_PastComments.screen"/>
-  <widgets xsi:type="model:Panel" id="170" x="891" y="232" width="121" height="25" measuredWidth="121" measuredHeight="25" background="#cfe2f3" alpha="64" border="none" link="RV_RW_New_03_Comments_Page06_Message.screen"/>
-  <widgets xsi:type="model:Label" id="172" x="333" y="144" text="Sent" measuredWidth="35" measuredHeight="25" textAlignment="Center">
+  <widgets xsi:type="model:Icon" id="159" x="331" y="206" measuredWidth="24" measuredHeight="24" icon="assets/fa-file-text-o (medium)" link="RV_RW_New_03_Comments_Page05_PastComments.screen"/>
+  <widgets xsi:type="model:Icon" id="160" x="331" y="233" measuredWidth="24" measuredHeight="24" icon="assets/fa-file-text-o (medium)" link="RV_RW_New_03_Comments_Page05_PastComments.screen"/>
+  <widgets xsi:type="model:Panel" id="170" x="902" y="232" width="121" height="25" measuredWidth="121" measuredHeight="25" background="#cfe2f3" alpha="64" border="none" link="RV_RW_New_03_Comments_Page06_Message.screen"/>
+  <widgets xsi:type="model:Label" id="172" x="320" y="144" text="Sent" measuredWidth="35" measuredHeight="25" textAlignment="Center">
     <font size="14px" bold="false" underline="false"/>
-  </widgets>
-  <widgets xsi:type="model:Panel" id="173" x="330" y="108" width="130" height="25" measuredWidth="130" measuredHeight="25" background="#cfe2f3" alpha="64" border="none" link="RV_RW_New_03_Comments_Page01.screen"/>
-  <widgets xsi:type="model:WidgetGroup" id="174" x="463" y="59" measuredWidth="455" measuredHeight="37">
-    <widgets xsi:type="model:Label" id="175" x="37" text="Reviewer's Consolidated Comments" measuredWidth="418" measuredHeight="37" textAlignment="Center">
-      <font size="24px" bold="true"/>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="176" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-comments (large)"/>
   </widgets>
   <hRuler/>
   <vRuler/>
