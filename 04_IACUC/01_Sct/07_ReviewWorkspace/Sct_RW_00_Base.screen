@@ -15,7 +15,7 @@
   <widgets xsi:type="model:Icon" id="18" x="1296" y="120" measuredWidth="32" measuredHeight="32" icon="assets/fi-mail (large)" link="04_Message/Sct_RW_04Msg_01RvComments_Page01.screen"/>
   <widgets xsi:type="model:Icon" id="19" x="1331" y="120" measuredWidth="32" measuredHeight="32" icon="assets/gl-download-alt (large)" iconRotation="90"/>
   <widgets xsi:type="model:Icon" id="10" x="51" y="120" measuredWidth="32" measuredHeight="32" foreground="#0b5394" icon="assets/ai-paste (large)"/>
-  <widgets xsi:type="model:Icon" id="11" x="84" y="120" measuredWidth="32" measuredHeight="32" foreground="#0b5394" icon="assets/fa-folder-o (large)" link="08_StudyFolder/Sct_RW_08_StudyFolder_01Form_Page01.screen"/>
+  <widgets xsi:type="model:Icon" id="11" x="84" y="120" measuredWidth="32" measuredHeight="32" foreground="#0b5394" icon="assets/fa-folder-o (large)" link="08_StudyFolder/Sct_RW_08StudyFolder_01Form_Page01.screen"/>
   <widgets xsi:type="model:Icon" id="21" x="119" y="120" measuredWidth="32" measuredHeight="32" foreground="#38761d" icon="assets/fi-clipboard-pencil (large)" link="Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
   <widgets xsi:type="model:VLine" id="30" x="154" y="120" height="32" measuredWidth="6" measuredHeight="32"/>
   <widgets xsi:type="model:Icon" id="31" x="1181" y="121" measuredWidth="32" measuredHeight="32" icon="assets/gl-random (large)" link="01_Workflow/Sct_RW_01_Workflow_PCR_SelectReviewByPR.screen"/>

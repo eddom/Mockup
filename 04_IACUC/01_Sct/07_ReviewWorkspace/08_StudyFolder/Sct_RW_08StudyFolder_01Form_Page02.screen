@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_08StudyFolder_01Form_Page01.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="3" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Note" id="25" x="928" y="102" width="273" height="89" text="Query&#xD;&#xA;Secretariat to upload using attach document or secretariat upload via the form?" measuredWidth="273" measuredHeight="89" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="13" x="490" y="54" width="402" height="358" measuredWidth="402" measuredHeight="358" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="14" x="501" y="97" width="381" measuredWidth="381" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="15" x="501" y="359" width="381" measuredWidth="381" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="20" x="570" y="59" measuredWidth="241" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="21" x="38" text="Attach Document" measuredWidth="203" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="22" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-upload (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="517" y="184" text="Attachment" measuredWidth="66" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="24" x="611" y="184" width="251" text="Post-operative Care Checklist" measuredWidth="251" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="26" x="517" y="120" measuredWidth="102" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="27" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="28" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="29" x="6" y="2" width="90" text="Browse" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="517" y="215" text="File Name" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="517" y="245" text="Description" measuredWidth="68" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="517" y="275" text="Version No." measuredWidth="68" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="517" y="305" text="Version Date" measuredWidth="75" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="35" x="597" y="185" text=":" measuredWidth="8" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="597" y="215" text=":" measuredWidth="8" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="37" x="611" y="215" text="Post-Op Checklist v2.1.pdf" measuredWidth="149" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="38" x="597" y="245" text=":" measuredWidth="8" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="40" x="611" y="245" width="251" measuredWidth="251" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="41" x="597" y="275" text=":" measuredWidth="8" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="42" x="611" y="275" width="100" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" id="43" x="611" y="305" width="121" text="16-Dec-2014" measuredWidth="121" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="44" x="597" y="305" text=":" measuredWidth="8" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="50" x="585" y="374" measuredWidth="212" measuredHeight="26">
+    <widgets xsi:type="model:WidgetGroup" id="49" measuredWidth="212" measuredHeight="26">
+      <widgets xsi:type="model:WidgetGroup" id="16" x="110" measuredWidth="102" measuredHeight="26" link="Sct_RW_08StudyFolder_01Form_Page01.screen">
+        <widgets xsi:type="model:Panel" id="17" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+        <widgets xsi:type="model:Panel" id="18" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+        <widgets xsi:type="model:Label" id="19" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+          <font/>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="45" measuredWidth="102" measuredHeight="26" link="Sct_RW_08StudyFolder_01Form_Page01.screen">
+        <widgets xsi:type="model:Panel" id="46" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+        <widgets xsi:type="model:Panel" id="47" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+        <widgets xsi:type="model:Label" id="48" x="6" y="2" width="90" text="Upload" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+          <font/>
+        </widgets>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

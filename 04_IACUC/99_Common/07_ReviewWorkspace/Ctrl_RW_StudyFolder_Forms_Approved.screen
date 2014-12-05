@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1322" measuredHeight="532" dimmed="true">
+    <screen xsi:type="model:Screen" href="Ctrl_RW_StudyFolder_Forms.screen#/"/>
+    <overrides>
+      <widgets ref="3" text=": Approved"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="12" x="159" y="79" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="assets/ai-settings (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -48,14 +48,17 @@
     <items x="66" y="0" width="88" height="27" text="Attachments"/>
     <font/>
   </widgets>
-  <widgets xsi:type="model:Table" id="16" x="307" y="56" width="978" height="465" text="Forms,(w:120).Create Date,(w:120).Submission Date,Review Result,=(w:60).Action&#xD;&#xA;IACUC Application,01-Apr-2014,14-Apr-2014,Approved,{assets/fi-upload}&#xD;&#xA;Protocol Amendment,15-Dec-2014,21-Dec-2014,Approved,{assets/fi-upload}&#xD;&#xA;Protocol Amendment,10-Feb-2015,19-Feb-2015,Rejected,{assets/fi-upload}&#xD;&#xA;Annual Project Update Report,16-Apr-2015,-,Draft,{assets/fi-upload}" measuredWidth="978" measuredHeight="465" rowHeight="28" alternative="#eeeeee">
+  <widgets xsi:type="model:Table" id="16" x="307" y="56" width="978" height="465" text="Forms,(w:120).Create Date,(w:120).Submission Date,Review Result,=(w:60).Action&#xD;&#xA;IACUC Application,01-Apr-2014,14-Apr-2014,Approved,{assets/fi-upload}&#xD;&#xA;Protocol Amendment,15-Dec-2014,21-Dec-2014,Approved,{assets/fi-upload}&#xD;&#xA;Protocol Amendment,10-Feb-2015,19-Feb-2015,Rejected,%(color:gray){assets/fi-upload}%&#xD;&#xA;Annual Project Update Report,16-Apr-2015,-,Draft,{assets/fi-upload}" measuredWidth="978" measuredHeight="465" rowHeight="28" alternative="#eeeeee">
     <font/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="17" x="1308" y="43" measuredWidth="17" measuredHeight="490">
     <widgets xsi:type="model:VScrollbar" id="18" height="487" measuredWidth="17" measuredHeight="487"/>
     <widgets xsi:type="model:Panel" id="19" width="17" height="490" measuredWidth="17" measuredHeight="490" alpha="64" border="none"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="27" x="1244" y="83" width="23" height="119" measuredWidth="23" measuredHeight="119" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="27" x="1244" y="85" width="23" height="54" measuredWidth="23" measuredHeight="54" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="30" x="304" y="10" width="51" height="28" measuredWidth="51" measuredHeight="28" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="31" x="361" y="10" width="83" height="28" measuredWidth="83" measuredHeight="28" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="32" x="1244" y="168" width="23" height="28" measuredWidth="23" measuredHeight="28" background="#cfe2f3" alpha="64" border="none"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>
