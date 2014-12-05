@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="27" x="8" y="22" measuredWidth="1322" measuredHeight="532" dimmed="true">
+    <screen xsi:type="model:Screen" href="Ctrl_RW_StudyFolder_Forms.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="16"/>
+      <widgets ref="26">
+        <attributes key="selection" value="1"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="312" y="56" width="137" text="Protocol's Attachment" measuredWidth="137" measuredHeight="23" foreground="#38761d">
+    <font size="12px" bold="true" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="29" x="327" y="80" width="962" height="249" text="(w:250).Form,(w:200).Attachment,Document Name,(w:120).Document Date&#xD;&#xA;2014/04/01 - IACUC Application,Post-operative Care Checklist,Post-op Checklist v1.4.doc,17-Mar-2014&#xD;&#xA;2014/04/01 - IACUC Application,RCULA Cert.,RCULA_Edwin Findlay.pdf,18-Apr-2012&#xD;&#xA;2014/04/01 - IACUC Application,RCULA Cert.,RCULA_Lilla Esteban.pdf,10-Dec-2013&#xD;&#xA;2014/04/01 - IACUC Application,RCULA Cert.,RCULA_Dorthea Preiss.pdf,25-May-2012&#xD;&#xA;2014/04/01 - IACUC Application,RCULA Cert.,RCULA_Vickey Olguin.pdf,07-Nov-2011&#xD;&#xA;2014/04/01 - IACUC Application,Approval Letter,IACUC2014SHS00201_Approval_Letter.pdf,07-Nov-2011&#xD;&#xA;2014/12/21 - Protocol Amendment,Post-operative Care Checklist,Post-op Checklist v1.8.doc,05-Nov-2014&#xD;&#xA;" measuredWidth="962" measuredHeight="249" rowHeight="28" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="312" y="336" width="137" text="Other Attachment" measuredWidth="137" measuredHeight="23" foreground="#38761d">
+    <font size="12px" bold="true" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="33" x="584" y="408" width="273" height="89" text="Form Name Format&#xD;&#xA;\[Last Decisoin Date] - \[Form Type]" measuredWidth="273" measuredHeight="89" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

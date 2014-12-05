@@ -4,7 +4,7 @@
     <screen xsi:type="model:Screen" href="Ch_RW_New_00_Base.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Master" id="38" x="28" y="170" measuredWidth="1322" measuredHeight="532" dimmed="true">
-    <screen xsi:type="model:Screen" href="../../99_Common/07_ReviewWorkspace/Ctrl_RW_StudyFolder.screen#/"/>
+    <screen xsi:type="model:Screen" href="../../99_Common/07_ReviewWorkspace/Ctrl_RW_StudyFolder_Forms.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>
