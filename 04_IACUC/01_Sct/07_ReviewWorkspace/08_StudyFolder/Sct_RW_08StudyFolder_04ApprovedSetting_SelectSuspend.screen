@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="4" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_08StudyFolder_03Approved.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="6" x="418" y="59" width="545" height="422" measuredWidth="545" measuredHeight="422" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="7" x="428" y="97" width="525" measuredWidth="525" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="8" x="428" y="429" width="525" measuredWidth="525" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="581" y="59" measuredWidth="218" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="10" x="38" text="Study's Setting" measuredWidth="180" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" y="2" measuredWidth="32" measuredHeight="32" icon="assets/ai-settings (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="33" x="639" y="444" measuredWidth="102" measuredHeight="26" link="Sct_RW_08StudyFolder_03Approved.screen">
+    <widgets xsi:type="model:Panel" id="34" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="35" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="36" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="41" x="444" y="105" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="713" y="107" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
+    <font size="14px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="51" x="444" y="168" measuredWidth="500" measuredHeight="250">
+    <widgets xsi:type="model:Panel" id="52" width="500" height="250" measuredWidth="500" measuredHeight="250" background="#f4cccc" border="none"/>
+    <widgets xsi:type="model:Panel" id="53" x="1" y="1" width="498" height="248" measuredWidth="498" measuredHeight="248" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="55" x="444" y="143" width="500" height="25" measuredWidth="500" measuredHeight="25" background="#f4cccc" border="none"/>
+  <widgets xsi:type="model:Label" id="48" x="449" y="144" width="146" text="Change Study Status" measuredWidth="146" measuredHeight="25" foreground="#990000">
+    <font size="14px" bold="false" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="56" x="918" y="144" measuredWidth="24" measuredHeight="24" icon="assets/ai-save (medium)"/>
+  <widgets xsi:type="model:RadioButton" id="63" x="454" y="178" text="Suspend the study" measuredWidth="152" measuredHeight="26" selected="true">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="64" x="454" y="338" text="Terminate the study" measuredWidth="160" measuredHeight="26" link="Sct_RW_08StudyFolder_04ApprovedSetting_SelectTerminate.screen">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="65" x="475" y="232" width="459" height="96" measuredWidth="459" measuredHeight="96" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="66" x="475" y="207" text="Reason of suspend" measuredWidth="132" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="24" x="8" y="8" text="IACUC/2014/SHS/00201" measuredWidth="166" measuredHeight="26">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="8" y="31" text="National Heart Centre" measuredWidth="159" measuredHeight="26">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="97" y="83" width="84" text=": %(color:#990000)New%" measuredWidth="84" measuredHeight="23">
+    <font size="12px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="8" y="131" width="80" text="PI's Name" measuredWidth="80" measuredHeight="23" foreground="#666666">
+    <font size="12px" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="97" y="131" width="137" text=": Dr. Edwin Findlay" measuredWidth="137" measuredHeight="23">
+    <font size="12px" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="8" y="155" text="Approved Date" measuredWidth="85" measuredHeight="23" foreground="#666666">
+    <font size="12px" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="97" y="155" width="110" text=": 02-Jun-2014" measuredWidth="110" measuredHeight="23">
+    <font size="12px" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="8" y="179" text="Validity Date" measuredWidth="71" measuredHeight="23" foreground="#666666">
+    <font size="12px" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="97" y="179" width="172" text=": 02-Jun-2014 to 01-Jun-2016" measuredWidth="172" measuredHeight="23">
+    <font size="12px" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="8" y="107" width="80" text="Institution" measuredWidth="80" measuredHeight="23" foreground="#666666">
+    <font size="12px" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="34" x="97" y="107" width="137" text=": National Heart Centre" measuredWidth="137" measuredHeight="23">
+    <font size="12px" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="35" x="8" y="83" width="80" text="Study Status" measuredWidth="80" measuredHeight="23" foreground="#666666">
+    <font size="12px" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="8" y="230" text="Protocol Title" measuredWidth="76" measuredHeight="23" foreground="#666666">
+    <font size="12px" italic="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="37" x="8" y="252" width="253" height="83" text="Pelvic Organ Prolapse study with language for questionnaires, routine procedures, secondary analysis, database search of patients, analyzing tissue from surgery." measuredWidth="253" measuredHeight="83">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="38" x="8" y="344" measuredWidth="250" measuredHeight="36">
+    <widgets xsi:type="model:Panel" id="39" width="250" height="36" measuredWidth="250" measuredHeight="36" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="40" x="1" y="1" width="248" height="34" measuredWidth="248" measuredHeight="34" border="none"/>
+    <widgets xsi:type="model:Icon" id="41" x="3" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fa-file-text-o (large)"/>
+    <widgets xsi:type="model:Text" id="42" x="40" y="10" width="208" height="16" text="Study's Document Library" measuredWidth="208" measuredHeight="16">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="43" x="8" y="384" measuredWidth="250" measuredHeight="36">
+    <widgets xsi:type="model:Panel" id="44" width="250" height="36" measuredWidth="250" measuredHeight="36" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="45" x="1" y="1" width="248" height="34" measuredWidth="248" measuredHeight="34" border="none"/>
+    <widgets xsi:type="model:Icon" id="46" x="3" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fa-file-o (large)"/>
+    <widgets xsi:type="model:Text" id="47" x="40" y="10" width="208" height="16" text="Study's Review Log" measuredWidth="208" measuredHeight="16">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="53" x="10" y="14" width="18" height="18" measuredWidth="18" measuredHeight="18" icon="assets/gl-random (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="48" x="8" y="424" measuredWidth="250" measuredHeight="36">
+    <widgets xsi:type="model:Panel" id="49" width="250" height="36" measuredWidth="250" measuredHeight="36" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="50" x="1" y="1" width="248" height="34" measuredWidth="248" measuredHeight="34" border="none"/>
+    <widgets xsi:type="model:Icon" id="51" x="3" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-paw (large)"/>
+    <widgets xsi:type="model:Text" id="52" x="40" y="3" width="208" height="30" text="Pain &amp; Distress Category / Special Consideration" measuredWidth="208" measuredHeight="30">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

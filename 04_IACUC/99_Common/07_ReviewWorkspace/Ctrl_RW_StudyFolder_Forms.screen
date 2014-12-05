@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Label" id="1" x="8" y="8" text="IACUC/2014/SHS/00201" measuredWidth="166" measuredHeight="26">
-    <font size="14px" bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="2" x="8" y="31" text="National Heart Centre" measuredWidth="159" measuredHeight="26">
-    <font size="14px" bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="3" x="97" y="83" width="84" text=": %(color:#990000)New%" measuredWidth="84" measuredHeight="23">
-    <font size="12px" bold="true" italic="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="4" x="8" y="131" width="80" text="PI's Name" measuredWidth="80" measuredHeight="23" foreground="#666666">
-    <font size="12px" italic="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="5" x="97" y="131" width="137" text=": Dr. Edwin Findlay" measuredWidth="137" measuredHeight="23">
-    <font size="12px" italic="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="6" x="8" y="155" text="Approved Date" measuredWidth="85" measuredHeight="23" foreground="#666666">
-    <font size="12px" italic="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="7" x="97" y="155" width="110" text=": 02-Jun-2014" measuredWidth="110" measuredHeight="23">
-    <font size="12px" italic="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="8" x="8" y="179" text="Validity Date" measuredWidth="71" measuredHeight="23" foreground="#666666">
-    <font size="12px" italic="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="9" x="97" y="179" width="172" text=": 02-Jun-2014 to 01-Jun-2016" measuredWidth="172" measuredHeight="23">
-    <font size="12px" italic="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="10" x="8" y="107" width="80" text="Institution" measuredWidth="80" measuredHeight="23" foreground="#666666">
-    <font size="12px" italic="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="11" x="97" y="107" width="137" text=": National Heart Centre" measuredWidth="137" measuredHeight="23">
-    <font size="12px" italic="false"/>
-  </widgets>
   <widgets xsi:type="model:VLine" id="12" x="272" y="8" height="532" measuredWidth="6" measuredHeight="532"/>
-  <widgets xsi:type="model:Label" id="13" x="8" y="83" width="80" text="Study Status" measuredWidth="80" measuredHeight="23" foreground="#666666">
-    <font size="12px" italic="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="14" x="8" y="230" text="Protocol Title" measuredWidth="76" measuredHeight="23" foreground="#666666">
-    <font size="12px" italic="false" underline="true"/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="15" x="8" y="252" width="253" height="83" text="Pelvic Organ Prolapse study with language for questionnaires, routine procedures, secondary analysis, database search of patients, analyzing tissue from surgery." measuredWidth="253" measuredHeight="83">
-    <font size="12px"/>
-  </widgets>
   <widgets xsi:type="model:TabbedPane" id="26" x="292" y="10" width="1038" height="527" text="Forms,Attachments" measuredWidth="1038" measuredHeight="527" selection="0">
     <items x="10" y="0" width="56" height="27" text="Forms"/>
     <items x="66" y="0" width="88" height="27" text="Attachments"/>
@@ -59,6 +17,14 @@
   <widgets xsi:type="model:Panel" id="30" x="304" y="10" width="51" height="28" measuredWidth="51" measuredHeight="28" background="#cfe2f3" alpha="64" border="none"/>
   <widgets xsi:type="model:Panel" id="31" x="361" y="10" width="83" height="28" measuredWidth="83" measuredHeight="28" background="#cfe2f3" alpha="64" border="none"/>
   <widgets xsi:type="model:Panel" id="32" x="1244" y="168" width="23" height="28" measuredWidth="23" measuredHeight="28" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Master" id="46" x="8" y="8" measuredWidth="261" measuredHeight="452" dimmed="true">
+    <screen xsi:type="model:Screen" href="Ctrl_RW_StudyInfo.screen#/"/>
+    <overrides>
+      <widgets ref="40">
+        <attributes key="background" value="#d9ead3"/>
+      </widgets>
+    </overrides>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

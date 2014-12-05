@@ -13,6 +13,10 @@
       <widgets ref="27/3" link="Sct_RW_08StudyFolder_03Approved.screen"/>
     </overrides>
   </widgets>
+  <widgets xsi:type="model:Icon" id="38" x="264" y="119" measuredWidth="32" measuredHeight="32" icon="assets/ai-next-item (large)"/>
+  <widgets xsi:type="model:Label" id="39" x="292" y="123" text="Document Library" measuredWidth="142" measuredHeight="27" textAlignment="Center">
+    <font size="16px" bold="true" underline="false"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

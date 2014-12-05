@@ -10,7 +10,12 @@
     <screen xsi:type="model:Screen" href="../../../99_Common/07_ReviewWorkspace/Ctrl_RW_StudyFolder_Forms_Approved.screen#/"/>
     <overrides>
       <widgets ref="1/3" link="Sct_RW_08StudyFolder_01Form_Page01.screen"/>
+      <widgets ref="12" link="Sct_RW_08StudyFolder_04ApprovedSetting_NoSelect.screen"/>
     </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="4" x="264" y="119" measuredWidth="32" measuredHeight="32" icon="assets/ai-next-item (large)"/>
+  <widgets xsi:type="model:Label" id="5" x="292" y="123" text="Document Library" measuredWidth="142" measuredHeight="27" textAlignment="Center">
+    <font size="16px" bold="true" underline="false"/>
   </widgets>
   <hRuler/>
   <vRuler/>

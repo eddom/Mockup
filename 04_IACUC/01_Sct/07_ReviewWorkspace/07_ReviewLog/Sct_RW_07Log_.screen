@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="110" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_RW_00_Base.screen#/"/>
+    <overrides>
+      <widgets ref="3" text="Review Log"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="17" x="28" y="170" measuredWidth="270" measuredHeight="532">
+    <widgets xsi:type="model:Label" id="2" text="IACUC/2014/SHS/00201" measuredWidth="166" measuredHeight="26">
+      <font size="14px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="3" y="23" text="National Heart Centre" measuredWidth="159" measuredHeight="26">
+      <font size="14px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="4" x="89" y="75" width="84" text=": %(color:#990000)New%" measuredWidth="84" measuredHeight="23">
+      <font size="12px" bold="true" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="5" y="123" width="80" text="PI's Name" measuredWidth="80" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="6" x="89" y="123" width="137" text=": Dr. Edwin Findlay" measuredWidth="137" measuredHeight="23">
+      <font size="12px" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="7" y="147" text="Approved Date" measuredWidth="85" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="8" x="89" y="147" width="110" text=": 02-Jun-2014" measuredWidth="110" measuredHeight="23">
+      <font size="12px" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="9" y="171" text="Validity Date" measuredWidth="71" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="10" x="89" y="171" width="172" text=": 02-Jun-2014 to 01-Jun-2016" measuredWidth="172" measuredHeight="23">
+      <font size="12px" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="11" y="99" width="80" text="Institution" measuredWidth="80" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="12" x="89" y="99" width="137" text=": National Heart Centre" measuredWidth="137" measuredHeight="23">
+      <font size="12px" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:VLine" id="13" x="264" height="532" measuredWidth="6" measuredHeight="532"/>
+    <widgets xsi:type="model:Label" id="14" y="75" width="80" text="Study Status" measuredWidth="80" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="15" y="222" text="Protocol Title" measuredWidth="76" measuredHeight="23" foreground="#666666">
+      <font size="12px" italic="false" underline="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="16" y="244" width="253" height="83" text="Pelvic Organ Prolapse study with language for questionnaires, routine procedures, secondary analysis, database search of patients, analyzing tissue from surgery." measuredWidth="253" measuredHeight="83">
+      <font size="12px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="310" y="210" width="131" text="Event Date" measuredWidth="131" measuredHeight="25">
+    <font size="14px" italic="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="620" y="210" width="131" text="Event" measuredWidth="131" measuredHeight="25">
+    <font size="14px" italic="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="23" x="650" y="237" width="670" height="23" text="Submitted" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="24" x="310" y="237" width="140" height="23" text="14-Mar-2012 10:35" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="25" x="650" y="262" width="670" height="23" text="Scheduled for Committee Review on 29-Apr-2014" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="26" x="310" y="262" width="140" height="23" text="08-Apr-2012 10:35" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="460" y="210" width="131" text="Review Documents" measuredWidth="131" measuredHeight="25">
+    <font size="14px" italic="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="28" x="460" y="237" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="29" x="460" y="262" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="30" x="650" y="287" width="670" height="23" text="Complete preliminary check" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="31" x="310" y="287" width="140" height="23" text="10-Apr-2012 11:20" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="32" x="460" y="287" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="33" x="650" y="312" width="670" height="23" text="Reviewers assigned by Dr. Dominique Lecompte" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="34" x="310" y="312" width="140" height="23" text="13-Apr-2012 14:19" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="35" x="460" y="312" width="140" height="23" text="-" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="36" x="650" y="337" width="670" height="23" text="Received comments from Dr. Reynaldo Benavides (PR)" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="37" x="310" y="337" width="140" height="23" text="17-Apr-2012 19:54" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="38" x="460" y="337" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="39" x="650" y="362" width="670" height="23" text="Received comments from Dr. Edison Fenstermacher (SR)" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="40" x="310" y="362" width="140" height="23" text="19-Apr-2012 20:34" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="41" x="460" y="362" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="42" x="650" y="387" width="670" height="23" text="Application to be reviewed by PR &amp; SR, review status updated to &quot;Pending PR &amp; SR Review&quot;" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="43" x="310" y="387" width="140" height="23" text="30-Apr-2012 10:03" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="44" x="460" y="387" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="45" x="650" y="412" width="670" height="23" text="Pain &amp; Distress Category / Special Consideration information finalized" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="46" x="310" y="412" width="140" height="23" text="30-Apr-2012 10:05" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="47" x="460" y="412" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="48" x="650" y="437" width="670" height="23" text="Message sent to PI" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="49" x="310" y="437" width="140" height="23" text="30-Apr-2012 10:14" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="50" x="460" y="437" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="55" x="650" y="462" width="670" height="23" text="PI Replied the message" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="56" x="310" y="462" width="140" height="23" text="12-May-2012 09:44" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="57" x="460" y="462" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="58" x="650" y="487" width="670" height="23" text="Received comments from Dr. Reynaldo Benavides" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="59" x="310" y="487" width="140" height="23" text="14-May-2012 19:14" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="60" x="460" y="487" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="61" x="650" y="512" width="670" height="23" text="Message sent to PI" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="62" x="310" y="512" width="140" height="23" text="15-May-2012 09:33" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="63" x="460" y="512" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="64" x="650" y="537" width="670" height="23" text="PI Replied the message" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="65" x="310" y="537" width="140" height="23" text="18-May-2012 19:28" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="66" x="460" y="537" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="67" x="650" y="562" width="670" height="23" text="Received comments from Dr. Reynaldo Benavides (PR)" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="68" x="310" y="562" width="140" height="23" text="20-May-2012 21:17" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="69" x="460" y="562" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="74" x="650" y="587" width="670" height="23" text="Received comments from Dr. Edison Fenstermacher (SR)" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="75" x="310" y="587" width="140" height="23" text="22-May-2012 10:43" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="76" x="460" y="587" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="81" x="650" y="612" width="670" height="23" text="Circulate application for committee review, review status updated to &quot;Pending Committee Approval&quot;" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="82" x="310" y="612" width="140" height="23" text="22-May-2012 11:45" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="83" x="460" y="612" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="84" x="650" y="637" width="670" height="38" text="Application approved, review status updated to &quot;Pending Approval Letter&quot;. Approval Letter to be signed by Dr. Chua Seng Chye Winston" measuredWidth="670" measuredHeight="38">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="85" x="310" y="637" width="140" height="23" text="25-May-2012 10:34" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="86" x="460" y="637" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="87" x="650" y="677" width="670" height="23" text="Dr. Chua Seng Chye Winston signed the Approval Letter, review status updated to &quot;Approved&quot;" measuredWidth="670" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="88" x="310" y="677" width="140" height="23" text="02-Jun-2012 09:24" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="89" x="460" y="677" width="140" height="23" text="IACUC Application" measuredWidth="140" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="90" x="620" y="237" width="30" height="23" text="{assets/gl-random}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="91" x="620" y="262" width="30" height="23" text="{calendar}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="92" x="620" y="287" width="30" height="23" text="{assets/gl-eye-open}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="93" x="620" y="312" width="30" height="23" text="{assets/fi-results-demographics}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="94" x="620" y="337" width="30" height="23" text="{assets/fi-comments}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="95" x="620" y="362" width="30" height="23" text="{assets/fi-comments}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="96" x="620" y="387" width="30" height="23" text="{assets/gl-random}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="97" x="620" y="412" width="30" height="23" text="{assets/fi-paw}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="98" x="620" y="437" width="30" height="23" text="{assets/fi-mail}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="99" x="620" y="462" width="30" height="23" text="{assets/fi-mail}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="100" x="620" y="487" width="30" height="23" text="{assets/fi-comments}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="101" x="620" y="512" width="30" height="23" text="{assets/fi-mail}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="102" x="620" y="537" width="30" height="23" text="{assets/fi-mail}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="103" x="620" y="562" width="30" height="23" text="{assets/fi-comments}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="104" x="620" y="587" width="30" height="23" text="{assets/fi-comments}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="105" x="620" y="612" width="30" height="23" text="{assets/gl-random}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="106" x="620" y="637" width="30" height="23" text="{assets/gl-random}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="107" x="620" y="677" width="30" height="23" text="{assets/award-fill}" measuredWidth="30" measuredHeight="23">
+    <font size="14px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="109" x="310" y="170" text="Filter by review" measuredWidth="101" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="111" x="1333" y="170" measuredWidth="17" measuredHeight="532">
+    <widgets xsi:type="model:VScrollbar" id="112" height="530" measuredWidth="17" measuredHeight="530"/>
+    <widgets xsi:type="model:Panel" id="113" width="17" height="532" measuredWidth="17" measuredHeight="532" alpha="64" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="114" x="424" y="170" width="481" text="14-Mar-2014 Review (IACUC Application)" measuredWidth="481" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="115" x="910" y="169" measuredWidth="24" measuredHeight="24" icon="assets/fi-filter (medium)"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>
