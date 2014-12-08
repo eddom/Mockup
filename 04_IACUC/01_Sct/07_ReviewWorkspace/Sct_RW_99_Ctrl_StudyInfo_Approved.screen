@@ -5,7 +5,7 @@
     <overrides>
       <widgets ref="26" width="64" text=": %(color:#990000)Approved%" link="08_StudyFolder/Sct_RW_08StudyFolder_01Form_Page01.screen"/>
       <widgets ref="43" link="07_ReviewLog/Sct_RW_07Log_Page01.screen"/>
-      <widgets ref="48" link="09_PainDistress/Sct_RW_09PainDistress_Page01.screen"/>
+      <widgets ref="48" link="09_PainDistress/Sct_RW_09PainDistress_Page02.screen"/>
       <widgets ref="38" link="08_StudyFolder/Sct_RW_08StudyFolder_01Form_Page01.screen"/>
     </overrides>
   </widgets>

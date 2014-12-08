@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="203" y="123" text="IACUC Application" measuredWidth="145" measuredHeight="27">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="899" y="123" width="314" text="Pending Committee Review" measuredWidth="314" measuredHeight="27" textAlignment="Right">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="4" x="1261" y="120" measuredWidth="32" measuredHeight="32" icon="assets/gl-eye-open (large)" link="02_PreliminaryCheck/Sct_RW_02_PreCheck_Page01.screen"/>
+  <widgets xsi:type="model:Icon" id="5" x="1296" y="120" measuredWidth="32" measuredHeight="32" icon="assets/fi-mail (large)" link="04_Message/Sct_RW_04Msg_01RvComments_Page01.screen"/>
+  <widgets xsi:type="model:Icon" id="6" x="1331" y="120" measuredWidth="32" measuredHeight="32" icon="assets/gl-download-alt (large)" iconRotation="90" link="05_Request/Sct_RW_05Req_Page01.screen"/>
+  <widgets xsi:type="model:VLine" id="7" x="191" y="120" height="32" measuredWidth="6" measuredHeight="32"/>
+  <widgets xsi:type="model:Icon" id="8" x="1216" y="121" measuredWidth="32" measuredHeight="32" icon="assets/gl-random (large)"/>
+  <widgets xsi:type="model:VLine" id="9" x="1254" y="121" height="32" measuredWidth="6" measuredHeight="32"/>
+  <widgets xsi:type="model:Master" id="11" x="28" y="169" locked="true" measuredWidth="1324" measuredHeight="534" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../99_Common/07_ReviewWorkspace/Ctrl_RW_AppForm.screen#/"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

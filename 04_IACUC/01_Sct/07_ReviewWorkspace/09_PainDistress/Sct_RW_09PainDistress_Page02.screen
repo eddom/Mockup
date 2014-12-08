@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="41" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_RW_00_Base_StudyFolder.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="2" x="295" y="170" height="530" measuredWidth="6" measuredHeight="530"/>
+  <widgets xsi:type="model:Master" id="3" x="28" y="170" measuredWidth="261" measuredHeight="452" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_RW_99_Ctrl_StudyInfo_New.screen#/"/>
+    <overrides>
+      <widgets ref="1/50">
+        <attributes key="background" value="#cfe2f3"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="4" x="294" y="119" measuredWidth="32" measuredHeight="32" icon="assets/ai-next-item (large)"/>
+  <widgets xsi:type="model:Label" id="5" x="322" y="123" text="Pain &amp; Distress Category / Special Consideration" measuredWidth="376" measuredHeight="27" textAlignment="Center">
+    <font size="16px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="26" x="318" y="176" measuredWidth="715" measuredHeight="124">
+    <widgets xsi:type="model:Text" id="27" x="36" y="37" width="271" height="87" text="\- Survival Surgery&#xD;&#xA;\- Multiple Survival Surgery&#xD;&#xA;\- Food or Fluid Regulation&#xD;&#xA;\- Prolonged Restraint&#xD;&#xA;\- Hazardous Agent Use&#xD;&#xA;\- Non-centralized Housing and/or Procedural Areas" measuredWidth="271" measuredHeight="87">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="28" y="37" width="46" height="87" text="SS&#xD;&#xA;MSS&#xD;&#xA;FFR&#xD;&#xA;PR&#xD;&#xA;HAU&#xD;&#xA;NCA" measuredWidth="46" measuredHeight="87">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="29" text="Legend" measuredWidth="47" measuredHeight="23">
+      <font size="12px" bold="true" underline="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="30" x="394" y="37" width="321" height="87" text="\- Minimal, Transient, or No Pain or Distress&#xD;&#xA;\- Pain or Distress Relieved by Appropriate Measures&#xD;&#xA;\- Unrelieved Pain" measuredWidth="321" measuredHeight="87">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="31" x="330" y="37" width="65" height="87" text="Category 1&#xD;&#xA;Category 2&#xD;&#xA;Category 3" measuredWidth="65" measuredHeight="87">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="32" y="17" text="Pain &amp; Distress Category" measuredWidth="150" measuredHeight="23">
+      <font size="12px" bold="true" italic="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="33" x="330" y="17" text="Special Consideration" measuredWidth="130" measuredHeight="23">
+      <font size="12px" bold="true" italic="true" underline="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="34" x="706" y="120" measuredWidth="32" measuredHeight="32" icon="assets/fa-unlock (large)" link="Sct_RW_09PainDistress_Page01.screen"/>
+  <widgets xsi:type="model:VLine" id="35" x="699" y="121" height="32" measuredWidth="6" measuredHeight="32"/>
+  <widgets xsi:type="model:Table" id="37" x="318" y="314" width="675" height="105" text="(w:120).Species,=(w:120).# Animal Approved,Pain &amp; Distress Category,=(w:40).SS,=(w:40).MSS,=(w:40).FFR,=(w:40).PR,=(w:40).HAU,=(w:40).NCA&#xD;&#xA;Masaque,16,Category 1\,2,{assets/fa-check}&#xD;&#xA;Rats,240,Category 1,{assets/fa-check}" measuredWidth="675" measuredHeight="105" rowHeight="28" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="40" x="1032" y="200" width="295" height="113" text="Logic Check&#xD;&#xA;- Pain &amp; Distress Category cannot be changed once the study is approved." measuredWidth="295" measuredHeight="113" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

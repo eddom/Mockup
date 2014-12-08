@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Master" id="44" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_RW_00_Base.screen#/"/>
+  <widgets xsi:type="model:Master" id="74" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_00_Base_AppForm.screen#/"/>
     <overrides>
-      <widgets ref="5" text="Suggested to Re-submit"/>
-      <widgets ref="31" noLink="true"/>
+      <widgets ref="3" text="Recommended to Re-submit"/>
     </overrides>
-  </widgets>
-  <widgets xsi:type="model:Master" id="73" x="28" y="169" measuredWidth="1324" measuredHeight="534" dimmed="true">
-    <screen xsi:type="model:Screen" href="../../99_Common/07_ReviewWorkspace/Ctrl_RW_AppForm.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>

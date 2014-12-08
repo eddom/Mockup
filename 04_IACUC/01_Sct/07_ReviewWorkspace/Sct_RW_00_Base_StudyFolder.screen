@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="203" y="123" text="Study Folder" measuredWidth="103" measuredHeight="27">
+    <font size="16px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="3" x="191" y="120" height="32" measuredWidth="6" measuredHeight="32"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="94" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="../Sct_RW_00_Ctrl_Message.screen#/"/>
+    <screen xsi:type="model:Screen" href="../Sct_RW_99_Ctrl_Message.screen#/"/>
   </widgets>
   <widgets xsi:type="model:VScrollbar" id="65" x="1050" y="186" height="378" measuredWidth="17" measuredHeight="378"/>
   <widgets xsi:type="model:Text" id="66" x="366" y="237" width="617" height="17" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="617" measuredHeight="17">

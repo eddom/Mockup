@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_RW_00_Base_AppForm_PendingCommReview.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="295" y="54" width="791" height="593" measuredWidth="791" measuredHeight="593" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="306" y="97" width="770" measuredWidth="770" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="5" x="306" y="589" width="770" measuredWidth="770" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="639" y="604" measuredWidth="102" measuredHeight="26" link="../Sct_RW_00_Base_AppForm_PendingCommReview.screen">
+    <widgets xsi:type="model:Panel" id="7" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="8" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="9" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="597" y="59" measuredWidth="186" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="11" x="38" text="PI's Request" measuredWidth="148" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="12" y="2" measuredWidth="32" measuredHeight="32" icon="assets/gl-download-alt (large)" iconRotation="90"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="16" x="313" y="144" width="752" height="419" text="Request Title,(w:130).Receive Date,(w:120).Status,(w:130).Reply Date&#xD;&#xA;[Request to withdraw the application],03-Jun-2014,New,-" measuredWidth="752" measuredHeight="419" rowHeight="28" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="313" y="109" text="Request List" measuredWidth="87" measuredHeight="25" textAlignment="Center">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="23" x="317" y="174" width="204" height="24" measuredWidth="204" measuredHeight="24" background="#cfe2f3" alpha="64" border="none" link="Sct_RW_05Req_Page02.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

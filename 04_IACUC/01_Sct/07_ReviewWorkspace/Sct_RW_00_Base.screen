@@ -3,23 +3,11 @@
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
     <screen xsi:type="model:Screen" href="../../../01_Base/Frame/Frame_iSHaRe_Secretariat.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="3" x="166" y="123" text="IACUC Application" measuredWidth="145" measuredHeight="27">
-    <font size="16px" bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="5" x="864" y="123" width="314" text="Pending Committee Review" measuredWidth="314" measuredHeight="27" textAlignment="Right">
-    <font size="16px" bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Panel" id="13" x="18" y="160" width="1345" height="552" measuredWidth="1345" measuredHeight="552" border="solid-rounded"/>
-  <widgets xsi:type="model:Icon" id="15" x="1226" y="120" measuredWidth="32" measuredHeight="32" icon="assets/gl-eye-open (large)" link="02_PreliminaryCheck/Sct_RW_02_PreCheck_Page01.screen"/>
-  <widgets xsi:type="model:Icon" id="16" x="1261" y="120" measuredWidth="32" measuredHeight="32" icon="assets/fi-results-demographics (large)" link="03_AssignReviewer/Sct_RW_03_AssignRv_Page01.screen"/>
-  <widgets xsi:type="model:Icon" id="18" x="1296" y="120" measuredWidth="32" measuredHeight="32" icon="assets/fi-mail (large)" link="04_Message/Sct_RW_04Msg_01RvComments_Page01.screen"/>
-  <widgets xsi:type="model:Icon" id="19" x="1331" y="120" measuredWidth="32" measuredHeight="32" icon="assets/gl-download-alt (large)" iconRotation="90"/>
+  <widgets xsi:type="model:Panel" id="13" x="18" y="160" width="1345" height="552" locked="true" measuredWidth="1345" measuredHeight="552" border="solid-rounded"/>
+  <widgets xsi:type="model:Icon" id="16" x="86" y="120" measuredWidth="32" measuredHeight="32" foreground="#0b5394" icon="assets/fi-results-demographics (large)" link="03_AssignReviewer/Sct_RW_03_AssignRv_Page01.screen"/>
   <widgets xsi:type="model:Icon" id="10" x="51" y="120" measuredWidth="32" measuredHeight="32" foreground="#0b5394" icon="assets/ai-paste (large)" link="07_ReviewLog/Sct_RW_07Log_Page01.screen"/>
-  <widgets xsi:type="model:Icon" id="11" x="84" y="120" measuredWidth="32" measuredHeight="32" foreground="#0b5394" icon="assets/fa-folder-o (large)" link="08_StudyFolder/Sct_RW_08StudyFolder_01Form_Page01.screen"/>
-  <widgets xsi:type="model:Icon" id="21" x="119" y="120" measuredWidth="32" measuredHeight="32" foreground="#38761d" icon="assets/fi-clipboard-pencil (large)" link="Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
-  <widgets xsi:type="model:VLine" id="30" x="154" y="120" height="32" measuredWidth="6" measuredHeight="32"/>
-  <widgets xsi:type="model:Icon" id="31" x="1181" y="121" measuredWidth="32" measuredHeight="32" icon="assets/gl-random (large)" link="01_Workflow/Sct_RW_01_Workflow_PCR_SelectReviewByPR.screen"/>
-  <widgets xsi:type="model:VLine" id="32" x="1219" y="121" height="32" measuredWidth="6" measuredHeight="32"/>
+  <widgets xsi:type="model:Icon" id="11" x="121" y="120" measuredWidth="32" measuredHeight="32" foreground="#0b5394" icon="assets/fa-folder-o (large)" link="08_StudyFolder/Sct_RW_08StudyFolder_01Form_Page01.screen"/>
+  <widgets xsi:type="model:Icon" id="21" x="156" y="120" measuredWidth="32" measuredHeight="32" foreground="#38761d" icon="assets/fi-clipboard-pencil (large)" link="Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
   <widgets xsi:type="model:Icon" id="33" x="20" y="122" width="28" height="28" measuredWidth="28" measuredHeight="28" foreground="#0b5394" icon="calendar (large)" link="../05_Meeting/02_Prepare/Sct_MeetingDetails_01Prepare_Page01.screen"/>
   <hRuler>
     <guides position="1364"/>
