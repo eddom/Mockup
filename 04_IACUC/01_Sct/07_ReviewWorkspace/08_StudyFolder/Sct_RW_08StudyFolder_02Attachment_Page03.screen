@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_08StudyFolder_02Attachment_Page02.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="490" y="54" width="402" height="238" measuredWidth="402" measuredHeight="238" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="501" y="97" width="381" measuredWidth="381" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="5" x="501" y="239" width="381" measuredWidth="381" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="515" y="59" measuredWidth="352" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="7" x="38" text="Attach Study's Related File" measuredWidth="314" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="8" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-upload (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="517" y="120" measuredWidth="102" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="12" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="13" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="14" x="6" y="2" width="90" text="Browse" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="517" y="165" text="File Name" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="517" y="195" text="Description" measuredWidth="68" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="597" y="165" text=":" measuredWidth="8" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="611" y="165" text="Post-Op Checklist v2.1.pdf" measuredWidth="149" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="597" y="195" text=":" measuredWidth="8" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="23" x="611" y="195" width="251" measuredWidth="251" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="695" y="254" measuredWidth="102" measuredHeight="26" link="Sct_RW_08StudyFolder_02Attachment_Page02.screen">
+    <widgets xsi:type="model:Panel" id="31" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="32" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="33" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="585" y="254" measuredWidth="102" measuredHeight="26" link="Sct_RW_08StudyFolder_02Attachment_Page02.screen">
+    <widgets xsi:type="model:Panel" id="35" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="36" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="37" x="6" y="2" width="90" text="Upload" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Note" id="38" x="928" y="102" width="273" height="89" text="Query&#xD;&#xA;- Number of characters for &quot;Description&quot;&#xD;&#xA;- Any other data required to be captured?" measuredWidth="273" measuredHeight="89" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

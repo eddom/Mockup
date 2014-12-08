@@ -3,15 +3,6 @@
   <widgets xsi:type="model:Master" id="42" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
     <screen xsi:type="model:Screen" href="../Sct_RW_00_Base_StudyFolder.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="37" x="308" y="170" measuredWidth="1038" measuredHeight="527" dimmed="true">
-    <screen xsi:type="model:Screen" href="../../../99_Common/07_ReviewWorkspace/Ctrl_RW_StudyFolder_Attachments_Page01.screen#/"/>
-    <overrides>
-      <widgets ref="34" link="Sct_RW_08StudyFolder_01Form_Page01.screen"/>
-      <widgets ref="27/3" link="Sct_RW_08StudyFolder_03Approved.screen"/>
-      <widgets ref="27/30" link="Sct_RW_08StudyFolder_01Form_Page01.screen"/>
-      <widgets ref="27/19" link="Sct_RW_08StudyFolder_02Attachment_Page02.screen"/>
-    </overrides>
-  </widgets>
   <widgets xsi:type="model:Icon" id="38" x="294" y="119" measuredWidth="32" measuredHeight="32" icon="assets/ai-next-item (large)"/>
   <widgets xsi:type="model:Label" id="39" x="322" y="123" text="Document Library" measuredWidth="142" measuredHeight="27" textAlignment="Center">
     <font size="16px" bold="true" underline="false"/>
@@ -23,6 +14,13 @@
       <widgets ref="1/40">
         <attributes key="background" value="#cfe2f3"/>
       </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="43" x="308" y="170" measuredWidth="1038" measuredHeight="527" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../99_Common/07_ReviewWorkspace/Ctrl_RW_StudyFolder_Attachments_Page02.screen#/"/>
+    <overrides>
+      <widgets ref="27/19" link="Sct_RW_08StudyFolder_02Attachment_Page01.screen"/>
+      <widgets ref="39" link="Sct_RW_08StudyFolder_02Attachment_Page03.screen"/>
     </overrides>
   </widgets>
   <hRuler/>

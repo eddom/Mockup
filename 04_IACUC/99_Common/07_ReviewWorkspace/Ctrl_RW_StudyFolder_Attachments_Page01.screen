@@ -7,6 +7,7 @@
       <widgets ref="26">
         <attributes key="selection" value="1"/>
       </widgets>
+      <widgets ref="19" y="39" height="451"/>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Label" id="28" x="22" y="46" width="137" text="Protocol's Attachment" measuredWidth="137" measuredHeight="23" foreground="#38761d">
