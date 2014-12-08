@@ -78,7 +78,7 @@
   <widgets xsi:type="model:Label" id="47" x="443" y="292" text="Dr. Chua Seng Chye Winston" measuredWidth="198" measuredHeight="25">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Note" id="48" x="992" y="142" width="265" height="151" text="Only available when review status is &quot;Pending Approval Letter&quot; and there is no pending item upon approval." measuredWidth="265" measuredHeight="151" annotation="true" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="48" x="992" y="142" width="265" height="151" text="Logic Check&#xD;&#xA;- Only available when review status is &quot;Pending Approval Letter&quot; and there is no pending item upon approval.&#xD;&#xA;- Approval letter will be generated and attach to the Application Form" measuredWidth="265" measuredHeight="151" annotation="true" textAlignment="Left">
     <font/>
   </widgets>
   <hRuler/>
