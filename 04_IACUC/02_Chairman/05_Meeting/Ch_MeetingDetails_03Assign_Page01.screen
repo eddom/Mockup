@@ -15,8 +15,8 @@
   <widgets xsi:type="model:Master" id="5" x="161" y="127" measuredWidth="1168" measuredHeight="578" dimmed="true">
     <screen xsi:type="model:Screen" href="../../99_Common/05_Meeting/Ctrl_MeetingDetails_AssignReviewer.screen#/"/>
     <overrides>
-      <widgets ref="64" link="../07_ReviewWorkspace/Ch_RW_New_05_AppForm.screen"/>
-      <widgets ref="65" link="../07_ReviewWorkspace/Ch_RW_New_05_AppForm.screen"/>
+      <widgets ref="64" link="../07_ReviewWorkspace/Ch_RW_00_Base_AppForm.screen"/>
+      <widgets ref="65" link="../07_ReviewWorkspace/Ch_RW_00_Base_AppForm.screen"/>
       <widgets ref="51">
         <attributes key="foreground" value="#999999"/>
       </widgets>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Master" id="37" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Ch_RW_New_00_Base.screen#/"/>
+  <widgets xsi:type="model:Master" id="44" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Ch_RW_00_Base_StudyFolder.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Master" id="38" x="308" y="170" measuredWidth="1038" measuredHeight="527" dimmed="true">
     <screen xsi:type="model:Screen" href="../../99_Common/07_ReviewWorkspace/Ctrl_RW_StudyFolder_Forms.screen#/"/>
   </widgets>
   <widgets xsi:type="model:VLine" id="39" x="295" y="170" height="530" measuredWidth="6" measuredHeight="530"/>
   <widgets xsi:type="model:Master" id="41" x="28" y="170" measuredWidth="261" measuredHeight="452" dimmed="true">
-    <screen xsi:type="model:Screen" href="Ch_RW_08StudyFolder_00Base_StudyInfo_New.screen#/"/>
+    <screen xsi:type="model:Screen" href="Ch_RW_99_Ctrl_StudyInfo_New.screen#/"/>
     <overrides>
       <widgets ref="2/40">
         <attributes key="background" value="#cfe2f3"/>
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Icon" id="42" x="274" y="119" measuredWidth="32" measuredHeight="32" icon="assets/ai-next-item (large)"/>
-  <widgets xsi:type="model:Label" id="43" x="302" y="123" text="Document Library" measuredWidth="142" measuredHeight="27" textAlignment="Center">
+  <widgets xsi:type="model:Icon" id="42" x="269" y="119" measuredWidth="32" measuredHeight="32" icon="assets/ai-next-item (large)"/>
+  <widgets xsi:type="model:Label" id="43" x="297" y="123" text="Document Library" measuredWidth="142" measuredHeight="27" textAlignment="Center">
     <font size="16px" bold="true" underline="false"/>
   </widgets>
   <hRuler/>
