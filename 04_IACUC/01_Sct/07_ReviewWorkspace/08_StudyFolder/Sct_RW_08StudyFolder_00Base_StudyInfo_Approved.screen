@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" measuredWidth="261" measuredHeight="452" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../99_Common/07_ReviewWorkspace/Ctrl_RW_StudyFolder_StudyInfo_New.screen#/"/>
+    <overrides>
+      <widgets ref="26" width="64" text=": %(color:#990000)Approved%" link="Sct_RW_08StudyFolder_01Form_Page01.screen"/>
+      <widgets ref="40">
+        <attributes key="background" value="#cfe2f3"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="2" x="159" y="79" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="assets/ai-settings (large)" link="Sct_RW_08StudyFolder_04ApprovedSetting_NoSelect.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>
