@@ -3,54 +3,10 @@
   <widgets xsi:type="model:Master" id="110" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
     <screen xsi:type="model:Screen" href="../Sct_RW_00_Base.screen#/"/>
     <overrides>
-      <widgets ref="3" text="Review Log"/>
+      <widgets ref="3" text="Study Folder"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="17" x="28" y="170" measuredWidth="270" measuredHeight="532">
-    <widgets xsi:type="model:Label" id="2" text="IACUC/2014/SHS/00201" measuredWidth="166" measuredHeight="26">
-      <font size="14px" bold="true"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="3" y="23" text="National Heart Centre" measuredWidth="159" measuredHeight="26">
-      <font size="14px" bold="true"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="4" x="89" y="75" width="84" text=": %(color:#990000)New%" measuredWidth="84" measuredHeight="23">
-      <font size="12px" bold="true" italic="false"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="5" y="123" width="80" text="PI's Name" measuredWidth="80" measuredHeight="23" foreground="#666666">
-      <font size="12px" italic="false"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="6" x="89" y="123" width="137" text=": Dr. Edwin Findlay" measuredWidth="137" measuredHeight="23">
-      <font size="12px" italic="false"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="7" y="147" text="Approved Date" measuredWidth="85" measuredHeight="23" foreground="#666666">
-      <font size="12px" italic="false"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="8" x="89" y="147" width="110" text=": 02-Jun-2014" measuredWidth="110" measuredHeight="23">
-      <font size="12px" italic="false"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="9" y="171" text="Validity Date" measuredWidth="71" measuredHeight="23" foreground="#666666">
-      <font size="12px" italic="false"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="10" x="89" y="171" width="172" text=": 02-Jun-2014 to 01-Jun-2016" measuredWidth="172" measuredHeight="23">
-      <font size="12px" italic="false"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="11" y="99" width="80" text="Institution" measuredWidth="80" measuredHeight="23" foreground="#666666">
-      <font size="12px" italic="false"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="12" x="89" y="99" width="137" text=": National Heart Centre" measuredWidth="137" measuredHeight="23">
-      <font size="12px" italic="false"/>
-    </widgets>
-    <widgets xsi:type="model:VLine" id="13" x="264" height="532" measuredWidth="6" measuredHeight="532"/>
-    <widgets xsi:type="model:Label" id="14" y="75" width="80" text="Study Status" measuredWidth="80" measuredHeight="23" foreground="#666666">
-      <font size="12px" italic="false"/>
-    </widgets>
-    <widgets xsi:type="model:Label" id="15" y="222" text="Protocol Title" measuredWidth="76" measuredHeight="23" foreground="#666666">
-      <font size="12px" italic="false" underline="true"/>
-    </widgets>
-    <widgets xsi:type="model:Text" id="16" y="244" width="253" height="83" text="Pelvic Organ Prolapse study with language for questionnaires, routine procedures, secondary analysis, database search of patients, analyzing tissue from surgery." measuredWidth="253" measuredHeight="83">
-      <font size="12px"/>
-    </widgets>
-  </widgets>
+  <widgets xsi:type="model:VLine" id="13" x="295" y="170" height="530" measuredWidth="6" measuredHeight="530"/>
   <widgets xsi:type="model:Label" id="19" x="310" y="210" width="131" text="Event Date" measuredWidth="131" measuredHeight="25">
     <font size="14px" italic="false" underline="true"/>
   </widgets>
@@ -287,6 +243,18 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="115" x="910" y="169" measuredWidth="24" measuredHeight="24" icon="assets/fi-filter (medium)"/>
+  <widgets xsi:type="model:Icon" id="118" x="264" y="119" measuredWidth="32" measuredHeight="32" icon="assets/ai-next-item (large)"/>
+  <widgets xsi:type="model:Label" id="119" x="292" y="123" text="Review Log" measuredWidth="95" measuredHeight="27" textAlignment="Center">
+    <font size="16px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="120" x="28" y="170" measuredWidth="261" measuredHeight="452" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_RW_01_Ctrl_StudyInfo_New.screen#/"/>
+    <overrides>
+      <widgets ref="1/45">
+        <attributes key="background" value="#cfe2f3"/>
+      </widgets>
+    </overrides>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

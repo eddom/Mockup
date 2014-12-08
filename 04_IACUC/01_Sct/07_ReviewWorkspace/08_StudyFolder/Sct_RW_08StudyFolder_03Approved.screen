@@ -12,7 +12,12 @@
   </widgets>
   <widgets xsi:type="model:VLine" id="7" x="295" y="170" height="530" measuredWidth="6" measuredHeight="530"/>
   <widgets xsi:type="model:Master" id="8" x="28" y="170" measuredWidth="261" measuredHeight="452" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_RW_08StudyFolder_00Base_StudyInfo_Approved.screen#/"/>
+    <screen xsi:type="model:Screen" href="../Sct_RW_01_Ctrl_StudyInfo_Approved.screen#/"/>
+    <overrides>
+      <widgets ref="1/40">
+        <attributes key="background" value="#cfe2f3"/>
+      </widgets>
+    </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="9" x="308" y="170" measuredWidth="1038" measuredHeight="527" dimmed="true">
     <screen xsi:type="model:Screen" href="../../../99_Common/07_ReviewWorkspace/Ctrl_RW_StudyFolder_Forms.screen#/"/>
