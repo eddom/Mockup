@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="42" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_04Material_Page04.screen#/"/>
+    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_04Material_Page04_Items.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="3" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
-  <widgets xsi:type="model:Panel" id="4" x="320" y="54" width="741" height="599" measuredWidth="741" measuredHeight="599" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:Panel" id="4" x="320" y="54" width="741" height="599" locked="true" measuredWidth="741" measuredHeight="599" foreground="#ffffff" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="5" x="332" y="97" width="719" measuredWidth="719" measuredHeight="6"/>
   <widgets xsi:type="model:Label" id="6" x="546" y="59" text="Consolidated Comments" measuredWidth="288" measuredHeight="37" textAlignment="Center">
     <font size="24px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:HLine" id="7" x="332" y="599" width="719" measuredWidth="719" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="13" x="639" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_04Material_Page04.screen">
+  <widgets xsi:type="model:WidgetGroup" id="13" x="639" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_04Material_Page04_Items.screen">
     <widgets xsi:type="model:Panel" id="14" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="15" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="16" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
@@ -24,14 +24,13 @@
     </widgets>
   </widgets>
   <widgets xsi:type="model:Icon" id="44" x="332" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
-  <widgets xsi:type="model:Icon" id="45" x="367" y="106" measuredWidth="32" measuredHeight="32" icon="assets/gl-print (large)"/>
-  <widgets xsi:type="model:Label" id="46" x="417" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+  <widgets xsi:type="model:Label" id="46" x="377" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
     <font size="18px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="47" x="820" y="109" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
     <font size="14px" bold="true" italic="false"/>
   </widgets>
-  <widgets xsi:type="model:VLine" id="48" x="405" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:VLine" id="48" x="365" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
   <widgets xsi:type="model:WidgetGroup" id="68" x="340" y="184" measuredWidth="192" measuredHeight="30">
     <widgets xsi:type="model:Label" id="69" x="27" y="2" text="Reviewers' Comments" measuredWidth="164" measuredHeight="26">
       <font size="14px" bold="true" underline="false"/>

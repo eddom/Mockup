@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../01_Sct/05_Meeting/03_AssignReviewer/Sct_MeetingDetails_03Assign_Page01.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="522"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="437" y="54" width="500" height="199" measuredWidth="500" measuredHeight="199" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="447" y="97" width="480" measuredWidth="480" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="531" y="59" text="Complete Assign Reviewer" measuredWidth="311" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="6" x="447" y="202" width="480" measuredWidth="480" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="581" y="217" measuredWidth="102" measuredHeight="26" link="Ch_MeetingDetails_03Assign_Page05.screen">
+    <widgets xsi:type="model:Panel" id="8" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="9" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="10" x="6" y="2" width="90" text="Send" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="11" x="691" y="217" measuredWidth="102" measuredHeight="26" link="Ch_MeetingDetails_03Assign_Page01.screen">
+    <widgets xsi:type="model:Panel" id="12" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="13" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="14" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="22" x="475" y="120" width="470" text="Complete assign reviewer, send notification to Secretariat for further action." measuredWidth="470" measuredHeight="23">
+    <font size="12px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="24" x="437" y="277" width="500" height="144" text="Logic Check&#xD;&#xA;1. Completeness check (all protocols assigned with PR and SR)&#xD;&#xA;2. COI check&#xD;&#xA;3. Attendees check (check if PR assigned are attending" measuredWidth="500" measuredHeight="144" foreground="#eeeeee">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

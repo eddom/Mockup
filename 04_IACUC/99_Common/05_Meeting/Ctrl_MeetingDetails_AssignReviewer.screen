@@ -167,17 +167,17 @@
   <widgets xsi:type="model:Label" id="60" x="1144" y="560" width="34" text="0" measuredWidth="34" measuredHeight="23" textAlignment="Center">
     <font size="12px" bold="true" italic="false"/>
   </widgets>
-  <widgets xsi:type="model:Table" id="61" x="15" y="181" width="858" height="204" text="(w:160).IACUC Ref. No.,=(w:20).{tag},(w:70).Institution,(w:120).PI's Name,Protocol Title,(w:180).Secretariat Remarks,(w:50).PR,(w:50).SR,(w:50). &#xA;[IACUC/2014/SHS/00202],,NHC,,To evaluate the efficacy ...,Missing attachments in protocol ...,,,{assets/fa-ellipsis-h}&#xA;[IACUC/2014/SHS/00201],W,NHC,,To evaluate the efficacy ...,,,,{assets/fa-ellipsis-h}&#xA;[IACUC/2014/SHS/00204],B,SKH,,To evaluate the efficacy ...,,,,{assets/fa-ellipsis-h}&#xA;[IACUC/2014/SHS/00205],W,SKH,,To evaluate the efficacy ...,,,,{assets/fa-ellipsis-h}&#xA;[IACUC/2014/SHS/00207],,SGH,,To evaluate the efficacy ...,,,,{assets/fa-ellipsis-h}" measuredWidth="858" measuredHeight="204" rowHeight="28" alternative="#eeeeee">
+  <widgets xsi:type="model:Table" id="61" x="15" y="181" width="858" height="204" text="(w:100).IACUC Ref. No.,=(w:20).{tag},(w:70).Institution,(w:120).PI's Name,Protocol Title,(w:180).Secretariat Remarks,(w:50).PR,(w:50).SR,=(w:80).Action&#xA;[2014/00202],,NHC,,To evaluate the efficacy ...,Missing attachments in ...,,,{assets/fa-file-o}  {assets/fi-results-demographics}  {assets/fa-ellipsis-h}&#xA;[2014/00201],W,NHC,,To evaluate the efficacy ...,,,,{assets/fa-file-o}  {assets/fi-results-demographics}  {assets/fa-ellipsis-h}&#xA;[2014/00204],B,SKH,,To evaluate the efficacy ...,,,,{assets/fa-file-o}  {assets/fi-results-demographics}  {assets/fa-ellipsis-h}&#xA;[2014/00205],W,SKH,,To evaluate the efficacy ...,,,,{assets/fa-file-o}  {assets/fi-results-demographics}  {assets/fa-ellipsis-h}&#xA;[2014/00207],,SGH,,To evaluate the efficacy ...,,,,{assets/fa-file-o}  {assets/fi-results-demographics}  {assets/fa-ellipsis-h}" measuredWidth="858" measuredHeight="204" rowHeight="28" alternative="#eeeeee">
     <font size="12px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="62" x="16" y="395" text="Reviewers Assigned (3)" measuredWidth="171" measuredHeight="26" foreground="#38761d">
     <font size="14px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:Table" id="63" x="15" y="420" width="858" height="141" text="(w:160).IACUC Ref. No.,=(w:20).{tag},(w:70).Institution,(w:120).PI's Name,Protocol Title,(w:180).Secretariat Remarks,(w:50).PR,(w:50).SR,(w:50). &#xA;[IACUC/2014/SHS/00203],,NCC,,To evaluate the efficacy ...,,JF,MW,{assets/fa-ellipsis-h}&#xA;[IACUC/2014/SHS/00206],,SKH,,To evaluate the efficacy ...,,DL,EF,{assets/fa-ellipsis-h}&#xA;[IACUC/2014/SHS/00208],,SGH,,To evaluate the efficacyn ...,,FB,MW,{assets/fa-ellipsis-h}" measuredWidth="858" measuredHeight="141" rowHeight="28" alternative="#eeeeee">
+  <widgets xsi:type="model:Table" id="63" x="15" y="420" width="858" height="141" text="(w:100).IACUC Ref. No.,=(w:20).{tag},(w:70).Institution,(w:120).PI's Name,Protocol Title,(w:180).Secretariat Remarks,(w:50).PR,(w:50).SR,=(w:80).Action&#xA;[2014/00203],,NCC,,To evaluate the efficacy ...,,JF,MW,{assets/fa-file-o}  {assets/fi-results-demographics}  {assets/fa-ellipsis-h}&#xA;[2014/00206],,SKH,,To evaluate the efficacy ...,,DL,EF,{assets/fa-file-o}  {assets/fi-results-demographics}  {assets/fa-ellipsis-h}&#xA;[2014/00208],,SGH,,To evaluate the efficacyn ...,,FB,MW,{assets/fa-file-o}  {assets/fi-results-demographics}  {assets/fa-ellipsis-h}" measuredWidth="858" measuredHeight="141" rowHeight="28" alternative="#eeeeee">
     <font size="12px"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="64" x="17" y="212" width="147" height="141" measuredWidth="147" measuredHeight="141" background="#cfe2f3" alpha="64" border="none"/>
-  <widgets xsi:type="model:Panel" id="65" x="17" y="452" width="147" height="82" measuredWidth="147" measuredHeight="82" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="64" x="17" y="212" width="73" height="141" measuredWidth="73" measuredHeight="141" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="65" x="17" y="452" width="73" height="82" measuredWidth="73" measuredHeight="82" background="#cfe2f3" alpha="64" border="none"/>
   <widgets xsi:type="model:Master" id="66" x="16" y="46" measuredWidth="1167" measuredHeight="90" dimmed="true">
     <screen xsi:type="model:Screen" href="Ctrl_MeetingDetails_Header.screen#/"/>
   </widgets>
@@ -185,6 +185,12 @@
     <widgets xsi:type="model:Icon" id="67" measuredWidth="32" measuredHeight="32" icon="assets/gl-user (large)"/>
     <widgets xsi:type="model:Icon" id="68" measuredWidth="32" measuredHeight="32" foreground="#cc0000" icon="assets/ai-accept (large)"/>
   </widgets>
+  <widgets xsi:type="model:Panel" id="70" x="801" y="212" width="20" height="141" measuredWidth="20" measuredHeight="141" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="71" x="823" y="212" width="20" height="141" measuredWidth="20" measuredHeight="141" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="72" x="845" y="212" width="20" height="141" measuredWidth="20" measuredHeight="141" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="73" x="801" y="451" width="20" height="80" measuredWidth="20" measuredHeight="80" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="74" x="823" y="451" width="20" height="80" measuredWidth="20" measuredHeight="80" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="75" x="845" y="451" width="20" height="80" measuredWidth="20" measuredHeight="80" background="#cfe2f3" alpha="64" border="none"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

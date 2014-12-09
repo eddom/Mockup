@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="42" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_04Material_Page04.screen#/"/>
+    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_04Material_Page04_Items.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="3" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
   <widgets xsi:type="model:Panel" id="4" x="320" y="54" width="741" height="599" locked="true" measuredWidth="741" measuredHeight="599" foreground="#ffffff" border="solid-rounded"/>
@@ -10,7 +10,7 @@
     <font size="24px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:HLine" id="7" x="332" y="599" width="719" measuredWidth="719" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="13" x="639" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_04Material_Page04.screen">
+  <widgets xsi:type="model:WidgetGroup" id="13" x="639" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_04Material_Page04_Items.screen">
     <widgets xsi:type="model:Panel" id="14" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="15" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="16" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">

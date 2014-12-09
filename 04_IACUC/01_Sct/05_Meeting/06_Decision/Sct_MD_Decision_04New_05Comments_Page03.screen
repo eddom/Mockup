@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_MD_05Decision_04_NewApp.screen#/"/>
+    <screen xsi:type="model:Screen" href="Sct_MD_Decision_04New_01Listing.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
   <widgets xsi:type="model:Panel" id="3" x="301" y="49" width="779" height="606" locked="true" measuredWidth="779" measuredHeight="606" foreground="#eeeeee" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="4" x="315" y="97" width="755" measuredWidth="755" measuredHeight="6"/>
   <widgets xsi:type="model:HLine" id="5" x="315" y="599" width="755" measuredWidth="755" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="10" x="639" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MD_05Decision_04_NewApp.screen">
+  <widgets xsi:type="model:WidgetGroup" id="10" x="639" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MD_Decision_04New_01Listing.screen">
     <widgets xsi:type="model:Panel" id="11" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="12" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="13" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
@@ -19,7 +19,7 @@
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="43" x="1050" y="141" height="450" measuredWidth="17" measuredHeight="450">
     <widgets xsi:type="model:VScrollbar" id="44" height="450" measuredWidth="17" measuredHeight="450" value="100"/>
-    <widgets xsi:type="model:Panel" id="45" width="17" height="414" measuredWidth="17" measuredHeight="414" alpha="64" border="none" link="Sct_MD_05Decision_07_Comments_Page01.screen"/>
+    <widgets xsi:type="model:Panel" id="45" width="17" height="414" measuredWidth="17" measuredHeight="414" alpha="64" border="none" link="Sct_MD_Decision_04New_05Comments_Page01.screen"/>
   </widgets>
   <widgets xsi:type="model:Label" id="111" x="808" y="109" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
     <font size="14px" bold="true" italic="false"/>
@@ -30,7 +30,7 @@
       <widgets xsi:type="model:Label" id="116" x="7" y="5" text="Section J: Survival Surgery" measuredWidth="157" measuredHeight="23">
         <font bold="true"/>
       </widgets>
-      <widgets xsi:type="model:Icon" id="117" x="646" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90" link="Sct_MD_05Decision_07_Comments_Page02.screen"/>
+      <widgets xsi:type="model:Icon" id="117" x="646" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90" link="Sct_MD_Decision_04New_05Comments_Page02.screen"/>
     </widgets>
     <widgets xsi:type="model:WidgetGroup" id="118" y="32" measuredWidth="680" measuredHeight="330">
       <widgets xsi:type="model:Panel" id="119" width="680" height="330" measuredWidth="680" measuredHeight="330" background="#d9ead3" border="none"/>
@@ -94,7 +94,7 @@
     <widgets xsi:type="model:Icon" id="145" x="646" y="2" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="146" x="598" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
-  <widgets xsi:type="model:Icon" id="147" x="635" y="106" measuredWidth="32" measuredHeight="32" icon="assets/fi-mail (large)" link="Sct_MD_05Decision_04_NewApp.screen"/>
+  <widgets xsi:type="model:Icon" id="147" x="635" y="106" measuredWidth="32" measuredHeight="32" icon="assets/fi-mail (large)" link="Sct_MD_Decision_04New_01Listing.screen"/>
   <widgets xsi:type="model:Label" id="148" x="318" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
     <font size="18px" bold="true"/>
   </widgets>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_MeetingDetails_04Material_Page04_Items.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="438"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="116" y="54" width="1150" height="599" measuredWidth="1150" measuredHeight="599" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="128" y="97" width="1129" measuredWidth="1129" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="481" y="59" text="Rearrange Review Items's Sequence" measuredWidth="419" measuredHeight="37" textAlignment="Center">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="6" x="128" y="599" width="1128" measuredWidth="1128" measuredHeight="6"/>
+  <widgets xsi:type="model:Table" id="13" x="144" y="176" width="500" height="407" text="(w:100).IACUC Ref. No.,(w:35).Tag,(w:130).Review Documents,(w:75).Institution,PI's Name&#xD;&#xA;2013/00037,,Amendment,NCC,Gail Spidle&#xD;&#xA;2014/00201,,New Protocol,NCC,Cora Mcdonagh&#xD;&#xA;2014/00202,,New Protocol,NCC,Edwin Findlay&#xD;&#xA;2014/00203,,New Protocol,NCC,Travis Vose&#xD;&#xA;2014/00204,,New Protocol,NHC,Johnson Gail&#xD;&#xA;2014/00205,W,New Protocol,NHC,Truman Bauer&#xD;&#xA;2014/00206,,New Protocol,SH,Donnie Zingaro&#xD;&#xA;2014/00207,,New Protocol,SH,Demetrius Tineo&#xD;&#xA;2014/00208,,New Protocol,SGH,Malik Leffingwell" measuredWidth="500" measuredHeight="407" selection="7" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="144" y="111" text="Review Items" measuredWidth="100" measuredHeight="26">
+    <font size="14px" bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="702" y="111" text="Review Items (Re-arrange sequence)" measuredWidth="268" measuredHeight="26">
+    <font size="14px" bold="true" italic="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="16" x="702" y="176" width="540" height="407" text="=(w:40).Seq.,(w:100).IACUC Ref. No.,(w:35).Tag,(w:130).Review Documents,(w:75).Institution,PI's Name&#xA;1,2013/00012,,Amendment\,\nAnnual Report,SGH,Grant Knuckles&#xA;2,2011/00002,,Annual Report,NDC,Al Brinkley&#xA;3,2013/00022,B,Amendment,SGH,Edison Fenstermacher&#xA;4,2013/00035,,Amendment,SGH,Robby Allin&#xA;" measuredWidth="540" measuredHeight="407" selection="4" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="18" x="1140" y="137" measuredWidth="102" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="19" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="20" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="21" x="6" y="2" width="90" text="Clear All" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="22" x="657" y="280" measuredWidth="32" measuredHeight="32" icon="arrow-right (large)"/>
+  <widgets xsi:type="model:Icon" id="23" x="657" y="352" measuredWidth="32" measuredHeight="32" icon="arrow-left (large)"/>
+  <widgets xsi:type="model:Text" id="24" x="144" y="138" width="497" height="17" text="Select review item in the list and click {arrow-right} on to arrange the sequence of the selected item" measuredWidth="497" measuredHeight="17" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="25" x="702" y="138" width="435" height="29" text="Click {arrow-left} to remove the review item from the Re-arrange Sequence list or click on &quot;Clear All&quot; button to remove all" measuredWidth="435" measuredHeight="29" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="27" x="317" y="439" width="172" height="83" text="Sorting available" measuredWidth="172" measuredHeight="83" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="28" x="805" y="439" width="172" height="83" text="Sorting not available" measuredWidth="172" measuredHeight="83" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="695" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_04Material_Page04_Items.screen">
+    <widgets xsi:type="model:Panel" id="8" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="9" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="10" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="29" x="585" y="614" measuredWidth="102" measuredHeight="26" link="Sct_MeetingDetails_04Material_Page04_Items.screen">
+    <widgets xsi:type="model:Panel" id="30" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="31" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="32" x="6" y="2" width="90" text="Confirm" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_MD_05Decision_04_NewApp.screen#/"/>
+    <screen xsi:type="model:Screen" href="Sct_MD_Decision_04New_01Listing.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
   <widgets xsi:type="model:Master" id="152" x="319" y="59" measuredWidth="744" measuredHeight="600" dimmed="true">
     <screen xsi:type="model:Screen" href="../../../99_Common/04_Workflow/Ctrl_Workflow_PCR_SelectReviewByPR.screen#/"/>
     <overrides>
-      <widgets ref="15" link="Sct_MD_05Decision_04_NewApp.screen"/>
-      <widgets ref="13" link="Sct_MD_05Decision_06_Workflow_SelectApprove.screen"/>
-      <widgets ref="14" link="Sct_MD_05Decision_06_Workflow_SelectCommApproval.screen"/>
-      <widgets ref="23" link="Sct_MD_05Decision_06_Workflow_SelectResubmit.screen"/>
+      <widgets ref="15" link="Sct_MD_Decision_04New_01Listing.screen"/>
+      <widgets ref="13" link="Sct_MD_Decision_04New_04Workflow_SelectApprove.screen"/>
+      <widgets ref="14" link="Sct_MD_Decision_04New_04Workflow_SelectCommApproval.screen"/>
+      <widgets ref="23" link="Sct_MD_Decision_04New_04Workflow_SelectResubmit.screen"/>
     </overrides>
   </widgets>
   <hRuler/>

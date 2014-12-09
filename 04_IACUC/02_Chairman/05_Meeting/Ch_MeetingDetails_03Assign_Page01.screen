@@ -20,7 +20,11 @@
       <widgets ref="51">
         <attributes key="foreground" value="#999999"/>
       </widgets>
-      <widgets ref="69" link="Ch_MeetingDetails_03Assign_Page02_NotifySct.screen"/>
+      <widgets ref="69" link="Ch_MeetingDetails_03Assign_Page04_NotifySct.screen"/>
+      <widgets ref="70" link="Ch_MeetingDetails_03Assign_Page02_PrintPreview.screen"/>
+      <widgets ref="73" link="Ch_MeetingDetails_03Assign_Page02_PrintPreview.screen"/>
+      <widgets ref="71" link="Ch_MeetingDetails_03Assign_Page03_AssignReviewer.screen"/>
+      <widgets ref="74" link="Ch_MeetingDetails_03Assign_Page03_AssignReviewer.screen"/>
     </overrides>
   </widgets>
   <hRuler/>

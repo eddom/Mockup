@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_MD_05Decision_01.screen#/"/>
+    <screen xsi:type="model:Screen" href="Sct_MD_Decision_01.screen#/"/>
     <overrides>
       <widgetChanges xsi:type="o:Delete" ref="47"/>
     </overrides>
@@ -10,14 +10,14 @@
   <widgets xsi:type="model:Panel" id="3" x="533" y="54" width="316" height="197" measuredWidth="316" measuredHeight="197" foreground="#eeeeee" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="4" x="543" y="97" width="296" measuredWidth="296" measuredHeight="6"/>
   <widgets xsi:type="model:HLine" id="5" x="543" y="199" width="296" measuredWidth="296" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="6" x="585" y="214" measuredWidth="102" measuredHeight="26" link="Sct_MD_05Decision_02_Completed.screen">
+  <widgets xsi:type="model:WidgetGroup" id="6" x="585" y="214" measuredWidth="102" measuredHeight="26" link="Sct_MD_Decision_03Amend.screen">
     <widgets xsi:type="model:Panel" id="7" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="8" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="9" x="6" y="2" width="90" text="Confirm" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="10" x="695" y="214" measuredWidth="102" measuredHeight="26" link="Sct_MD_05Decision_01.screen">
+  <widgets xsi:type="model:WidgetGroup" id="10" x="695" y="214" measuredWidth="102" measuredHeight="26" link="Sct_MD_Decision_01.screen">
     <widgets xsi:type="model:Panel" id="11" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="12" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="13" x="6" y="2" width="90" text="Cancel" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">

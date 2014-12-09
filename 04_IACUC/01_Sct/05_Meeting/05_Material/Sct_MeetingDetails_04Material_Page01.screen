@@ -22,7 +22,7 @@
   <widgets xsi:type="model:WidgetGroup" id="158" x="1343" y="159" height="521" measuredWidth="17" measuredHeight="521">
     <widgets xsi:type="model:WidgetGroup" id="159" height="521" measuredWidth="17" measuredHeight="521">
       <widgets xsi:type="model:VScrollbar" id="160" height="521" measuredWidth="17" measuredHeight="521"/>
-      <widgets xsi:type="model:Panel" id="162" y="45" width="17" height="474" measuredWidth="17" measuredHeight="474" alpha="64" border="none" link="Sct_MeetingDetails_04Material_Page04.screen"/>
+      <widgets xsi:type="model:Panel" id="162" y="45" width="17" height="474" measuredWidth="17" measuredHeight="474" alpha="64" border="none" link="Sct_MeetingDetails_04Material_Page04_Items.screen"/>
     </widgets>
   </widgets>
   <widgets xsi:type="model:TextField" id="173" x="240" y="200" width="668" text="IACUC Monthly Review Meeting" measuredWidth="668" measuredHeight="23">

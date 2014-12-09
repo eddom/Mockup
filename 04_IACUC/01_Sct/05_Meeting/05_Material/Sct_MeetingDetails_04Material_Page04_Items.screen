@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="347" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="6" x="162" y="128" measuredWidth="597" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="4">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+      <widgets ref="8/5">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="33" x="1343" y="154" measuredWidth="17" measuredHeight="526">
+    <widgets xsi:type="model:WidgetGroup" id="34" height="527" measuredWidth="17" measuredHeight="526">
+      <widgets xsi:type="model:VScrollbar" id="35" height="526" measuredWidth="17" measuredHeight="526" value="50"/>
+      <widgets xsi:type="model:Panel" id="36" width="17" height="247" measuredWidth="17" measuredHeight="247" alpha="64" border="none" link="Sct_MeetingDetails_04Material_Page01.screen"/>
+      <widgets xsi:type="model:Panel" id="207" y="278" width="17" height="247" measuredWidth="17" measuredHeight="247" alpha="64" border="none" link="Sct_MeetingDetails_04Material_Page06_AOB.screen"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="224" x="766" y="129" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
+  <widgets xsi:type="model:Icon" id="226" x="774" y="127" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:Icon" id="227" x="805" y="127" measuredWidth="32" measuredHeight="32" icon="assets/ai-send-now (large)"/>
+  <widgets xsi:type="model:Label" id="348" x="175" y="171" text="2. Discussion on Annual Update Report with extension request" measuredWidth="443" measuredHeight="25">
+    <font size="14px" bold="true" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="408" x="200" y="200" width="1135" height="441" text="(w:40).Seq.,(w:90).IACUC Ref.\nNo.,(w:20).{tag},(w:130).Review Documents,(w:70).Institution,(w:150).PI's Name,Protocol Title,=(w:50).PR,=(w:50).SR,(w:80).Actions&#xA;  1,[2013/00012],,Amendment\,\nAnnual Report,SGH,Grant Knuckles,A randomized controlled trial to evaluate an educational strategy ...,%(color:Gray)BG%,%(color:Gray)FB%,%(color:Gray){assets/fa-comments} {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  2,[2011/00002],,Annual Report,NDC,Al Brinkley,Sleep continuity: a new metric to quantify disrupted hypnograms ...,%(color:Gray)MH%,%(color:Gray)FB%,%(color:Gray){assets/fa-comments} {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  3,[2013/00022],B,Amendment,SGH,Edison Fenstermacher,Anti-malarial activity of a polyherbal product (Nefang) during early ...,%(color:Gray)CLM%,%(color:Gray)LT%,%(color:Gray){assets/fa-comments} {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  4,[2013/00035],,Amendment,SGH,Robby Allin,Automated Selection of Hotspots (ASH): enhanced automated ...,%(color:Gray)DL%,%(color:Gray)LGC%,%(color:Gray){assets/fa-comments} {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  5,[2013/00037],,Amendment,NCC,Gail Spidle,Tomographic findings of acute pulmonary toxoplasmosis in ...,%(color:Gray)WWL%,%(color:Gray)MW%,%(color:Gray){assets/fa-comments} {assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  6,[2014/00201],,New Protocol,NCC,Cora Mcdonagh,Pelvic Organ Prolapse study with language for questionnaires ...,%(color:Red)LT%,%(color:Red)EF%,%(color:#990000){assets/fa-comments}% %(color:Gray){assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  7,[2014/00202],,New Protocol,NCC,Edwin Findlay,Rationale and design of DECISION: a double-blind\, randomized ...,%(color:Red)BG%,%(color:Red)WWL%,%(color:#990000){assets/fa-comments}% %(color:Gray){assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  8,[2014/00203],,New Protocol,NCC,Travis Vose,Optimization of complex palliative care at home via telemedicine ...,%(color:Gray)JF%,%(color:Red)MT%,%(color:#990000){assets/fa-comments}% %(color:#990000){assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  9,[2014/00204],,New Protocol,NHC,Johnson Gail,Rationale and Methods of the Multicenter Randomised Trial of a ...,%(color:Red)QB%,%(color:Red)AH%,%(color:#990000){assets/fa-comments}% %(color:Gray){assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  10,[2014/00205],W,New Protocol,NHC,Truman Bauer,Impact of remote ischemic preconditioning preceding coronary ...,%(color:Red)LT%,%(color:Gray)JF%,%(color:#990000){assets/fa-comments}% %(color:Gray){assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  11,[2014/00206],,New Protocol,SH,Donnie Zingaro,Effectiveness and cost-effectiveness of a blended exercise ...,%(color:Red)DL%,%(color:Red)EF%,%(color:#990000){assets/fa-comments}% %(color:Gray){assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  12,[2014/00207],,New Protocol,SH,Demetrius Tineo,Association between obesity and magnetic resonance imaging ...,%(color:Red)CLM%,%(color:Red)RB%,%(color:#990000){assets/fa-comments}% %(color:Gray){assets/fi-mail}% {assets/fa-ellipsis-h}&#xA;  13,[2014/00208],,New Protocol,SGH,Malik Leffingwell,The effectiveness of combined bracing and exercise in adolescent ...,%(color:Red)FB%,%(color:Red)MW%,%(color:#990000){assets/fa-comments}% %(color:Gray){assets/fi-mail}% {assets/fa-ellipsis-h}" measuredWidth="1135" measuredHeight="441" rowHeight="28" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="436" x="242" y="238" width="87" height="371" measuredWidth="87" measuredHeight="371" background="#cfe2f3" alpha="64" border="none" link="../../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
+  <widgets xsi:type="model:Panel" id="437" x="1256" y="238" width="25" height="371" measuredWidth="25" measuredHeight="371" background="#cfe2f3" alpha="64" border="none" link="Sct_MeetingDetails_04Material_Page02_Comments.screen"/>
+  <widgets xsi:type="model:Note" id="438" x="393" y="32" width="250" height="98" text="Logic&#xD;&#xA;No sorting allowed&#xD;&#xA;&#xD;&#xA;Query&#xD;&#xA;Short Ref. No." measuredWidth="250" measuredHeight="98" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="439" x="200" y="648" measuredWidth="140" measuredHeight="26" link="Sct_MeetingDetails_04Material_Page05_Sequence.screen">
+    <widgets xsi:type="model:Panel" id="440" width="140" height="26" measuredWidth="140" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="441" x="1" y="1" width="138" height="24" measuredWidth="138" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="442" x="5" y="2" width="130" text="Re-arrange Sequence" measuredWidth="130" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="443" x="1195" y="648" measuredWidth="140" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="444" width="140" height="26" measuredWidth="140" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="445" x="1" y="1" width="138" height="24" measuredWidth="138" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="446" x="5" y="2" width="130" text="Print All Comments" measuredWidth="130" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>
