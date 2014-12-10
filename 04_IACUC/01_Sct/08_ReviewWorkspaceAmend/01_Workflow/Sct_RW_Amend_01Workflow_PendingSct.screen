@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_RW_Amend_00_Form_PendingSct.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
+  <widgets xsi:type="model:Panel" id="35" x="165" y="54" width="1051" height="580" measuredWidth="1051" measuredHeight="580" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="36" x="176" y="97" width="1032" measuredWidth="1032" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="37" x="176" y="579" width="1032" measuredWidth="1032" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="38" x="639" y="594" measuredWidth="102" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="39" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="40" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="41" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="42" x="544" y="59" measuredWidth="293" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="43" x="38" text="Update Review Status" measuredWidth="255" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="44" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-shuffle (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="45" x="178" y="105" text="IACUC/2011/SHS/00002 - SGH" measuredWidth="273" measuredHeight="30">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="46" x="1017" y="107" width="177" text="PI:- Grant Knuckles" measuredWidth="177" measuredHeight="26" textAlignment="Right" foreground="#999999">
+    <font size="14px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="47" x="461" y="104" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:VLine" id="48" x="452" y="105" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:List" id="49" x="838" y="174" width="356" height="394" measuredWidth="356" measuredHeight="394" verticalScrollbar="true">
+    <font/>
+    <items x="0" y="2" width="339" height="21"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="50" x="851" y="187" measuredWidth="313" measuredHeight="36">
+    <widgets xsi:type="model:Text" id="51" x="1" y="15" width="312" height="21" text="New collaborator (Mr Derrick Chia)" measuredWidth="312" measuredHeight="21">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="52" width="249" height="18" text="04-Jan-2011 (Minor) - Approved" measuredWidth="249" measuredHeight="18">
+      <font bold="true" underline="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="53" x="838" y="145" text="Past Amendment" measuredWidth="122" measuredHeight="26" foreground="#0b5394">
+    <font size="14px" bold="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="54" x="851" y="227" height="201" measuredWidth="313" measuredHeight="200">
+    <widgets xsi:type="model:Text" id="55" x="1" y="15" width="312" height="185" text="# Additional studies: &#xD;&#xA;** Intervene in islet-cell function with localized delivery of drugs using nanoparticles (IBC pending); &#xD;&#xA;** Investigate the role of Fat storage-Inducing Transmembrane proteins (FITs) on islet cell biology; &#xD;&#xA;# Change of PI-ship; &#xD;&#xA;# Addition of new species and animal numbers: 160 Rats/year; &#xD;&#xA;# transduction of isolated islets; &#xD;&#xA;# High fat diet (HFD) feeding" measuredWidth="312" measuredHeight="185">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="56" width="249" height="19" text="10-Jun-2012 (Major) - Approved" measuredWidth="249" measuredHeight="19">
+      <font bold="true" underline="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="57" x="851" y="437" measuredWidth="313" measuredHeight="52">
+    <widgets xsi:type="model:Text" id="58" x="1" y="15" width="312" height="37" text="Requested for the transfer of animals to IACUC # 2014/SHS/897" measuredWidth="312" measuredHeight="37">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="59" width="249" height="18" text="27-Nov-2013 (Significant) - Rejected" measuredWidth="249" measuredHeight="18" foreground="#990000">
+      <font bold="true" underline="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="73" x="851" y="497" measuredWidth="313" measuredHeight="36">
+    <widgets xsi:type="model:Text" id="74" x="1" y="15" width="312" height="21" text="6 months extension request." measuredWidth="312" measuredHeight="21">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="75" width="249" height="18" text="27-Nov-2013 (Major) - Approved" measuredWidth="249" measuredHeight="18">
+      <font bold="true" underline="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="13" x="178" y="191" text="Amendment Summary" measuredWidth="156" measuredHeight="26" foreground="#38761d">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="14" x="206" y="219" width="589" height="32" text="Include new procedure.&#xD;&#xA;Remove team collaborator." measuredWidth="589" measuredHeight="32">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="16" x="206" y="296" text="Approve" measuredWidth="64" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="23" x="178" y="145" text="Current Review Status" measuredWidth="152" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="335" y="145" text=": Pending Secretariat Review" measuredWidth="193" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="178" y="271" text="Review Decision" measuredWidth="124" measuredHeight="26" foreground="#38761d">
+    <font size="14px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="30" x="223" y="342" width="572" height="108" text="Include new procedure.&#xD;&#xA;Remove team collaborator." measuredWidth="572" measuredHeight="108" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="223" y="316" text="Please enter the summary of approval" measuredWidth="213" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="32" x="1048" y="594" width="271" height="102" text="- Rich text box required for Summary of Approval?&#xD;&#xA;" measuredWidth="271" measuredHeight="102" annotation="true" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

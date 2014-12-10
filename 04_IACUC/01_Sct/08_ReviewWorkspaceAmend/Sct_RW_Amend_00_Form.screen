@@ -14,6 +14,9 @@
   <widgets xsi:type="model:Icon" id="7" x="1331" y="120" measuredWidth="32" measuredHeight="32" icon="assets/gl-download-alt (large)" iconRotation="90" link="../07_ReviewWorkspace/05_Request/Sct_RW_05Req_Page01.screen"/>
   <widgets xsi:type="model:Icon" id="8" x="1251" y="121" measuredWidth="32" measuredHeight="32" icon="assets/gl-random (large)"/>
   <widgets xsi:type="model:VLine" id="9" x="1289" y="121" height="32" measuredWidth="6" measuredHeight="32"/>
+  <widgets xsi:type="model:Master" id="10" x="28" y="169" locked="true" measuredWidth="1324" measuredHeight="534" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../99_Common/07_ReviewWorkspace/Ctrl_RW_AppForm.screen#/"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>
