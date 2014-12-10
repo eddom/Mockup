@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_Amend_00_Base.screen#/"/>
+    <screen xsi:type="model:Screen" href="Sct_Amend_00Base.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Master" id="2" x="162" y="128" measuredWidth="680" measuredHeight="27" dimmed="true">
     <screen xsi:type="model:Screen" href="Sct_Amend_99Ctrl_Menu.screen#/"/>
