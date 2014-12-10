@@ -4,13 +4,10 @@
     <screen xsi:type="model:Screen" href="../Sct_RW_Amend_00_Form_New.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
-  <widgets xsi:type="model:Note" id="42" x="1057" y="608" width="271" height="100" text="- Rich text box required for Secretariat Input?&#xD;&#xA;" measuredWidth="271" measuredHeight="100" annotation="true" textAlignment="Left">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Panel" id="3" x="165" y="54" width="1051" height="580" measuredWidth="1051" measuredHeight="580" foreground="#eeeeee" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="4" x="176" y="97" width="1032" measuredWidth="1032" measuredHeight="6"/>
   <widgets xsi:type="model:HLine" id="5" x="176" y="579" width="1032" measuredWidth="1032" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="6" x="639" y="594" measuredWidth="102" measuredHeight="26">
+  <widgets xsi:type="model:WidgetGroup" id="6" x="639" y="594" measuredWidth="102" measuredHeight="26" link="../Sct_RW_Amend_00_Form_New.screen">
     <widgets xsi:type="model:Panel" id="7" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="8" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="9" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
@@ -62,43 +59,43 @@
       <font bold="true" underline="true"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Label" id="16" x="178" y="192" text="Amendment Summary" measuredWidth="156" measuredHeight="26" foreground="#38761d">
+  <widgets xsi:type="model:Label" id="16" x="178" y="191" text="Amendment Summary" measuredWidth="156" measuredHeight="26" foreground="#38761d">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="17" x="314" y="220" width="481" height="32" text="Request to include a procedure for testing the effect of Wnt pathway inhibitors on the bone turnover and remove a team collaborator, Jamal Aliyev." measuredWidth="481" measuredHeight="32">
+  <widgets xsi:type="model:Text" id="17" x="314" y="219" width="481" height="32" text="Request to include a procedure for testing the effect of Wnt pathway inhibitors on the bone turnover and remove a team collaborator, Jamal Aliyev." measuredWidth="481" measuredHeight="32">
     <font/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="23" x="206" y="417" text="Minor" measuredWidth="50" measuredHeight="23">
+  <widgets xsi:type="model:RadioButton" id="23" x="206" y="416" text="Minor" measuredWidth="50" measuredHeight="23" link="Sct_RW_Amend_01Workflow_New_SelectMinor.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="24" x="206" y="440" text="Major" measuredWidth="50" measuredHeight="23">
+  <widgets xsi:type="model:RadioButton" id="24" x="206" y="439" text="Major" measuredWidth="50" measuredHeight="23" link="Sct_RW_Amend_01Workflow_New_SelectMajor.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="25" x="206" y="463" text="Significant" measuredWidth="77" measuredHeight="23">
+  <widgets xsi:type="model:RadioButton" id="25" x="206" y="462" text="Significant" measuredWidth="77" measuredHeight="23" link="Sct_RW_Amend_01Workflow_New_SelectSignificant.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="35" x="178" y="146" text="Current Review Status" measuredWidth="152" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="35" x="178" y="145" text="Current Review Status" measuredWidth="152" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="36" x="335" y="146" text=": Submitted" measuredWidth="79" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="36" x="335" y="145" text=": Submitted" measuredWidth="79" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="37" x="178" y="392" text="Amendment Category" measuredWidth="156" measuredHeight="26" foreground="#38761d">
+  <widgets xsi:type="model:Label" id="37" x="178" y="391" text="Amendment Category" measuredWidth="156" measuredHeight="26" foreground="#38761d">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="38" x="206" y="217" text="PI's Input" measuredWidth="55" measuredHeight="23" foreground="#666666">
+  <widgets xsi:type="model:Label" id="38" x="206" y="216" text="PI's Input" measuredWidth="55" measuredHeight="23" foreground="#666666">
     <font size="12px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="39" x="206" y="261" text="Secretariat Input" measuredWidth="94" measuredHeight="23" foreground="#666666">
+  <widgets xsi:type="model:Label" id="39" x="206" y="260" text="Secretariat Input" measuredWidth="94" measuredHeight="23" foreground="#666666">
     <font size="12px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="40" x="303" y="217" text=":" measuredWidth="8" measuredHeight="23" foreground="#666666">
+  <widgets xsi:type="model:Label" id="40" x="303" y="216" text=":" measuredWidth="8" measuredHeight="23" foreground="#666666">
     <font size="12px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="41" x="303" y="261" text=":" measuredWidth="8" measuredHeight="23" foreground="#666666">
+  <widgets xsi:type="model:Label" id="41" x="303" y="260" text=":" measuredWidth="8" measuredHeight="23" foreground="#666666">
     <font size="12px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="56" x="314" y="261" measuredWidth="482" measuredHeight="116" dimmed="true">
+  <widgets xsi:type="model:Master" id="56" x="314" y="260" measuredWidth="482" measuredHeight="116" dimmed="true">
     <screen xsi:type="model:Screen" href="../../../../assets/RichText.screen#/"/>
     <overrides>
       <widgets ref="2" width="482" height="92" text="Include new procedure.&#xD;&#xA;Remove team collaborator.">
@@ -113,6 +110,9 @@
     <widgets xsi:type="model:Text" id="63" width="249" height="18" text="27-Nov-2013 (Major) - Approved" measuredWidth="249" measuredHeight="18">
       <font bold="true" underline="true"/>
     </widgets>
+  </widgets>
+  <widgets xsi:type="model:Note" id="42" x="1057" y="608" width="271" height="100" text="- Rich text box required for Secretariat Input?&#xD;&#xA;" measuredWidth="271" measuredHeight="100" annotation="true" textAlignment="Left">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>

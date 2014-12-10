@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Label" id="1" x="272" y="8" text="Pending Committee Review" measuredWidth="215" measuredHeight="27" foreground="#0000ff">
+  <widgets xsi:type="model:Label" id="1" x="272" y="8" text="Pending Committee Review" measuredWidth="215" measuredHeight="27" foreground="#0000ff" link="Sct_Amend_03PendingComm.screen">
     <font size="16px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="2" x="8" y="8" text="New" measuredWidth="39" measuredHeight="27" foreground="#0000ff">
+  <widgets xsi:type="model:Label" id="2" x="8" y="8" text="New" measuredWidth="39" measuredHeight="27" foreground="#0000ff" link="Sct_Amend_01AmendListing.screen">
     <font size="16px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="4" x="492" y="8" width="196" text="Pending PR &amp; SR Review" measuredWidth="196" measuredHeight="27" foreground="#0000ff">
+  <widgets xsi:type="model:Label" id="4" x="492" y="8" width="196" text="Pending PR &amp; SR Review" measuredWidth="196" measuredHeight="27" foreground="#0000ff" link="Sct_Amend_04PendingPR.screen">
     <font size="16px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="5" x="52" y="8" width="212" text="Pending Secretariat Review" measuredWidth="212" measuredHeight="27" foreground="#0000ff">
+  <widgets xsi:type="model:Label" id="5" x="52" y="8" width="212" text="Pending Secretariat Review" measuredWidth="212" measuredHeight="27" foreground="#0000ff" link="Sct_Amend_02PendingSct.screen">
     <font size="16px" bold="true" underline="true"/>
   </widgets>
   <hRuler/>

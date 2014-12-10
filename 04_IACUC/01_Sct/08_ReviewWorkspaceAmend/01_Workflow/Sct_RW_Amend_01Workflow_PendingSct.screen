@@ -7,7 +7,7 @@
   <widgets xsi:type="model:Panel" id="35" x="165" y="54" width="1051" height="580" measuredWidth="1051" measuredHeight="580" foreground="#eeeeee" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="36" x="176" y="97" width="1032" measuredWidth="1032" measuredHeight="6"/>
   <widgets xsi:type="model:HLine" id="37" x="176" y="579" width="1032" measuredWidth="1032" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="38" x="639" y="594" measuredWidth="102" measuredHeight="26">
+  <widgets xsi:type="model:WidgetGroup" id="38" x="639" y="594" measuredWidth="102" measuredHeight="26" link="../Sct_RW_Amend_00_Form_New.screen">
     <widgets xsi:type="model:Panel" id="39" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="40" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="41" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">

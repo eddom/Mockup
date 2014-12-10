@@ -24,7 +24,7 @@
       <font size="28px" italic="true"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="45" x="28" y="219" measuredWidth="109" measuredHeight="77" link="01_Sct/02_Amendment/Sct_01_AmendListing.screen">
+  <widgets xsi:type="model:WidgetGroup" id="45" x="28" y="219" measuredWidth="109" measuredHeight="77" link="01_Sct/02_Amendment/Sct_Amend_01AmendListing.screen">
     <widgets xsi:type="model:Panel" id="46" width="61" height="77" measuredWidth="61" measuredHeight="77" foreground="#b6d7a8"/>
     <widgets xsi:type="model:Panel" id="48" x="59" width="50" height="77" measuredWidth="50" measuredHeight="77" foreground="#b6d7a8"/>
     <widgets xsi:type="model:Label" id="49" x="74" y="15" text="7" measuredWidth="20" measuredHeight="46" textAlignment="Center" foreground="#b6d7a8">

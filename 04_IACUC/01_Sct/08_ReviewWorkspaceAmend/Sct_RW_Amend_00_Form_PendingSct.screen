@@ -4,6 +4,7 @@
     <screen xsi:type="model:Screen" href="Sct_RW_Amend_00_Form.screen#/"/>
     <overrides>
       <widgets ref="4" text="Pending Secretariat Review"/>
+      <widgets ref="8" link="01_Workflow/Sct_RW_Amend_01Workflow_PendingSct.screen"/>
     </overrides>
   </widgets>
   <hRuler/>
