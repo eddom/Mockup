@@ -16,7 +16,7 @@
     <font size="14px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="26" x="162" y="160" width="448" text="Click on the calendar icon to schedule meeting for application or click" measuredWidth="448" measuredHeight="25" foreground="#666666">
-    <font size="14px" underline="false"/>
+    <font size="14px" italic="true" underline="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="33" x="216" y="128" text="Pending Comm. Review" measuredWidth="223" measuredHeight="30" foreground="#0000ff" link="Sct_New_02PendingReview_Page01_Type1.screen">
     <font size="18px" bold="true" underline="true"/>
@@ -33,10 +33,10 @@
   <widgets xsi:type="model:Icon" id="39" x="171" y="307" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_01New_Page01.2_Schedule.screen"/>
   <widgets xsi:type="model:Icon" id="40" x="171" y="335" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_01New_Page01.2_Schedule.screen"/>
   <widgets xsi:type="model:Link" id="43" x="613" y="160" text="here" measuredWidth="32" measuredHeight="25" link="Sct_New_01New_Page01.3_BatchSchedule.screen">
-    <font size="14px"/>
+    <font size="14px" italic="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="44" x="646" y="160" width="237" text="to schedule multiple applications." measuredWidth="237" measuredHeight="25" foreground="#666666">
-    <font size="14px" underline="false"/>
+    <font size="14px" italic="true" underline="false"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="45" x="162" y="616" measuredWidth="24" measuredHeight="24" icon="tag (medium)"/>
   <widgets xsi:type="model:Panel" id="47" x="325" y="223" width="154" height="136" measuredWidth="154" measuredHeight="136" background="#cfe2f3" alpha="64" border="none" link="../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>

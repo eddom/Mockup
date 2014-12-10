@@ -6,16 +6,13 @@
   <widgets xsi:type="model:Label" id="3" x="8" y="8" text="Schedule" measuredWidth="77" measuredHeight="27" foreground="#0000ff">
     <font size="16px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="4" x="455" y="8" width="78" text="Decisions" measuredWidth="78" measuredHeight="27" foreground="#0000ff">
+  <widgets xsi:type="model:Label" id="4" x="455" y="8" width="162" text="Decisions &amp; Minutes" measuredWidth="162" measuredHeight="27" foreground="#0000ff">
     <font size="16px" bold="true" underline="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="5" x="377" y="8" width="70" text="Materials" measuredWidth="70" measuredHeight="27" foreground="#0000ff">
     <font size="16px" bold="true" underline="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="6" x="90" y="8" width="142" text="Preliminary Check" measuredWidth="142" measuredHeight="27" foreground="#0000ff">
-    <font size="16px" bold="true" underline="true"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="7" x="541" y="8" width="64" text="Minutes" measuredWidth="64" measuredHeight="27" foreground="#0000ff">
     <font size="16px" bold="true" underline="true"/>
   </widgets>
   <hRuler/>

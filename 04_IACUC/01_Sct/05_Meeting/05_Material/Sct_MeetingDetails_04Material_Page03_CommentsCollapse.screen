@@ -24,14 +24,13 @@
     </widgets>
   </widgets>
   <widgets xsi:type="model:Icon" id="44" x="332" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
-  <widgets xsi:type="model:Icon" id="45" x="367" y="106" measuredWidth="32" measuredHeight="32" icon="assets/gl-print (large)"/>
-  <widgets xsi:type="model:Label" id="46" x="417" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+  <widgets xsi:type="model:Label" id="46" x="377" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
     <font size="18px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="47" x="820" y="109" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
     <font size="14px" bold="true" italic="false"/>
   </widgets>
-  <widgets xsi:type="model:VLine" id="48" x="405" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:VLine" id="48" x="365" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
   <widgets xsi:type="model:WidgetGroup" id="68" x="340" y="184" measuredWidth="192" measuredHeight="30">
     <widgets xsi:type="model:Label" id="69" x="27" y="2" text="Reviewers' Comments" measuredWidth="164" measuredHeight="26">
       <font size="14px" bold="true" underline="false"/>

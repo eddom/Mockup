@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Master" id="8" x="8" y="8" measuredWidth="597" measuredHeight="27" dimmed="true">
+  <widgets xsi:type="model:Master" id="8" x="8" y="8" measuredWidth="609" measuredHeight="27" dimmed="true">
     <screen xsi:type="model:Screen" href="../../99_Common/05_Meeting/Ctrl_MeetingDetails_Menu.screen#/"/>
     <overrides>
       <widgets ref="3" link="02_Prepare/Sct_MeetingDetails_01Prepare_Page01.screen"/>
@@ -8,9 +8,10 @@
       <widgets ref="2" link="03_AssignReviewer/Sct_MeetingDetails_03Assign_Page01.screen"/>
       <widgets ref="5" link="05_Material/Sct_MeetingDetails_04Material_Page01.screen"/>
       <widgets ref="4" link="06_Decision/Sct_MD_Decision_01.screen"/>
+      <widgets ref="7" link="07_Minutes/Sct_MD_Minutes_01.screen"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Panel" id="9" x="488" y="12" width="45" height="20" measuredWidth="45" measuredHeight="20" background="#cfe2f3" alpha="64" border="none" link="06_Decision/Sct_MD_Decision_03Amend.screen"/>
+  <widgets xsi:type="model:Panel" id="9" x="552" y="12" width="61" height="20" measuredWidth="61" measuredHeight="20" background="#cfe2f3" alpha="64" border="none" link="06_Decision/Sct_MD_Decision_03Amend.screen"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

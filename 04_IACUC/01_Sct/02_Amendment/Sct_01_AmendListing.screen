@@ -10,7 +10,20 @@
   </widgets>
   <widgets xsi:type="model:Master" id="6" x="162" y="128" measuredWidth="680" measuredHeight="27" dimmed="true">
     <screen xsi:type="model:Screen" href="Sct_Amend_99Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="2">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
   </widgets>
+  <widgets xsi:type="model:Table" id="7" x="162" y="193" width="1169" height="419" text="(w:120).Submission Date,(w:160).IACUC Ref. No.,(w:20).{tag},(w:120).Review Status,(w:80).Institution,(w:180).PI's Name,Approved Protocol Title,PR,SR,&#xA;09-May-2014,IACUC/2011/SHS/00002,,Submitted,SGH,Grant Knuckles,A randomized controlled trial to evaluate an ...,BG,FB,{assets/fa-ellipsis-h}  {assets/fi-shuffle}&#xA;22-May-2014,IACUC/2013/SHS/00012,,Submitted,NDC,Al Brinkley,Sleep continuity: a new metric to quantify disrupted ...,MH,FB,{assets/fa-ellipsis-h}  {assets/fi-shuffle}&#xA;16-May-2014,IACUC/2013/SHS/00022,B,Submitted,SGH,Edison Fenstermacher,Anti-malarial activity of a polyherbal ...,CLM,LT,{assets/fa-ellipsis-h}  {assets/fi-shuffle}&#xA;19-May-2014,IACUC/2013/SHS/00035,,Submitted,SGH,Robby Allin,Automated Selection of Hotspots (ASH): enhanced ...,DL,LGC,{assets/fa-ellipsis-h}  {assets/fi-shuffle}&#xA;21-May-2014,IACUC/2013/SHS/00037,,Submitted,NCC,Gail spidle,Tomographic findings of acute pulmonary ...,WWL,MW,{assets/fa-ellipsis-h}  {assets/fi-shuffle}" measuredWidth="1169" measuredHeight="419" rowHeight="28" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="162" y="160" width="327" text="Click on the {assets/fi-shuffle} icon to set amendment category" measuredWidth="327" measuredHeight="25" foreground="#666666">
+    <font size="14px" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="11" x="637" y="648" measuredWidth="32" measuredHeight="32" icon="info (large)"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>
