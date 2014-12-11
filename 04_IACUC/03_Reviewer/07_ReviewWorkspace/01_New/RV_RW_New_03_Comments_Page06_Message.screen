@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="220" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="../RV_RW_00_Ctrl_Comments.screen#/"/>
+    <screen xsi:type="model:Screen" href="RV_RW_New_01_Ctrl_Comments.screen#/"/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="166" x="1048" y="170" measuredWidth="17" measuredHeight="416">
     <widgets xsi:type="model:VScrollbar" id="167" height="416" measuredWidth="17" measuredHeight="416"/>

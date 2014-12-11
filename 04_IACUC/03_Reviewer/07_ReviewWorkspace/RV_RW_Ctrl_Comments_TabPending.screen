@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="791" height="603" measuredWidth="791" measuredHeight="603" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="3" x="18" y="51" width="771" measuredWidth="771" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="4" x="162" y="13" measuredWidth="455" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="5" x="37" text="Reviewer's Consolidated Comments" measuredWidth="418" measuredHeight="37" textAlignment="Center">
+      <font size="24px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="6" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-comments (large)"/>
+  </widgets>
+  <widgets xsi:type="model:TabbedPane" id="7" x="18" y="60" width="771" height="490" text="Pending Comments,Comments Sent" measuredWidth="771" measuredHeight="490" selection="0">
+    <items x="10" y="0" width="131" height="27" text="Pending Comments"/>
+    <items x="141" y="0" width="110" height="27" text="Comments Sent"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="8" x="18" y="560" width="771" measuredWidth="771" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="352" y="575" measuredWidth="102" measuredHeight="26">
+    <widgets xsi:type="model:Panel" id="10" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
+    <widgets xsi:type="model:Panel" id="11" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
+    <widgets xsi:type="model:Label" id="12" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="13" x="161" y="62" width="110" height="25" measuredWidth="110" measuredHeight="25" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="14" x="29" y="62" width="130" height="25" measuredWidth="130" measuredHeight="25" background="#cfe2f3" alpha="64" border="none"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

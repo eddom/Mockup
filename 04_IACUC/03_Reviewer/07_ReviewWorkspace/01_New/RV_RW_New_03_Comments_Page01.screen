@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="120" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="../RV_RW_00_Ctrl_Comments.screen#/"/>
+    <screen xsi:type="model:Screen" href="RV_RW_New_01_Ctrl_Comments.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Text" id="101" x="1102" y="217" width="266" height="120" text="Logic Check&#xD;&#xA;1. &#x9;Comments stay in &quot;Pending Comments&quot; until it's sent to Secretariat.&#xD;&#xA;2. Reviewer only will send the Pain &amp; Distress Category once. After that will be disabled for reviewer.&#xD;&#xA;3. Comments function is disabled once application withdrawn, re-submit, or approved." measuredWidth="266" measuredHeight="120" foreground="#ffffff">
     <font/>

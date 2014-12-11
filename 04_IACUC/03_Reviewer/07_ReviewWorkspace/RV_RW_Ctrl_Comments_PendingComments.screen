@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" measuredWidth="791" measuredHeight="603" dimmed="true">
+    <screen xsi:type="model:Screen" href="RV_RW_Ctrl_Comments_TabPending.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="2" x="760" y="128" height="411" measuredWidth="17" measuredHeight="411"/>
+  <widgets xsi:type="model:Text" id="3" x="60" y="192" width="617" height="17" text="Please be clearer on the ureteric catheterization procedure." measuredWidth="617" measuredHeight="17">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="60" y="170" text="Section J: Survival Surgery" measuredWidth="160" measuredHeight="23">
+    <font bold="true" italic="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="36" y="170" text="1." measuredWidth="15" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="6" x="60" y="242" width="617" height="17" text="How long after HIFU will euthanasia be carried out? Is it right after scanning?" measuredWidth="617" measuredHeight="17">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="60" y="220" text="Section M: Hazardous Agents" measuredWidth="175" measuredHeight="23">
+    <font bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="36" y="220" text="2." measuredWidth="15" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="9" x="60" y="292" width="659" height="77" text="According to Section E, 'Ten pigs will be used to establish the optimized parameters to remove kidney tissue efficiently. Ten pigs will be used to approve haemostasis effects'.&#xD;&#xA;&#xD;&#xA;Should the PI provide more details in Section G for the above procedures?  Could Dr. Fred Chua and/or the other vets to comment." measuredWidth="659" measuredHeight="77">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="60" y="270" text="Section G: Description of Experimental Design &amp; Animal Procedures" measuredWidth="393" measuredHeight="23">
+    <font bold="true" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="36" y="270" text="3." measuredWidth="15" measuredHeight="23">
+    <font size="12px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="12" x="677" y="219" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (small)"/>
+  <widgets xsi:type="model:Icon" id="13" x="699" y="219" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="delete (custom)"/>
+  <widgets xsi:type="model:Image" id="14" x="60" y="240" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Icon" id="15" x="677" y="269" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (small)"/>
+  <widgets xsi:type="model:Icon" id="16" x="699" y="269" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="delete (custom)"/>
+  <widgets xsi:type="model:Image" id="17" x="60" y="290" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Icon" id="18" x="677" y="169" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="edit (small)"/>
+  <widgets xsi:type="model:Icon" id="19" x="699" y="169" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="delete (custom)"/>
+  <widgets xsi:type="model:Image" id="20" x="60" y="190" measuredWidth="660" measuredHeight="1" src="../../../assets/Eddom/Line_Gray.png"/>
+  <widgets xsi:type="model:Icon" id="21" x="145" y="97" measuredWidth="32" measuredHeight="32" icon="assets/ai-new-event (large)"/>
+  <widgets xsi:type="model:Icon" id="22" x="182" y="101" measuredWidth="24" measuredHeight="24" icon="assets/fa-send (medium)"/>
+  <widgets xsi:type="model:Text" id="23" x="35" y="134" width="617" height="17" text="Click {assets/ai-new-event} to add new comment or {assets/ai-email} to send pending comments below to secretariat." measuredWidth="617" measuredHeight="17" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="24" x="34" y="97" text="My Comments" measuredWidth="100" measuredHeight="25" textAlignment="Center">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="25" x="134" y="97" height="25" measuredWidth="6" measuredHeight="25"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

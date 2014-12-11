@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="791" measuredHeight="603" dimmed="true">
+    <screen xsi:type="model:Screen" href="RV_RW_Ctrl_Comments_TabSent.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="2" x="36" y="128" width="735" height="402" text="(w:40). ,(w:140).Sent Date,Remarks,(w:100).Secretariat Message&#xA;,02-Jun-2014 19:30,Acknowledged by Ms. Serene Lok,=.-&#xA;,08-Jun-2014 16;20,Sent to applicant by Ms. Serene Lok,[15-Jun-2014 10:32]" measuredWidth="735" measuredHeight="402" verticalScrollbar="true" rowHeight="28" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="3" x="45" y="159" measuredWidth="24" measuredHeight="24" icon="assets/fa-file-text-o (medium)"/>
+  <widgets xsi:type="model:Icon" id="4" x="45" y="186" measuredWidth="24" measuredHeight="24" icon="assets/fa-file-text-o (medium)"/>
+  <widgets xsi:type="model:Panel" id="5" x="616" y="185" width="121" height="25" measuredWidth="121" measuredHeight="25" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Label" id="6" x="34" y="97" text="Sent" measuredWidth="35" measuredHeight="25" textAlignment="Center">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

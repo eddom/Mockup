@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="137" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="../RV_RW_00_Ctrl_Comments.screen#/"/>
+    <screen xsi:type="model:Screen" href="RV_RW_New_01_Ctrl_Comments.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="125" x="619" y="142" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)" link="RV_RW_New_03_Comments_Page01.screen"/>
   <widgets xsi:type="model:Label" id="126" x="320" y="145" text="My Comments" measuredWidth="100" measuredHeight="25" textAlignment="Center" foreground="#0000ff" link="RV_RW_New_03_Comments_Page01.screen">

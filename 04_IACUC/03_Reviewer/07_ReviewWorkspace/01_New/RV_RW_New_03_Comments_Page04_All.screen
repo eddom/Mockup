@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="179" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="../RV_RW_00_Ctrl_Comments.screen#/"/>
+    <screen xsi:type="model:Screen" href="RV_RW_New_01_Ctrl_Comments.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Table" id="158" x="322" y="175" width="735" height="402" text="(w:40). ,(w:140).Sent Date,Remarks,(w:100).Secretariat Message&#xA;,02-Jun-2014 19:30,Acknowledged by Ms. Serene Lok,=.-&#xA;,08-Jun-2014 16;20,Sent to applicant by Ms. Serene Lok,[15-Jun-2014 10:32]" measuredWidth="735" measuredHeight="402" verticalScrollbar="true" rowHeight="28" alternative="#eeeeee">
     <font/>

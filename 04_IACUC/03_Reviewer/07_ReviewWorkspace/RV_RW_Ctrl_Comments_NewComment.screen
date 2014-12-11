@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="791" measuredHeight="603" dimmed="true">
+    <screen xsi:type="model:Screen" href="RV_RW_Ctrl_Comments_TabPending.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="2" x="273" y="94" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:TextArea" id="3" x="35" y="162" width="734" height="367" text="In the last paragraph, PI wrote: &quot;We plan to use pigs that are scheduled for euthanasia in other projects, after obtaining their approval.&quot; It is recommended that the IACUC approves the PI's request for the use of pigs from other protocols which are scheduled for euthanasia, subject to a veterinarian certifying suitability of the animals for reuse in this study under NACLAR's guiding principles on 'Repeated use of animals in experiments' (Section 8.4.4)" measuredWidth="734" measuredHeight="367" verticalScrollbar="true">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="4" x="35" y="133" width="734" text="Section C: Abstract of the Study" measuredWidth="734" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="34" y="97" text="My Comments" measuredWidth="100" measuredHeight="25" textAlignment="Center" foreground="#0000ff">
+    <font size="14px" bold="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="6" x="130" y="97" measuredWidth="24" measuredHeight="24" icon="assets/ai-next-item (medium)"/>
+  <widgets xsi:type="model:Label" id="7" x="152" y="97" text="New Comments" measuredWidth="111" measuredHeight="25" textAlignment="Center" foreground="#990000">
+    <font size="14px" bold="false" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="8" x="265" y="97" height="25" measuredWidth="6" measuredHeight="25"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

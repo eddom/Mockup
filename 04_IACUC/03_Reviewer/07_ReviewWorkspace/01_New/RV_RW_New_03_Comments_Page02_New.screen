@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="169" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="../RV_RW_00_Ctrl_Comments.screen#/"/>
+    <screen xsi:type="model:Screen" href="RV_RW_New_01_Ctrl_Comments.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="149" x="559" y="142" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)" link="RV_RW_New_03_Comments_Page01.screen"/>
   <widgets xsi:type="model:TextArea" id="25" x="321" y="210" width="734" height="367" text="In the last paragraph, PI wrote: &quot;We plan to use pigs that are scheduled for euthanasia in other projects, after obtaining their approval.&quot; It is recommended that the IACUC approves the PI's request for the use of pigs from other protocols which are scheduled for euthanasia, subject to a veterinarian certifying suitability of the animals for reuse in this study under NACLAR's guiding principles on 'Repeated use of animals in experiments' (Section 8.4.4)" measuredWidth="734" measuredHeight="367" verticalScrollbar="true">
