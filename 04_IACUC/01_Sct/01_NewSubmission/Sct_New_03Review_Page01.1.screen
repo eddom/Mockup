@@ -3,15 +3,6 @@
   <widgets xsi:type="model:Master" id="185" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
     <screen xsi:type="model:Screen" href="Sct_New_00_Base.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="54" x="216" y="128" text="Pending Comm. Review" measuredWidth="223" measuredHeight="30" foreground="#0000ff" link="Sct_New_02PendingReview_Page01_Type1.screen">
-    <font size="18px" bold="true" underline="true"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="55" x="162" y="128" text="New" measuredWidth="44" measuredHeight="30" foreground="#0000ff" link="Sct_New_01New_Page01.1.screen">
-    <font size="18px" bold="true" underline="true"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="57" x="450" y="128" text="Reviewed" measuredWidth="94" measuredHeight="30" foreground="#990000">
-    <font size="18px" bold="true" underline="false"/>
-  </widgets>
   <widgets xsi:type="model:TabbedPane" id="181" x="160" y="168" width="1203" height="513" text="Pending PR &amp; SR Review (3),Pending Committee Approval (2),Pending Approval Letter (5)" measuredWidth="1203" measuredHeight="513" selection="0">
     <items x="10" y="0" width="211" height="30" text="Pending PR &amp; SR Review (3)"/>
     <items x="221" y="0" width="230" height="30" text="Pending Committee Approval (2)"/>
@@ -30,6 +21,15 @@
     <font size="12px"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="188" x="286" y="243" width="154" height="86" measuredWidth="154" measuredHeight="86" background="#cfe2f3" alpha="64" border="none" link="../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingPRReview.screen"/>
+  <widgets xsi:type="model:Master" id="189" x="162" y="128" measuredWidth="344" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_New_99Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="3">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

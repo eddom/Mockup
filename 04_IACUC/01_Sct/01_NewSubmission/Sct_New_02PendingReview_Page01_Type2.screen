@@ -188,14 +188,14 @@
     </widgets>
     <widgets xsi:type="model:Icon" id="178" x="230" y="4" measuredWidth="24" measuredHeight="24" icon="assets/fa-reply-all (medium)"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="180" x="216" y="128" text="Pending Comm. Review" measuredWidth="223" measuredHeight="30" foreground="#990000" link="">
-    <font size="18px" bold="true" underline="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="181" x="162" y="128" text="New" measuredWidth="44" measuredHeight="30" foreground="#0000ff" link="Sct_New_01New_Page01.1.screen">
-    <font size="18px" bold="true" underline="true"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="182" x="450" y="128" text="Reviewed" measuredWidth="94" measuredHeight="30" foreground="#0000ff" link="Sct_New_03Review_Page01.1.screen">
-    <font size="18px" bold="true" underline="true"/>
+  <widgets xsi:type="model:Master" id="183" x="162" y="128" measuredWidth="344" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_New_99Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
   </widgets>
   <hRuler/>
   <vRuler/>

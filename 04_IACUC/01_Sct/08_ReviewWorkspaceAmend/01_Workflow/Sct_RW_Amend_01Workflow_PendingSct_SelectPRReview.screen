@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_Amend_01Workflow_PendingSct.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="79"/>
+      <widgetChanges xsi:type="o:Delete" ref="77"/>
+      <widgetChanges xsi:type="o:Delete" ref="31"/>
+      <widgetChanges xsi:type="o:Delete" ref="32"/>
+      <widgets ref="76">
+        <attributes key="selected" value="true"/>
+      </widgets>
+      <widgets ref="16">
+        <attributes key="selected" value="false"/>
+      </widgets>
+      <widgets ref="47" link="../Sct_RW_Amend_00_Form_PendingPR.screen"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

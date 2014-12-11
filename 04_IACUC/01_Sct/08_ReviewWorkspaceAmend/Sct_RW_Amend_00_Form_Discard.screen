@@ -3,8 +3,7 @@
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
     <screen xsi:type="model:Screen" href="Sct_RW_Amend_00_Form.screen#/"/>
     <overrides>
-      <widgets ref="4" text="Pending PR &amp; SR Review"/>
-      <widgets ref="8" link="01_Workflow/Sct_RW_Amend_01Workflow_PendingPR.screen"/>
+      <widgets ref="4" text="Discarded"/>
     </overrides>
   </widgets>
   <hRuler/>

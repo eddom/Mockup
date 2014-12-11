@@ -73,9 +73,6 @@
   <widgets xsi:type="model:Text" id="14" x="206" y="219" width="589" height="32" text="Include new procedure.&#xD;&#xA;Remove team collaborator." measuredWidth="589" measuredHeight="32">
     <font/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="16" x="206" y="296" text="Approve" measuredWidth="64" measuredHeight="23" selected="true">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Label" id="23" x="178" y="145" text="Current Review Status" measuredWidth="152" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
@@ -85,13 +82,16 @@
   <widgets xsi:type="model:Label" id="25" x="178" y="271" text="Review Decision" measuredWidth="124" measuredHeight="26" foreground="#38761d">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:TextArea" id="30" x="223" y="342" width="572" height="108" text="Include new procedure.&#xD;&#xA;Remove team collaborator." measuredWidth="572" measuredHeight="108" verticalScrollbar="true">
+  <widgets xsi:type="model:RadioButton" id="76" x="206" y="296" text="To Review By PR &amp; SR" measuredWidth="143" measuredHeight="23" link="Sct_RW_Amend_01Workflow_PendingSct_SelectPRReview.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="31" x="223" y="316" text="Please enter the summary of approval" measuredWidth="213" measuredHeight="23" foreground="#666666">
-    <font size="12px" bold="false" italic="true"/>
+  <widgets xsi:type="model:RadioButton" id="16" x="206" y="321" text="Approve" measuredWidth="64" measuredHeight="23" link="Sct_RW_Amend_01Workflow_PendingSct_SelectApprove.screen">
+    <font/>
   </widgets>
-  <widgets xsi:type="model:Note" id="32" x="1048" y="594" width="271" height="102" text="- Rich text box required for Summary of Approval?&#xD;&#xA;" measuredWidth="271" measuredHeight="102" annotation="true" textAlignment="Left">
+  <widgets xsi:type="model:RadioButton" id="78" x="206" y="371" text="Discard By PI" measuredWidth="93" measuredHeight="23" link="Sct_RW_Amend_01Workflow_PendingSct_SelectDiscard.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="80" x="206" y="346" text="Reject" measuredWidth="55" measuredHeight="23" link="Sct_RW_Amend_01Workflow_PendingSct_SelectReject.screen">
     <font/>
   </widgets>
   <hRuler/>

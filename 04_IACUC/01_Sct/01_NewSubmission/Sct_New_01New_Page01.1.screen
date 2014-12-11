@@ -18,15 +18,6 @@
   <widgets xsi:type="model:Label" id="26" x="162" y="160" width="448" text="Click on the calendar icon to schedule meeting for application or click" measuredWidth="448" measuredHeight="25" foreground="#666666">
     <font size="14px" italic="true" underline="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="33" x="216" y="128" text="Pending Comm. Review" measuredWidth="223" measuredHeight="30" foreground="#0000ff" link="Sct_New_02PendingReview_Page01_Type1.screen">
-    <font size="18px" bold="true" underline="true"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="34" x="162" y="128" text="New" measuredWidth="44" measuredHeight="30" foreground="#990000">
-    <font size="18px" bold="true" underline="false"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="35" x="450" y="128" text="Reviewed" measuredWidth="94" measuredHeight="30" foreground="#0000ff" link="Sct_New_03Review_Page01.1.screen">
-    <font size="18px" bold="true" underline="true"/>
-  </widgets>
   <widgets xsi:type="model:Icon" id="36" x="171" y="224" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_01New_Page01.2_Schedule.screen"/>
   <widgets xsi:type="model:Icon" id="37" x="171" y="251" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_01New_Page01.2_Schedule.screen"/>
   <widgets xsi:type="model:Icon" id="38" x="171" y="279" measuredWidth="24" measuredHeight="24" icon="assets/fi-calendar (medium)" link="Sct_New_01New_Page01.2_Schedule.screen"/>
@@ -40,6 +31,15 @@
   </widgets>
   <widgets xsi:type="model:Icon" id="45" x="162" y="616" measuredWidth="24" measuredHeight="24" icon="tag (medium)"/>
   <widgets xsi:type="model:Panel" id="47" x="325" y="223" width="154" height="136" measuredWidth="154" measuredHeight="136" background="#cfe2f3" alpha="64" border="none" link="../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
+  <widgets xsi:type="model:Master" id="48" x="162" y="128" measuredWidth="344" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_New_99Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="2">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
   <hRuler>
     <guides position="1330"/>
   </hRuler>

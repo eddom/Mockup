@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_Amend_01Workflow_PendingComm.screen#/"/>
+    <overrides>
+      <widgets ref="37">
+        <attributes key="selected" value="true"/>
+      </widgets>
+      <widgets ref="15" link="../Sct_RW_Amend_00_Form_Approve.screen"/>
+      <widgets ref="39" y="496"/>
+      <widgets ref="38" y="521"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="223" y="341" text="Please enter the summary of approval" measuredWidth="213" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="3" x="222" y="364" measuredWidth="562" measuredHeight="102" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../../assets/RichText.screen#/"/>
+    <overrides>
+      <widgets ref="2" width="562" height="78" text="Include new procedure.&#xD;&#xA;Remove team collaborator.">
+        <attributes key="verticalScrollbar" value="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="223" y="471" text="*Notification will be sent to PI upon approval" measuredWidth="245" measuredHeight="23" foreground="#666666">
+    <font size="12px" bold="false" italic="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>
