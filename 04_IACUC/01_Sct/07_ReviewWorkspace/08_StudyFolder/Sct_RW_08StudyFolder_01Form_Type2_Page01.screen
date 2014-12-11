@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_RW_00_Base_StudyFolder.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="28" y="170" measuredWidth="261" measuredHeight="452" dimmed="true">
+    <screen xsi:type="model:Screen" href="../Sct_RW_99_Ctrl_StudyInfo_New.screen#/"/>
+    <overrides>
+      <widgets ref="1/40">
+        <attributes key="background" value="#cfe2f3"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="3" x="294" y="119" measuredWidth="32" measuredHeight="32" icon="assets/ai-next-item (large)"/>
+  <widgets xsi:type="model:Label" id="4" x="322" y="123" text="Document Library" measuredWidth="142" measuredHeight="27" textAlignment="Center">
+    <font size="16px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="5" x="295" y="170" height="530" measuredWidth="6" measuredHeight="530"/>
+  <widgets xsi:type="model:WidgetGroup" id="33" x="307" y="203" measuredWidth="1020" measuredHeight="41">
+    <widgets xsi:type="model:Panel" id="32" width="1020" height="41" measuredWidth="1020" measuredHeight="41" background="#ecf5ff" border="none"/>
+    <widgets xsi:type="model:Label" id="29" x="10" y="8" text="IACUC Application (Approved)" measuredWidth="215" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="30" x="560" y="9" width="425" text="Created on 01-Apr-2014, Submitted on 14-Apr-2014" measuredWidth="425" measuredHeight="23" textAlignment="Right" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="31" x="984" y="6" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)" iconRotation="90"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="39" x="307" y="243" width="1020" height="268" measuredWidth="1020" measuredHeight="268" background="#ecf5ff" border="none"/>
+  <widgets xsi:type="model:Panel" id="45" x="309" y="245" width="1016" height="264" measuredWidth="1016" measuredHeight="264" border="none"/>
+  <widgets xsi:type="model:Icon" id="37" x="463" y="254" width="20" height="20" measuredWidth="20" measuredHeight="20" icon="assets/fi-upload (medium)"/>
+  <widgets xsi:type="model:Label" id="38" x="320" y="255" text="Attached Documents" measuredWidth="142" measuredHeight="25">
+    <font size="14px" bold="false" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="46" x="320" y="284" width="995" height="217" text="(w:240).Attachment,Document Name,=(w:130).Document Version,(w:130).Document Date&#xD;&#xA;Post-operative Care Checklist,Post-op Checklist v1.4.doc,1.0,17-Mar-2014&#xD;&#xA;RCULA Cert.,RCULA_Edwin Findlay.pdf,1.0,18-Apr-2012&#xD;&#xA;RCULA Cert.,RCULA_Lilla Esteban.pdf,1.0,10-Dec-2013&#xD;&#xA;RCULA Cert.,RCULA_Dorthea Preiss.pdf,1.0,25-May-2012&#xD;&#xA;RCULA Cert.,RCULA_Vickey Olguin.pdf,1.0,07-Nov-2011&#xD;&#xA;Approval Letter,IACUC2014SHS00201_Approval_Letter.pdf,1.0,07-Nov-2011" measuredWidth="995" measuredHeight="217" rowHeight="28" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="48" x="307" y="523" measuredWidth="1020" measuredHeight="41">
+    <widgets xsi:type="model:Panel" id="49" width="1020" height="41" measuredWidth="1020" measuredHeight="41" background="#ecf5ff" border="none"/>
+    <widgets xsi:type="model:Label" id="50" x="10" y="8" text="Protocol Amendment (Approved)" measuredWidth="234" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="51" x="560" y="9" width="425" text="Created on 15-Dec-2014, Submitted on 21-Dec-2014" measuredWidth="425" measuredHeight="23" textAlignment="Right" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="52" x="984" y="6" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="54" x="307" y="573" measuredWidth="1020" measuredHeight="41">
+    <widgets xsi:type="model:Panel" id="55" width="1020" height="41" measuredWidth="1020" measuredHeight="41" background="#ecf5ff" border="none"/>
+    <widgets xsi:type="model:Label" id="56" x="10" y="8" text="Protocol Amendment (Rejected)" measuredWidth="229" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="57" x="560" y="9" width="425" text="Created on 10-Feb-2015, Submitted on 19-Feb-2015" measuredWidth="425" measuredHeight="23" textAlignment="Right" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="58" x="984" y="6" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="59" x="307" y="623" measuredWidth="1020" measuredHeight="41">
+    <widgets xsi:type="model:Panel" id="60" width="1020" height="41" measuredWidth="1020" measuredHeight="41" background="#ecf5ff" border="none"/>
+    <widgets xsi:type="model:Label" id="61" x="10" y="8" text="Annual Project Update report (Draft)" measuredWidth="260" measuredHeight="26" foreground="#0b5394">
+      <font size="14px" bold="true" underline="false"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="62" x="560" y="9" width="425" text="Created on 16-Apr-2015" measuredWidth="425" measuredHeight="23" textAlignment="Right" foreground="#666666">
+      <font size="12px" italic="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="63" x="984" y="6" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="submenu (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="64" x="307" y="169" text="Forms" measuredWidth="51" measuredHeight="25" textAlignment="Center" foreground="#38761d">
+    <font size="14px" bold="true" italic="true" underline="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="66" x="1337" y="175" measuredWidth="17" measuredHeight="518">
+    <widgets xsi:type="model:VScrollbar" id="67" height="518" measuredWidth="17" measuredHeight="518"/>
+    <widgets xsi:type="model:Panel" id="68" y="45" width="17" height="473" measuredWidth="17" measuredHeight="473" alpha="64" border="none" link="Sct_RW_08StudyFolder_01Form_Type2_Page02.screen"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="71" x="48" y="661" measuredWidth="207" measuredHeight="29">
+    <widgets xsi:type="model:Note" id="72" text="Go to Type 1" measuredWidth="83" measuredHeight="29" annotation="true" link="Sct_RW_08StudyFolder_01Form_Page01.screen">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Note" id="73" x="124" text="Go to Type 2" measuredWidth="83" measuredHeight="29" annotation="true" link="">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

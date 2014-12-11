@@ -25,6 +25,14 @@
       </widgets>
     </overrides>
   </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="43" x="48" y="661" measuredWidth="207" measuredHeight="29">
+    <widgets xsi:type="model:Note" id="44" text="Go to Type 1" measuredWidth="83" measuredHeight="29" annotation="true" link="Sct_RW_08StudyFolder_01Form_Page01.screen">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Note" id="45" x="124" text="Go to Type 2" measuredWidth="83" measuredHeight="29" annotation="true" link="Sct_RW_08StudyFolder_01Form_Type2_Page01.screen">
+      <font/>
+    </widgets>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>
