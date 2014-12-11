@@ -23,9 +23,6 @@
       <widgets xsi:type="model:Panel" id="207" y="278" width="17" height="247" measuredWidth="17" measuredHeight="247" alpha="64" border="none" link="Sct_MeetingDetails_04Material_Page06_AOB.screen"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:VLine" id="224" x="766" y="129" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
-  <widgets xsi:type="model:Icon" id="226" x="774" y="127" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
-  <widgets xsi:type="model:Icon" id="227" x="805" y="127" measuredWidth="32" measuredHeight="32" icon="assets/ai-send-now (large)"/>
   <widgets xsi:type="model:Label" id="348" x="175" y="171" text="2. Discussion on Annual Update Report with extension request" measuredWidth="443" measuredHeight="25">
     <font size="14px" bold="true" italic="true" underline="false"/>
   </widgets>
@@ -51,6 +48,9 @@
       <font/>
     </widgets>
   </widgets>
+  <widgets xsi:type="model:VLine" id="447" x="770" y="127" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
+  <widgets xsi:type="model:Icon" id="448" x="778" y="125" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
+  <widgets xsi:type="model:Icon" id="449" x="809" y="125" measuredWidth="32" measuredHeight="32" icon="assets/ai-send-now (large)"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

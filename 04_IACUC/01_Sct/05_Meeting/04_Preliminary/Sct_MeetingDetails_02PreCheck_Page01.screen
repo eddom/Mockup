@@ -3,7 +3,7 @@
   <widgets xsi:type="model:Master" id="30" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
     <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Base.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="2" x="162" y="128" measuredWidth="597" measuredHeight="27" dimmed="true">
+  <widgets xsi:type="model:Master" id="2" x="162" y="128" measuredWidth="609" measuredHeight="27" dimmed="true">
     <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Ctrl_Menu.screen#/"/>
     <overrides>
       <widgets ref="6">
@@ -42,8 +42,8 @@
   </widgets>
   <widgets xsi:type="model:Panel" id="22" x="326" y="333" width="147" height="141" measuredWidth="147" measuredHeight="141" background="#cfe2f3" alpha="64" border="none" link="../../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_BeforePreCheck.screen"/>
   <widgets xsi:type="model:Panel" id="26" x="326" y="563" width="147" height="79" measuredWidth="147" measuredHeight="79" background="#cfe2f3" alpha="64" border="none" link="../../07_ReviewWorkspace/Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
-  <widgets xsi:type="model:VLine" id="28" x="760" y="127" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
-  <widgets xsi:type="model:Icon" id="29" x="768" y="127" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="assets/ai-send-now (custom)" link="Sct_MeetingDetails_02PreCheck_Page02_RequestAssign.screen"/>
+  <widgets xsi:type="model:VLine" id="28" x="770" y="127" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
+  <widgets xsi:type="model:Icon" id="29" x="778" y="127" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="assets/ai-send-now (custom)" link="Sct_MeetingDetails_02PreCheck_Page02_RequestAssign.screen"/>
   <widgets xsi:type="model:Master" id="31" x="162" y="168" locked="true" measuredWidth="1167" measuredHeight="90" dimmed="true">
     <screen xsi:type="model:Screen" href="../../../99_Common/05_Meeting/Ctrl_MeetingDetails_Header.screen#/"/>
   </widgets>

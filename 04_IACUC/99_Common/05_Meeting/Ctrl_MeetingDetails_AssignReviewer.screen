@@ -138,8 +138,8 @@
   <widgets xsi:type="model:Label" id="49" x="16" y="155" text="Pending Assign Reviewers (5)" measuredWidth="216" measuredHeight="26" foreground="#990000">
     <font size="14px" bold="true" underline="true"/>
   </widgets>
-  <widgets xsi:type="model:VLine" id="50" x="614" y="7" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
-  <widgets xsi:type="model:Icon" id="51" x="662" y="7" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="assets/share (custom)"/>
+  <widgets xsi:type="model:VLine" id="50" x="624" y="7" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
+  <widgets xsi:type="model:Icon" id="51" x="672" y="7" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="assets/share (custom)"/>
   <widgets xsi:type="model:Label" id="52" x="884" y="516" width="210" text="Prof. Brenton Gearhart" measuredWidth="210" measuredHeight="23">
     <font size="12px" bold="true" italic="false"/>
   </widgets>
@@ -181,7 +181,7 @@
   <widgets xsi:type="model:Master" id="66" x="16" y="46" measuredWidth="1167" measuredHeight="90" dimmed="true">
     <screen xsi:type="model:Screen" href="Ctrl_MeetingDetails_Header.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="69" x="622" y="5" measuredWidth="32" measuredHeight="32">
+  <widgets xsi:type="model:WidgetGroup" id="69" x="632" y="5" measuredWidth="32" measuredHeight="32">
     <widgets xsi:type="model:Icon" id="67" measuredWidth="32" measuredHeight="32" icon="assets/gl-user (large)"/>
     <widgets xsi:type="model:Icon" id="68" measuredWidth="32" measuredHeight="32" foreground="#cc0000" icon="assets/ai-accept (large)"/>
   </widgets>

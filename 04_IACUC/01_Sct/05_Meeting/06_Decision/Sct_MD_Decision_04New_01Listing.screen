@@ -3,7 +3,7 @@
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
     <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Base.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="2" x="162" y="128" measuredWidth="597" measuredHeight="27" dimmed="true">
+  <widgets xsi:type="model:Master" id="2" x="162" y="128" measuredWidth="609" measuredHeight="27" dimmed="true">
     <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Ctrl_Menu.screen#/"/>
     <overrides>
       <widgets ref="3">
@@ -62,7 +62,7 @@
     <widgets xsi:type="model:Icon" id="37" y="168" measuredWidth="24" measuredHeight="24" icon="assets/fi-shuffle (medium)"/>
     <widgets xsi:type="model:Icon" id="38" y="196" measuredWidth="24" measuredHeight="24" icon="assets/fi-shuffle (medium)"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="39" x="1021" y="328" width="22" height="221" measuredWidth="22" measuredHeight="221" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="39" x="1021" y="328" width="22" height="221" measuredWidth="22" measuredHeight="221" background="#cfe2f3" alpha="64" border="none" link="Sct_MD_Decision_04New_02EditChairman_Page01.screen"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

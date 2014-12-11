@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="84" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Ch_RW_00_Base_AppForm.screen#/"/>
+    <overrides>
+      <widgets ref="82" link="Ch_RW_New_04_ApprovalSignature.screen">
+        <attributes key="foreground" value="#000000"/>
+      </widgets>
+      <widgets ref="79" text="Pending Approval Letter"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="11px"/>
+</model:Screen>

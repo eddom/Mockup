@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Table" id="2" x="8" y="32" width="1169" height="461" text="(w:160).IACUC Ref. No.,=(w:20).{tag},(w:80).Institution,(w:180).PI's Name,Protocol Title,(w:50). &#xA;[IACUC/2014/SHS/00202],,NHC,Chan Choon Lee,To evaluate the efficacy of antibiotics in ...,{assets/fa-ellipsis-h}" measuredWidth="1169" measuredHeight="461" rowHeight="28" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="3" x="12" y="63" width="151" height="26" measuredWidth="151" measuredHeight="26" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Text" id="4" x="8" y="8" width="617" height="17" text="Please sign for the following Protocol for approval." measuredWidth="617" measuredHeight="17" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

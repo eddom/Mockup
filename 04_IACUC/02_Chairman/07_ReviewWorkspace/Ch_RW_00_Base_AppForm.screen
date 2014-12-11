@@ -7,12 +7,12 @@
     <font size="16px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:VLine" id="78" x="162" y="120" height="32" measuredWidth="6" measuredHeight="32"/>
-  <widgets xsi:type="model:Label" id="79" x="1063" y="123" text="Pending Committee Review" measuredWidth="215" measuredHeight="27">
+  <widgets xsi:type="model:Label" id="79" x="1000" y="123" width="277" text="Pending Committee Review" measuredWidth="277" measuredHeight="27" textAlignment="Right">
     <font size="16px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:VLine" id="80" x="1279" y="121" height="32" measuredWidth="6" measuredHeight="32"/>
   <widgets xsi:type="model:Icon" id="81" x="1290" y="120" measuredWidth="32" measuredHeight="32" icon="assets/fi-comments (large)"/>
-  <widgets xsi:type="model:Icon" id="82" x="1325" y="122" width="28" height="28" measuredWidth="28" measuredHeight="28" icon="assets/award-fill (large)" link="Ch_RW_New_04_ApprovalSignature.screen"/>
+  <widgets xsi:type="model:Icon" id="82" x="1325" y="122" width="28" height="28" measuredWidth="28" measuredHeight="28" foreground="#999999" icon="assets/award-fill (large)"/>
   <widgets xsi:type="model:Master" id="83" x="28" y="169" measuredWidth="1324" measuredHeight="534" dimmed="true">
     <screen xsi:type="model:Screen" href="../../99_Common/07_ReviewWorkspace/Ctrl_RW_AppForm.screen#/"/>
   </widgets>

@@ -45,16 +45,16 @@
   <widgets xsi:type="model:TextField" id="30" x="1056" y="173" width="113" text="Draft" measuredWidth="113" measuredHeight="23" state="disabled">
     <font size="12px"/>
   </widgets>
-  <widgets xsi:type="model:VLine" id="35" x="760" y="127" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
-  <widgets xsi:type="model:Icon" id="36" x="768" y="125" measuredWidth="32" measuredHeight="32" icon="save (large)"/>
-  <widgets xsi:type="model:Icon" id="37" x="804" y="125" measuredWidth="32" measuredHeight="32" icon="secure (large)" link="Sct_MeetingDetails_01Prepare_Page03_Planned.screen"/>
+  <widgets xsi:type="model:VLine" id="35" x="770" y="127" height="28" measuredWidth="6" measuredHeight="28" foreground="#666666"/>
+  <widgets xsi:type="model:Icon" id="36" x="778" y="125" measuredWidth="32" measuredHeight="32" icon="save (large)"/>
+  <widgets xsi:type="model:Icon" id="37" x="814" y="125" measuredWidth="32" measuredHeight="32" icon="secure (large)" link="Sct_MeetingDetails_01Prepare_Page03_Planned.screen"/>
   <widgets xsi:type="model:Combo" id="294" x="1056" y="220" width="253" text="Dr. Chua Seng Chye Winston" measuredWidth="253" measuredHeight="23">
     <font size="12px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="297" x="941" y="274" text="Quorum Required :" measuredWidth="111" measuredHeight="23" textAlignment="Right" foreground="#666666">
     <font size="12px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Master" id="331" x="162" y="128" measuredWidth="597" measuredHeight="27" dimmed="true">
+  <widgets xsi:type="model:Master" id="331" x="162" y="128" measuredWidth="609" measuredHeight="27" dimmed="true">
     <screen xsi:type="model:Screen" href="../Sct_Meeting_00_Ctrl_Menu.screen#/"/>
     <overrides>
       <widgets ref="2">

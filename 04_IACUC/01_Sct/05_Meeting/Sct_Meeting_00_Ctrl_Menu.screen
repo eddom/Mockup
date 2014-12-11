@@ -11,7 +11,7 @@
       <widgets ref="7" link="07_Minutes/Sct_MD_Minutes_01.screen"/>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Panel" id="9" x="552" y="12" width="61" height="20" measuredWidth="61" measuredHeight="20" background="#cfe2f3" alpha="64" border="none" link="06_Decision/Sct_MD_Decision_03Amend.screen"/>
+  <widgets xsi:type="model:Panel" id="9" x="552" y="12" width="61" height="20" measuredWidth="61" measuredHeight="20" background="#cfe2f3" alpha="64" border="none" link="06_Decision/Sct_MD_Decision_03Attendance.screen"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>
