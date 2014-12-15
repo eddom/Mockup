@@ -15,7 +15,7 @@
   <widgets xsi:type="model:Table" id="3" x="162" y="160" width="1169" height="489" text="(w:100).Submission\nDate,(w:90).IACUC\nRef. No.,(w:20).{tag},=(w:70).Total\nPending\nReview,(w:190).Review Documents,=(w:65).Ext.\nRequest,(w:80).Institution,(w:180).PI's Name,Approved Protocol Title,=(w:40).PR,=(w:40).SR,&#xA;12-May-2014,[2014/00183],,2,Protocol Amendment\nAnnual Project Update Report,Y,NCCS,Cletus Quarterman,Biomechanical comparison of ...,KAS,CC,{assets/fa-ellipsis-h}" measuredWidth="1169" measuredHeight="489" rowHeight="28" alternative="#eeeeee">
     <font size="12px"/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="4" x="265" y="213" width="76" height="24" measuredWidth="76" measuredHeight="24" background="#cfe2f3" alpha="64" border="none"/>
+  <widgets xsi:type="model:Panel" id="4" x="265" y="213" width="76" height="24" measuredWidth="76" measuredHeight="24" background="#cfe2f3" alpha="64" border="none" link="../10_ReviewWorkspaceMul/Sct_RW_Mul_00_Form_New.screen"/>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>
