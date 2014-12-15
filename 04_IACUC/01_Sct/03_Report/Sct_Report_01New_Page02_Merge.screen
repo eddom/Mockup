@@ -4,24 +4,30 @@
     <screen xsi:type="model:Screen" href="Sct_Report_01New_Page01.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
-  <widgets xsi:type="model:Panel" id="3" x="320" y="54" width="741" height="599" locked="true" measuredWidth="741" measuredHeight="599" foreground="#ffffff" border="solid-rounded"/>
-  <widgets xsi:type="model:HLine" id="4" x="332" y="97" width="719" measuredWidth="719" measuredHeight="6"/>
-  <widgets xsi:type="model:Label" id="5" x="546" y="59" text="Merge Review" measuredWidth="165" measuredHeight="37" textAlignment="Center">
+  <widgets xsi:type="model:Panel" id="3" x="378" y="54" width="625" height="346" measuredWidth="625" measuredHeight="346" foreground="#ffffff" border="solid-rounded"/>
+  <widgets xsi:type="model:HLine" id="4" x="390" y="97" width="603" measuredWidth="603" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="555" y="59" text="Merge Study's Reviews" measuredWidth="271" measuredHeight="37" textAlignment="Center">
     <font size="24px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:HLine" id="6" x="332" y="599" width="719" measuredWidth="719" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="7" x="639" y="614" measuredWidth="102" measuredHeight="26">
+  <widgets xsi:type="model:HLine" id="6" x="390" y="349" width="603" measuredWidth="603" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="639" y="364" measuredWidth="102" measuredHeight="26" link="Sct_Report_01New_Page01.screen">
     <widgets xsi:type="model:Panel" id="8" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="9" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="10" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Label" id="11" x="337" y="107" text="IACUC/2014/SHS/00201 - NCC" measuredWidth="274" measuredHeight="30">
+  <widgets xsi:type="model:Label" id="11" x="395" y="107" text="IACUC/2014/SHS/00183 - NCC" measuredWidth="274" measuredHeight="30">
     <font size="18px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="12" x="820" y="109" width="231" text="PI:- Dr. Grant Knuckles" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
+  <widgets xsi:type="model:Label" id="12" x="756" y="109" width="231" text="PI:- Cletus Quarterman" measuredWidth="231" measuredHeight="26" textAlignment="Right" foreground="#999999">
     <font size="14px" bold="true" italic="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="13" x="395" y="144" width="592" height="33" text="Select one of the Review from the list to merge study's reviews." measuredWidth="592" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="14" x="395" y="176" width="592" height="143" text=",(w:140).Submission Date,(w:190).Review Type,Review Status&#xD;&#xA;{selected},28-Apr-2014,Protocol Amendment,Pending PR &amp; SR Review" measuredWidth="592" measuredHeight="143" alternative="#eeeeee">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>

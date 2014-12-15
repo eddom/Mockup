@@ -25,8 +25,8 @@
     <widgets xsi:type="model:WidgetGroup" id="15" x="6" y="14" measuredWidth="48" measuredHeight="48">
       <widgets xsi:type="model:WidgetGroup" id="16" measuredWidth="48" measuredHeight="48">
         <widgets xsi:type="model:Icon" id="17" width="48" height="48" measuredWidth="48" measuredHeight="48" foreground="#b6d7a8" icon="assets/fa-file-o (xlarge)"/>
-        <widgets xsi:type="model:Label" id="18" x="14" y="7" text="R" measuredWidth="22" measuredHeight="37" foreground="#b6d7a8">
-          <font size="24px" bold="true"/>
+        <widgets xsi:type="model:Text" id="34" x="12" y="16" width="18" text="R" measuredWidth="18" measuredHeight="27" textAlignment="Center" foreground="#b6d7a8">
+          <font size="24px"/>
         </widgets>
       </widgets>
     </widgets>
