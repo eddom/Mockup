@@ -17,6 +17,7 @@
       </widgets>
       <widgets ref="1" link="01_NewSubmission/Sct_New_01New_Page01.1.screen"/>
       <widgets ref="24" link="05_Meeting/01_Listing/Sct_MeetingListing_01.screen"/>
+      <widgets ref="11" link="03_Report/Sct_Report_01New_Page01.screen"/>
     </overrides>
   </widgets>
   <hRuler/>

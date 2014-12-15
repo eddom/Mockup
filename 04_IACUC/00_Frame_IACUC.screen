@@ -32,7 +32,7 @@
     </widgets>
     <widgets xsi:type="model:Icon" id="50" x="6" y="14" measuredWidth="48" measuredHeight="48" foreground="#b6d7a8" icon="assets/fi-clipboard-pencil (xlarge)"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="51" x="28" y="306" measuredWidth="109" measuredHeight="77" link="01_Sct/03_Report/Sct_01_StudyReport.screen">
+  <widgets xsi:type="model:WidgetGroup" id="51" x="28" y="306" measuredWidth="109" measuredHeight="77" link="01_Sct/03_Report/Sct_Report_01New_Page01.screen">
     <widgets xsi:type="model:Panel" id="52" width="61" height="77" measuredWidth="61" measuredHeight="77" foreground="#b6d7a8"/>
     <widgets xsi:type="model:Panel" id="53" x="59" width="50" height="77" measuredWidth="50" measuredHeight="77" foreground="#b6d7a8"/>
     <widgets xsi:type="model:Label" id="54" x="74" y="15" text="6" measuredWidth="20" measuredHeight="46" textAlignment="Center" foreground="#b6d7a8">
