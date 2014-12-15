@@ -27,24 +27,24 @@
   <widgets xsi:type="model:RadioButton" id="12" x="50" y="201" text="Approve" measuredWidth="80" measuredHeight="26" selected="true">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:DateField" id="13" x="199" y="227" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
-  <widgets xsi:type="model:Label" id="14" x="89" y="226" text="Approval Date" measuredWidth="96" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:DateField" id="13" x="219" y="227" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="14" x="69" y="226" text="Study Approval Date" measuredWidth="136" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="15" x="89" y="256" text="Validity Date" measuredWidth="84" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="15" x="69" y="256" text="Study Validity Date" measuredWidth="125" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="16" x="189" y="226" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="16" x="209" y="226" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="17" x="189" y="256" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="17" x="209" y="256" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:DateField" id="18" x="199" y="257" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
-  <widgets xsi:type="model:Label" id="19" x="326" y="256" text="To" measuredWidth="20" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:DateField" id="18" x="219" y="257" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="19" x="346" y="256" text="To" measuredWidth="20" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:DateField" id="20" x="359" y="257" width="115" text="01-Jun-2016" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:DateField" id="20" x="379" y="257" width="115" text="01-Jun-2016" measuredWidth="115" measuredHeight="23"/>
   <widgets xsi:type="model:WidgetGroup" id="21" x="329" y="495" measuredWidth="102" measuredHeight="26">
     <widgets xsi:type="model:Panel" id="22" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="23" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
@@ -55,29 +55,32 @@
   <widgets xsi:type="model:RadioButton" id="29" x="50" y="366" text="Withdraw" measuredWidth="85" measuredHeight="26">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="30" x="89" y="286" text="Pending Items" measuredWidth="98" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="30" x="69" y="286" text="Pending Items" measuredWidth="98" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="31" x="189" y="286" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="31" x="209" y="286" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="32" x="199" y="286" text="Yes" measuredWidth="44" measuredHeight="25">
+  <widgets xsi:type="model:RadioButton" id="32" x="219" y="286" text="Yes" measuredWidth="44" measuredHeight="25">
     <font size="14px"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="33" x="259" y="286" text="No" measuredWidth="38" measuredHeight="25" selected="true">
+  <widgets xsi:type="model:RadioButton" id="33" x="279" y="286" text="No" measuredWidth="38" measuredHeight="25" selected="true">
     <font size="14px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="34" x="199" y="315" text="Approval Letter to be signed by" measuredWidth="204" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="34" x="219" y="315" text="Approval Letter to be signed by" measuredWidth="204" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="35" x="405" y="316" width="253" text="Dr. Chua Seng Chye Winston" measuredWidth="253" measuredHeight="23">
+  <widgets xsi:type="model:Combo" id="35" x="425" y="316" width="253" text="Dr. Chua Seng Chye Winston" measuredWidth="253" measuredHeight="23">
     <font size="12px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="36" x="199" y="340" text="Note: a notification will be sent to inform the selected member for Approval Letter Signature." measuredWidth="503" measuredHeight="23" foreground="#666666">
+  <widgets xsi:type="model:Label" id="36" x="219" y="340" text="Note: A notification will be sent to inform the selected member for Approval Letter Signature." measuredWidth="504" measuredHeight="23" foreground="#666666">
     <font size="12px" bold="false" italic="true"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="38" x="316" y="60" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
   <widgets xsi:type="model:VLine" id="39" x="307" y="61" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:Label" id="40" x="389" y="226" text="*Allow backdated date" measuredWidth="148" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

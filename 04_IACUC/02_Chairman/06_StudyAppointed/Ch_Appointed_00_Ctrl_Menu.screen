@@ -6,6 +6,7 @@
       <widgets ref="2" link="Ch_Appointed_01PendingComments_Page01.screen"/>
       <widgets ref="3" link="Ch_Appointed_02PendingReview_Page01.screen"/>
       <widgets ref="4" link="Ch_Appointed_04MyReviewStudy_Page01.screen"/>
+      <widgets ref="1" link="Ch_Appointed_01PendingSignature_Page01.screen"/>
     </overrides>
   </widgets>
   <hRuler/>

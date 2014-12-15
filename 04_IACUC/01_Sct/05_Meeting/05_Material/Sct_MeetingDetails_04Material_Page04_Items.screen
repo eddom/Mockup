@@ -37,7 +37,7 @@
   <widgets xsi:type="model:WidgetGroup" id="439" x="200" y="648" measuredWidth="140" measuredHeight="26" link="Sct_MeetingDetails_04Material_Page05_Sequence.screen">
     <widgets xsi:type="model:Panel" id="440" width="140" height="26" measuredWidth="140" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="441" x="1" y="1" width="138" height="24" measuredWidth="138" measuredHeight="24" border="none"/>
-    <widgets xsi:type="model:Label" id="442" x="5" y="2" width="130" text="Re-arrange Sequence" measuredWidth="130" measuredHeight="23" textAlignment="Center" foreground="#444444">
+    <widgets xsi:type="model:Label" id="442" x="5" y="2" width="130" text="Amend Application Review Sequence" measuredWidth="130" measuredHeight="23" textAlignment="Center" foreground="#444444">
       <font/>
     </widgets>
   </widgets>

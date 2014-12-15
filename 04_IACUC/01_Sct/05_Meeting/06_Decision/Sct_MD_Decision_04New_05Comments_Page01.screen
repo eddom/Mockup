@@ -14,7 +14,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Label" id="15" x="594" y="59" text="Comments To PI" measuredWidth="193" measuredHeight="37" textAlignment="Center">
+  <widgets xsi:type="model:Label" id="15" x="456" y="59" text="Consolidate Reviewers' Comments To PI" measuredWidth="468" measuredHeight="37" textAlignment="Center">
     <font size="24px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="40" x="357" y="214" text="Dr. Lupe Talor (PR)" measuredWidth="110" measuredHeight="23">

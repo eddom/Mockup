@@ -69,7 +69,7 @@
   <widgets xsi:type="model:TextArea" id="68" x="189" y="342" width="525" height="96" text="Pending IBC Approval&#xD;&#xA;Pending IRB Approval" measuredWidth="525" measuredHeight="96" verticalScrollbar="true">
     <font/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="69" x="50" y="506" text="Withdraw" measuredWidth="85" measuredHeight="26">
+  <widgets xsi:type="model:RadioButton" id="69" x="50" y="506" text="PI Request to Withdraw" measuredWidth="185" measuredHeight="26">
     <font size="14px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="70" x="316" y="60" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
@@ -80,6 +80,12 @@
     <widgets xsi:type="model:Label" id="75" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
       <font/>
     </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="76" x="30" y="96" text="Review Document" measuredWidth="125" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="77" x="189" y="96" text=": IACUC Application" measuredWidth="130" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
   </widgets>
   <hRuler/>
   <vRuler/>

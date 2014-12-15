@@ -4,17 +4,17 @@
     <screen xsi:type="model:Screen" href="Sct_MD_Decision_04New_01Listing.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
-  <widgets xsi:type="model:Panel" id="3" x="301" y="49" width="596" height="281" locked="true" measuredWidth="596" measuredHeight="281" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:Panel" id="3" x="301" y="49" width="596" height="250" measuredWidth="596" measuredHeight="250" foreground="#eeeeee" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="4" x="315" y="97" width="572" measuredWidth="572" measuredHeight="6"/>
-  <widgets xsi:type="model:HLine" id="5" x="315" y="279" width="572" measuredWidth="572" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="6" x="548" y="294" measuredWidth="102" measuredHeight="26" link="Sct_MD_Decision_04New_01Listing.screen">
+  <widgets xsi:type="model:HLine" id="5" x="315" y="249" width="572" measuredWidth="572" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="548" y="264" measuredWidth="102" measuredHeight="26" link="Sct_MD_Decision_04New_01Listing.screen">
     <widgets xsi:type="model:Panel" id="7" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="8" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="9" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Label" id="10" x="512" y="59" text="Select Member" measuredWidth="174" measuredHeight="37" textAlignment="Center">
+  <widgets xsi:type="model:Label" id="10" x="441" y="59" text="Change Protocol Chairman" measuredWidth="315" measuredHeight="37" textAlignment="Center">
     <font size="24px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="14" x="598" y="106" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
@@ -25,25 +25,25 @@
     <font size="14px" bold="true" italic="false"/>
   </widgets>
   <widgets xsi:type="model:VLine" id="17" x="590" y="107" height="30" measuredWidth="6" measuredHeight="30"/>
-  <widgets xsi:type="model:Label" id="46" x="318" y="197" text="Current Select Member" measuredWidth="137" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="46" x="318" y="167" text="Appointed Member" measuredWidth="112" measuredHeight="23">
     <font size="12px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="47" x="318" y="222" text="Select Member" measuredWidth="91" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="47" x="318" y="192" text="Select COI Member" measuredWidth="114" measuredHeight="23">
     <font size="12px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="48" x="468" y="197" text=":" measuredWidth="8" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="48" x="468" y="167" text=":" measuredWidth="8" measuredHeight="23">
     <font size="12px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="49" x="478" y="197" text="Dr. Chua Seng Chye Winston" measuredWidth="166" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="49" x="478" y="167" text="Dr. Chua Seng Chye Winston" measuredWidth="166" measuredHeight="23">
     <font size="12px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="50" x="478" y="222" width="267" text="Dr. Khanti Adie Sugiarto" measuredWidth="267" measuredHeight="23">
+  <widgets xsi:type="model:Combo" id="50" x="478" y="192" width="267" text="Dr. Khanti Adie Sugiarto" measuredWidth="267" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="51" x="468" y="222" text=":" measuredWidth="8" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="51" x="468" y="192" text=":" measuredWidth="8" measuredHeight="23">
     <font size="12px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="52" x="318" y="151" width="435" height="29" text="Click {assets/ai-save} to change the member who had chaired the review of the protocol" measuredWidth="435" measuredHeight="29" foreground="#666666">
+  <widgets xsi:type="model:Text" id="52" x="381" y="231" width="435" height="18" text="Click {assets/ai-save} to change the member who had chaired the review of the protocol." measuredWidth="435" measuredHeight="18" textAlignment="Center" foreground="#666666">
     <font italic="true"/>
   </widgets>
   <hRuler/>

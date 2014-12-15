@@ -12,7 +12,13 @@
       <widgets ref="14" link="Sct_RW_01_Workflow_PCR_SelectCommitteeApproval.screen"/>
       <widgets ref="15" link="../Sct_RW_00_Base_AppForm_PendingCommReview.screen"/>
       <widgets ref="27" link="../Sct_RW_00_Base_AppForm_Resubmit.screen"/>
+      <widgets ref="25" text="No further amendments would be allowed.&#xD;&#xA;PI will be notified to re-submit as a New Application (New IACUC Ref. No. willl be assigned).">
+        <font bold="true"/>
+      </widgets>
     </overrides>
+  </widgets>
+  <widgets xsi:type="model:Text" id="43" x="1096" y="334" width="306" height="90" text="Request the PI to re-submit the application as new application with new IACUC Ref. No. Application will be froze for further amendment." measuredWidth="306" measuredHeight="90" foreground="#ffffff">
+    <font italic="true"/>
   </widgets>
   <hRuler/>
   <vRuler/>

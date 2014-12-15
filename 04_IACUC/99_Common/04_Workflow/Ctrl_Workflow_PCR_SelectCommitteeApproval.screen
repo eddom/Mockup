@@ -47,11 +47,17 @@
   <widgets xsi:type="model:RadioButton" id="25" x="50" y="311" text="Recommend to Re-submit" measuredWidth="202" measuredHeight="26">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="26" x="50" y="341" text="Withdraw" measuredWidth="85" measuredHeight="26">
+  <widgets xsi:type="model:RadioButton" id="26" x="50" y="341" text="PI Request to Withdraw" measuredWidth="185" measuredHeight="26">
     <font size="14px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="28" x="316" y="60" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
   <widgets xsi:type="model:VLine" id="29" x="307" y="61" height="30" measuredWidth="6" measuredHeight="30"/>
+  <widgets xsi:type="model:Label" id="30" x="30" y="96" text="Review Document" measuredWidth="125" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="31" x="189" y="96" text=": IACUC Application" measuredWidth="130" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

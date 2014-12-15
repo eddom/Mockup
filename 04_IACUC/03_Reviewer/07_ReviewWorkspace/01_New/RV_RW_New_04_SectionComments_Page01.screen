@@ -6,8 +6,8 @@
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
   <widgets xsi:type="model:Panel" id="4" x="330" y="54" width="722" height="514" measuredWidth="722" measuredHeight="514" foreground="#ffffff" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="5" x="340" y="97" width="702" measuredWidth="702" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="6" x="608" y="59" measuredWidth="165" measuredHeight="37">
-    <widgets xsi:type="model:Label" id="7" x="37" text="Comments" measuredWidth="128" measuredHeight="37" textAlignment="Center">
+  <widgets xsi:type="model:WidgetGroup" id="6" x="588" y="59" measuredWidth="206" measuredHeight="37">
+    <widgets xsi:type="model:Label" id="7" x="37" text="My Comments" measuredWidth="169" measuredHeight="37" textAlignment="Center">
       <font size="24px" bold="true"/>
     </widgets>
     <widgets xsi:type="model:Icon" id="8" y="2" measuredWidth="32" measuredHeight="32" icon="assets/gl-comment (large)"/>

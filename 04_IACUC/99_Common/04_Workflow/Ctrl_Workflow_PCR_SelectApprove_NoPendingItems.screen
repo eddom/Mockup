@@ -33,40 +33,40 @@
   <widgets xsi:type="model:RadioButton" id="51" x="50" y="396" text="Circulate to Committee For Approval" measuredWidth="276" measuredHeight="26">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:DateField" id="52" x="189" y="257" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
-  <widgets xsi:type="model:Label" id="53" x="69" y="256" text="Approval Date" measuredWidth="96" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:DateField" id="52" x="219" y="257" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="53" x="69" y="256" text="Study Approval Date" measuredWidth="136" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="54" x="69" y="286" text="Validity Date" measuredWidth="84" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="54" x="69" y="286" text="Study Validity Date" measuredWidth="125" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="55" x="179" y="256" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="55" x="209" y="256" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="56" x="179" y="286" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="56" x="209" y="286" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:DateField" id="57" x="189" y="287" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
-  <widgets xsi:type="model:Label" id="58" x="316" y="286" text="To" measuredWidth="20" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:DateField" id="57" x="219" y="287" width="115" text="02-Jun-2014" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" id="58" x="346" y="286" text="To" measuredWidth="20" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:DateField" id="59" x="349" y="287" width="115" text="01-Jun-2016" measuredWidth="115" measuredHeight="23"/>
+  <widgets xsi:type="model:DateField" id="59" x="379" y="287" width="115" text="01-Jun-2016" measuredWidth="115" measuredHeight="23"/>
   <widgets xsi:type="model:RadioButton" id="60" x="50" y="426" text="Recommend to Re-submit" measuredWidth="202" measuredHeight="26">
     <font size="14px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="61" x="69" y="316" text="Pending Items" measuredWidth="98" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="62" x="179" y="316" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="62" x="209" y="316" text=":" measuredWidth="9" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="63" x="189" y="316" text="Yes" measuredWidth="44" measuredHeight="25">
+  <widgets xsi:type="model:RadioButton" id="63" x="219" y="316" text="Yes" measuredWidth="44" measuredHeight="25">
     <font size="14px"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="64" x="249" y="316" text="No" measuredWidth="38" measuredHeight="25" selected="true">
+  <widgets xsi:type="model:RadioButton" id="64" x="279" y="316" text="No" measuredWidth="38" measuredHeight="25" selected="true">
     <font size="14px"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="65" x="50" y="456" text="Withdraw" measuredWidth="85" measuredHeight="26">
+  <widgets xsi:type="model:RadioButton" id="65" x="50" y="456" text="PI Request to Withdraw" measuredWidth="185" measuredHeight="26">
     <font size="14px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="66" x="316" y="60" measuredWidth="32" measuredHeight="32" icon="assets/ai-save (large)"/>
@@ -78,14 +78,20 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Label" id="72" x="189" y="341" text="Approval Letter to be signed by" measuredWidth="204" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="72" x="219" y="341" text="Approval Letter to be signed by" measuredWidth="204" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="73" x="394" y="342" width="253" text="Dr. Chua Seng Chye Winston" measuredWidth="253" measuredHeight="23">
+  <widgets xsi:type="model:Combo" id="73" x="424" y="342" width="253" text="Dr. Chua Seng Chye Winston" measuredWidth="253" measuredHeight="23">
     <font size="12px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="74" x="189" y="366" text="Note: a notification will be sent to inform the selected member for Approval Letter Signature." measuredWidth="503" measuredHeight="23" foreground="#666666">
+  <widgets xsi:type="model:Label" id="74" x="219" y="366" text="Note: A notification will be sent to inform the selected member for Approval Letter Signature." measuredWidth="504" measuredHeight="23" foreground="#666666">
     <font size="12px" bold="false" italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="75" x="30" y="96" text="Review Document" measuredWidth="125" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="76" x="189" y="96" text=": IACUC Application" measuredWidth="130" measuredHeight="25" foreground="#666666">
+    <font size="14px" bold="false"/>
   </widgets>
   <hRuler/>
   <vRuler/>
