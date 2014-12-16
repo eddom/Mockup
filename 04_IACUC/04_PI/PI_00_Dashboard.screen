@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../01_Base/Frame/Frame_iSHaRe_PI.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="38" y="125" height="188" measuredWidth="96" measuredHeight="188" dimmed="true">
+    <screen xsi:type="model:Screen" href="../99_Common/10_Dashboard/Ctrl_Dashboard_Shortcuts.screen#/"/>
+    <overrides>
+      <widgets ref="1" y="7" width="96"/>
+      <widgets ref="2" y="49" width="41"/>
+      <widgets ref="3" y="88" width="47"/>
+      <widgets ref="4" y="128" width="52" link="PI_00_Dashboard_Create_From.screen"/>
+      <widgets ref="5" y="168" width="47"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="512" y="330" width="357" text="Dashboard" measuredWidth="357" measuredHeight="89">
+    <font size="72px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

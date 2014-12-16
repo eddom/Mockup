@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Frame_iSHaRe.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="5"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="20" y="80" width="120" text="Dashboard" measuredWidth="120" measuredHeight="26" textAlignment="Center" foreground="#ffffff" link="../../04_IACUC/04_PI/PI_00_Dashboard.screen">
+    <font size="15px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="147" y="80" width="120" text="IACUC" measuredWidth="120" measuredHeight="26" textAlignment="Center" foreground="#ffffff" link="../../04_IACUC/03_Reviewer/06_StudyAppointed/RV_Appointed_01PendingComments_Page01.screen">
+    <font size="15px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:VLine" id="4" x="141" y="75" height="38" measuredWidth="6" measuredHeight="38" foreground="#ffffff"/>
+  <widgets xsi:type="model:VLine" id="5" x="268" y="75" height="38" measuredWidth="6" measuredHeight="38" foreground="#ffffff"/>
+  <widgets xsi:type="model:Label" id="6" x="1112" y="19" text="&quot;Principal Investigator&quot;" measuredWidth="170" measuredHeight="26" foreground="#ffffff">
+    <font size="14px" bold="true" underline="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

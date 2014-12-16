@@ -4,7 +4,10 @@
     <screen xsi:type="model:Screen" href="Sct_RW_Report_00_FormNoExt.screen#/"/>
     <overrides>
       <widgets ref="5" text="Pending PR &amp; SR Review"/>
+<<<<<<< HEAD
       <widgets ref="8" link="01_Workflow_NoExt/Sct_RW_Report_01WorkflowNoExt_PendingPR.screen"/>
+=======
+>>>>>>> origin/master
     </overrides>
   </widgets>
   <hRuler/>

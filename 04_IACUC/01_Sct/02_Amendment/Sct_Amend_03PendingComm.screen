@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_Amend_00Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="3" x="162" y="160" width="1169" height="489" text="(w:90).Submission\nDate,(w:100).IACUC Ref. No.,(w:20).{tag},=(w:70).Pending\nReview\nCount,(w:190).Review Documents,(w:90).Institution,(w:170).PI's Name,Approved Protocol Title,=(w:40).PR,=(w:40).SR,&#xA;17-May-2014,[2013/00028],,2,Protocol Amendment\nAnnual Project Update Report,NCC,Judith Liebel,Increased proteasome activator 28 gamma ...,MH,DL,{assets/fa-ellipsis-h}" measuredWidth="1169" measuredHeight="489" rowHeight="28" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="4" x="255" y="213" width="80" height="28" measuredWidth="80" measuredHeight="28" background="#cfe2f3" alpha="64" border="none" link="../08_ReviewWorkspaceAmend/Sct_RW_Amend_00_Form_PendingComm.screen"/>
+  <widgets xsi:type="model:Master" id="6" x="162" y="128" measuredWidth="680" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_Amend_99Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>
+=======
+>>>>>>> origin/master
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
@@ -20,3 +47,7 @@
   <vRuler/>
   <font name="Arial" size="12px"/>
 </model:Screen>
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master

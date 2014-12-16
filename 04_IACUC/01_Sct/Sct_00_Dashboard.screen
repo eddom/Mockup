@@ -3,8 +3,11 @@
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
     <screen xsi:type="model:Screen" href="../../01_Base/Frame/Frame_iSHaRe_Secretariat.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="2" x="512" y="330" text="Dashboard" measuredWidth="358" measuredHeight="89">
+  <widgets xsi:type="model:Label" id="2" x="512" y="330" text="Dashboard" measuredWidth="357" measuredHeight="89">
     <font size="72px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="11" x="38" y="125" measuredWidth="96" measuredHeight="188" dimmed="true">
+    <screen xsi:type="model:Screen" href="../99_Common/10_Dashboard/Ctrl_Dashboard_Shortcuts.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>

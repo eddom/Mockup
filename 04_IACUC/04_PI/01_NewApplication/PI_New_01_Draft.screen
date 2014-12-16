@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="PI_New_01_Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="28" y="169" measuredWidth="1324" measuredHeight="534" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../99_Common/07_ReviewWorkspace/Ctrl_RW_AppForm.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="3" x="288" y="128" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="save (medium)"/>
+  <widgets xsi:type="model:Label" id="4" x="1248" y="128" text="Status: Draft" measuredWidth="76" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="5" x="1327" y="128" measuredWidth="24" measuredHeight="24" icon="secure (medium)"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>
