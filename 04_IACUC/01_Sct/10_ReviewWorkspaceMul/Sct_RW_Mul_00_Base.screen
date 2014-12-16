@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../../01_Base/Frame/Frame_iSHaRe_Secretariat.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="18" y="160" width="1345" height="552" locked="true" measuredWidth="1345" measuredHeight="552" border="solid-rounded"/>
+  <widgets xsi:type="model:Icon" id="3" x="86" y="120" measuredWidth="32" measuredHeight="32" foreground="#0b5394" icon="assets/fi-results-demographics (large)"/>
+  <widgets xsi:type="model:Icon" id="4" x="51" y="120" measuredWidth="32" measuredHeight="32" foreground="#0b5394" icon="assets/ai-paste (large)"/>
+  <widgets xsi:type="model:Icon" id="5" x="121" y="120" measuredWidth="32" measuredHeight="32" foreground="#0b5394" icon="assets/fa-folder-o (large)"/>
+  <widgets xsi:type="model:Icon" id="6" x="20" y="122" width="28" height="28" measuredWidth="28" measuredHeight="28" foreground="#0b5394" icon="calendar (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="191" y="120" measuredWidth="32" measuredHeight="32" link="Sct_RW_Mul_01_Report.screen">
+    <widgets xsi:type="model:Icon" id="8" measuredWidth="32" measuredHeight="32" foreground="#38761d" icon="assets/fa-file-o (large)"/>
+    <widgets xsi:type="model:Text" id="9" x="5" y="10" width="18" text="R" measuredWidth="18" measuredHeight="18" textAlignment="Center" foreground="#38761d">
+      <font size="16px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="10" x="156" y="120" measuredWidth="32" measuredHeight="32" foreground="#38761d" icon="assets/fi-clipboard-pencil (large)" link="Sct_RW_Mul_00_Form.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

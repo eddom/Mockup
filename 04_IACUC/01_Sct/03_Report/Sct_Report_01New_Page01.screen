@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="8" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_Report_00Base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="5" x="162" y="128" measuredWidth="599" measuredHeight="27" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_Report_99Ctrl_Menu.screen#/"/>
+    <overrides>
+      <widgets ref="2">
+        <attributes key="foreground" value="#990000"/>
+        <font underline="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Table" id="6" x="162" y="160" width="1169" height="489" text="(w:100).Submission\nDate,(w:90).IACUC\nRef. No.,(w:20).{tag},=(w:70).Total\nPending\nReview,(w:190).Study Report Type,=(w:65).Ext.\nRequest,(w:80).Institution,(w:180).PI's Name,Approved Protocol Title,=(w:40).PR,=(w:40).SR,&#xA;12-May-2014,[2014/00183],,2,Annual Project Update Report,Y,NCCS,Cletus Quarterman,Biomechanical comparison of ...,KAS,CC,{assets/ai-merge}  {assets/fa-ellipsis-h}&#xA;14-May-2014,[2014/00185],,1,Annual Project Update Report,,SGH,Anibal Burriss,Overexpression p21WAF1/CIP1 in ...,JF,EF,{assets/ai-merge}  {assets/fa-ellipsis-h}&#xA;14-May-2014,[2014/00186],B,1,Final Project Update Report,,SKH,Rogelio Dragon,Prevalence and risk factors for ...,CSC,WWL,{assets/ai-merge}  {assets/fa-ellipsis-h}&#xA;19-May-2014,[2014/00190],,1,Annual Project Update Report,,SGH,Harley Brubaker,Improved lag screw positioning in ...,CLM,NYH,{assets/ai-merge}  {assets/fa-ellipsis-h}&#xA;25-May-2014,[2014/00191],,1,Annual Project Update Report,Y,DUKE-NUS,Isidro Knerr,Choroidal thickness measurement ...,JF,EF,{assets/ai-merge}  {assets/fa-ellipsis-h}" measuredWidth="1169" measuredHeight="489" rowHeight="28" alternative="#eeeeee">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="7" x="265" y="213" width="76" height="136" measuredWidth="76" measuredHeight="136" background="#cfe2f3" alpha="64" border="none" link="../09_ReviewWorkspaceReport/Sct_RW_Report_00_FormNoExt_New.screen"/>
+  <widgets xsi:type="model:Panel" id="9" x="1280" y="213" width="25" height="136" measuredWidth="25" measuredHeight="136" background="#cfe2f3" alpha="64" border="none" link="Sct_Report_01New_Page02_Merge.screen"/>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>

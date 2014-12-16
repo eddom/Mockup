@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="21" x="1315" y="8" height="531" measuredWidth="17" measuredHeight="531">
+    <widgets xsi:type="model:VScrollbar" id="22" height="529" measuredWidth="17" measuredHeight="529"/>
+    <widgets xsi:type="model:Panel" id="23" width="17" height="531" measuredWidth="17" measuredHeight="531" alpha="64" border="none"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="29" x="8" y="8" width="1297" height="129" text="Note: &#xD;&#xA;The annual project report must be submitted to the SingHealth IACUC Secretariat one year from the IACUC approval date and yearly thereafter. If the IACUC protocol is expiring with no intention for it to be extended, please submit a Final Progress Report instead. &#xD;&#xA;&#xD;&#xA;Annual and Final Reports for each IACUC approved protocols are mandatory for completion and submission to the secretariat, otherwise future amendment requests or protocol submission approval will be delayed until appropriate reports are received.&#xD;&#xA;&#xD;&#xA;+Please complete the following informatin:+" measuredWidth="1297" measuredHeight="129">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="31" x="32" y="136" width="1273" height="17" text="1. Has the project started?" measuredWidth="1273" measuredHeight="17">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="32" x="44" y="152" text="Yes" measuredWidth="40" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="33" x="94" y="152" text="No" measuredWidth="36" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="34" x="44" y="176" width="301" height="17" text="Please provide reason why the project has not started:" measuredWidth="301" measuredHeight="17" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="35" x="44" y="195" width="1261" height="100" measuredWidth="1261" measuredHeight="100" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="36" x="32" y="316" width="1273" height="17" text="2. Was it completed?" measuredWidth="1273" measuredHeight="17">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="37" x="44" y="332" text="Yes" measuredWidth="40" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="38" x="94" y="332" text="No" measuredWidth="36" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="39" x="44" y="356" width="269" height="17" text="If not completed, is extension of time required?" measuredWidth="269" measuredHeight="17" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="40" x="44" y="415" width="1261" height="100" measuredWidth="1261" measuredHeight="100" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="43" x="44" y="372" text="Yes" measuredWidth="40" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="44" x="94" y="372" text="No" measuredWidth="36" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="45" x="44" y="396" width="269" height="17" text="What is the reason for extension? " measuredWidth="269" measuredHeight="17" foreground="#666666">
+    <font italic="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>
