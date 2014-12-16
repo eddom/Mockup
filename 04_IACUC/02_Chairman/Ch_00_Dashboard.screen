@@ -6,6 +6,9 @@
   <widgets xsi:type="model:Label" id="3" x="512" y="330" text="Dashboard" measuredWidth="357" measuredHeight="89">
     <font size="72px"/>
   </widgets>
+  <widgets xsi:type="model:Master" id="4" x="38" y="125" measuredWidth="96" measuredHeight="188" dimmed="true">
+    <screen xsi:type="model:Screen" href="../99_Common/10_Dashboard/Ctrl_Dashboard_Shortcuts.screen#/"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font name="Arial" size="12px"/>

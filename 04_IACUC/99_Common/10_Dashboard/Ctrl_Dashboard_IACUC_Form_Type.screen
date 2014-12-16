@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="2" x="8" y="-8" width="798" height="398" measuredWidth="798" measuredHeight="398" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:Label" id="3" x="35" y="8" text="IACUC Forms" measuredWidth="152" measuredHeight="35">
+    <font size="24px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="4" x="18" y="46" width="780" measuredWidth="780" measuredHeight="6" foreground="#999999"/>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="31" y="68" width="185" measuredWidth="185" measuredHeight="80">
+    <widgets xsi:type="model:Panel" id="7" width="185" height="80" measuredWidth="185" measuredHeight="80" background="#3d85c6" foreground="#3d85c6"/>
+    <widgets xsi:type="model:Label" id="8" y="23" width="185" text="New Application" measuredWidth="185" measuredHeight="30" textAlignment="Center" foreground="#ffffff">
+      <font size="19px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="318" y="68" width="185" measuredWidth="185" measuredHeight="80">
+    <widgets xsi:type="model:Panel" id="11" width="185" height="80" measuredWidth="185" measuredHeight="80" background="#3d85c6" foreground="#3d85c6"/>
+    <widgets xsi:type="model:Label" id="12" y="23" width="185" text="Amendment" measuredWidth="185" measuredHeight="30" textAlignment="Center" foreground="#ffffff">
+      <font size="19px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="34" x="18" y="360" width="780" measuredWidth="780" measuredHeight="6" foreground="#999999"/>
+  <widgets xsi:type="model:WidgetGroup" id="41" x="31" y="168" width="185" measuredWidth="185" measuredHeight="80">
+    <widgets xsi:type="model:Panel" id="42" width="185" height="80" measuredWidth="185" measuredHeight="80" background="#3d85c6" foreground="#3d85c6"/>
+    <widgets xsi:type="model:Label" id="43" y="23" width="185" text="Anual Report" measuredWidth="185" measuredHeight="30" textAlignment="Center" foreground="#ffffff">
+      <font size="19px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="44" x="318" y="168" width="185" measuredWidth="185" measuredHeight="80">
+    <widgets xsi:type="model:Panel" id="45" width="185" height="80" measuredWidth="185" measuredHeight="80" background="#3d85c6" foreground="#3d85c6"/>
+    <widgets xsi:type="model:Label" id="46" y="23" width="185" text="Final Report" measuredWidth="185" measuredHeight="30" textAlignment="Center" foreground="#ffffff">
+      <font size="19px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="57" x="601" y="68" width="185" measuredWidth="185" measuredHeight="80">
+    <widgets xsi:type="model:Panel" id="58" width="185" height="80" measuredWidth="185" measuredHeight="80" background="#3d85c6" foreground="#3d85c6"/>
+    <widgets xsi:type="model:TextArea" id="60" y="10" width="185" text="Training/Workshop&#xD;&#xA;Report" measuredWidth="185" measuredHeight="52" textAlignment="Center" background="#3d85c6" borderColor="#3d85c6">
+      <font size="19px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="61" x="771" y="1" text="x" measuredWidth="16" measuredHeight="35" foreground="#666666">
+    <font size="24px" bold="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>
