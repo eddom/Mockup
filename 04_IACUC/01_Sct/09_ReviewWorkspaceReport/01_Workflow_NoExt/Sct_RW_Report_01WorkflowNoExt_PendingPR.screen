@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="../Sct_RW_Report_00_FormExt.screen#/"/>
+    <screen xsi:type="model:Screen" href="../Sct_RW_Report_00_FormNoExt_PendingPR.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
-  <widgets xsi:type="model:Panel" id="3" x="349" y="54" width="684" height="509" measuredWidth="684" measuredHeight="509" foreground="#eeeeee" border="solid-rounded"/>
+  <widgets xsi:type="model:Panel" id="3" x="349" y="54" width="684" height="411" measuredWidth="684" measuredHeight="411" foreground="#eeeeee" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="4" x="360" y="97" width="663" measuredWidth="663" measuredHeight="6"/>
-  <widgets xsi:type="model:HLine" id="5" x="360" y="509" width="663" measuredWidth="663" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="6" x="640" y="524" measuredWidth="102" measuredHeight="26">
+  <widgets xsi:type="model:HLine" id="5" x="360" y="409" width="663" measuredWidth="663" measuredHeight="6"/>
+  <widgets xsi:type="model:WidgetGroup" id="6" x="640" y="424" measuredWidth="102" measuredHeight="26" link="../Sct_RW_Report_00_FormNoExt_PendingPR.screen">
     <widgets xsi:type="model:Panel" id="7" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="8" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="9" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
@@ -20,7 +20,7 @@
     </widgets>
     <widgets xsi:type="model:Icon" id="12" y="2" measuredWidth="32" measuredHeight="32" icon="assets/fi-shuffle (large)"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="13" x="362" y="105" text="IACUC/2014/SHS/00191 - NCCS" measuredWidth="287" measuredHeight="30">
+  <widgets xsi:type="model:Label" id="13" x="362" y="105" text="IACUC/2014/SHS/00183 - NCCS" measuredWidth="287" measuredHeight="30">
     <font size="18px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="14" x="844" y="107" width="177" text="PI:- Cletus Quarterman" measuredWidth="177" measuredHeight="26" textAlignment="Right" foreground="#999999">
@@ -37,23 +37,16 @@
   <widgets xsi:type="model:Label" id="19" x="362" y="165" text="Current Review Status" measuredWidth="152" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="20" x="539" y="165" text=": Submitted" measuredWidth="79" measuredHeight="25" foreground="#666666">
+  <widgets xsi:type="model:Label" id="20" x="539" y="165" text=": Pending PR &amp; SR Review" measuredWidth="182" measuredHeight="25" foreground="#666666">
     <font size="14px" bold="false"/>
   </widgets>
   <widgets xsi:type="model:Label" id="21" x="362" y="211" text="Review Decision" measuredWidth="124" measuredHeight="26" foreground="#38761d">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="22" x="390" y="236" text="To Review By PR &amp; SR" measuredWidth="143" measuredHeight="23">
+  <widgets xsi:type="model:RadioButton" id="22" x="390" y="236" text="Acknowledge" measuredWidth="93" measuredHeight="23" link="Sct_RW_Report_01WorkflowNoExt_PendingPR_SelectAck.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="23" x="390" y="261" text="Acknowledge" measuredWidth="93" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="24" x="743" y="145" measuredWidth="24" measuredHeight="24" foreground="#990000" icon="assets/gl-time (medium)"/>
-  <widgets xsi:type="model:RadioButton" id="25" x="390" y="286" text="To Review By PR &amp; SR" measuredWidth="143" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:RadioButton" id="26" x="390" y="311" text="Acknowledge" measuredWidth="93" measuredHeight="23">
+  <widgets xsi:type="model:RadioButton" id="23" x="390" y="261" text="To Review By Committee" measuredWidth="156" measuredHeight="23" link="Sct_RW_Report_01WorkflowNoExt_PendingPR_SelectComm.screen">
     <font/>
   </widgets>
   <hRuler/>

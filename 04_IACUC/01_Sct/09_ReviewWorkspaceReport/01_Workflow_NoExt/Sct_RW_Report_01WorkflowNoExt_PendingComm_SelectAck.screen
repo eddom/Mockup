@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="Sct_RW_Report_00_FormNoExt.screen#/"/>
+    <screen xsi:type="model:Screen" href="Sct_RW_Report_01WorkflowNoExt_PendingComm.screen#/"/>
     <overrides>
-      <widgets ref="5" text="Pending PR &amp; SR Review"/>
-      <widgets ref="8" link="01_Workflow_NoExt/Sct_RW_Report_01WorkflowNoExt_PendingPR.screen"/>
+      <widgets ref="22">
+        <attributes key="selected" value="true"/>
+      </widgets>
+      <widgets ref="15" link="../Sct_RW_Report_00_FormNoExt_Acknowledged.screen"/>
     </overrides>
   </widgets>
   <hRuler/>

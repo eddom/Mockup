@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
+    <screen xsi:type="model:Screen" href="Sct_RW_Report_01WorkflowNoExt_PendingPR.screen#/"/>
+    <overrides>
+      <widgets ref="23">
+        <attributes key="selected" value="true"/>
+      </widgets>
+      <widgets ref="15" link="../Sct_RW_Report_00_FormNoExt_PendingComm.screen"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="2" x="409" y="286" measuredWidth="295" measuredHeight="23">
+    <widgets xsi:type="model:Label" id="3" text="Committee Review" measuredWidth="109" measuredHeight="23" foreground="#666666">
+      <font size="12px" bold="false"/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="4" x="110" width="185" text="24-Jun-2014, Tuesday" measuredWidth="185" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font name="Arial" size="12px"/>
+</model:Screen>
