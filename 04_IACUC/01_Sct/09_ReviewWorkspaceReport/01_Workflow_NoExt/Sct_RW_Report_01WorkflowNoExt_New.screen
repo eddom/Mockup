@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Master" id="1" x="8" y="8" locked="true" measuredWidth="1366" measuredHeight="720" dimmed="true">
-    <screen xsi:type="model:Screen" href="../Sct_RW_Report_00_Form_New.screen#/"/>
+    <screen xsi:type="model:Screen" href="../Sct_RW_Report_00_FormNoExt_New.screen#/"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="2" x="8" y="8" width="1366" height="720" locked="true" measuredWidth="1366" measuredHeight="720" background="#000000" alpha="128" border="none"/>
   <widgets xsi:type="model:Panel" id="3" x="349" y="54" width="684" height="341" measuredWidth="684" measuredHeight="341" foreground="#eeeeee" border="solid-rounded"/>
   <widgets xsi:type="model:HLine" id="4" x="360" y="97" width="663" measuredWidth="663" measuredHeight="6"/>
   <widgets xsi:type="model:HLine" id="5" x="360" y="339" width="663" measuredWidth="663" measuredHeight="6"/>
-  <widgets xsi:type="model:WidgetGroup" id="6" x="640" y="354" measuredWidth="102" measuredHeight="26" link="../Sct_RW_Report_00_Form_New.screen">
+  <widgets xsi:type="model:WidgetGroup" id="6" x="640" y="354" measuredWidth="102" measuredHeight="26" link="../Sct_RW_Report_00_FormNoExt_New.screen">
     <widgets xsi:type="model:Panel" id="7" width="102" height="26" measuredWidth="102" measuredHeight="26" background="#999999" border="none"/>
     <widgets xsi:type="model:Panel" id="8" x="1" y="1" height="24" measuredWidth="100" measuredHeight="24" border="none"/>
     <widgets xsi:type="model:Label" id="9" x="6" y="2" width="90" text="Close" measuredWidth="90" measuredHeight="23" textAlignment="Center" foreground="#444444">
@@ -43,10 +43,10 @@
   <widgets xsi:type="model:Label" id="23" x="362" y="211" text="Review Decision" measuredWidth="124" measuredHeight="26" foreground="#38761d">
     <font size="14px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="24" x="390" y="236" text="To Review By PR &amp; SR" measuredWidth="143" measuredHeight="23" link="Sct_RW_Report_01Workflow_New_SelectPR.screen">
+  <widgets xsi:type="model:RadioButton" id="24" x="390" y="236" text="To Review By PR &amp; SR" measuredWidth="143" measuredHeight="23" link="Sct_RW_Report_01WorkflowNoExt_New_SelectPR.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="25" x="390" y="261" text="Acknowledge" measuredWidth="93" measuredHeight="23" link="Sct_RW_Report_01Workflow_New_SelectAck.screen">
+  <widgets xsi:type="model:RadioButton" id="25" x="390" y="261" text="Acknowledge" measuredWidth="93" measuredHeight="23" link="Sct_RW_Report_01WorkflowNoExt_New_SelectAck.screen">
     <font/>
   </widgets>
   <hRuler/>
