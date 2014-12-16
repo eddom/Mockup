@@ -7,6 +7,9 @@
         <attributes key="selected" value="true"/>
       </widgets>
       <widgets ref="15" link="../Sct_RW_Report_00_FormNoExt_Acknowledged.screen"/>
+      <widgets ref="27">
+        <attributes key="selected" value="true"/>
+      </widgets>
     </overrides>
   </widgets>
   <hRuler/>
